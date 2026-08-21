@@ -1,0 +1,11 @@
+{
+  "name": "claw-me",
+  "description": "Connect user-owned agents to private Pages, shared Wiki context, inbound events, web tools, and local or hosted OpenClaw Gateways.",
+  "version": "0.1.0",
+  "author": { "name": "Claw Me" },
+  "homepage": "https://claw.me",
+  "repository": "https://github.com/clawdotme/skill",
+  "license": "MIT",
+  "keywords": ["claw.me", "agents", "mcp", "openclaw", "wiki", "publishing", "gateway"],
+  "logo": "assets/logo.svg"
+}

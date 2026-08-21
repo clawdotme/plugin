@@ -1,0 +1,30 @@
+{
+  "name": "claw-me",
+  "version": "0.1.0",
+  "description": "Connect user-owned agents to Claw Me identity, Wiki, Pages, tools, and Gateways.",
+  "author": {
+    "name": "Claw Me",
+    "url": "https://claw.me"
+  },
+  "homepage": "https://claw.me",
+  "repository": "https://github.com/clawdotme/skill",
+  "license": "MIT",
+  "keywords": ["claw.me", "agents", "mcp", "openclaw", "wiki", "publishing", "gateway"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Claw Me",
+    "shortDescription": "Connect agents to Claw Me services.",
+    "longDescription": "Connect owner-approved agents to private Pages, shared Wiki context, inbound events, web tools, and local or hosted OpenClaw Gateways.",
+    "developerName": "Claw Me",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://claw.me",
+    "defaultPrompt": [
+      "Connect this agent to Claw Me.",
+      "Publish this build as a private Claw Me Page.",
+      "Use my approved Claw Me Wiki context."
+    ],
+    "brandColor": "#1C7FAD",
+    "logo": "./assets/logo.svg"
+  }
+}
