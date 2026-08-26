@@ -1,0 +1,18 @@
+{
+  "pluginVersion": "0.2.0",
+  "verifiedAt": "2026-08-26",
+  "service": {
+    "mcpVersion": "1.0.0",
+    "mcpUrl": "https://claw.me/api/v1/mcp",
+    "a2aAgentCard": "https://claw.me/.well-known/agent-card.json",
+    "oauthMetadata": "https://claw.me/.well-known/openid-configuration",
+    "openapi": "https://claw.me/openapi.json"
+  },
+  "clients": {
+    "codex": "manifest",
+    "claudeCode": "manifest",
+    "cursor": "manifest",
+    "openPlugins": "manifest",
+    "openClaw": "external-private-runtime"
+  }
+}

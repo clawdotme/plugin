@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "claw-me": {
+      "type": "http",
+      "url": "https://claw.me/api/v1/mcp"
+    }
+  }
+}
