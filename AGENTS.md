@@ -1,12 +1,13 @@
-# Claw Me Public Skill Repository
+# Claw Me Public Plugin Repository
 
-Use this file as the operating guide for agents working in the public `clawdotme/skill` repository.
+Use this file as the operating guide for agents working in the public `clawdotme/plugin` repository.
 
 ## Contents
 
-- `claw-me/` is the canonical skill bundle for `npx skills add clawdotme/skill --skill claw-me`.
-- `skills/claw-me/` is a generated compatibility mirror for Codex and Cursor discovery.
-- `.codex-plugin/` and `.cursor-plugin/` contain plugin manifests.
+- `claw-me/` is the canonical public skill bundle for `npx skills add clawdotme/plugin --skill claw-me`.
+- `skills/claw-me/` is the root Skills CLI compatibility mirror.
+- The repository root is the installable multi-client plugin package, matching the AgentMail distribution layout.
+- `.agents/plugins/marketplace.json` and `.claude-plugin/marketplace.json` are the repository marketplaces.
 - `assets/` contains public brand assets.
 
 ## Source of truth
@@ -22,11 +23,13 @@ If local skill text and the live product interfaces disagree, prefer the live in
 
 ## Editing rules
 
-- Edit `claw-me/` first, then regenerate `skills/claw-me/` as an exact mirror.
+- Sync `claw-me/` from the private product repository, then regenerate `skills/claw-me/` exactly.
+- Keep all plugin manifests on the version declared in `compatibility.json`.
 - Keep the skill concise and move implementation detail into `references/`.
 - Never commit credentials, setup codes, API keys, device secrets, presigned upload URLs, or private Page and Wiki content.
+- Never copy the private OpenClaw runtime package or source into this repository.
 - Do not claim capabilities that are not present in the live discovery documents.
-- Preserve the install command and skill name unless a migration plan is published first.
+- Preserve the `claw-me` plugin and marketplace names unless a migration plan is published first.
 
 ## Verification
 

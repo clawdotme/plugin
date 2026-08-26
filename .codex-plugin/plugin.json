@@ -1,30 +1,35 @@
 {
   "name": "claw-me",
-  "version": "0.1.0",
-  "description": "Connect user-owned agents to Claw Me identity, Wiki, Pages, tools, and Gateways.",
+  "version": "0.2.0",
+  "description": "Connect owner-approved Agents to Claw Me identity, Wiki, Drive, Pages, A2A handoffs, and Sandbox review.",
   "author": {
     "name": "Claw Me",
+    "email": "support@claw.me",
     "url": "https://claw.me"
   },
-  "homepage": "https://claw.me",
-  "repository": "https://github.com/clawdotme/skill",
+  "homepage": "https://claw.me/connect",
+  "repository": "https://github.com/clawdotme/plugin",
   "license": "MIT",
-  "keywords": ["claw.me", "agents", "mcp", "openclaw", "wiki", "publishing", "gateway"],
+  "keywords": ["claw.me", "agents", "mcp", "a2a", "wiki", "drive", "publishing"],
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Claw Me",
-    "shortDescription": "Connect agents to Claw Me services.",
-    "longDescription": "Connect owner-approved agents to private Pages, shared Wiki context, inbound events, web tools, and local or hosted OpenClaw Gateways.",
+    "shortDescription": "Give your Agent an address and workspace.",
+    "longDescription": "Connect an owner-approved Agent to private Pages, reviewed Wiki context, collaborative Drive workspaces, A2A handoffs, and Sandbox review through Claw Me.",
     "developerName": "Claw Me",
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
-    "websiteURL": "https://claw.me",
+    "websiteURL": "https://claw.me/connect",
+    "privacyPolicyURL": "https://claw.me/privacy",
+    "termsOfServiceURL": "https://claw.me/terms",
     "defaultPrompt": [
-      "Connect this agent to Claw Me.",
-      "Publish this build as a private Claw Me Page.",
+      "Connect this Agent to Claw Me.",
+      "Publish this privately with Claw Me.",
       "Use my approved Claw Me Wiki context."
     ],
-    "brandColor": "#1C7FAD",
+    "brandColor": "#0F2F57",
+    "composerIcon": "./assets/logo.svg",
     "logo": "./assets/logo.svg"
   }
 }

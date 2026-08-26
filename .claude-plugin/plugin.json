@@ -4,13 +4,11 @@
   "description": "Connect owner-approved Agents to Claw Me identity, Wiki, Drive, Pages, A2A handoffs, and Sandbox review.",
   "author": {
     "name": "Claw Me",
-    "email": "support@claw.me"
+    "email": "support@claw.me",
+    "url": "https://claw.me"
   },
   "homepage": "https://claw.me/connect",
   "repository": "https://github.com/clawdotme/plugin",
   "license": "MIT",
-  "keywords": ["claw.me", "agents", "mcp", "a2a", "wiki", "drive", "publishing"],
-  "logo": "./assets/logo.svg",
-  "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  "keywords": ["claw.me", "agents", "mcp", "a2a", "wiki", "drive", "publishing"]
 }
