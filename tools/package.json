@@ -1,0 +1,8 @@
+{
+  "name": "claw-me-plugin-validation-tools",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "skills": "1.5.19"
+  }
+}

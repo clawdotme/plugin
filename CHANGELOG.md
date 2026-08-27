@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.4 — 2026-08-27
+
+- Make plugin validation reproducible with a locked Skills CLI toolchain.
+- Pin every GitHub Action by immutable commit and disable persisted checkout credentials.
+- Replace assertion-only checks with explicit contract, secret-hygiene, CI, and privacy-boundary validation.
+- Add a canonical skill sync command so the compatibility mirror cannot be edited independently.
+
 ## 0.3.3 — 2026-08-27
 
 - Establish the scoped REST API and OpenAPI contract as the primary Agent integration.
