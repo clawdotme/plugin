@@ -1,7 +1,14 @@
 {
-  "pluginVersion": "0.2.0",
-  "verifiedAt": "2026-08-26",
+  "pluginVersion": "0.3.4",
+  "verifiedAt": "2026-08-27",
+  "contracts": {
+    "onboarding": "1.0.0",
+    "prompts": "1.0.0",
+    "mcpTools": "1.0.0",
+    "openapi": "1.0.0"
+  },
   "service": {
+    "restBaseUrl": "https://claw.me/api/v1",
     "mcpVersion": "1.0.0",
     "mcpUrl": "https://claw.me/api/v1/mcp",
     "a2aAgentCard": "https://claw.me/.well-known/agent-card.json",

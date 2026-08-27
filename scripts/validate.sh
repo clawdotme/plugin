@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-diff -ru "${repo_root}/claw-me" "${repo_root}/skills/claw-me"
+python3 "${repo_root}/scripts/sync-skill.py" --check
 python3 "${repo_root}/scripts/validate.py"
-npx --yes skills@1.5.19 add "${repo_root}" --list | grep -q "claw-me"
+pnpm --dir "${repo_root}/tools" install --frozen-lockfile --ignore-scripts
+pnpm --dir "${repo_root}/tools" exec skills add "${repo_root}" --list | grep -q "claw-me"
 
 printf 'Claw Me plugin manifests, skill mirrors, and Skills CLI discovery passed.\n'

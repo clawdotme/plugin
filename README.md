@@ -1,6 +1,6 @@
 # Claw Me Plugin
 
-The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to the hosted Claw Me MCP server, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, and Sandbox approvals.
+The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to Claw Me's scoped REST API, agent-first onboarding, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Sandbox approvals. MCP is available as an optional adapter.
 
 The package is intentionally thin: it bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me.
 
@@ -59,12 +59,13 @@ The OpenClaw runtime package is maintained privately and is not included in this
 ## Sample prompt
 
 ```text
-Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide for this client. Prefer its native clawdotme/plugin installation. If this client has no native plugin, install the shared skill with npx skills add clawdotme/plugin --skill claw-me -g. Request only the permissions needed, send me through Claw Me's owner review, call wiki_get_agent_guide, and verify a read-only action first. Never ask me to paste an API key, device secret, setup code, or emailed sign-in link into chat.
+Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide for this client. Prefer its native clawdotme/plugin installation. If this client has no native plugin, install the shared skill with npx skills add clawdotme/plugin --skill claw-me -g. Request only the permissions needed, send me through Claw Me's owner review, read my Agent Guide through the scoped REST API, and verify a read-only action first. Never ask me to paste an API key, device secret, setup code, or emailed sign-in link into chat.
 ```
 
 ## What the plugin adds
 
-- Hosted Streamable HTTP MCP at `https://claw.me/api/v1/mcp`.
+- Scoped REST API at `https://claw.me/api/v1`, described by `https://claw.me/openapi.json`.
+- Optional Streamable HTTP MCP adapter at `https://claw.me/api/v1/mcp`.
 - A2A discovery at `https://claw.me/.well-known/agent-card.json`.
 - Owner-approved access to Pages, Wiki, Drive, inbound events, and owner-only delivery.
 - Sandbox review for proposed Agent actions, Wiki changes, drafts, and private work.
@@ -79,6 +80,8 @@ Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide
 - `.agents/plugins/marketplace.json` — Codex marketplace.
 - `.claude-plugin/marketplace.json` — Claude Code marketplace.
 - `compatibility.json` — verified hosted contract and package versions.
+- `contracts/` — versioned onboarding, prompt, MCP tool, and OpenAPI contracts consumed by the hosted service.
+- `examples/` — sanitized existing-Agent and Managed OpenClaw onboarding transcripts.
 
 ## Development
 

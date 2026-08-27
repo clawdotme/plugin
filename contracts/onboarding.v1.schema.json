@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/clawdotme/plugin/contracts/onboarding.v1.schema.json",
+  "title": "Claw Me agent-first onboarding contract",
+  "type": "object",
+  "required": ["contract_version", "id", "route", "status", "stage", "questions", "answers"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "id": { "type": "string", "format": "uuid" },
+    "route": { "enum": ["existing_agent", "managed_agent"] },
+    "status": { "enum": ["draft", "handoff_pending", "active", "payment_pending", "provisioning", "approval_required", "blocked", "completed", "canceled"] },
+    "stage": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "questions": { "type": "array", "maxItems": 1, "items": { "$ref": "#/$defs/question" } },
+    "answers": { "type": "array", "items": { "$ref": "#/$defs/answer" } },
+    "human_action": {
+      "type": ["object", "null"],
+      "required": ["kind", "url"],
+      "properties": {
+        "kind": { "enum": ["authorize", "approve", "checkout", "secret", "provider", "recover"] },
+        "url": { "type": "string", "format": "uri-reference" },
+        "label": { "type": "string", "maxLength": 160 }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "choice": {
+      "type": "object",
+      "required": ["id", "label"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_.-]{0,63}$" },
+        "label": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "description": { "type": "string", "maxLength": 280 }
+      },
+      "additionalProperties": false
+    },
+    "question": {
+      "type": "object",
+      "required": ["id", "prompt", "choices", "allow_other", "required"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_.-]{0,79}$" },
+        "prompt": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "choices": { "type": "array", "maxItems": 12, "items": { "$ref": "#/$defs/choice" } },
+        "allow_other": { "type": "boolean" },
+        "required": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "id": { "const": "agent_client" } }, "required": ["id"] },
+          "else": { "properties": { "choices": { "maxItems": 3 } } }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "answer": {
+      "type": "object",
+      "required": ["question_id", "actor", "answered_at"],
+      "properties": {
+        "question_id": { "type": "string" },
+        "choice_id": { "type": ["string", "null"] },
+        "other_text": { "type": ["string", "null"], "maxLength": 1000 },
+        "actor": { "enum": ["owner", "agent", "system"] },
+        "answered_at": { "type": "string", "format": "date-time" }
+      },
+      "anyOf": [
+        { "required": ["choice_id"], "properties": { "choice_id": { "type": "string" } } },
+        { "required": ["other_text"], "properties": { "other_text": { "type": "string", "minLength": 1 } } }
+      ],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}
