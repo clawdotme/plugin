@@ -1,7 +1,7 @@
 {
   "name": "claw-me",
-  "version": "0.2.0",
-  "description": "Connect owner-approved Agents to Claw Me identity, Wiki, Drive, Pages, A2A handoffs, and Sandbox review.",
+  "version": "0.3.0",
+  "description": "Connect owner-approved Agents to Claw Me onboarding, identity, Wiki, Drive, Pages, payments, and review.",
   "author": {
     "name": "Claw Me",
     "email": "support@claw.me",

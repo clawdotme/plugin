@@ -1,0 +1,24 @@
+{
+  "openapi": "3.1.0",
+  "info": { "title": "Claw Me agent-first onboarding contract", "version": "1.0.0", "license": { "name": "MIT", "identifier": "MIT" } },
+  "servers": [{ "url": "https://claw.me/api/v1" }],
+  "paths": {
+    "/onboarding/intents": { "post": { "summary": "Create an anonymous pre-auth onboarding intent", "security": [], "responses": { "201": { "description": "Created" } } } },
+    "/onboarding/sessions": { "post": { "summary": "Create or resume an owner onboarding session", "responses": { "200": { "description": "Session" } } } },
+    "/onboarding/sessions/{session_id}": { "get": { "summary": "Read an onboarding session", "parameters": [{ "$ref": "#/components/parameters/SessionId" }], "responses": { "200": { "description": "Session" } } } },
+    "/onboarding/sessions/{session_id}/answers": { "post": { "summary": "Answer the current interview question", "parameters": [{ "$ref": "#/components/parameters/SessionId" }], "responses": { "200": { "description": "Updated session" } } } },
+    "/onboarding/sessions/{session_id}/proposals": { "post": { "summary": "Create an immutable setup proposal", "parameters": [{ "$ref": "#/components/parameters/SessionId" }], "responses": { "201": { "description": "Proposal" } } } },
+    "/onboarding/proposals/{proposal_id}/approve": { "post": { "summary": "Approve a proposal using an owner session", "responses": { "200": { "description": "Approved proposal" } } } },
+    "/onboarding/proposals/{proposal_id}/execute": { "post": { "summary": "Execute an approved idempotent proposal", "responses": { "200": { "description": "Action receipt" } } } },
+    "/onboarding/handoffs/{code}/claim": { "post": { "summary": "Claim a single-use onboarding handoff", "responses": { "200": { "description": "Claimed session" } } } },
+    "/prompts": { "get": { "summary": "List versioned contextual Agent prompts", "responses": { "200": { "description": "Prompt catalog" } } } },
+    "/billing/catalog": { "get": { "summary": "Read the live billing catalog", "responses": { "200": { "description": "Catalog" } } } },
+    "/billing/quotes": { "post": { "summary": "Create a short-lived owner-bound payment quote", "responses": { "201": { "description": "Quote" } } } },
+    "/inference/allowances/current": { "get": { "summary": "Read bootstrap inference allowance", "responses": { "200": { "description": "Allowance" } } } }
+  },
+  "components": {
+    "securitySchemes": { "bearerAuth": { "type": "http", "scheme": "bearer" } },
+    "parameters": { "SessionId": { "name": "session_id", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } } }
+  },
+  "security": [{ "bearerAuth": [] }]
+}

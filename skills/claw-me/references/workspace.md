@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: MIT -->
+
 # Claw Me workspace
 
 Use this reference to decide where Claw work belongs and to explain workspace controls without overstating the current agent API.

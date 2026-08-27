@@ -1,6 +1,6 @@
 # Claw Me Plugin
 
-The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to the hosted Claw Me MCP server, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, and Sandbox approvals.
+The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to agent-first onboarding, the hosted Claw Me MCP server, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Sandbox approvals.
 
 The package is intentionally thin: it bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me.
 
@@ -79,6 +79,8 @@ Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide
 - `.agents/plugins/marketplace.json` — Codex marketplace.
 - `.claude-plugin/marketplace.json` — Claude Code marketplace.
 - `compatibility.json` — verified hosted contract and package versions.
+- `contracts/` — versioned onboarding, prompt, MCP tool, and OpenAPI contracts consumed by the hosted service.
+- `examples/` — sanitized existing-Agent and Managed OpenClaw onboarding transcripts.
 
 ## Development
 
