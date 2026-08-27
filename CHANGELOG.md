@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1 — 2026-08-27
+
+- Add contextual Agent prompts for Page analytics, Meetings, and Functions.
+- Keep channel prompts aligned with the Address and communications control surface.
+
 ## 0.3.0 — 2026-08-27
 
 - Publish the agent-first onboarding, contextual prompt, MCP tool, and OpenAPI contracts.

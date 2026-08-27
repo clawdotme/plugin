@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PLUGIN = ROOT
-VERSION = "0.3.0"
+VERSION = "0.3.1"
 REPOSITORY = "https://github.com/clawdotme/plugin"
 MCP_URL = "https://claw.me/api/v1/mcp"
 
