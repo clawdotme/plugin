@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.3 — 2026-08-27
+
+- Establish the scoped REST API and OpenAPI contract as the primary Agent integration.
+- Add a lightweight ETag-based Wiki revision check and a human prompt for one daily, deduplicated Agent refresh job.
+- Keep MCP available as an optional compatibility adapter.
+
+## 0.3.2 — 2026-08-27
+
+- Mirror all six supported connection paths in the onboarding client catalog.
+- Keep the three-choice interview limit while allowing the connection catalog to show every supported client.
+
 ## 0.3.1 — 2026-08-27
 
 - Add contextual Agent prompts for Page analytics, Meetings, and Functions.

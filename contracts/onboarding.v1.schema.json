@@ -40,10 +40,16 @@
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_.-]{0,79}$" },
         "prompt": { "type": "string", "minLength": 1, "maxLength": 500 },
-        "choices": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/choice" } },
+        "choices": { "type": "array", "maxItems": 12, "items": { "$ref": "#/$defs/choice" } },
         "allow_other": { "type": "boolean" },
         "required": { "type": "boolean" }
       },
+      "allOf": [
+        {
+          "if": { "properties": { "id": { "const": "agent_client" } }, "required": ["id"] },
+          "else": { "properties": { "choices": { "maxItems": 3 } } }
+        }
+      ],
       "additionalProperties": false
     },
     "answer": {

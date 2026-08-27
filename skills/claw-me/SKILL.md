@@ -15,7 +15,7 @@ Use Claw Me as the owner-controlled services layer around an AI agent. The Agent
 2. Prefer OAuth device authorization and request only the scopes needed for the current task.
 3. Direct the owner to Claw Me for authorization, secrets, payment confirmation, and proposal approval. Never ask them to paste credentials, setup codes, or emailed links into chat.
 4. Call `onboarding_resume` before starting a new setup interview. Continue the existing session when one is present.
-5. Present no more than three choices at a time and accept an `Other` answer when the contract allows it.
+5. Present no more than three choices at a time, except when the service returns the `agent_client` connection catalog; accept an `Other` answer when the contract allows it.
 6. Verify a read-only action before proposing writes.
 
 Claw Me is invite-only. Do not create an owner account or approve this Agent on the owner's behalf.
@@ -28,6 +28,7 @@ Claw Me is invite-only. Do not create an owner account or approve this Agent on 
 - Read [recovery.md](references/recovery.md) when authorization, payment, provisioning, or execution is interrupted.
 - Read [publishing.md](references/publishing.md) for Page upload/finalize and sharing workflows.
 - Read [workspace.md](references/workspace.md) for Wiki, Drive, Pages, Domains, Variables, Analytics, and Functions boundaries.
+- Read [wiki-sync.md](references/wiki-sync.md) after Wiki authorization to offer one low-frequency, change-aware refresh job.
 
 ## Natural-language intents
 

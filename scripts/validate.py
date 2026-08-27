@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PLUGIN = ROOT
-VERSION = "0.3.1"
+VERSION = "0.3.3"
 REPOSITORY = "https://github.com/clawdotme/plugin"
 MCP_URL = "https://claw.me/api/v1/mcp"
 
@@ -29,6 +29,7 @@ required = [
     PLUGIN / ".mcp.json",
     PLUGIN / "assets/logo.svg",
     PLUGIN / "skills/claw-me/SKILL.md",
+    PLUGIN / "claw-me/references/wiki-sync.md",
     ROOT / "contracts/onboarding.v1.schema.json",
     ROOT / "contracts/prompts.v1.json",
     ROOT / "contracts/mcp-tools.v1.json",
@@ -105,7 +106,9 @@ assert all(len(items) <= 3 for items in by_surface.values())
 
 onboarding = load(ROOT / "contracts/onboarding.v1.schema.json")
 question = onboarding["$defs"]["question"]
-assert question["properties"]["choices"]["maxItems"] == 3
+assert question["properties"]["choices"]["maxItems"] == 12
+assert question["allOf"][0]["if"]["properties"]["id"]["const"] == "agent_client"
+assert question["allOf"][0]["else"]["properties"]["choices"]["maxItems"] == 3
 
 mcp_tools = load(ROOT / "contracts/mcp-tools.v1.json")
 assert mcp_tools["contractVersion"] == compatibility["contracts"]["mcpTools"]

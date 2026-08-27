@@ -12,6 +12,7 @@
     "/onboarding/proposals/{proposal_id}/execute": { "post": { "summary": "Execute an approved idempotent proposal", "responses": { "200": { "description": "Action receipt" } } } },
     "/onboarding/handoffs/{code}/claim": { "post": { "summary": "Claim a single-use onboarding handoff", "responses": { "200": { "description": "Claimed session" } } } },
     "/prompts": { "get": { "summary": "List versioned contextual Agent prompts", "responses": { "200": { "description": "Prompt catalog" } } } },
+    "/claw-me/wiki/agent-guide/status": { "get": { "summary": "Check the current Wiki Agent Guide revision", "parameters": [{ "name": "If-None-Match", "in": "header", "required": false, "schema": { "type": "string" } }], "responses": { "200": { "description": "Revision status with ETag" }, "304": { "description": "Unchanged" } } } },
     "/billing/catalog": { "get": { "summary": "Read the live billing catalog", "responses": { "200": { "description": "Catalog" } } } },
     "/billing/quotes": { "post": { "summary": "Create a short-lived owner-bound payment quote", "responses": { "201": { "description": "Quote" } } } },
     "/inference/allowances/current": { "get": { "summary": "Read bootstrap inference allowance", "responses": { "200": { "description": "Allowance" } } } }

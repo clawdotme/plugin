@@ -27,7 +27,7 @@ After the runtime is ready:
 ## Interview contract
 
 - Ask only the current server-provided question.
-- Present at most three choices.
+- Present at most three choices, except for the `agent_client` catalog returned by the service. That catalog may show every supported connection from claw.me/connect.
 - Offer `Other` only when `allow_other` is true and send its text separately.
 - Do not infer consent, payment approval, publication visibility, or a secret value from free-form conversation.
 - Resume after interruptions instead of starting a duplicate session.
