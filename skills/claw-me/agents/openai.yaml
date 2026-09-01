@@ -1,4 +1,4 @@
 interface:
   display_name: "Claw Me"
-  short_description: "Connect agents to Claw Me identity, Wiki, Pages, and MCP."
-  default_prompt: "Use $claw-me to open https://claw.me/connect, follow this client's official plugin or MCP guide, request least-privilege owner approval, and verify a read-only action before managing approved resources."
+  short_description: "Connect agents to selected Claw Me account capabilities."
+  default_prompt: "Use $claw-me to open https://claw.me/connect, follow this client's official plugin or MCP guide, request only the capabilities needed, accept any owner-approved subset, and verify one harmless read before managing approved resources."

@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.0 — 2026-09-01
+
+- Let owners approve a least-privilege subset of the permissions an Agent requests instead of accepting an all-or-nothing bundle.
+- Treat account products as optional capabilities and prevent Agents from assuming Wiki, Email, Pages, Drive, or other access is configured.
+- Add capability discovery and structured access-reporting guidance, plus the complete optional onboarding, approvals, payments, recovery, Wiki refresh, publishing, and workspace references.
+- Align anonymous preview guidance with the branded expiry banner, live countdown, and paid-plan handoff.
+
+## 0.3.5 — 2026-08-27
+
+- Add account-free “claw me that” publishing for unindexed static previews that expire within 24 hours.
+- Align Agent guidance with `/address`, `/agents`, Drive Workspaces, Mailroom quarantine, Sandbox review, and customer-owned WhatsApp credentials.
+- Document the anonymous create, presigned upload, finalize, footer, expiry, and safety contract.
+
 ## 0.3.4 — 2026-08-27
 
 - Make plugin validation reproducible with a locked Skills CLI toolchain.

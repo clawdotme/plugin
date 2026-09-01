@@ -1,6 +1,6 @@
 {
-  "pluginVersion": "0.3.4",
-  "verifiedAt": "2026-08-27",
+  "pluginVersion": "0.4.0",
+  "verifiedAt": "2026-09-01",
   "contracts": {
     "onboarding": "1.0.0",
     "prompts": "1.0.0",
