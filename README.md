@@ -1,6 +1,6 @@
 # Claw Me Plugin
 
-The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to Claw Me's scoped REST API, agent-first onboarding, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Sandbox approvals. MCP is available as an optional adapter.
+The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to selected Claw Me capabilities through the scoped REST API, agent-first onboarding, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Sandbox approvals. MCP is available as an optional adapter.
 
 The package is intentionally thin: it bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me.
 
@@ -22,7 +22,7 @@ Start a new Codex task after installation. Complete the Claw Me authorization fl
 /plugin install claw-me@claw-me
 ```
 
-Start a new session after installation and approve only the scopes the Agent needs.
+Start a new session after installation and approve only the products and permissions the Agent needs.
 
 ### Cursor and other Skills clients
 
@@ -67,7 +67,8 @@ Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide
 - Scoped REST API at `https://claw.me/api/v1`, described by `https://claw.me/openapi.json`.
 - Optional Streamable HTTP MCP adapter at `https://claw.me/api/v1/mcp`.
 - A2A discovery at `https://claw.me/.well-known/agent-card.json`.
-- Owner-approved access to Pages, Wiki, Drive, inbound events, and owner-only delivery.
+- Owner-approved, independently selectable access to Pages, Wiki, Drive, inbound events, and owner-only delivery.
+- Capability-aware guidance that distinguishes access available now, access needing approval, unavailable account features, and dashboard-only controls.
 - Sandbox review for proposed Agent actions, Wiki changes, drafts, and private work.
 - Private-by-default publishing and least-privilege authorization guidance.
 

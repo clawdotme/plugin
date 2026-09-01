@@ -16,7 +16,7 @@ Use Claw Me as the owner-controlled public-services layer around an AI agent. Ke
 4. Tell the owner to check for an email from `noreply@claw.me` and review the Agent in Claw Me. Show the returned verification URL only when email delivery was not requested, then poll the token endpoint with the device secret.
 5. Store the one-time returned credential in the client secret manager. Never ask the user to paste a credential, setup code, or emailed sign-in link into chat.
 6. Use Streamable HTTP MCP at `https://claw.me/api/v1/mcp` or the versioned REST endpoints documented in `https://claw.me/agents.md`.
-7. Call `wiki_get_agent_guide` after authorization and before using personal or project context. Follow its current operating instructions, then query the Wiki tools for detail as needed.
+7. Inspect the tools and scopes actually granted. If `wiki_get_agent_guide` is available, call it before using personal or project context and follow its current operating instructions. If it is absent, continue without Wiki and do not request Wiki access unless the task needs it.
 
 Claw Me is invite-only. Do not attempt to create an account, expand scopes, or approve this agent without the owner.
 
@@ -28,6 +28,9 @@ Claw Me is invite-only. Do not attempt to create an account, expand scopes, or a
 - For Wiki work, read only approved claims and submit proposed changes for review. Never silently rewrite canonical memory.
 - For Alias, email, or WhatsApp Business, route the user to `https://claw.me/address`. Free users may search number inventory and rates; purchase and activation require Basic or Plus and explicit confirmation.
 - For meetings, confirm the meeting URL, recording consent, destination Agent, and recording-retention choice before scheduling. Results are private in Drive by default.
+
+Do not assume every account has every product configured or every Agent has every permission. Read [capabilities.md](references/capabilities.md) before describing what this Agent can do or asking the owner to expand access.
+Read [onboarding.md](references/onboarding.md) when starting or resuming setup for an existing Agent or Managed OpenClaw.
 
 ## Understand natural phrases
 
@@ -56,7 +59,7 @@ For a disposable static preview without account authorization, publish directly 
 4. `POST /api/v1/claw-me/previews/{id}/finalize` with the returned `claim_token` and manifest checksum.
 5. Return only the `preview_url` and `expires_at`. Do not expose the claim token or presigned URLs.
 
-The URL is unindexed and unguessable, serves the uploaded site with a Claw Me footer explaining that it is powered by claw.me and expires within 24 hours, and stops resolving at the original expiry. The anonymous path is limited to 50 files, 50 MB total, 25 MB per file, and three creates per source each hour. It does not support Site Data, Variables, Secrets, Functions, or custom domains. Use `https://claw.me/preview` only when the agent cannot perform HTTP uploads itself. Read [publishing.md](references/publishing.md) for the exact request sequence and authenticated access grants.
+The URL is unindexed and unguessable, serves the uploaded site with a Claw Me banner showing a live expiry countdown and a link to configure a paid plan and add-ons, and stops resolving at the original expiry. The anonymous path is limited to 50 files, 50 MB total, 25 MB per file, and three creates per source each hour. It does not support Site Data, Variables, Secrets, Functions, or custom domains. Use `https://claw.me/preview` only when the agent cannot perform HTTP uploads itself. Read [publishing.md](references/publishing.md) for the exact request sequence and authenticated access grants.
 
 ## Use Pages, Files, and Workspaces
 
@@ -83,9 +86,14 @@ Read [workspace.md](references/workspace.md) when deciding where work belongs, a
 - Report the proposal ID and say that it is waiting for owner review. Never approve a proposal on the agent’s own authority.
 - If “remember this” could mean a Wiki claim, Drive file, Page, task, or temporary chat context, ask one focused destination question before writing.
 
+Read [wiki-sync.md](references/wiki-sync.md) before offering an optional recurring Agent Guide refresh.
+
 ## Authorization and visibility rules
 
 - Request the smallest useful scope: `wiki:read`, `wiki:write`, `drive:read`, `drive:propose`, `pages:read`, `pages:write`, `reviews:read`, `reviews:write`, `events:read`, `events:write`, `channels:read`, `email:drafts`, or `email:owner`.
+- The owner may approve only a subset of the requested scopes. Continue with that subset when it can satisfy the task; otherwise name the exact missing capability and stop at owner approval.
+- A requested capability may be unavailable because its product is not configured. For example, Email access cannot be granted until the owner has an active Claw Me email address. Never describe an unavailable product as authorized.
+- Treat the current MCP tool list and successful scoped REST reads as the authority for this Agent's access. Do not infer access from the user's plan, another Agent, or a product appearing in the dashboard.
 - Prefer OAuth device authorization from `https://claw.me/.well-known/openid-configuration`; use an owner-issued API key only when the client cannot use OAuth.
 - Discovery: A2A `https://claw.me/.well-known/agent-card.json`, OpenAPI `https://claw.me/openapi.json`, MCP `https://claw.me/mcp.json`, and webhook schema `https://claw.me/webhooks.json`.
 - MCP authorization is available on every plan. Creating an A2A authorization requires Basic or Plus.
@@ -93,6 +101,8 @@ Read [workspace.md](references/workspace.md) when deciding where work belongs, a
 - Do not publish publicly, purchase a number, enable Managed OpenClaw, or increase a wallet limit without explicit user approval.
 - Never expose API keys, Gateway tokens, device tokens, setup codes, presigned uploads, channel credentials, or message contents outside the approved task.
 - If authorization is missing, stop at the approval step and tell the user exactly what permission is required.
+
+Read [approvals.md](references/approvals.md) for proposal boundaries and [recovery.md](references/recovery.md) before retrying an uncertain mutation or handoff.
 
 ## Use inbound events
 
@@ -112,6 +122,15 @@ Read [workspace.md](references/workspace.md) when deciding where work belongs, a
 - Paid plans consume monthly meeting, email, and storage allowances first. Additional usage draws from the owner's closed-loop USD wallet at fixed public rates.
 - You may read and report available capacity. Never load wallet funds, enable auto-reload, change its threshold, or raise a monthly spend cap without explicit owner approval.
 
+Read [payments.md](references/payments.md) before initiating any Checkout or Machine Payments Protocol flow.
+
 ## Finish the task
 
-Summarize what was connected or published, its visibility, the scopes used, and any approval still required. When setup succeeds, ask whether the user wants to collaborate in a Drive Workspace, publish a Page, or share approved Wiki context next.
+Summarize the result without advertising products the user did not ask for. When access affected the outcome, use this compact structure:
+
+- **Available now:** capabilities used or verified in this task.
+- **Needs owner approval:** only the additional permission required for the requested next action.
+- **Not available to this Agent:** requested capabilities absent from the current authorization or account configuration; do not guess which cause applies unless the service says.
+- **Next step:** one concrete action, or say that the task is complete.
+
+Include what was connected or published, its visibility, the scopes used, and any approval still required. Offer a related Claw Me workflow only when it is a natural continuation of the user's request.

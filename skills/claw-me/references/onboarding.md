@@ -8,7 +8,7 @@ The live service owns the interview state. Do not recreate the question order fr
 
 1. Start or resume the onboarding session.
 2. If the owner has not authorized this client, begin device authorization with `openid`, `profile`, `onboarding:read`, and only the write/proposal scopes needed.
-3. The owner reviews the named client and requested scopes in Claw Me.
+3. The owner reviews the named client and requested scopes in Claw Me. The owner may deselect optional products and approve a smaller scope set.
 4. Call `onboarding_resume`, ask exactly the returned question, and submit one answer at a time.
 5. Use `onboarding_preview` before submitting a setup proposal.
 6. Stop at any `human_action` returned by the service and direct the owner to its secure URL.
