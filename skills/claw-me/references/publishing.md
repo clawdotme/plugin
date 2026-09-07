@@ -6,7 +6,7 @@ It also exposes a deliberately narrow anonymous REST flow for disposable static 
 
 ## Required scope
 
-Use `artifacts:write` for `artifact_publish`. Use `artifacts:read` for `artifact_list`. An owner may instead issue the broader `claw-me:mcp` scope.
+Use `artifacts:write` for `artifact_publish` and `artifacts:read` for `artifact_list`. Do not request umbrella scopes.
 
 ## Publish contract
 

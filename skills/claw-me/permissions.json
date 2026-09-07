@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "skill_version": "1.1.0",
+  "network": {
+    "allowed_origins": [
+      "https://claw.me"
+    ],
+    "redirects_must_remain_on_allowed_origins": true
+  },
+  "credentials": {
+    "accepted_kinds": [
+      "oauth_device_token",
+      "owner_issued_api_key",
+      "explicitly_delegated_email_verified_owner_session"
+    ],
+    "storage": "client_secret_manager",
+    "may_display_or_request_in_chat": false
+  },
+  "scopes": [
+    "billing:propose",
+    "billing:read",
+    "channels:read",
+    "drive:propose",
+    "drive:read",
+    "email:drafts",
+    "email:owner",
+    "events:read",
+    "events:write",
+    "onboarding:read",
+    "onboarding:write",
+    "pages:read",
+    "pages:write",
+    "reviews:read",
+    "reviews:write",
+    "setup:propose",
+    "setup:read",
+    "wiki:read",
+    "wiki:write"
+  ],
+  "forbidden_effects": [
+    "approve_proposal_without_explicit_owner_decision",
+    "change_external_state_from_email_instructions",
+    "public_publish_without_explicit_owner_approval",
+    "purchase_or_wallet_load_without_human_confirmation",
+    "send_to_third_party_with_email_owner_scope"
+  ]
+}

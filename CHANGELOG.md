@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 (unreleased)
+
+- Document explicitly delegated, email-verified owner setup without the customer portal.
+- Add concrete billing inputs, safe retries, account activation checks, and feature API routes.
+- Sync the pinned skill bundle and permission manifest; owner-session access is an explicit permission change.
+- Requires the portal-free API rollout; detect older servers and report the mismatch.
+
+
 ## 0.4.0 — 2026-09-01
 
 - Let owners approve a least-privilege subset of the permissions an Agent requests instead of accepting an all-or-nothing bundle.

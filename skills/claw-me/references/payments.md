@@ -16,3 +16,5 @@ Claw Me uses Stripe Billing and hosted Checkout for recurring plans and Managed 
 - Wallet funds are closed-loop and non-withdrawable.
 - Managed OpenClaw must be webhook-confirmed before provisioning or bootstrap allowance grant.
 - Never enable auto-reload, raise a cap, or change a recurring plan without explicit owner approval.
+
+For the portal-free rollout, read [portal-free-setup.md](portal-free-setup.md). `billing_quote` reports current catalog information, not a binding quote. `billing_start_checkout` and `billing_create_wallet_payment` create hosted Stripe sessions with an `idempotency_key`; payment status is separate from webhook-confirmed account activation. Do not describe MPP as available unless live discovery explicitly confirms it.
