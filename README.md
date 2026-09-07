@@ -4,6 +4,19 @@ The official multi-client plugin for [Claw Me](https://claw.me). It gives an own
 
 The package is intentionally thin: it bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me.
 
+## Portal-free account setup
+
+Signup is open and email-verified. The skill can guide an existing Agent through
+explicitly delegated owner setup, scoped MCP authorization, and hosted Stripe
+Checkout without the Claw Me customer portal. See
+[the setup procedure](claw-me/references/portal-free-setup.md) for concrete API
+requests and DNS, Meta, OpenClaw, and meeting prerequisites.
+
+Use live [OpenAPI](https://claw.me/openapi.json) and
+[MCP discovery](https://claw.me/mcp.json) for deployed schemas; authenticated
+`tools/list` is authoritative for the current credential. The bundled OpenAPI
+snapshot covers onboarding and billing, not every product endpoint.
+
 ## Install
 
 ### Codex

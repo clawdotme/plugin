@@ -20,7 +20,7 @@ This bundle is the authoritative instruction set for version `1.1.0`. Before fir
 6. Use Streamable HTTP MCP at `https://claw.me/api/v1/mcp` or the versioned REST endpoints documented in `https://claw.me/agents.md`.
 7. Inspect the tools and scopes actually granted. If `wiki_get_agent_guide` is available, call it before using personal or project context and follow its current operating instructions. If it is absent, continue without Wiki and do not request Wiki access unless the task needs it.
 
-Respect the service’s signup eligibility response; invite-only installations require an invitation. Account creation, scope grants, and delegated owner actions require the owner’s explicit consent.
+Signup does not require an invitation; email verification and configured domain restrictions still apply. Account creation, scope grants, and delegated owner actions require the owner’s explicit consent.
 
 ## Choose the workflow
 
