@@ -1,0 +1,14 @@
+{
+  "slug": "meeting-follow-up",
+  "title": "Meeting follow-up",
+  "category": "business-client-work",
+  "description": "Turn a meeting into a decision summary, action list, and reviewed follow-up draft.",
+  "highlights": [
+    "Meeting decisions and open questions",
+    "Actions with owners and dates",
+    "Follow-up message draft"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

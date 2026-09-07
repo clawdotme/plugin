@@ -1,0 +1,14 @@
+{
+  "slug": "research-decision-brief",
+  "title": "Research decision brief",
+  "category": "presentations-reports",
+  "description": "A sourced research brief with evaluation criteria, options, and a recommendation.",
+  "highlights": [
+    "Research question and scope",
+    "Option comparison and source notes",
+    "Recommendation and tradeoffs"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

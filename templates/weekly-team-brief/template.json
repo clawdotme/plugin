@@ -1,0 +1,14 @@
+{
+  "slug": "weekly-team-brief",
+  "title": "Weekly team brief",
+  "category": "dashboards-tools",
+  "description": "Keep a team aligned with a readable snapshot of priorities and progress.",
+  "highlights": [
+    "Progress overview",
+    "Priority tracker",
+    "Decisions and blockers"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

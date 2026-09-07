@@ -9,6 +9,7 @@ Use this file as the operating guide for agents working in the public `clawdotme
 - The repository root is the installable multi-client plugin package, matching the AgentMail distribution layout.
 - `.agents/plugins/marketplace.json` and `.claude-plugin/marketplace.json` are the repository marketplaces.
 - `assets/` contains public brand assets.
+- `templates/` is the canonical source of official static Claw templates; follow its README and run its builder before submitting changes.
 
 ## Source of truth
 

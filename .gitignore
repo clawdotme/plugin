@@ -2,3 +2,5 @@
 node_modules/
 skills-lock.json
 tools/node_modules/
+
+__pycache__/

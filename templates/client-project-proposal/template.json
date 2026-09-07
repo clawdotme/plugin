@@ -1,0 +1,14 @@
+{
+  "slug": "client-project-proposal",
+  "title": "Client project proposal",
+  "category": "business-client-work",
+  "description": "Share a clear scope, timeline, and budget before a project begins.",
+  "highlights": [
+    "Scope and deliverables",
+    "Milestones",
+    "Budget and next steps"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

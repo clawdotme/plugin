@@ -1,0 +1,14 @@
+{
+  "slug": "project-progress-report",
+  "title": "Project progress report",
+  "category": "presentations-reports",
+  "description": "Turn an update into a clear report with outcomes, evidence, and next steps.",
+  "highlights": [
+    "Executive summary",
+    "Outcome metrics",
+    "Recommendations"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}
