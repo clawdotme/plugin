@@ -1,6 +1,6 @@
 {
   "name": "claw-me",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Connect owner-approved Agents to Claw Me onboarding, identity, Wiki, Drive, Pages, payments, and review.",
   "author": {
     "name": "Claw Me",
@@ -10,7 +10,15 @@
   "homepage": "https://claw.me/connect",
   "repository": "https://github.com/clawdotme/plugin",
   "license": "MIT",
-  "keywords": ["claw.me", "agents", "mcp", "a2a", "wiki", "drive", "publishing"],
+  "keywords": [
+    "claw.me",
+    "agents",
+    "mcp",
+    "a2a",
+    "wiki",
+    "drive",
+    "publishing"
+  ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json"
 }

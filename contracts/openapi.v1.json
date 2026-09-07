@@ -1,25 +1,2151 @@
 {
   "openapi": "3.1.0",
-  "info": { "title": "Claw Me agent-first onboarding contract", "version": "1.0.0", "license": { "name": "MIT", "identifier": "MIT" } },
-  "servers": [{ "url": "https://claw.me/api/v1" }],
+  "info": {
+    "title": "Claw Me agent-first onboarding contract",
+    "version": "1.0.0",
+    "license": {
+      "name": "MIT",
+      "identifier": "MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://claw.me/api/v1"
+    }
+  ],
   "paths": {
-    "/onboarding/intents": { "post": { "summary": "Create an anonymous pre-auth onboarding intent", "security": [], "responses": { "201": { "description": "Created" } } } },
-    "/onboarding/sessions": { "post": { "summary": "Create or resume an owner onboarding session", "responses": { "200": { "description": "Session" } } } },
-    "/onboarding/sessions/{session_id}": { "get": { "summary": "Read an onboarding session", "parameters": [{ "$ref": "#/components/parameters/SessionId" }], "responses": { "200": { "description": "Session" } } } },
-    "/onboarding/sessions/{session_id}/answers": { "post": { "summary": "Answer the current interview question", "parameters": [{ "$ref": "#/components/parameters/SessionId" }], "responses": { "200": { "description": "Updated session" } } } },
-    "/onboarding/sessions/{session_id}/proposals": { "post": { "summary": "Create an immutable setup proposal", "parameters": [{ "$ref": "#/components/parameters/SessionId" }], "responses": { "201": { "description": "Proposal" } } } },
-    "/onboarding/proposals/{proposal_id}/approve": { "post": { "summary": "Approve a proposal using an owner session", "responses": { "200": { "description": "Approved proposal" } } } },
-    "/onboarding/proposals/{proposal_id}/execute": { "post": { "summary": "Execute an approved idempotent proposal", "responses": { "200": { "description": "Action receipt" } } } },
-    "/onboarding/handoffs/{code}/claim": { "post": { "summary": "Claim a single-use onboarding handoff", "responses": { "200": { "description": "Claimed session" } } } },
-    "/prompts": { "get": { "summary": "List versioned contextual Agent prompts", "responses": { "200": { "description": "Prompt catalog" } } } },
-    "/claw-me/wiki/agent-guide/status": { "get": { "summary": "Check the current Wiki Agent Guide revision", "parameters": [{ "name": "If-None-Match", "in": "header", "required": false, "schema": { "type": "string" } }], "responses": { "200": { "description": "Revision status with ETag" }, "304": { "description": "Unchanged" } } } },
-    "/billing/catalog": { "get": { "summary": "Read the live billing catalog", "responses": { "200": { "description": "Catalog" } } } },
-    "/billing/quotes": { "post": { "summary": "Create a short-lived owner-bound payment quote", "responses": { "201": { "description": "Quote" } } } },
-    "/inference/allowances/current": { "get": { "summary": "Read bootstrap inference allowance", "responses": { "200": { "description": "Allowance" } } } }
+    "/agent-auth/requests": {
+      "post": {
+        "operationId": "create_agent_authorization_request_api_v1_agent_auth_requests_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgentAuthorizationCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Agent Authorization Request",
+        "tags": [
+          "Agent authorization"
+        ]
+      }
+    },
+    "/agent-auth/requests/{request_id}/token": {
+      "post": {
+        "operationId": "exchange_agent_authorization_api_v1_agent_auth_requests__request_id__token_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "request_id",
+            "required": true,
+            "schema": {
+              "title": "Request Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgentAuthorizationTokenRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Exchange Agent Authorization",
+        "tags": [
+          "Agent authorization"
+        ]
+      }
+    },
+    "/agent-auth/requests/{user_code}/approve": {
+      "post": {
+        "operationId": "approve_agent_authorization_request_api_v1_agent_auth_requests__user_code__approve_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "user_code",
+            "required": true,
+            "schema": {
+              "title": "User Code",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AgentAuthorizationApproval"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Approve Agent Authorization Request",
+        "tags": [
+          "Agent authorization"
+        ]
+      }
+    },
+    "/auth/agent/start": {
+      "post": {
+        "description": "Email-verified machine bootstrap, with the same source/target rate limits.\n\nThe web login form uses Turnstile. Existing Agents cannot render that form,\nso expose a dedicated email-only entrypoint; it grants no session or Agent\nscope until the emailed token is verified. Email verification and configured domain restrictions still apply.",
+        "operationId": "request_agent_sign_in_api_v1_auth_agent_start_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MagicLinkRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessageResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Request Agent Sign In",
+        "tags": [
+          "Authentication"
+        ]
+      }
+    },
+    "/auth/me": {
+      "get": {
+        "description": "Get the current authenticated user from session.",
+        "operationId": "get_current_user_api_v1_auth_me_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SessionUserResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Current User",
+        "tags": [
+          "Authentication"
+        ]
+      }
+    },
+    "/auth/verify-token": {
+      "post": {
+        "description": "Verify a magic link token and return JWT tokens (for mobile clients).",
+        "operationId": "verify_magic_link_token_api_v1_auth_verify_token_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyTokenRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Verify Magic Link Token",
+        "tags": [
+          "Authentication"
+        ]
+      }
+    },
+    "/billing/agent/{operation}": {
+      "post": {
+        "operationId": "agent_billing_operation_api_v1_billing_agent__operation__post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "operation",
+            "required": true,
+            "schema": {
+              "enum": [
+                "catalog",
+                "checkout",
+                "wallet",
+                "payment",
+                "manage"
+              ],
+              "title": "Operation",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Body",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Agent Billing Operation",
+        "tags": [
+          "billing"
+        ]
+      }
+    },
+    "/claw-me/wiki/agent-guide/status": {
+      "get": {
+        "description": "Return a lightweight revision marker for low-frequency Agent polling.",
+        "operationId": "get_wiki_agent_guide_status_api_v1_claw_me_wiki_agent_guide_status_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WikiAgentGuideStatusResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Get Wiki Agent Guide Status",
+        "tags": [
+          "claw.me"
+        ]
+      }
+    },
+    "/inference/allowances/current": {
+      "get": {
+        "operationId": "get_inference_allowance_api_v1_inference_allowances_current_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceAllowanceResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Get Inference Allowance",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/mcp": {
+      "post": {
+        "description": "Streamable HTTP MCP surface for explicitly authorized user-owned clients.",
+        "operationId": "claw_me_mcp_api_v1_mcp_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/McpJsonRpcRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Claw Me Mcp",
+        "tags": [
+          "claw.me"
+        ]
+      }
+    },
+    "/mcp/catalog": {
+      "get": {
+        "description": "Publish schemas, never account data or an assertion of granted access.",
+        "operationId": "public_mcp_catalog_api_v1_mcp_catalog_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Public Mcp Catalog",
+        "tags": [
+          "claw.me"
+        ]
+      }
+    },
+    "/onboarding/handoffs/{code}/claim": {
+      "post": {
+        "operationId": "claim_onboarding_handoff_api_v1_onboarding_handoffs__code__claim_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "code",
+            "required": true,
+            "schema": {
+              "title": "Code",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingHandoffClaimResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Claim Onboarding Handoff",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/onboarding/intents": {
+      "post": {
+        "description": "Record only the anonymous route choice; the opaque token contains no PII.",
+        "operationId": "create_onboarding_intent_api_v1_onboarding_intents_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnboardingIntentCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingIntentResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Onboarding Intent",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/onboarding/proposals/{proposal_id}/approve": {
+      "post": {
+        "operationId": "approve_onboarding_proposal_api_v1_onboarding_proposals__proposal_id__approve_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "proposal_id",
+            "required": true,
+            "schema": {
+              "title": "Proposal Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingProposalResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Approve Onboarding Proposal",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/onboarding/proposals/{proposal_id}/execute": {
+      "post": {
+        "operationId": "execute_onboarding_proposal_api_v1_onboarding_proposals__proposal_id__execute_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "proposal_id",
+            "required": true,
+            "schema": {
+              "title": "Proposal Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingReceiptResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Execute Onboarding Proposal",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/onboarding/sessions": {
+      "post": {
+        "operationId": "create_onboarding_session_api_v1_onboarding_sessions_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnboardingSessionCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingSessionResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Create Onboarding Session",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/onboarding/sessions/{session_id}": {
+      "get": {
+        "operationId": "get_onboarding_session_api_v1_onboarding_sessions__session_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "session_id",
+            "required": true,
+            "schema": {
+              "title": "Session Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingSessionResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Get Onboarding Session",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/onboarding/sessions/{session_id}/answers": {
+      "post": {
+        "operationId": "answer_onboarding_question_api_v1_onboarding_sessions__session_id__answers_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "session_id",
+            "required": true,
+            "schema": {
+              "title": "Session Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnboardingAnswerCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingSessionResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Answer Onboarding Question",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/onboarding/sessions/{session_id}/proposals": {
+      "post": {
+        "operationId": "create_onboarding_proposal_api_v1_onboarding_sessions__session_id__proposals_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "session_id",
+            "required": true,
+            "schema": {
+              "title": "Session Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnboardingProposalCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OnboardingProposalResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Create Onboarding Proposal",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    },
+    "/prompts": {
+      "get": {
+        "description": "Serve the exact catalog pinned from the public Claw Me plugin release.",
+        "operationId": "list_agent_prompts_api_v1_prompts_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "surface",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Surface"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AgentPromptCatalog"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "List Agent Prompts",
+        "tags": [
+          "Agent-first onboarding"
+        ]
+      }
+    }
   },
   "components": {
-    "securitySchemes": { "bearerAuth": { "type": "http", "scheme": "bearer" } },
-    "parameters": { "SessionId": { "name": "session_id", "in": "path", "required": true, "schema": { "type": "string", "format": "uuid" } } }
-  },
-  "security": [{ "bearerAuth": [] }]
+    "schemas": {
+      "InferenceAllowanceResponse": {
+        "properties": {
+          "active": {
+            "title": "Active",
+            "type": "boolean"
+          },
+          "auto_reload": {
+            "const": false,
+            "default": false,
+            "title": "Auto Reload",
+            "type": "boolean"
+          },
+          "consumed_microusd": {
+            "title": "Consumed Microusd",
+            "type": "integer"
+          },
+          "exhausted_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Exhausted At"
+          },
+          "expires_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Expires At"
+          },
+          "granted_microusd": {
+            "title": "Granted Microusd",
+            "type": "integer"
+          },
+          "remaining_microusd": {
+            "title": "Remaining Microusd",
+            "type": "integer"
+          },
+          "revoked_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Revoked At"
+          },
+          "transferable": {
+            "const": false,
+            "default": false,
+            "title": "Transferable",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "active",
+          "granted_microusd",
+          "consumed_microusd",
+          "remaining_microusd",
+          "expires_at",
+          "revoked_at",
+          "exhausted_at"
+        ],
+        "title": "InferenceAllowanceResponse",
+        "type": "object"
+      },
+      "AgentAuthorizationApproval": {
+        "properties": {
+          "scopes": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 20,
+            "minItems": 1,
+            "title": "Scopes",
+            "type": "array"
+          }
+        },
+        "required": [
+          "scopes"
+        ],
+        "title": "AgentAuthorizationApproval",
+        "type": "object"
+      },
+      "OnboardingReceiptResponse": {
+        "properties": {
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "error_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error Code"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "proposal_id": {
+            "title": "Proposal Id",
+            "type": "string"
+          },
+          "result": {
+            "additionalProperties": true,
+            "title": "Result",
+            "type": "object"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "proposal_id",
+          "status",
+          "result",
+          "error_code",
+          "created_at"
+        ],
+        "title": "OnboardingReceiptResponse",
+        "type": "object"
+      },
+      "WikiAgentGuideStatusResponse": {
+        "properties": {
+          "approved_claim_count": {
+            "title": "Approved Claim Count",
+            "type": "integer"
+          },
+          "guide_updated_at": {
+            "format": "date-time",
+            "title": "Guide Updated At",
+            "type": "string"
+          },
+          "latest_claim_updated_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Latest Claim Updated At"
+          },
+          "revision": {
+            "title": "Revision",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "revision",
+          "approved_claim_count",
+          "guide_updated_at"
+        ],
+        "title": "WikiAgentGuideStatusResponse",
+        "type": "object"
+      },
+      "AgentAuthorizationCreate": {
+        "properties": {
+          "client_name": {
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Client Name",
+            "type": "string"
+          },
+          "client_type": {
+            "default": "generic",
+            "pattern": "^[a-z0-9][a-z0-9_.-]{0,63}$",
+            "title": "Client Type",
+            "type": "string"
+          },
+          "owner_email": {
+            "anyOf": [
+              {
+                "format": "email",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Owner Email"
+          },
+          "scopes": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 20,
+            "minItems": 1,
+            "title": "Scopes",
+            "type": "array"
+          }
+        },
+        "required": [
+          "client_name",
+          "scopes"
+        ],
+        "title": "AgentAuthorizationCreate",
+        "type": "object"
+      },
+      "TokenResponse": {
+        "description": "Schema for access + refresh token response.",
+        "properties": {
+          "accessToken": {
+            "title": "Accesstoken",
+            "type": "string"
+          },
+          "refreshToken": {
+            "title": "Refreshtoken",
+            "type": "string"
+          }
+        },
+        "required": [
+          "accessToken",
+          "refreshToken"
+        ],
+        "title": "TokenResponse",
+        "type": "object"
+      },
+      "OnboardingProposalCreate": {
+        "properties": {
+          "action": {
+            "enum": [
+              "record_preferences",
+              "complete_onboarding"
+            ],
+            "title": "Action",
+            "type": "string"
+          },
+          "idempotency_key": {
+            "maxLength": 255,
+            "minLength": 8,
+            "title": "Idempotency Key",
+            "type": "string"
+          },
+          "payload": {
+            "additionalProperties": true,
+            "title": "Payload",
+            "type": "object"
+          },
+          "risk": {
+            "default": "medium",
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ],
+            "title": "Risk",
+            "type": "string"
+          },
+          "summary": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Summary",
+            "type": "string"
+          }
+        },
+        "required": [
+          "action",
+          "summary",
+          "idempotency_key"
+        ],
+        "title": "OnboardingProposalCreate",
+        "type": "object"
+      },
+      "OnboardingSessionResponse": {
+        "properties": {
+          "answers": {
+            "items": {
+              "$ref": "#/components/schemas/OnboardingAnswerRecord"
+            },
+            "title": "Answers",
+            "type": "array"
+          },
+          "client_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Client Type"
+          },
+          "completed_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Completed At"
+          },
+          "contract_version": {
+            "title": "Contract Version",
+            "type": "string"
+          },
+          "human_action": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/HumanAction"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "interaction_surface": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Interaction Surface"
+          },
+          "last_activity_at": {
+            "format": "date-time",
+            "title": "Last Activity At",
+            "type": "string"
+          },
+          "last_actor": {
+            "enum": [
+              "owner",
+              "agent",
+              "system"
+            ],
+            "title": "Last Actor",
+            "type": "string"
+          },
+          "questions": {
+            "items": {
+              "$ref": "#/components/schemas/OnboardingQuestion"
+            },
+            "maxItems": 1,
+            "title": "Questions",
+            "type": "array"
+          },
+          "route": {
+            "enum": [
+              "existing_agent",
+              "managed_agent"
+            ],
+            "title": "Route",
+            "type": "string"
+          },
+          "stage": {
+            "title": "Stage",
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "handoff_pending",
+              "active",
+              "payment_pending",
+              "provisioning",
+              "approval_required",
+              "blocked",
+              "completed",
+              "canceled"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "use_case": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Use Case"
+          }
+        },
+        "required": [
+          "contract_version",
+          "id",
+          "route",
+          "status",
+          "stage",
+          "questions",
+          "answers",
+          "client_type",
+          "use_case",
+          "interaction_surface",
+          "human_action",
+          "last_actor",
+          "last_activity_at",
+          "completed_at"
+        ],
+        "title": "OnboardingSessionResponse",
+        "type": "object"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "OnboardingSessionCreate": {
+        "properties": {
+          "intent_token": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "minLength": 24,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Intent Token"
+          },
+          "route": {
+            "anyOf": [
+              {
+                "enum": [
+                  "existing_agent",
+                  "managed_agent"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Route"
+          }
+        },
+        "title": "OnboardingSessionCreate",
+        "type": "object"
+      },
+      "MessageResponse": {
+        "description": "Schema for simple message responses.",
+        "properties": {
+          "message": {
+            "title": "Message",
+            "type": "string"
+          }
+        },
+        "required": [
+          "message"
+        ],
+        "title": "MessageResponse",
+        "type": "object"
+      },
+      "OnboardingAnswerRecord": {
+        "properties": {
+          "actor": {
+            "enum": [
+              "owner",
+              "agent",
+              "system"
+            ],
+            "title": "Actor",
+            "type": "string"
+          },
+          "answered_at": {
+            "format": "date-time",
+            "title": "Answered At",
+            "type": "string"
+          },
+          "choice_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Choice Id"
+          },
+          "other_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Other Text"
+          },
+          "question_id": {
+            "title": "Question Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "question_id",
+          "actor",
+          "answered_at"
+        ],
+        "title": "OnboardingAnswerRecord",
+        "type": "object"
+      },
+      "OnboardingAnswerCreate": {
+        "properties": {
+          "choice_id": {
+            "anyOf": [
+              {
+                "maxLength": 80,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Choice Id"
+          },
+          "other_text": {
+            "anyOf": [
+              {
+                "maxLength": 1000,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Other Text"
+          },
+          "question_id": {
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Question Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "question_id"
+        ],
+        "title": "OnboardingAnswerCreate",
+        "type": "object"
+      },
+      "MagicLinkRequest": {
+        "description": "Schema for requesting a magic link.",
+        "properties": {
+          "app_scheme": {
+            "anyOf": [
+              {
+                "pattern": "^[a-z][a-z0-9+.-]*$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "App Scheme"
+          },
+          "email": {
+            "format": "email",
+            "title": "Email",
+            "type": "string"
+          },
+          "error_to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error To"
+          },
+          "marketing_opt_in": {
+            "default": false,
+            "title": "Marketing Opt In",
+            "type": "boolean"
+          },
+          "platform": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Platform"
+          },
+          "product": {
+            "anyOf": [
+              {
+                "pattern": "^(claw-me)$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Product"
+          },
+          "return_to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Return To"
+          }
+        },
+        "required": [
+          "email"
+        ],
+        "title": "MagicLinkRequest",
+        "type": "object"
+      },
+      "AgentAuthorizationTokenRequest": {
+        "properties": {
+          "device_secret": {
+            "maxLength": 300,
+            "minLength": 30,
+            "title": "Device Secret",
+            "type": "string"
+          }
+        },
+        "required": [
+          "device_secret"
+        ],
+        "title": "AgentAuthorizationTokenRequest",
+        "type": "object"
+      },
+      "OnboardingIntentCreate": {
+        "properties": {
+          "route": {
+            "enum": [
+              "existing_agent",
+              "managed_agent"
+            ],
+            "title": "Route",
+            "type": "string"
+          }
+        },
+        "required": [
+          "route"
+        ],
+        "title": "OnboardingIntentCreate",
+        "type": "object"
+      },
+      "OnboardingQuestion": {
+        "properties": {
+          "allow_other": {
+            "default": false,
+            "title": "Allow Other",
+            "type": "boolean"
+          },
+          "choices": {
+            "items": {
+              "$ref": "#/components/schemas/OnboardingChoice"
+            },
+            "maxItems": 12,
+            "title": "Choices",
+            "type": "array"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "prompt": {
+            "title": "Prompt",
+            "type": "string"
+          },
+          "required": {
+            "default": true,
+            "title": "Required",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "prompt",
+          "choices"
+        ],
+        "title": "OnboardingQuestion",
+        "type": "object"
+      },
+      "AgentPromptCatalog": {
+        "properties": {
+          "contract_version": {
+            "title": "Contract Version",
+            "type": "string"
+          },
+          "prompts": {
+            "items": {
+              "$ref": "#/components/schemas/AgentPrompt"
+            },
+            "title": "Prompts",
+            "type": "array"
+          }
+        },
+        "required": [
+          "contract_version",
+          "prompts"
+        ],
+        "title": "AgentPromptCatalog",
+        "type": "object"
+      },
+      "OnboardingHandoffClaimResponse": {
+        "properties": {
+          "claimed": {
+            "title": "Claimed",
+            "type": "boolean"
+          },
+          "session": {
+            "$ref": "#/components/schemas/OnboardingSessionResponse"
+          }
+        },
+        "required": [
+          "claimed",
+          "session"
+        ],
+        "title": "OnboardingHandoffClaimResponse",
+        "type": "object"
+      },
+      "OnboardingIntentResponse": {
+        "properties": {
+          "continue_url": {
+            "title": "Continue Url",
+            "type": "string"
+          },
+          "expires_at": {
+            "format": "date-time",
+            "title": "Expires At",
+            "type": "string"
+          },
+          "intent_token": {
+            "title": "Intent Token",
+            "type": "string"
+          },
+          "route": {
+            "enum": [
+              "existing_agent",
+              "managed_agent"
+            ],
+            "title": "Route",
+            "type": "string"
+          }
+        },
+        "required": [
+          "intent_token",
+          "route",
+          "expires_at",
+          "continue_url"
+        ],
+        "title": "OnboardingIntentResponse",
+        "type": "object"
+      },
+      "SessionUserResponse": {
+        "description": "Schema for session user response (GET /auth/me).",
+        "properties": {
+          "claw_me_cloud_enabled": {
+            "default": false,
+            "title": "Claw Me Cloud Enabled",
+            "type": "boolean"
+          },
+          "claw_me_email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Claw Me Email"
+          },
+          "claw_me_meetings_addon_enabled": {
+            "default": false,
+            "title": "Claw Me Meetings Addon Enabled",
+            "type": "boolean"
+          },
+          "claw_me_profile_avatar_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Claw Me Profile Avatar Url"
+          },
+          "claw_me_profile_bio": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Claw Me Profile Bio"
+          },
+          "claw_me_profile_public": {
+            "default": true,
+            "title": "Claw Me Profile Public",
+            "type": "boolean"
+          },
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "is_superuser": {
+            "title": "Is Superuser",
+            "type": "boolean"
+          },
+          "marketing_opt_in": {
+            "title": "Marketing Opt In",
+            "type": "boolean"
+          },
+          "marketing_opted_in_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Marketing Opted In At"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "plan": {
+            "title": "Plan",
+            "type": "string"
+          },
+          "plan_id": {
+            "title": "Plan Id",
+            "type": "string"
+          },
+          "subscription_cancel_at_period_end": {
+            "default": false,
+            "title": "Subscription Cancel At Period End",
+            "type": "boolean"
+          },
+          "subscription_expires_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Subscription Expires At"
+          },
+          "subscription_status": {
+            "default": "none",
+            "title": "Subscription Status",
+            "type": "string"
+          },
+          "subscription_tier": {
+            "title": "Subscription Tier",
+            "type": "string"
+          },
+          "username": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Username"
+          }
+        },
+        "required": [
+          "id",
+          "email",
+          "name",
+          "plan",
+          "plan_id",
+          "subscription_tier",
+          "marketing_opt_in",
+          "created_at",
+          "is_superuser"
+        ],
+        "title": "SessionUserResponse",
+        "type": "object"
+      },
+      "VerifyTokenRequest": {
+        "description": "Schema for verifying a magic link token (mobile).",
+        "properties": {
+          "token": {
+            "title": "Token",
+            "type": "string"
+          }
+        },
+        "required": [
+          "token"
+        ],
+        "title": "VerifyTokenRequest",
+        "type": "object"
+      },
+      "OnboardingProposalResponse": {
+        "properties": {
+          "action": {
+            "title": "Action",
+            "type": "string"
+          },
+          "approved_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Approved At"
+          },
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "created_by": {
+            "title": "Created By",
+            "type": "string"
+          },
+          "executed_at": {
+            "anyOf": [
+              {
+                "format": "date-time",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Executed At"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "idempotency_key": {
+            "title": "Idempotency Key",
+            "type": "string"
+          },
+          "payload": {
+            "additionalProperties": true,
+            "title": "Payload",
+            "type": "object"
+          },
+          "payload_sha256": {
+            "title": "Payload Sha256",
+            "type": "string"
+          },
+          "risk": {
+            "title": "Risk",
+            "type": "string"
+          },
+          "session_id": {
+            "title": "Session Id",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "summary": {
+            "title": "Summary",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "session_id",
+          "action",
+          "summary",
+          "payload",
+          "payload_sha256",
+          "risk",
+          "status",
+          "idempotency_key",
+          "created_by",
+          "approved_at",
+          "executed_at",
+          "created_at"
+        ],
+        "title": "OnboardingProposalResponse",
+        "type": "object"
+      },
+      "McpJsonRpcRequest": {
+        "properties": {
+          "id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Id"
+          },
+          "jsonrpc": {
+            "const": "2.0",
+            "default": "2.0",
+            "title": "Jsonrpc",
+            "type": "string"
+          },
+          "method": {
+            "title": "Method",
+            "type": "string"
+          },
+          "params": {
+            "additionalProperties": true,
+            "title": "Params",
+            "type": "object"
+          }
+        },
+        "required": [
+          "method"
+        ],
+        "title": "McpJsonRpcRequest",
+        "type": "object"
+      },
+      "HumanAction": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "authorize",
+              "approve",
+              "checkout",
+              "secret",
+              "provider",
+              "recover"
+            ],
+            "title": "Kind",
+            "type": "string"
+          },
+          "label": {
+            "title": "Label",
+            "type": "string"
+          },
+          "url": {
+            "title": "Url",
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "url",
+          "label"
+        ],
+        "title": "HumanAction",
+        "type": "object"
+      },
+      "ValidationError": {
+        "properties": {
+          "ctx": {
+            "title": "Context",
+            "type": "object"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      },
+      "OnboardingChoice": {
+        "properties": {
+          "description": {
+            "title": "Description",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "label": {
+            "title": "Label",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "description"
+        ],
+        "title": "OnboardingChoice",
+        "type": "object"
+      },
+      "AgentPrompt": {
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "outcome": {
+            "title": "Outcome",
+            "type": "string"
+          },
+          "risk": {
+            "enum": [
+              "read",
+              "proposal",
+              "approval",
+              "authorization",
+              "payment"
+            ],
+            "title": "Risk",
+            "type": "string"
+          },
+          "scopes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Scopes",
+            "type": "array"
+          },
+          "surface": {
+            "title": "Surface",
+            "type": "string"
+          },
+          "template": {
+            "title": "Template",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "tool": {
+            "title": "Tool",
+            "type": "string"
+          },
+          "variables": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Variables",
+            "type": "array"
+          }
+        },
+        "required": [
+          "id",
+          "surface",
+          "title",
+          "template",
+          "tool",
+          "scopes",
+          "risk",
+          "variables",
+          "outcome"
+        ],
+        "title": "AgentPrompt",
+        "type": "object"
+      }
+    },
+    "securitySchemes": {
+      "HTTPBearer": {
+        "scheme": "bearer",
+        "type": "http"
+      }
+    }
+  }
 }
