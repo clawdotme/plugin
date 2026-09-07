@@ -1,0 +1,14 @@
+{
+  "slug": "presentation-outline",
+  "title": "Presentation outline",
+  "category": "presentations-reports",
+  "description": "A presentation Page with a narrative, evidence, speaker notes, and a decision slide.",
+  "highlights": [
+    "Five-part presentation structure",
+    "Evidence and speaker notes",
+    "Decision and next steps"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

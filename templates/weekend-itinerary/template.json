@@ -1,0 +1,14 @@
+{
+  "slug": "weekend-itinerary",
+  "title": "A long weekend away",
+  "category": "planning-travel",
+  "description": "Put travel details, daily plans, and practical notes in one shareable Page.",
+  "highlights": [
+    "Day-by-day itinerary",
+    "Travel and stay details",
+    "Packing checklist"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

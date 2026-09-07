@@ -1,0 +1,14 @@
+{
+  "slug": "product-launch-page",
+  "title": "Product launch page",
+  "category": "websites-portfolios",
+  "description": "A focused launch page with product benefits, a preview, FAQs, and a clear next step.",
+  "highlights": [
+    "Product value proposition",
+    "Benefit sections and FAQ",
+    "External call to action"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

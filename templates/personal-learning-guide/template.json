@@ -1,0 +1,14 @@
+{
+  "slug": "personal-learning-guide",
+  "title": "Personal learning guide",
+  "category": "education-personal",
+  "description": "Organize a learning goal into manageable sessions and useful reference notes.",
+  "highlights": [
+    "Four-week learning plan",
+    "Session checklist",
+    "Notes and references"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

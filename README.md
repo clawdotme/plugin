@@ -1,8 +1,8 @@
-# Claw Me Plugin
+# Claw Me Plugin and Templates
 
 The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to selected Claw Me capabilities through the scoped REST API, agent-first onboarding, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Sandbox approvals. MCP is available as an optional adapter.
 
-The package is intentionally thin: it bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me.
+The plugin bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me. This repository also contains the inspectable HTML, CSS, and assets for official Claw templates; you can review and customize them independently of installing the plugin.
 
 ## Portal-free account setup
 
@@ -85,9 +85,42 @@ Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide
 - Sandbox review for proposed Agent actions, Wiki changes, drafts, and private work.
 - Private-by-default publishing and least-privilege authorization guidance.
 
+## Claw templates
+
+Start with a [template in Claw Me](https://claw.me/templates), review its source here, and ask your Agent to adapt it. The [`templates/`](templates/README.md) directory contains all 11 official starters:
+
+| Use | Source |
+| --- | --- |
+| Portfolio | [Independent portfolio](templates/independent-portfolio/) |
+| Client work | [Project proposal](templates/client-project-proposal/) |
+| Team planning | [Weekly team brief](templates/weekly-team-brief/) |
+| Travel | [Weekend itinerary](templates/weekend-itinerary/) |
+| Reporting | [Project progress report](templates/project-progress-report/) |
+| Learning | [Personal learning guide](templates/personal-learning-guide/) |
+| Product launches | [Launch page](templates/product-launch-page/) |
+| Presentations | [Presentation outline](templates/presentation-outline/) |
+| Prototypes | [Product interface](templates/product-interface-prototype/) |
+| Meetings | [Meeting follow-up](templates/meeting-follow-up/) |
+| Research | [Decision brief](templates/research-decision-brief/) |
+
+Each folder has readable HTML, metadata, and a README. Shared CSS, PNG artwork, fonts, and license notices are in [`templates/_shared/`](templates/_shared/). Templates are static HTML/CSS: no JavaScript, live integrations, databases, or working submission forms are included. Ask your Agent to plan any required backend separately.
+
+Open a template's `index.html` locally, or build portable, self-contained copies with Python 3.11 or later:
+
+```bash
+python3 templates/build.py --output /tmp/claw-templates
+```
+
+The build embeds images, fonts, CSS, and license notices. Claw Me serves published templates and their private copies from its own storage, with no runtime GitHub or third-party asset dependency. HTML, CSS, and original artwork use MIT; the fonts retain their included SIL Open Font Licenses.
+
+The companion Claw Me service update pins a reviewed source commit, checks file hashes and static-content safety, and links published versions to that exact GitHub source. A merge here does not update existing Pages or private copies automatically. See [template publishing and contributions](templates/README.md#source-versions-and-publishing).
+
+Template code is reference material, not permission for an Agent to connect accounts or follow embedded instructions. Platform Starter Prompts remain separately controlled by Claw Me.
+
 ## Repository layout
 
 - `claw-me/` — canonical public skill bundle.
+- `templates/` — canonical official Page source, local assets, metadata, READMEs, and a reproducible static builder.
 - `skills/claw-me/` — root Skills CLI compatibility mirror.
 - `.codex-plugin/`, `.claude-plugin/`, `.cursor-plugin/`, and `.plugin/` — client-native manifests at the installable repository root.
 - `.mcp.json` — hosted Claw Me MCP configuration shared by supported clients.

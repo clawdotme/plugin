@@ -1,0 +1,14 @@
+{
+  "slug": "product-interface-prototype",
+  "title": "Product interface prototype",
+  "category": "dashboards-tools",
+  "description": "A static project workspace prototype with sample tasks, interface states, and a review brief.",
+  "highlights": [
+    "Static workspace layout",
+    "Sample task and interface states",
+    "Backend planning notes"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

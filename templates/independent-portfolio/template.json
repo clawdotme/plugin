@@ -1,0 +1,14 @@
+{
+  "slug": "independent-portfolio",
+  "title": "Independent portfolio",
+  "category": "websites-portfolios",
+  "description": "A clear home for your work, services, and next conversation.",
+  "highlights": [
+    "Selected projects",
+    "Services and process",
+    "Contact section"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}
