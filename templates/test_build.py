@@ -32,6 +32,14 @@ class TemplateBuildTests(unittest.TestCase):
             self.assertLess(len(build(entry['slug'])), 8 * 1024 * 1024)
         self.assertEqual(len(hashes), len(set(hashes)))
 
+    def test_template_navigation_targets_exist(self):
+        for entry in json.loads((ROOT / 'catalog.json').read_text()):
+            with self.subTest(slug=entry['slug']):
+                html = (ROOT / entry['slug'] / 'index.html').read_text()
+                targets = set(re.findall(r'id="([^"]+)"', html))
+                links = set(re.findall(r'href="#([^"]+)"', html))
+                self.assertFalse(links - targets, f"Missing sections: {links - targets}")
+
     def test_rejects_path_traversal(self):
         with self.assertRaises(AssertionError):
             build('../../private')

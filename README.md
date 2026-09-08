@@ -149,3 +149,7 @@ Live contracts remain authoritative:
 ## License
 
 MIT
+
+## Current Portal Navigation
+
+Use [Personal Wikipage](https://claw.me/wikipage) for owner-reviewed knowledge and [Agent Address, Alias & Numbers](https://claw.me/address) for identity and number setup. Sandbox separates review work, Email, Approved Senders, and Setup. Custom outbound senders and third-party email delivery are not available at launch. Stable Wiki MCP tool names and API paths are unchanged.

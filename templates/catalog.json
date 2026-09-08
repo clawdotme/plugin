@@ -1,7 +1,7 @@
 [
   {
     "slug": "independent-portfolio",
-    "title": "Independent portfolio",
+    "title": "Independent Portfolio",
     "category": "websites-portfolios",
     "description": "A clear home for your work, services, and next conversation.",
     "highlights": [
@@ -12,7 +12,7 @@
   },
   {
     "slug": "client-project-proposal",
-    "title": "Client project proposal",
+    "title": "Client Project Proposal",
     "category": "business-client-work",
     "description": "Share a clear scope, timeline, and budget before a project begins.",
     "highlights": [
@@ -23,7 +23,7 @@
   },
   {
     "slug": "weekly-team-brief",
-    "title": "Weekly team brief",
+    "title": "Weekly Team Brief",
     "category": "dashboards-tools",
     "description": "Keep a team aligned with a readable snapshot of priorities and progress.",
     "highlights": [
@@ -34,7 +34,7 @@
   },
   {
     "slug": "weekend-itinerary",
-    "title": "A long weekend away",
+    "title": "A Long Weekend Away",
     "category": "planning-travel",
     "description": "Put travel details, daily plans, and practical notes in one shareable Page.",
     "highlights": [
@@ -45,7 +45,7 @@
   },
   {
     "slug": "project-progress-report",
-    "title": "Project progress report",
+    "title": "Project Progress Report",
     "category": "presentations-reports",
     "description": "Turn an update into a clear report with outcomes, evidence, and next steps.",
     "highlights": [
@@ -56,7 +56,7 @@
   },
   {
     "slug": "personal-learning-guide",
-    "title": "Personal learning guide",
+    "title": "Personal Learning Guide",
     "category": "education-personal",
     "description": "Organize a learning goal into manageable sessions and useful reference notes.",
     "highlights": [
@@ -67,7 +67,7 @@
   },
   {
     "slug": "product-launch-page",
-    "title": "Product launch page",
+    "title": "Product Launch Page",
     "category": "websites-portfolios",
     "description": "A focused launch page with product benefits, a preview, FAQs, and a clear next step.",
     "highlights": [
@@ -78,7 +78,7 @@
   },
   {
     "slug": "presentation-outline",
-    "title": "Presentation outline",
+    "title": "Presentation Outline",
     "category": "presentations-reports",
     "description": "A presentation Page with a narrative, evidence, speaker notes, and a decision slide.",
     "highlights": [
@@ -89,7 +89,7 @@
   },
   {
     "slug": "product-interface-prototype",
-    "title": "Product interface prototype",
+    "title": "Product Interface Prototype",
     "category": "dashboards-tools",
     "description": "A static project workspace prototype with sample tasks, interface states, and a review brief.",
     "highlights": [
@@ -100,7 +100,7 @@
   },
   {
     "slug": "meeting-follow-up",
-    "title": "Meeting follow-up",
+    "title": "Meeting Follow-up",
     "category": "business-client-work",
     "description": "Turn a meeting into a decision summary, action list, and reviewed follow-up draft.",
     "highlights": [
@@ -111,7 +111,7 @@
   },
   {
     "slug": "research-decision-brief",
-    "title": "Research decision brief",
+    "title": "Research Decision Brief",
     "category": "presentations-reports",
     "description": "A sourced research brief with evaluation criteria, options, and a recommendation.",
     "highlights": [
