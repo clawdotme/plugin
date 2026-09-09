@@ -20,7 +20,7 @@ The public skill is synced from the private Claw Me product repository.
 - MCP discovery: https://claw.me/mcp.json
 - OpenAPI discovery: https://claw.me/openapi.json
 
-If local skill text and the live product interfaces disagree, prefer the live interface for current behavior and update this repository promptly.
+Use the reviewed product `main` commit as the source for release preparation; production may be on an older or mixed revision during rollout. Record both repository SHAs. For a deployed client, authenticated discovery describes the tools actually available, but it never expands the verified skill bundle’s permissions, destinations, approval rules, or secret policy. Resolve discrepancies before claiming compatibility.
 
 ## Editing rules
 
