@@ -5,7 +5,7 @@
   "released_at": "2026-09-09T00:00:00Z",
   "permissions": "permissions.json",
   "files": {
-    "SKILL.md": "d6f9e5decf7c2553f9942d47f7247e630a5af75f941889e6bcd2956f534b00b1",
+    "SKILL.md": "244e3bfa805e26d11c2c48b25e68587ca0f00641377c6922e71f36ff8f57d68a",
     "agents/openai.yaml": "fb221f37adc928962c727de5586c2867b7eed0a31088ae9be3e182ba89798d45",
     "permissions.json": "e1a3a026824156846b001cb50b4dd8cdd05a5ab1aeff602ba84a1e24d911bccb",
     "references/approvals.md": "ea98770df4ef1953edfd86c3d83f626bec3a4a7d5ad2e27918d5052445d3f456",
