@@ -1,3 +1,9 @@
+## Unreleased — final onboarding billing choice
+
+- Draft sync of skill 1.1.4 for explicit Free, PAYG, Basic, or Plus selection as the last setup step.
+- Document hosted card setup, separate wallet funding, the 72-hour warning, persisted purchase keys and verified completion.
+- Do not release until the product change is merged, the skill is synced from reviewed product main, and authenticated discovery confirms the new routes/tools. Plugin version and verified compatibility remain at the last released version until then.
+
 # 0.5.2
 
 - Sync skill 1.1.2 with the four-step onboarding guide, Profile visibility, private Agent context, Connections, and Calculator.

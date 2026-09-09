@@ -32,7 +32,7 @@ Signup does not require an invitation; email verification and configured domain 
 - For meetings, confirm the meeting URL, recording consent, destination Agent, and recording-retention choice before scheduling. Results are private in Drive by default.
 
 Do not assume every account has every product configured or every Agent has every permission. Read [capabilities.md](references/capabilities.md) before describing what this Agent can do or asking the owner to expand access.
-Read [onboarding.md](references/onboarding.md) when starting or resuming setup for an existing Agent or Managed OpenClaw.
+Read [onboarding.md](references/onboarding.md) when starting or resuming setup for an existing Agent or Managed OpenClaw. Finish with the owner’s explicit billing choice: Free, catalog-enabled pay as you go, Basic, or Plus. Verify activation before confirming completion; never infer purchase approval.
 
 ## Understand natural phrases
 
