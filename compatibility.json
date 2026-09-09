@@ -1,6 +1,6 @@
 {
-  "pluginVersion": "0.5.3",
-  "verifiedAt": "2026-09-07",
+  "pluginVersion": "0.5.4",
+  "verifiedAt": "2026-09-10",
   "contracts": {
     "onboarding": "1.0.0",
     "prompts": "1.0.0",
@@ -21,5 +21,9 @@
     "cursor": "manifest",
     "openPlugins": "manifest",
     "openClaw": "external-private-runtime"
+  },
+  "source": {
+    "productCommit": "0d753f53bad02006d1618fb0fe2aa84730ffa7b9",
+    "pluginBaseCommit": "a352f5a311a4f605b50356eb0ea2d255bb1bd850"
   }
 }

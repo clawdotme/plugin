@@ -1,3 +1,10 @@
+## 0.5.4 — 2026-09-10
+
+- Sync skill 1.1.4 for explicit Free, PAYG, Basic, or Plus selection as the last onboarding step. Free completes without a card.
+- Document hosted card setup, separate wallet funding, the 72-hour warning, persisted purchase keys, and verified PAYG completion.
+- Add billing choice, PAYG setup, and access-status tools to the discovery contracts without expanding plugin permissions.
+- Clarify that managed hosting requires a Basic or Plus subscription and has a separate monthly charge.
+
 # 0.5.2
 
 - Sync skill 1.1.2 with the four-step onboarding guide, Profile visibility, private Agent context, Connections, and Calculator.

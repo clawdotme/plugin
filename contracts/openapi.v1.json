@@ -278,7 +278,9 @@
                 "checkout",
                 "wallet",
                 "payment",
-                "manage"
+                "manage",
+                "payg",
+                "status"
               ],
               "title": "Operation",
               "type": "string"
@@ -883,6 +885,72 @@
         "summary": "List Agent Prompts",
         "tags": [
           "Agent-first onboarding"
+        ]
+      }
+    },
+    "/billing/onboarding": {
+      "get": {
+        "operationId": "get_onboarding_billing_api_v1_billing_onboarding_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Get Onboarding Billing",
+        "tags": [
+          "billing"
+        ]
+      },
+      "post": {
+        "operationId": "set_onboarding_billing_api_v1_billing_onboarding_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OnboardingBillingChoice"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "summary": "Set Onboarding Billing",
+        "tags": [
+          "billing"
         ]
       }
     }
@@ -2138,6 +2206,31 @@
           "outcome"
         ],
         "title": "AgentPrompt",
+        "type": "object"
+      },
+      "OnboardingBillingChoice": {
+        "additionalProperties": false,
+        "properties": {
+          "choice": {
+            "enum": [
+              "free",
+              "payg",
+              "basic",
+              "plus"
+            ],
+            "title": "Choice",
+            "type": "string"
+          },
+          "confirm": {
+            "default": false,
+            "title": "Confirm",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "choice"
+        ],
+        "title": "OnboardingBillingChoice",
         "type": "object"
       }
     },
