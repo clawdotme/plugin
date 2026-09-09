@@ -5,6 +5,10 @@
 
 # Changelog
 
+## 0.5.3
+
+- Keep Profile focused on public profile editing and private context. Direct connection management to Agents and remove Profile connection links from onboarding.
+
 ## 0.5.0 (unreleased)
 
 - Document explicitly delegated, email-verified owner setup without the customer portal.
