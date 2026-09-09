@@ -1,8 +1,9 @@
-## Unreleased — final onboarding billing choice
+## 0.5.4 — 2026-09-09
 
-- Draft sync of skill 1.1.4 for explicit Free, PAYG, Basic, or Plus selection as the last setup step.
-- Document hosted card setup, separate wallet funding, the 72-hour warning, persisted purchase keys and verified completion.
-- Do not release until the product change is merged, the skill is synced from reviewed product main, and authenticated discovery confirms the new routes/tools. Plugin version and verified compatibility remain at the last released version until then.
+- Sync skill 1.1.4 for explicit Free, PAYG, Basic, or Plus selection as the last onboarding step. Free completes without a card.
+- Document hosted card setup, separate wallet funding, the 72-hour warning, persisted purchase keys, and verified PAYG completion.
+- Add billing choice, PAYG setup, and access-status tools to the discovery contracts without expanding plugin permissions.
+- Clarify that managed hosting requires a Basic or Plus subscription and has a separate monthly charge.
 
 # 0.5.2
 

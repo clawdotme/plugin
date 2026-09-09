@@ -1,16 +1,75 @@
 {
   "contractVersion": "1.0.0",
   "tools": [
-    { "name": "onboarding_start", "scope": "onboarding:write", "mutates": true },
-    { "name": "onboarding_resume", "scope": "onboarding:read", "mutates": false },
-    { "name": "onboarding_answer", "scope": "onboarding:write", "mutates": true },
-    { "name": "onboarding_preview", "scope": "setup:read", "mutates": false },
-    { "name": "onboarding_submit", "scope": "setup:propose", "mutates": true },
-    { "name": "onboarding_status", "scope": "onboarding:read", "mutates": false },
-    { "name": "billing_catalog", "scope": "billing:read", "mutates": false },
-    { "name": "billing_quote", "scope": "billing:propose", "mutates": true },
-    { "name": "billing_start_checkout", "scope": "billing:propose", "mutates": true },
-    { "name": "billing_payment_status", "scope": "billing:read", "mutates": false },
-    { "name": "billing_create_wallet_payment", "scope": "billing:propose", "mutates": true }
+    {
+      "name": "onboarding_start",
+      "scope": "onboarding:write",
+      "mutates": true
+    },
+    {
+      "name": "onboarding_resume",
+      "scope": "onboarding:read",
+      "mutates": false
+    },
+    {
+      "name": "onboarding_answer",
+      "scope": "onboarding:write",
+      "mutates": true
+    },
+    {
+      "name": "onboarding_preview",
+      "scope": "setup:read",
+      "mutates": false
+    },
+    {
+      "name": "onboarding_submit",
+      "scope": "setup:propose",
+      "mutates": true
+    },
+    {
+      "name": "onboarding_status",
+      "scope": "onboarding:read",
+      "mutates": false
+    },
+    {
+      "name": "billing_catalog",
+      "scope": "billing:read",
+      "mutates": false
+    },
+    {
+      "name": "billing_quote",
+      "scope": "billing:propose",
+      "mutates": true
+    },
+    {
+      "name": "billing_start_checkout",
+      "scope": "billing:propose",
+      "mutates": true
+    },
+    {
+      "name": "billing_payment_status",
+      "scope": "billing:read",
+      "mutates": false
+    },
+    {
+      "name": "billing_create_wallet_payment",
+      "scope": "billing:propose",
+      "mutates": true
+    },
+    {
+      "name": "billing_onboarding_choice",
+      "scope": "billing:propose",
+      "mutates": true
+    },
+    {
+      "name": "billing_start_payg",
+      "scope": "billing:propose",
+      "mutates": true
+    },
+    {
+      "name": "billing_access_status",
+      "scope": "billing:read",
+      "mutates": false
+    }
   ]
 }
