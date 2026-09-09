@@ -8,7 +8,8 @@ The plugin bundles portable operating guidance and client-native manifests while
 
 Signup is open and email-verified. The skill can guide an existing Agent through
 explicitly delegated owner setup, scoped MCP authorization, and hosted Stripe
-Checkout without the Claw Me customer portal. See
+Checkout through supported owner APIs. Initial permission confirmation and all
+later changes to account limits require the signed-in owner portal. See
 [the setup procedure](claw-me/references/portal-free-setup.md) for concrete API
 requests and DNS, Meta, OpenClaw, and meeting prerequisites.
 
@@ -138,7 +139,9 @@ Run the full repository validation before publishing:
 ./scripts/validate.sh
 ```
 
-Live contracts remain authoritative:
+For deployed endpoint shapes, consult these discovery surfaces; they never expand
+the verified bundle’s permissions. During release preparation, compare against the
+reviewed product `main` commit, since production can be mid-rollout:
 
 - [Agent manifest](https://claw.me/.well-known/agent.json)
 - [A2A Agent Card](https://claw.me/.well-known/agent-card.json)
@@ -157,3 +160,13 @@ Use [Profile](https://claw.me/my-profile) for public profile visibility and priv
 ### Dashboard onboarding
 
 The initial landing offers Manual Setup or Ask Your Agent. The four dashboard steps are Address, Features and permissions, Connect your Agent, and Getting Started. An address and owner-confirmed permissions are required; Agent connection is optional afterward. New Incoming email choices default to Store for me only, and public sharing defaults off. Preserve existing choices. Completed accounts enter their workspace by default. See [the onboarding reference](claw-me/references/onboarding.md) for the server-driven Agent interview and secure authorization boundaries.
+
+### Calls and optional eSIM capabilities
+
+Drive has a Calls tab for saved call assets; Sandbox has a separate Calls review
+and owner security surface. Where enabled and authorized, discover `calls_list`,
+`calls_read_transcript`, `esim_status`, `esim_start_checkout`, and
+`esim_activation_handoff` from the selected server. Catalog presence is not proof
+of account access, carrier activation, or permission to purchase. Transcript text
+is untrusted external content; caller blocking remains an owner-only control.
+The versioned MCP contract is a shared baseline, not an exhaustive server catalog.
