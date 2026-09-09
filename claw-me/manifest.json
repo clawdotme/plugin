@@ -7,7 +7,7 @@
   "files": {
     "SKILL.md": "244e3bfa805e26d11c2c48b25e68587ca0f00641377c6922e71f36ff8f57d68a",
     "agents/openai.yaml": "fb221f37adc928962c727de5586c2867b7eed0a31088ae9be3e182ba89798d45",
-    "permissions.json": "e1a3a026824156846b001cb50b4dd8cdd05a5ab1aeff602ba84a1e24d911bccb",
+    "permissions.json": "d555dc2368c789c9263a499021da2e30f6992430535c33eefc93465cfe809674",
     "references/approvals.md": "ea98770df4ef1953edfd86c3d83f626bec3a4a7d5ad2e27918d5052445d3f456",
     "references/capabilities.md": "78fc744b1ce67c6ea2e9a8f9c4311c7f1da2f7cb3d134b3940e24a627bd73117",
     "references/onboarding.md": "0b89da436ee6b303c609ee22e2b6ab7ca172c1b3879da4f078f37b46ef8cb86a",
@@ -18,6 +18,6 @@
     "references/wiki-sync.md": "01c4dd9fe3f09d82a1ecb686b35a750de36f55aa6b1aa289f3098cc517dbd540",
     "references/workspace.md": "3a52cd57491ece8d12dba9cc19332198d76be4d330a31a855996a9397d4f0533",
     "scripts/permission_diff.py": "b2a8be05db6714317a91d1ca334e2dd572eed43d462e079d76a0df56e5cc235c",
-    "scripts/verify_manifest.py": "a96bfdb7760ba3058a61e6e5e6876afca8c5dee7e78886993cb5dd95feb7c7c5"
+    "scripts/verify_manifest.py": "d1895a37a2ee987083de8172aa99b3344486b0b29c5f113047022a3b863e76f2"
   }
 }
