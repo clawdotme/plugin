@@ -152,7 +152,7 @@ MIT
 
 ## Current Portal Navigation
 
-Use [Profile](https://claw.me/my-profile) for public profile visibility, private Agent context, and Connections. Profile follows Sandbox in navigation. Detailed API and existing A2A setup stays in Connections; the onboarding features step covers key access and public-sharing choices. Reviewing private context never publishes it. Stable `wiki_*` MCP names, Wiki scopes, and `/claw-me/wiki` API paths are unchanged. Legacy `/wikipage` and `/wiki` links redirect to Profile context. [Account settings](https://claw.me/profile) remain separate. [Calculator](https://claw.me/calculator) replaces Pricing Calculator with a redirect from the old URL.
+Use [Profile](https://claw.me/my-profile) for public profile visibility and private agent context. Profile follows Sandbox in navigation. Approved connections and existing A2A discovery are under [Agents](https://claw.me/agents?view=authorizations); the onboarding features step covers key access and public-sharing choices. Reviewing private context never publishes it. Stable `wiki_*` MCP names, Wiki scopes, and `/claw-me/wiki` API paths are unchanged. Legacy `/wikipage` and `/wiki` links redirect to Profile context. [Account settings](https://claw.me/profile) remain separate. [Calculator](https://claw.me/calculator) replaces Pricing Calculator with a redirect from the old URL.
 
 ### Dashboard onboarding
 
