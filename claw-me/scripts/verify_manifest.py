@@ -11,6 +11,9 @@ from pathlib import Path
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
     manifest = json.loads((root / "manifest.json").read_text(encoding="utf-8"))
+    permissions = json.loads((root / manifest["permissions"]).read_text(encoding="utf-8"))
+    if permissions.get("skill_version") != manifest["version"]:
+        raise SystemExit("permissions skill_version does not match manifest version")
     expected_files = manifest.get("files")
     if not isinstance(expected_files, dict) or not expected_files:
         raise SystemExit("manifest.json has no file digest map")

@@ -152,4 +152,8 @@ MIT
 
 ## Current Portal Navigation
 
-Use [Personal Wikipage](https://claw.me/wikipage) for owner-reviewed knowledge and [Agent Address, Alias & Numbers](https://claw.me/address) for identity and number setup. Sandbox separates review work, Email, Approved Senders, and Setup. Custom outbound senders and third-party email delivery are not available at launch. Stable Wiki MCP tool names and API paths are unchanged.
+Use [Profile](https://claw.me/my-profile) for public profile visibility, private Agent context, and Connections. Profile follows Sandbox in navigation. Detailed API and existing A2A setup stays in Connections; the onboarding features step covers key access and public-sharing choices. Reviewing private context never publishes it. Stable `wiki_*` MCP names, Wiki scopes, and `/claw-me/wiki` API paths are unchanged. Legacy `/wikipage` and `/wiki` links redirect to Profile context. [Account settings](https://claw.me/profile) remain separate. [Calculator](https://claw.me/calculator) replaces Pricing Calculator with a redirect from the old URL.
+
+### Dashboard onboarding
+
+The initial landing offers Manual Setup or Ask Your Agent. The four dashboard steps are Address, Features and permissions, Connect your Agent, and Getting Started. An address and owner-confirmed permissions are required; Agent connection is optional afterward. New Incoming email choices default to Store for me only, and public sharing defaults off. Preserve existing choices. Completed accounts enter their workspace by default. See [the onboarding reference](claw-me/references/onboarding.md) for the server-driven Agent interview and secure authorization boundaries.

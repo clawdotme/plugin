@@ -5,6 +5,7 @@ set -euo pipefail
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 python3 "${repo_root}/scripts/sync-skill.py" --check
+python3 "${repo_root}/claw-me/scripts/verify_manifest.py"
 python3 "${repo_root}/scripts/validate.py"
 python3 "${repo_root}/templates/build.py"
 python3 -m unittest discover -s "${repo_root}/templates" -p "test_*.py"

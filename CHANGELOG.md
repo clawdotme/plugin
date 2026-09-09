@@ -1,3 +1,8 @@
+# 0.5.2
+
+- Sync skill 1.1.2 with the four-step onboarding guide, Profile visibility, private Agent context, Connections, and Calculator.
+- Preserve existing Wiki MCP tool names, scopes, and API contracts.
+
 # Changelog
 
 ## 0.5.0 (unreleased)
