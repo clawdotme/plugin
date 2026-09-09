@@ -1,6 +1,6 @@
 ---
 name: claw-me
-description: Authorize an AI client to use Claw Me and work with private Pages, collaborative Drive Workspaces, a shareable Personal Wikipage, Alias email, Meetings, or Managed OpenClaw. Use when the user says “claw me that,” “claw my meeting,” asks to save, publish, or collaboratively edit work, authorize an MCP or REST client, or read and propose changes to the user’s Wiki.
+description: Authorize an AI client to use Claw Me and work with private Pages, collaborative Drive Workspaces, a Profile with private Agent context, Alias email, Meetings, or Managed OpenClaw. Use when the user says “claw me that,” “claw my meeting,” asks to save, publish, or collaboratively edit work, authorize an MCP or REST client, or read and propose changes to the user’s Wiki.
 ---
 
 # Claw Me
@@ -78,9 +78,9 @@ The URL is unindexed and unguessable, serves the uploaded site with a Claw Me ba
 
 Read [workspace.md](references/workspace.md) when deciding where work belongs, applying sharing rules, or guiding an owner through Pages, Drive, Domains, Variables, Analytics, or Functions.
 
-## Use Your Personal Wikipage
+## Use Profile and private Agent context
 
-The owner’s Personal Wikipage at https://claw.me/wikipage is a living source of truth about their preferences, people, projects, and decisions. Like a Wikipedia page, it grows through proposed edits. Agents reference approved knowledge and propose additions or corrections; the owner reviews and approves each change. Keep using the stable `wiki_*` MCP tools and `/claw-me/wiki` API paths.
+Profile at https://claw.me/my-profile combines the owner’s public profile, private Agent context, and Connections. Private Agent context is a living source of truth about their preferences, people, projects, and decisions, and grows through proposed edits. Reviewing context never publishes it. Public profile visibility and public Page listings are separate owner choices; account public sharing must also be enabled. Connections contains existing API and A2A access controls and Claw Me service discovery, not a public Agent directory or routing service. Agents reference approved knowledge and propose additions or corrections; the owner reviews and approves each change. Keep using the stable `wiki_*` MCP tools and `/claw-me/wiki` API paths.
 
 Use https://claw.me/address for Agent Address, Alias & Numbers. In Sandbox, use Email for incoming mail, Approved Senders for rules, and Setup for Agent connection and onboarding. Custom outbound providers, third-party sends, and replies are disabled at launch; do not offer that setup or request provider credentials. The separately authorized owner-only endpoint remains restricted to the verified account email.
 
