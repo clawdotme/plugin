@@ -1,0 +1,18 @@
+{
+  "slug": "administration-checklist",
+  "title": "Administration Checklist",
+  "category": "finance-admin",
+  "description": "A monthly administration checklist with evidence, ownership, and unresolved items.",
+  "highlights": [
+    "Work from the source",
+    "Handle private information carefully",
+    "End with a short exception list"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

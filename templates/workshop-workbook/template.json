@@ -1,0 +1,18 @@
+{
+  "slug": "workshop-workbook",
+  "title": "Workshop Workbook",
+  "category": "education-personal",
+  "description": "A printable workshop workbook with exercises, worked answers, and a closing action.",
+  "highlights": [
+    "Exercise: name the task",
+    "Exercise: set a boundary",
+    "Exercise: choose the check"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

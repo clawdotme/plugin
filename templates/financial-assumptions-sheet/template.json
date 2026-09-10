@@ -1,0 +1,18 @@
+{
+  "slug": "financial-assumptions-sheet",
+  "title": "Financial Assumptions Sheet",
+  "category": "finance-admin",
+  "description": "Document scenario inputs, units, rationale, and the effect of changing assumptions.",
+  "highlights": [
+    "Base scenario",
+    "One-project scenario",
+    "What remains outside"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

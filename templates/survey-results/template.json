@@ -1,0 +1,18 @@
+{
+  "slug": "survey-results",
+  "title": "Survey Results",
+  "category": "research-data",
+  "description": "A survey report with counts, denominators, question wording, and response limitations.",
+  "highlights": [
+    "The question asked",
+    "What the result says",
+    "Limits and next step"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

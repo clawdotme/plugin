@@ -136,3 +136,159 @@
   .report-deck .metric { font-size: 44px; }
   .report-deck td, .report-deck th { font-size: 14px; padding: 12px; }
 }
+
+/* Complete collection: shared components, purpose-specific compositions. */
+.collection-template { background: var(--theme-background); background-image: none; }
+.collection-template header, .collection-template main, .collection-template footer { max-width: 1360px; }
+.collection-template h1, .collection-template h2, .collection-template h3 { text-wrap: balance; letter-spacing: -.03em; }
+.collection-template p { text-wrap: pretty; }
+.collection-template header { min-height: 82px; }
+.collection-template header strong { font-size: 12px; }
+.collection-template .collection-intro { @apply py-12; max-width: 900px; }
+.collection-template h1 { font-size: clamp(32px, 4vw, 56px); max-width: 900px; }
+.collection-template .lead { max-width: 75ch; }
+.collection-template .collection-table { @apply overflow-x-auto bg-white; border-top: 2px solid var(--theme-text); border-bottom: 1px solid var(--theme-border); }
+.collection-template .collection-table:focus-visible, .collection-template summary:focus-visible { outline: 2px solid var(--theme-primary-ink); outline-offset: 4px; }
+.collection-template table { min-width: 480px; }
+.collection-template table th { white-space: normal; }
+.collection-template table tbody th { background: transparent; font-size: inherit; color: var(--theme-text); text-transform: none; letter-spacing: normal; }
+.collection-template table td { min-width: 90px; }
+.collection-template details { @apply py-5; border-bottom: 1px solid var(--theme-border); }
+.collection-template summary { @apply cursor-pointer font-bold; padding-block: 5px; }
+.collection-template details[open] summary { @apply mb-3; }
+.collection-template details p { max-width: 70ch; }
+.collection-template .collection-note { @apply py-6; }
+.collection-template .collection-note p { max-width: 70ch; }
+.collection-template .collection-hero, .collection-template .collection-schedule, .collection-template .collection-dossier, .collection-template .collection-campaign, .collection-template .collection-journal { @apply grid gap-10 items-start; }
+.collection-template .collection-photo { @apply m-0 overflow-hidden; background: var(--theme-surface-muted); }
+.collection-template .collection-photo img { @apply block w-full object-cover; height: 360px; }
+.collection-template .collection-hero { @apply items-center; }
+.collection-template .collection-hero .collection-photo { margin-block: 32px; }
+.collection-template .collection-working { margin-block: 28px; }
+.collection-template .collection-stories { @apply grid gap-8 my-8; }
+.collection-template .collection-stories > * { min-width: 0; }
+.collection-template .collection-guidance, .collection-template .collection-analysis { max-width: 1000px; margin: 32px 0 48px; }
+.collection-template .collection-timeline article { @apply grid gap-5 py-6; grid-template-columns: 130px minmax(0,1fr); border-top: 1px solid var(--theme-border); }
+.collection-template .collection-time { color: var(--theme-primary-ink); font-weight: 700; }
+.collection-template .collection-timeline h2 { font-family: Archivo, sans-serif; font-size: 23px; }
+.collection-template .collection-timeline p { margin-bottom: 5px; }
+.collection-template .collection-board { @apply grid gap-5; }
+.collection-template .collection-task { @apply p-6 bg-white; border-top: 4px solid var(--theme-primary-ink); }
+.collection-template .collection-task h2 { font-family: Archivo, sans-serif; font-size: 21px; }
+.collection-template .collection-task dt { font-size: 12px; color: var(--theme-text-muted); margin-top: 16px; }
+.collection-template .collection-task dd { margin: 3px 0 0; }
+.collection-template .collection-dossier > aside { background: var(--theme-primary-soft); padding: 12px 28px; }
+.collection-template .collection-document { @apply grid gap-10; }
+.collection-template .collection-document > aside { border-left: 3px solid var(--theme-primary-ink); padding-left: 22px; }
+.collection-template .collection-document > aside a { display: block; margin-block: 14px; }
+.collection-template .collection-exercises { margin-top: 32px; }
+.collection-template .collection-exercises > section { @apply py-8; border-top: 1px solid var(--theme-border); }
+.collection-template .collection-exercise-number { color: var(--theme-primary-ink); font-size: 22px; font-weight: 700; }
+.collection-template .collection-writing { max-width: 800px; margin-top: 24px; color: var(--theme-text-muted); }
+.collection-template .collection-writing hr { margin-block: 30px; }
+.collection-template .collection-message { background: var(--theme-primary-soft); padding-inline: 32px; margin-block: 24px 40px; }
+.collection-template .collection-message h1 { max-width: 740px; }
+.collection-template .collection-journal > section { border-left: 3px solid var(--theme-secondary); padding-left: 24px; }
+.collection-template .collection-journal .collection-note:first-child { padding-top: 0; }
+.collection-template .collection-bars { @apply m-0 mb-8 p-6 bg-white; max-width: 900px; }
+.collection-template .collection-bars figcaption { margin-bottom: 20px; font-weight: 700; }
+.collection-template .collection-bars > div { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin-block: 18px; }
+.collection-template .collection-bars strong { font-size: 13px; }
+.collection-template .collection-track { grid-column: 1 / -1; height: 12px; background: var(--theme-surface-muted); }
+.collection-template .collection-track span { display: block; height: 100%; background: var(--theme-primary-ink); }
+.collection-template .collection-type-sample { font-family: Bitter, serif; font-size: clamp(30px, 4vw, 52px); }
+.collection-template .collection-swatches { @apply grid grid-cols-2 gap-3 mb-8; }
+.collection-template .collection-swatches span { @apply p-6; background: var(--theme-background); border: 1px solid var(--theme-border); }
+.collection-template .collection-swatches span:nth-child(2) { background: var(--theme-text); color: white; }
+.collection-template .collection-swatches span:nth-child(3) { background: var(--theme-primary-ink); color: white; }
+.collection-template .collection-swatches span:nth-child(4) { background: var(--theme-secondary); color: var(--theme-text); }
+.collection-template .collection-slide { @apply py-12; min-height: 82vh; border-bottom: 1px solid var(--theme-border); display: flex; flex-direction: column; justify-content: center; }
+.collection-template .collection-slide .collection-intro { padding-top: 0; }
+.collection-template .collection-slide > a { align-self: flex-start; margin-top: 32px; }
+.collection-template .collection-slide h2 { font-size: clamp(30px, 4vw, 48px); max-width: 900px; }
+.collection-template .collection-slide-copy { font-size: 24px; line-height: 1.65; max-width: 65ch; }
+.collection-template .collection-slide-number { color: var(--theme-primary-ink); font-weight: 700; }
+.collection-template .collection-slide details { max-width: 800px; }
+.collection-capacity h1, .collection-board h1, .collection-scorecard h1, .collection-register h1, .collection-spec h1, .collection-manual h1 { font-family: Archivo, sans-serif; }
+.collection-profile .collection-hero { border-bottom: 3px solid var(--theme-primary-ink); }
+.collection-casebook .collection-hero { grid-template-columns: 1fr; }
+.collection-casebook .collection-photo img { height: 350px; }
+.collection-changelog .collection-table td:first-of-type { font-weight: 700; }
+@media (min-width: 850px) {
+ .collection-template .collection-hero { grid-template-columns: 1.15fr .85fr; }
+ .collection-template .collection-stories { grid-template-columns: repeat(3,minmax(0,1fr)); }
+ .collection-template .collection-schedule, .collection-template .collection-dossier, .collection-template .collection-campaign { grid-template-columns: minmax(0,1.5fr) minmax(0,1fr); }
+ .collection-template .collection-board { grid-template-columns: repeat(3,minmax(0,1fr)); }
+ .collection-template .collection-document { grid-template-columns: 230px minmax(0,1fr); }
+ .collection-template .collection-journal { grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+ .collection-template .collection-swatches { grid-template-columns: repeat(4,minmax(0,1fr)); }
+ .collection-profile .collection-hero { grid-template-columns: .85fr 1.15fr; }
+ .collection-casebook .collection-hero { grid-template-columns: 1fr; }
+ .collection-casebook .collection-stories { grid-template-columns: 1fr 1fr; }
+ .collection-casebook .collection-stories > :first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 650px) {
+ .collection-template .collection-intro { padding-block: 28px; }
+ .collection-template .collection-hero .collection-photo { margin: 0 0 20px; }
+ .collection-template .collection-photo img { height: 240px; }
+ .collection-template .collection-timeline article { grid-template-columns: 1fr; gap: 8px; }
+ .collection-template .collection-message { padding-inline: 18px; }
+ .collection-template .collection-slide-copy { font-size: 20px; }
+ .collection-template .collection-bars > div { grid-template-columns: 1fr; }
+ .collection-template .collection-track { grid-column: auto; }
+ .collection-template .collection-journal > section { padding-left: 12px; }
+}
+@media print {
+ .collection-template { font-size: 11px; line-height: 1.5; }
+ .collection-template header { min-height: 30px; padding-block: 5px; }
+ .collection-template header nav { display: none; }
+ .collection-template .collection-intro { padding-block: 18px; }
+ .collection-template h1 { font-size: 28px; }
+ .collection-template h2, .collection-template .collection-timeline h2 { font-size: 17px; }
+ .collection-template .lead { font-size: 11px; }
+ .collection-template .collection-table { overflow: visible; }
+ .collection-template table { min-width: 0; table-layout: fixed; }
+ .collection-template td, .collection-template th { min-width: 0; font-size: 10px; padding: 7px; }
+ .collection-template .collection-note { padding-block: 12px; }
+ .collection-template details { padding-block: 10px; }
+ .collection-template .collection-photo img { height: 160px; }
+ .collection-template .collection-hero { grid-template-columns: 1.3fr .7fr; gap: 24px; }
+ .collection-template .collection-hero .collection-photo { margin-block: 12px; }
+ .collection-template .collection-stories { grid-template-columns: 1fr 1fr; gap: 20px; margin-block: 16px; }
+ .collection-template .collection-stories > :last-child { grid-column: 1 / -1; }
+ .collection-template .collection-schedule, .collection-template .collection-dossier, .collection-template .collection-campaign, .collection-template .collection-journal { grid-template-columns: minmax(0,1.3fr) minmax(0,1fr); gap: 22px; }
+ .collection-template .collection-timeline article { grid-template-columns: 80px minmax(0,1fr); padding-block: 12px; }
+ .collection-template .collection-board { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+ .collection-template .collection-task { padding: 14px; break-inside: avoid; }
+ .collection-template .collection-task h2 { font-size: 16px; }
+ .collection-template .collection-task dt { margin-top: 8px; font-size: 10px; }
+ .collection-template .collection-document { grid-template-columns: 1fr; }
+ .collection-template .collection-document > aside { display: none; }
+ .collection-template .collection-guidance, .collection-template .collection-analysis { margin-block: 16px; }
+ .collection-template .collection-bars { padding: 12px; margin-bottom: 16px; }
+ .collection-template .collection-bars > div { margin-block: 10px; }
+ .collection-template .collection-bars strong { font-size: 10px; }
+ .collection-template .collection-exercises > section { padding-block: 14px; break-inside: avoid; }
+ .collection-template .collection-writing { margin-top: 12px; }
+ .collection-template .collection-writing hr { margin-block: 18px; }
+ .collection-template .collection-note { break-inside: avoid; }
+ .collection-template h2 { break-after: avoid; }
+ .collection-template footer { break-inside: avoid; font-size: 8px; }
+ .collection-deck header, .collection-deck footer { display: none; }
+ .collection-deck .collection-slide { min-height: 0; height: 172mm; padding: 8mm 0; break-after: page; border: 0; }
+ .collection-deck .collection-slide:last-child { break-after: auto; }
+ .collection-deck .collection-slide > a { display: none; }
+ .collection-deck .collection-slide h1 { font-size: 34px; }
+ .collection-deck .collection-slide h2 { font-size: 38px; }
+ .collection-deck .collection-slide-copy { font-size: 20px; }
+ .collection-deck .collection-slide .lead { font-size: 14px; }
+ .collection-deck td, .collection-deck th { font-size: 12px; padding: 9px; }
+ .collection-deck details { font-size: 13px; }
+}
+.review-board .review-filters { gap: 8px; margin-block: 24px; }
+.review-board .review-filters button { font-size: 12px; }
+.review-board .review-search { display: block; max-width: 700px; font-weight: 700; }
+.review-board .review-search input { display: block; width: 100%; padding: 14px; margin-top: 8px; border: 1px solid var(--theme-border); background: white; color: var(--theme-text); font: inherit; }
+.review-board [hidden] { display: none; }
+.collection-template section, .collection-template aside, .collection-template .collection-document > div { min-width: 0; }
+@media print { .collection-template { background: white; } }

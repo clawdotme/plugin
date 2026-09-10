@@ -1,0 +1,18 @@
+{
+  "slug": "product-requirements",
+  "title": "Product Requirements",
+  "category": "product-engineering",
+  "description": "A product requirements document with scope, user tasks, acceptance criteria, and open decisions.",
+  "highlights": [
+    "User problem",
+    "Scope boundaries",
+    "Open decisions"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "moving-checklist",
+  "title": "Moving Checklist",
+  "category": "planning-travel",
+  "description": "Organize a move by dependencies, owners, and checks before and after handover.",
+  "highlights": [
+    "Pack for the first evening",
+    "Coordinate the dependencies",
+    "Close the old place"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "service-comparison",
+  "title": "Service Comparison",
+  "category": "business-client-work",
+  "description": "Compare service packages by scope, responsibility, and fit rather than vague feature counts.",
+  "highlights": [
+    "Compare the responsibility",
+    "Questions before choosing",
+    "A sensible recommendation"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

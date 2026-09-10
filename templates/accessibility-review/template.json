@@ -1,0 +1,18 @@
+{
+  "slug": "accessibility-review",
+  "title": "Accessibility Review",
+  "category": "product-engineering",
+  "description": "An accessibility review worksheet with observed barriers, affected tasks, and verification steps.",
+  "highlights": [
+    "Describe the barrier",
+    "Check the repair",
+    "Keep the scope visible"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "goal-review",
+  "title": "Goal Review",
+  "category": "education-personal",
+  "description": "Review goals through evidence, obstacles, tradeoffs, and a deliberate continue/change/stop decision.",
+  "highlights": [
+    "What moved",
+    "What to change",
+    "What to release"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

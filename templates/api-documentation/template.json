@@ -1,0 +1,18 @@
+{
+  "slug": "api-documentation",
+  "title": "API Documentation",
+  "category": "product-engineering",
+  "description": "Document an illustrative API through resources, fields, responses, and error handling.",
+  "highlights": [
+    "Example request",
+    "Errors and consistency",
+    "Before implementation"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

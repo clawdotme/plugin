@@ -1,0 +1,18 @@
+{
+  "slug": "team-directory",
+  "title": "Team Directory",
+  "category": "dashboards-tools",
+  "description": "A team directory organized by responsibility, working preferences, and escalation routes.",
+  "highlights": [
+    "Start with responsibility",
+    "Availability is a guide",
+    "When the owner is away"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

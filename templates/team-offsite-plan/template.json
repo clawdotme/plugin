@@ -1,0 +1,18 @@
+{
+  "slug": "team-offsite-plan",
+  "title": "Team Offsite Plan",
+  "category": "planning-travel",
+  "description": "An offsite agenda with outcomes, preparation, facilitation, and space for recovery.",
+  "highlights": [
+    "Prepare lightly",
+    "Facilitate the decision",
+    "Follow through"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

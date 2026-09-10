@@ -1,0 +1,18 @@
+{
+  "slug": "consultant-profile",
+  "title": "Consultant Profile",
+  "category": "websites-portfolios",
+  "description": "Present a consultant’s expertise, engagement formats, and qualification questions.",
+  "highlights": [
+    "Experience with context",
+    "A useful first week",
+    "Check the fit"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

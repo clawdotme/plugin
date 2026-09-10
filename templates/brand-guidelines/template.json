@@ -1,0 +1,18 @@
+{
+  "slug": "brand-guidelines",
+  "title": "Brand Guidelines",
+  "category": "marketing-growth",
+  "description": "A compact brand guide with typography, color roles, writing examples, and usage checks.",
+  "highlights": [
+    "Typography in use",
+    "Color with a purpose",
+    "Write like a colleague"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

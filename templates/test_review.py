@@ -8,12 +8,15 @@ from review import render
 
 
 class ReviewSetTests(unittest.TestCase):
-    def test_ten_complete_pairs_cover_ten_categories(self):
+    def test_hundred_complete_pairs_cover_ten_categories(self):
         selected = json.loads((ROOT / 'review-set.json').read_text())['slugs']
         catalog = {x['slug']: x for x in json.loads((ROOT / 'catalog.json').read_text())}
-        self.assertEqual(len(selected), 10)
-        self.assertEqual(len(set(selected)), 10)
+        self.assertEqual(len(selected), 100)
+        self.assertEqual(len(set(selected)), 100)
         self.assertEqual(len({catalog[s]['category'] for s in selected}), 10)
+        from collections import Counter
+        self.assertEqual(set(Counter(catalog[s]["category"] for s in selected).values()), {10})
+        self.assertEqual(set(selected), set(catalog))
         prompts = []
         for slug in selected:
             with self.subTest(slug=slug):
@@ -24,14 +27,16 @@ class ReviewSetTests(unittest.TestCase):
                 self.assertIn('private', brief['customizationPrompt'])
                 self.assertNotEqual(brief['creationPrompt'], brief['customizationPrompt'])
                 prompts.extend([brief['creationPrompt'], brief['customizationPrompt']])
-        self.assertEqual(len(set(prompts)), 20)
+        self.assertEqual(len(set(prompts)), 200)
 
     def test_review_pages_link_to_both_prompts_and_the_page(self):
         with tempfile.TemporaryDirectory() as tmp:
             output = Path(tmp)
             render(output)
-            self.assertEqual(len(list(output.glob('*-review.html'))), 10)
-            for page in output.glob('*-review.html'):
+            slugs = json.loads((ROOT / 'review-set.json').read_text())['slugs']
+            pages = [output / f'{slug}-review.html' for slug in slugs]
+            self.assertEqual(len(pages), 100)
+            for page in pages:
                 content = page.read_text()
                 self.assertIn('Start with this template', content)
                 self.assertIn('Build your own version', content)

@@ -1,0 +1,18 @@
+{
+  "slug": "client-onboarding-guide",
+  "title": "Client Onboarding Guide",
+  "category": "business-client-work",
+  "description": "Welcome a client with owners, access requests, milestones, and a first-week checklist.",
+  "highlights": [
+    "Working agreement",
+    "Access without confusion",
+    "Ready for the first review"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

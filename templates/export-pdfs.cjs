@@ -14,7 +14,7 @@ const {slugs} = JSON.parse(fs.readFileSync(path.join(__dirname, 'review-set.json
       await page.goto(pathToFileURL(path.join(output, `${slug}.html`)).href);
       await page.evaluate(() => document.fonts.ready);
       await page.evaluate(() => document.querySelectorAll('details').forEach(detail => { detail.open = true; }));
-      await page.pdf({path: path.join(output, `${slug}.pdf`), format: 'A4', landscape: slug === 'project-progress-report', printBackground: true, tagged: true, margin: {top: '14mm', bottom: '14mm', left: '14mm', right: '14mm'}});
+      await page.pdf({path: path.join(output, `${slug}.pdf`), format: 'A4', landscape: slug === 'project-progress-report' || JSON.parse(fs.readFileSync(path.join(__dirname, slug, 'template.json'), 'utf8')).fileEdition?.orientation === 'landscape', printBackground: true, tagged: true, margin: {top: '14mm', bottom: '14mm', left: '14mm', right: '14mm'}});
       await page.close();
       console.log(`Exported ${slug}.pdf`);
     }

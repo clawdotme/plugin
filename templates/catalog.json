@@ -11,6 +11,105 @@
     ]
   },
   {
+    "slug": "case-study-showcase",
+    "title": "Case Study Showcase",
+    "category": "websites-portfolios",
+    "description": "Tell a project story through constraints, decisions, evidence, and the finished result.",
+    "highlights": [
+      "The original difficulty",
+      "What changed",
+      "What the example can show"
+    ]
+  },
+  {
+    "slug": "community-homepage",
+    "title": "Community Homepage",
+    "category": "websites-portfolios",
+    "description": "A community home with a welcoming path, recurring activities, and participation guidelines.",
+    "highlights": [
+      "Your first visit",
+      "How we look after the space",
+      "Make room for newcomers"
+    ]
+  },
+  {
+    "slug": "consultant-profile",
+    "title": "Consultant Profile",
+    "category": "websites-portfolios",
+    "description": "Present a consultant’s expertise, engagement formats, and qualification questions.",
+    "highlights": [
+      "Experience with context",
+      "A useful first week",
+      "Check the fit"
+    ]
+  },
+  {
+    "slug": "event-landing-page",
+    "title": "Event Landing Page",
+    "category": "websites-portfolios",
+    "description": "An event website with agenda, audience, access information, and session details.",
+    "highlights": [
+      "Come with a question",
+      "A comfortable afternoon",
+      "What happens next"
+    ]
+  },
+  {
+    "slug": "newsletter-landing-page",
+    "title": "Newsletter Landing Page",
+    "category": "websites-portfolios",
+    "description": "Explain a newsletter’s editorial promise with a sample issue and clear subscription expectations.",
+    "highlights": [
+      "From the sample issue",
+      "The editorial promise",
+      "Subscription details"
+    ]
+  },
+  {
+    "slug": "personal-homepage",
+    "title": "Personal Homepage",
+    "category": "websites-portfolios",
+    "description": "Introduce your work, current interests, and ways to connect in a personal homepage.",
+    "highlights": [
+      "A little background",
+      "Selected experiment",
+      "Open to"
+    ]
+  },
+  {
+    "slug": "product-launch-page",
+    "title": "Product Launch Page",
+    "category": "websites-portfolios",
+    "description": "Launch a product with a concrete preview, use cases, and meaningful FAQs.",
+    "highlights": [
+      "See the first project",
+      "Who it helps",
+      "Before you join"
+    ]
+  },
+  {
+    "slug": "service-directory",
+    "title": "Service Directory",
+    "category": "websites-portfolios",
+    "description": "A readable directory with service categories, selection criteria, and provider details.",
+    "highlights": [
+      "Choose by the work",
+      "Before an introduction",
+      "Keeping the directory useful"
+    ]
+  },
+  {
+    "slug": "studio-website",
+    "title": "Studio Website",
+    "category": "websites-portfolios",
+    "description": "A studio website with selected work, service scope, and a practical inquiry guide.",
+    "highlights": [
+      "Work that earns its place",
+      "How we work",
+      "Start a conversation"
+    ]
+  },
+  {
     "slug": "client-project-proposal",
     "title": "Client Project Proposal",
     "category": "business-client-work",
@@ -19,6 +118,105 @@
       "Scope and deliverables",
       "Milestones",
       "Budget and next steps"
+    ]
+  },
+  {
+    "slug": "account-plan",
+    "title": "Account Plan",
+    "category": "business-client-work",
+    "description": "An account plan with stakeholder needs, opportunities, risks, and next conversations.",
+    "highlights": [
+      "Current position",
+      "Relationship risks",
+      "Ninety-day focus"
+    ]
+  },
+  {
+    "slug": "client-handover-guide",
+    "title": "Client Handover Guide",
+    "category": "business-client-work",
+    "description": "A handover guide with deliverable locations, maintenance responsibilities, and recovery steps.",
+    "highlights": [
+      "The first walkthrough",
+      "Monthly maintenance",
+      "When something goes wrong"
+    ]
+  },
+  {
+    "slug": "client-onboarding-guide",
+    "title": "Client Onboarding Guide",
+    "category": "business-client-work",
+    "description": "Welcome a client with owners, access requests, milestones, and a first-week checklist.",
+    "highlights": [
+      "Working agreement",
+      "Access without confusion",
+      "Ready for the first review"
+    ]
+  },
+  {
+    "slug": "meeting-follow-up",
+    "title": "Meeting Follow-up",
+    "category": "business-client-work",
+    "description": "Turn a discussion into decisions, owned actions, and a reviewed follow-up draft.",
+    "highlights": [
+      "Decisions made",
+      "Still open",
+      "Follow-up draft"
+    ]
+  },
+  {
+    "slug": "partnership-proposal",
+    "title": "Partnership Proposal",
+    "category": "business-client-work",
+    "description": "Propose a partnership with mutual value, a bounded pilot, and review conditions.",
+    "highlights": [
+      "Why try it",
+      "Pilot boundaries",
+      "Continue only with evidence"
+    ]
+  },
+  {
+    "slug": "project-brief",
+    "title": "Project Brief",
+    "category": "business-client-work",
+    "description": "A project brief that connects the audience, problem, scope, and acceptance conditions.",
+    "highlights": [
+      "The problem to solve",
+      "Acceptance conditions",
+      "Open questions"
+    ]
+  },
+  {
+    "slug": "quarterly-client-review",
+    "title": "Quarterly Client Review",
+    "category": "business-client-work",
+    "description": "Review delivered work, client feedback, unresolved issues, and the next quarter’s priorities.",
+    "highlights": [
+      "What the record supports",
+      "What the client needs to decide",
+      "Next-quarter agreement"
+    ]
+  },
+  {
+    "slug": "service-comparison",
+    "title": "Service Comparison",
+    "category": "business-client-work",
+    "description": "Compare service packages by scope, responsibility, and fit rather than vague feature counts.",
+    "highlights": [
+      "Compare the responsibility",
+      "Questions before choosing",
+      "A sensible recommendation"
+    ]
+  },
+  {
+    "slug": "statement-of-work",
+    "title": "Statement of Work",
+    "category": "business-client-work",
+    "description": "A discussion draft with deliverables, responsibilities, assumptions, and change handling.",
+    "highlights": [
+      "Responsibilities",
+      "Change handling",
+      "Before agreement"
     ]
   },
   {
@@ -33,6 +231,105 @@
     ]
   },
   {
+    "slug": "decision-log",
+    "title": "Decision Log",
+    "category": "dashboards-tools",
+    "description": "A searchable-by-page decision register with alternatives, owners, and review triggers.",
+    "highlights": [
+      "D-01: a smaller first release",
+      "D-02: content people can read",
+      "D-03: coherent feedback"
+    ]
+  },
+  {
+    "slug": "inventory-snapshot",
+    "title": "Inventory Snapshot",
+    "category": "dashboards-tools",
+    "description": "An inventory snapshot with counted stock, reorder points, and reconciliation notes.",
+    "highlights": [
+      "Order decision",
+      "Count with context",
+      "Keep the record current"
+    ]
+  },
+  {
+    "slug": "issue-triage-board",
+    "title": "Issue Triage Board",
+    "category": "dashboards-tools",
+    "description": "Triage issues with impact, reproducibility, ownership, and a next investigation step.",
+    "highlights": [
+      "Triage order",
+      "A useful issue record",
+      "Close with a check"
+    ]
+  },
+  {
+    "slug": "launch-readiness-checklist",
+    "title": "Launch Readiness Checklist",
+    "category": "dashboards-tools",
+    "description": "A launch checklist with gates, owners, evidence, and a visible hold decision.",
+    "highlights": [
+      "Current decision: hold",
+      "What ready means",
+      "The launch conversation"
+    ]
+  },
+  {
+    "slug": "operations-scorecard",
+    "title": "Operations Scorecard",
+    "category": "dashboards-tools",
+    "description": "Track operational measures with definitions, thresholds, and named follow-up actions.",
+    "highlights": [
+      "Where to act",
+      "Definitions matter",
+      "Review the target"
+    ]
+  },
+  {
+    "slug": "project-status-board",
+    "title": "Project Status Board",
+    "category": "dashboards-tools",
+    "description": "A project board with owned work, clear status definitions, and actionable blockers.",
+    "highlights": [
+      "Needs attention",
+      "Status definitions",
+      "The next review"
+    ]
+  },
+  {
+    "slug": "service-health-report",
+    "title": "Service Health Report",
+    "category": "dashboards-tools",
+    "description": "Report service health, incidents, and follow-up work without implying live monitoring.",
+    "highlights": [
+      "Current concern",
+      "What passed means",
+      "Next communication"
+    ]
+  },
+  {
+    "slug": "team-capacity-snapshot",
+    "title": "Team Capacity Snapshot",
+    "category": "dashboards-tools",
+    "description": "Compare available hours and committed work, with explicit assumptions about capacity.",
+    "highlights": [
+      "Read the spare capacity",
+      "Protect the assumptions",
+      "A practical adjustment"
+    ]
+  },
+  {
+    "slug": "team-directory",
+    "title": "Team Directory",
+    "category": "dashboards-tools",
+    "description": "A team directory organized by responsibility, working preferences, and escalation routes.",
+    "highlights": [
+      "Start with responsibility",
+      "Availability is a guide",
+      "When the owner is away"
+    ]
+  },
+  {
     "slug": "weekend-itinerary",
     "title": "A Long Weekend Away",
     "category": "planning-travel",
@@ -41,6 +338,105 @@
       "Day-by-day itinerary",
       "Travel and stay details",
       "Packing checklist"
+    ]
+  },
+  {
+    "slug": "conference-trip-planner",
+    "title": "Conference Trip Planner",
+    "category": "planning-travel",
+    "description": "Plan a conference trip around confirmed logistics, selected sessions, and follow-up time.",
+    "highlights": [
+      "Choose fewer sessions",
+      "Keep logistics together",
+      "After the trip"
+    ]
+  },
+  {
+    "slug": "event-run-of-show",
+    "title": "Event Run of Show",
+    "category": "planning-travel",
+    "description": "A production schedule with cues, owners, dependencies, and contingency notes.",
+    "highlights": [
+      "Before doors open",
+      "If a session runs late",
+      "If equipment fails"
+    ]
+  },
+  {
+    "slug": "moving-checklist",
+    "title": "Moving Checklist",
+    "category": "planning-travel",
+    "description": "Organize a move by dependencies, owners, and checks before and after handover.",
+    "highlights": [
+      "Pack for the first evening",
+      "Coordinate the dependencies",
+      "Close the old place"
+    ]
+  },
+  {
+    "slug": "project-kickoff-agenda",
+    "title": "Project Kickoff Agenda",
+    "category": "planning-travel",
+    "description": "A kickoff agenda with preparation, timed discussions, outputs, and a closing check.",
+    "highlights": [
+      "Before the meeting",
+      "During the discussion",
+      "Close with a read-back"
+    ]
+  },
+  {
+    "slug": "road-trip-itinerary",
+    "title": "Road Trip Itinerary",
+    "category": "planning-travel",
+    "description": "A road trip itinerary with driving windows, rest stops, overnight plans, and alternatives.",
+    "highlights": [
+      "Build around the driver",
+      "A useful stop list",
+      "If the weather changes"
+    ]
+  },
+  {
+    "slug": "team-offsite-plan",
+    "title": "Team Offsite Plan",
+    "category": "planning-travel",
+    "description": "An offsite agenda with outcomes, preparation, facilitation, and space for recovery.",
+    "highlights": [
+      "Prepare lightly",
+      "Facilitate the decision",
+      "Follow through"
+    ]
+  },
+  {
+    "slug": "travel-budget-worksheet",
+    "title": "Travel Budget Worksheet",
+    "category": "planning-travel",
+    "description": "A travel budget with checked totals, shared-cost assumptions, and a contingency line.",
+    "highlights": [
+      "Working total",
+      "What is missing",
+      "When the plan changes"
+    ]
+  },
+  {
+    "slug": "wedding-planning-brief",
+    "title": "Wedding Planning Brief",
+    "category": "planning-travel",
+    "description": "A wedding planning brief with priorities, responsibilities, guest assumptions, and open decisions.",
+    "highlights": [
+      "Three priorities",
+      "Guest experience",
+      "Open decisions"
+    ]
+  },
+  {
+    "slug": "weekly-planner",
+    "title": "Weekly Planner",
+    "category": "planning-travel",
+    "description": "A weekly planner that balances focused work, appointments, and a realistic review.",
+    "highlights": [
+      "Three priorities",
+      "A daily reset",
+      "Friday review"
     ]
   },
   {
@@ -55,6 +451,105 @@
     ]
   },
   {
+    "slug": "annual-review",
+    "title": "Annual Review",
+    "category": "presentations-reports",
+    "description": "An annual review organized around outcomes, evidence, lessons, and next-year priorities.",
+    "highlights": [
+      "What the year produced",
+      "What we learned",
+      "Next year’s focus"
+    ]
+  },
+  {
+    "slug": "board-update",
+    "title": "Board Update",
+    "category": "presentations-reports",
+    "description": "A board-style update with operating evidence, risks, and explicit decisions requested.",
+    "highlights": [
+      "Delivery and focus",
+      "Risk and response",
+      "Decisions requested"
+    ]
+  },
+  {
+    "slug": "customer-insight-report",
+    "title": "Customer Insight Report",
+    "category": "presentations-reports",
+    "description": "Present customer themes with traceable observations, exceptions, and product implications.",
+    "highlights": [
+      "The central difficulty",
+      "Preserve the exceptions",
+      "From insight to test"
+    ]
+  },
+  {
+    "slug": "executive-summary",
+    "title": "Executive Summary",
+    "category": "presentations-reports",
+    "description": "Summarize a longer review with the recommendation, supporting evidence, risks, and action.",
+    "highlights": [
+      "Recommendation",
+      "Reasons and tradeoffs",
+      "Action requested"
+    ]
+  },
+  {
+    "slug": "experiment-results",
+    "title": "Experiment Results",
+    "category": "presentations-reports",
+    "description": "Report an experiment with its hypothesis, sample, observations, and next decision.",
+    "highlights": [
+      "Hypothesis and method",
+      "What we observed",
+      "Next decision"
+    ]
+  },
+  {
+    "slug": "impact-report",
+    "title": "Impact Report",
+    "category": "presentations-reports",
+    "description": "An impact report that separates participation, outcomes, evidence, and remaining uncertainty.",
+    "highlights": [
+      "What was delivered",
+      "What the evidence suggests",
+      "Improve the next report"
+    ]
+  },
+  {
+    "slug": "postmortem-report",
+    "title": "Postmortem Report",
+    "category": "presentations-reports",
+    "description": "A blameless incident report with impact, timeline, contributing factors, and tracked follow-ups.",
+    "highlights": [
+      "Impact and recovery",
+      "Contributing factors",
+      "Follow-up work"
+    ]
+  },
+  {
+    "slug": "presentation-outline",
+    "title": "Presentation Outline",
+    "category": "presentations-reports",
+    "description": "A four-part presentation connecting the problem, evidence, recommendation, and decision.",
+    "highlights": [
+      "The problem",
+      "The proposed change",
+      "The decision requested"
+    ]
+  },
+  {
+    "slug": "product-demo-narrative",
+    "title": "Product Demo Narrative",
+    "category": "presentations-reports",
+    "description": "A product demonstration narrative with realistic steps, success checks, and fallback notes.",
+    "highlights": [
+      "Begin with a real task",
+      "Demonstrate the boundary",
+      "Keep a fallback"
+    ]
+  },
+  {
     "slug": "personal-learning-guide",
     "title": "Personal Learning Guide",
     "category": "education-personal",
@@ -66,58 +561,102 @@
     ]
   },
   {
-    "slug": "product-launch-page",
-    "title": "Product Launch Page",
-    "category": "websites-portfolios",
-    "description": "A focused launch page with product benefits, a preview, FAQs, and a clear next step.",
+    "slug": "career-development-plan",
+    "title": "Career Development Plan",
+    "category": "education-personal",
+    "description": "A development plan linking a career direction to practice, feedback, and demonstrable work.",
     "highlights": [
-      "Product value proposition",
-      "Benefit sections and FAQ",
-      "External call to action"
+      "Choose a direction",
+      "Make practice visible",
+      "Review with someone"
     ]
   },
   {
-    "slug": "presentation-outline",
-    "title": "Presentation Outline",
-    "category": "presentations-reports",
-    "description": "A presentation Page with a narrative, evidence, speaker notes, and a decision slide.",
+    "slug": "course-companion",
+    "title": "Course Companion",
+    "category": "education-personal",
+    "description": "A course companion with learning outcomes, practice tasks, and reflection prompts.",
     "highlights": [
-      "Five-part presentation structure",
-      "Evidence and speaker notes",
-      "Decision and next steps"
+      "Practice: make the goal specific",
+      "Worked example",
+      "Reflection"
     ]
   },
   {
-    "slug": "product-interface-prototype",
-    "title": "Product Interface Prototype",
-    "category": "product-engineering",
-    "description": "A static project workspace prototype with sample tasks, interface states, and a review brief.",
+    "slug": "goal-review",
+    "title": "Goal Review",
+    "category": "education-personal",
+    "description": "Review goals through evidence, obstacles, tradeoffs, and a deliberate continue/change/stop decision.",
     "highlights": [
-      "Static workspace layout",
-      "Sample task and interface states",
-      "Backend planning notes"
+      "What moved",
+      "What to change",
+      "What to release"
     ]
   },
   {
-    "slug": "meeting-follow-up",
-    "title": "Meeting Follow-up",
-    "category": "business-client-work",
-    "description": "Turn a meeting into a decision summary, action list, and reviewed follow-up draft.",
+    "slug": "habit-review",
+    "title": "Habit Review",
+    "category": "education-personal",
+    "description": "A reflective habit review with a modest record, context, and a next-week adjustment.",
     "highlights": [
-      "Meeting decisions and open questions",
-      "Actions with owners and dates",
-      "Follow-up message draft"
+      "Notice the pattern",
+      "Choose one adjustment",
+      "Review without punishment"
     ]
   },
   {
-    "slug": "research-decision-brief",
-    "title": "Research Decision Brief",
-    "category": "research-data",
-    "description": "A sourced research brief with evaluation criteria, options, and a recommendation.",
+    "slug": "language-practice-guide",
+    "title": "Language Practice Guide",
+    "category": "education-personal",
+    "description": "A language practice guide with a short scenario, phrase bank, and self-check prompts.",
     "highlights": [
-      "Research question and scope",
-      "Option comparison and source notes",
-      "Recommendation and tradeoffs"
+      "Try the exchange",
+      "Change one detail",
+      "Check what you can do"
+    ]
+  },
+  {
+    "slug": "personal-knowledge-index",
+    "title": "Personal Knowledge Index",
+    "category": "education-personal",
+    "description": "Organize personal knowledge by purpose, status, and useful connections.",
+    "highlights": [
+      "Start with use",
+      "Keep uncertainty visible",
+      "A small maintenance routine"
+    ]
+  },
+  {
+    "slug": "reading-journal",
+    "title": "Reading Journal",
+    "category": "education-personal",
+    "description": "A reading journal for arguments, questions, connections, and a practical next experiment.",
+    "highlights": [
+      "Summarize in your own words",
+      "Test the connection",
+      "Return to the entry"
+    ]
+  },
+  {
+    "slug": "study-schedule",
+    "title": "Study Schedule",
+    "category": "education-personal",
+    "description": "Plan focused study sessions, retrieval practice, and recovery time around a real deadline.",
+    "highlights": [
+      "A session structure",
+      "When a session is missed",
+      "Check understanding"
+    ]
+  },
+  {
+    "slug": "workshop-workbook",
+    "title": "Workshop Workbook",
+    "category": "education-personal",
+    "description": "A printable workshop workbook with exercises, worked answers, and a closing action.",
+    "highlights": [
+      "Exercise: name the task",
+      "Exercise: set a boundary",
+      "Exercise: choose the check"
     ]
   },
   {
@@ -132,6 +671,105 @@
     ]
   },
   {
+    "slug": "audience-profile",
+    "title": "Audience Profile",
+    "category": "marketing-growth",
+    "description": "An audience profile grounded in tasks, constraints, questions, and evidence gaps.",
+    "highlights": [
+      "The situation",
+      "Likely questions",
+      "Evidence to collect"
+    ]
+  },
+  {
+    "slug": "brand-guidelines",
+    "title": "Brand Guidelines",
+    "category": "marketing-growth",
+    "description": "A compact brand guide with typography, color roles, writing examples, and usage checks.",
+    "highlights": [
+      "Typography in use",
+      "Color with a purpose",
+      "Write like a colleague"
+    ]
+  },
+  {
+    "slug": "channel-performance-report",
+    "title": "Channel Performance Report",
+    "category": "marketing-growth",
+    "description": "Review channel activity with denominators, qualified outcomes, and attribution limits.",
+    "highlights": [
+      "Read the small sample",
+      "Check the definition",
+      "Next month’s test"
+    ]
+  },
+  {
+    "slug": "content-calendar",
+    "title": "Content Calendar",
+    "category": "marketing-growth",
+    "description": "A content calendar with audience questions, formats, owners, and review status.",
+    "highlights": [
+      "The editorial thread",
+      "Review before publication",
+      "Learn from the response"
+    ]
+  },
+  {
+    "slug": "customer-story",
+    "title": "Customer Story",
+    "category": "marketing-growth",
+    "description": "A customer story with a concrete problem, the work performed, and evidence-ready outcomes.",
+    "highlights": [
+      "The customer’s situation",
+      "The work together",
+      "Evidence to add"
+    ]
+  },
+  {
+    "slug": "launch-announcement",
+    "title": "Launch Announcement",
+    "category": "marketing-growth",
+    "description": "Draft a launch announcement with a concrete change, audience benefit, and verified next step.",
+    "highlights": [
+      "The announcement draft",
+      "Make the benefit concrete",
+      "Before release"
+    ]
+  },
+  {
+    "slug": "messaging-guide",
+    "title": "Messaging Guide",
+    "category": "marketing-growth",
+    "description": "A messaging guide with a core promise, supporting points, proof requirements, and examples.",
+    "highlights": [
+      "Lead with the task",
+      "Adapt without drifting",
+      "Claims to avoid"
+    ]
+  },
+  {
+    "slug": "referral-program-brief",
+    "title": "Referral Program Brief",
+    "category": "marketing-growth",
+    "description": "A referral program planning brief with eligibility, process, rewards, and review questions.",
+    "highlights": [
+      "The pilot purpose",
+      "Terms to decide",
+      "Measure the quality"
+    ]
+  },
+  {
+    "slug": "seo-content-brief",
+    "title": "SEO Content Brief",
+    "category": "marketing-growth",
+    "description": "A search-focused content brief with intent, outline, evidence needs, and editorial checks.",
+    "highlights": [
+      "Search intent",
+      "Outline with substance",
+      "Editorial acceptance"
+    ]
+  },
+  {
     "slug": "budget-overview",
     "title": "Budget Overview",
     "category": "finance-admin",
@@ -140,6 +778,325 @@
       "Planned versus actual spending",
       "Checked totals and assumptions",
       "Review actions"
+    ]
+  },
+  {
+    "slug": "administration-checklist",
+    "title": "Administration Checklist",
+    "category": "finance-admin",
+    "description": "A monthly administration checklist with evidence, ownership, and unresolved items.",
+    "highlights": [
+      "Work from the source",
+      "Handle private information carefully",
+      "End with a short exception list"
+    ]
+  },
+  {
+    "slug": "cash-flow-snapshot",
+    "title": "Cash Flow Snapshot",
+    "category": "finance-admin",
+    "description": "A cash-flow planning snapshot with opening balance, expected movements, and checked closing amounts.",
+    "highlights": [
+      "How to read it",
+      "The timing question",
+      "Keep assumptions separate"
+    ]
+  },
+  {
+    "slug": "expense-review",
+    "title": "Expense Review",
+    "category": "finance-admin",
+    "description": "An expense review with categories, amounts, evidence, and questions for the owner.",
+    "highlights": [
+      "The monthly total",
+      "Questions to resolve",
+      "The next review"
+    ]
+  },
+  {
+    "slug": "financial-assumptions-sheet",
+    "title": "Financial Assumptions Sheet",
+    "category": "finance-admin",
+    "description": "Document scenario inputs, units, rationale, and the effect of changing assumptions.",
+    "highlights": [
+      "Base scenario",
+      "One-project scenario",
+      "What remains outside"
+    ]
+  },
+  {
+    "slug": "invoice-summary",
+    "title": "Invoice Summary",
+    "category": "finance-admin",
+    "description": "An invoice tracking summary with amounts, due dates, status, and reconciliation notes.",
+    "highlights": [
+      "Read the totals",
+      "Reconcile the status",
+      "Follow-up draft"
+    ]
+  },
+  {
+    "slug": "pricing-comparison",
+    "title": "Pricing Comparison",
+    "category": "finance-admin",
+    "description": "A pricing worksheet that normalizes plan assumptions and makes missing costs visible.",
+    "highlights": [
+      "Normalize the basis",
+      "Beyond the headline",
+      "Before a purchase"
+    ]
+  },
+  {
+    "slug": "purchase-request",
+    "title": "Purchase Request",
+    "category": "finance-admin",
+    "description": "Prepare a purchase request with purpose, alternatives, costs, ownership, and approval status.",
+    "highlights": [
+      "Why the purchase is needed",
+      "Alternatives considered",
+      "Decision requested"
+    ]
+  },
+  {
+    "slug": "renewal-tracker",
+    "title": "Renewal Tracker",
+    "category": "finance-admin",
+    "description": "Track recurring agreements with notice dates, owners, usage evidence, and decisions.",
+    "highlights": [
+      "Start with the agreement",
+      "Review the usefulness",
+      "Record the decision"
+    ]
+  },
+  {
+    "slug": "vendor-comparison",
+    "title": "Vendor Comparison",
+    "category": "finance-admin",
+    "description": "A vendor comparison with consistent criteria, evidence status, and unresolved questions.",
+    "highlights": [
+      "What matters first",
+      "A provisional shortlist",
+      "Document the decision"
+    ]
+  },
+  {
+    "slug": "research-decision-brief",
+    "title": "Research Decision Brief",
+    "category": "research-data",
+    "description": "A sourced research brief with evaluation criteria, options, and a recommendation.",
+    "highlights": [
+      "Research question and scope",
+      "Option comparison and source notes",
+      "Recommendation and tradeoffs"
+    ]
+  },
+  {
+    "slug": "competitor-research",
+    "title": "Competitor Research",
+    "category": "research-data",
+    "description": "A competitor research brief with verified observations, evaluation criteria, and unknowns.",
+    "highlights": [
+      "Start with the user’s choice",
+      "Record observations precisely",
+      "Draw a bounded conclusion"
+    ]
+  },
+  {
+    "slug": "dataset-guide",
+    "title": "Dataset Guide",
+    "category": "research-data",
+    "description": "A dataset guide with field definitions, units, provenance, and quality checks.",
+    "highlights": [
+      "Unit of observation",
+      "Quality checks",
+      "Responsible reuse"
+    ]
+  },
+  {
+    "slug": "evidence-tracker",
+    "title": "Evidence Tracker",
+    "category": "research-data",
+    "description": "Track claims against source quality, verification state, and next research actions.",
+    "highlights": [
+      "Keep the claim narrow",
+      "Assess the source",
+      "Use the gaps"
+    ]
+  },
+  {
+    "slug": "interview-synthesis",
+    "title": "Interview Synthesis",
+    "category": "research-data",
+    "description": "Synthesize interviews into themes, counterexamples, and questions for the next round.",
+    "highlights": [
+      "Theme: context at the point of use",
+      "Counterexample: another thing to maintain",
+      "Next research question"
+    ]
+  },
+  {
+    "slug": "literature-review",
+    "title": "Literature Review",
+    "category": "research-data",
+    "description": "A literature review structure with source scope, claims, methods, and gaps.",
+    "highlights": [
+      "Define the review question",
+      "Synthesize the disagreement",
+      "Identify the gap"
+    ]
+  },
+  {
+    "slug": "market-landscape",
+    "title": "Market Landscape",
+    "category": "research-data",
+    "description": "A market landscape organized by user needs, solution approaches, and evidence gaps.",
+    "highlights": [
+      "Define the boundary",
+      "Look for unmet work",
+      "Evidence needed"
+    ]
+  },
+  {
+    "slug": "research-plan",
+    "title": "Research Plan",
+    "category": "research-data",
+    "description": "Plan research with a clear question, participant criteria, method, and decision use.",
+    "highlights": [
+      "The research question",
+      "Method and care",
+      "Decision use"
+    ]
+  },
+  {
+    "slug": "survey-results",
+    "title": "Survey Results",
+    "category": "research-data",
+    "description": "A survey report with counts, denominators, question wording, and response limitations.",
+    "highlights": [
+      "The question asked",
+      "What the result says",
+      "Limits and next step"
+    ]
+  },
+  {
+    "slug": "technology-assessment",
+    "title": "Technology Assessment",
+    "category": "research-data",
+    "description": "A technology assessment with requirements, observed behavior, risks, and a bounded trial.",
+    "highlights": [
+      "Start with requirements",
+      "Risk to examine",
+      "Trial recommendation"
+    ]
+  },
+  {
+    "slug": "product-interface-prototype",
+    "title": "Product Interface Prototype",
+    "category": "product-engineering",
+    "description": "A static project workspace prototype with sample tasks, interface states, and a review brief.",
+    "highlights": [
+      "Static workspace layout",
+      "Sample task and interface states",
+      "Backend planning notes"
+    ]
+  },
+  {
+    "slug": "api-documentation",
+    "title": "API Documentation",
+    "category": "product-engineering",
+    "description": "Document an illustrative API through resources, fields, responses, and error handling.",
+    "highlights": [
+      "Example request",
+      "Errors and consistency",
+      "Before implementation"
+    ]
+  },
+  {
+    "slug": "accessibility-review",
+    "title": "Accessibility Review",
+    "category": "product-engineering",
+    "description": "An accessibility review worksheet with observed barriers, affected tasks, and verification steps.",
+    "highlights": [
+      "Describe the barrier",
+      "Check the repair",
+      "Keep the scope visible"
+    ]
+  },
+  {
+    "slug": "architecture-decision",
+    "title": "Architecture Decision",
+    "category": "product-engineering",
+    "description": "An architecture decision record with context, alternatives, consequences, and revisit conditions.",
+    "highlights": [
+      "Context and decision",
+      "Consequences",
+      "Revisit when"
+    ]
+  },
+  {
+    "slug": "developer-onboarding",
+    "title": "Developer Onboarding",
+    "category": "product-engineering",
+    "description": "A developer onboarding guide with repository orientation, setup checks, and a first contribution.",
+    "highlights": [
+      "A useful repository map",
+      "First contribution",
+      "When setup fails"
+    ]
+  },
+  {
+    "slug": "feature-specification",
+    "title": "Feature Specification",
+    "category": "product-engineering",
+    "description": "Specify a feature through states, transitions, validation, and recovery behavior.",
+    "highlights": [
+      "Main flow",
+      "Validation and recovery",
+      "Permission boundary"
+    ]
+  },
+  {
+    "slug": "product-requirements",
+    "title": "Product Requirements",
+    "category": "product-engineering",
+    "description": "A product requirements document with scope, user tasks, acceptance criteria, and open decisions.",
+    "highlights": [
+      "User problem",
+      "Scope boundaries",
+      "Open decisions"
+    ]
+  },
+  {
+    "slug": "qa-test-plan",
+    "title": "QA Test Plan",
+    "category": "product-engineering",
+    "description": "A QA plan with realistic scenarios, expected results, evidence, and release criteria.",
+    "highlights": [
+      "Test setup",
+      "Failure handling",
+      "Exit criteria"
+    ]
+  },
+  {
+    "slug": "release-notes",
+    "title": "Release Notes",
+    "category": "product-engineering",
+    "description": "Release notes organized by user-visible changes, fixes, known issues, and upgrade actions.",
+    "highlights": [
+      "What to try",
+      "Action for existing entries",
+      "Release evidence"
+    ]
+  },
+  {
+    "slug": "roadmap-snapshot",
+    "title": "Roadmap Snapshot",
+    "category": "product-engineering",
+    "description": "A roadmap snapshot with now/next/later work, outcomes, dependencies, and confidence.",
+    "highlights": [
+      "Why this order",
+      "What can change",
+      "Review the roadmap"
     ]
   }
 ]

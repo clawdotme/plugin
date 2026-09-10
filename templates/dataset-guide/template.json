@@ -1,0 +1,18 @@
+{
+  "slug": "dataset-guide",
+  "title": "Dataset Guide",
+  "category": "research-data",
+  "description": "A dataset guide with field definitions, units, provenance, and quality checks.",
+  "highlights": [
+    "Unit of observation",
+    "Quality checks",
+    "Responsible reuse"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

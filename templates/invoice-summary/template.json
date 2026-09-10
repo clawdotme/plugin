@@ -1,0 +1,18 @@
+{
+  "slug": "invoice-summary",
+  "title": "Invoice Summary",
+  "category": "finance-admin",
+  "description": "An invoice tracking summary with amounts, due dates, status, and reconciliation notes.",
+  "highlights": [
+    "Read the totals",
+    "Reconcile the status",
+    "Follow-up draft"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

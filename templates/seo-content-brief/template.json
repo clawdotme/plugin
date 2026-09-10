@@ -1,0 +1,18 @@
+{
+  "slug": "seo-content-brief",
+  "title": "SEO Content Brief",
+  "category": "marketing-growth",
+  "description": "A search-focused content brief with intent, outline, evidence needs, and editorial checks.",
+  "highlights": [
+    "Search intent",
+    "Outline with substance",
+    "Editorial acceptance"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

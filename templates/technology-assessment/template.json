@@ -1,0 +1,18 @@
+{
+  "slug": "technology-assessment",
+  "title": "Technology Assessment",
+  "category": "research-data",
+  "description": "A technology assessment with requirements, observed behavior, risks, and a bounded trial.",
+  "highlights": [
+    "Start with requirements",
+    "Risk to examine",
+    "Trial recommendation"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

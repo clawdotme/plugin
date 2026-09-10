@@ -1,0 +1,18 @@
+{
+  "slug": "product-demo-narrative",
+  "title": "Product Demo Narrative",
+  "category": "presentations-reports",
+  "description": "A product demonstration narrative with realistic steps, success checks, and fallback notes.",
+  "highlights": [
+    "Begin with a real task",
+    "Demonstrate the boundary",
+    "Keep a fallback"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}
