@@ -15,9 +15,9 @@ The live service owns the interview state. Do not recreate the question order fr
 
 ## Dashboard setup and Profile
 
-The landing screen at https://claw.me/getting-started offers Manual Setup or Ask Your Agent. These choices are only shown before the step flow. Resume the existing account and interview after checkout; never create a duplicate account or purchase again to resolve a pending activation.
+Registration starts with email and explicit terms acceptance. Account setup choices follow registration. At https://claw.me/getting-started, choose **Get a prompt for my Agent** (`?mode=agent`) or **Use the guided dashboard instead** (`?mode=dashboard`). The Agent path then asks which client the owner uses and provides its plugin installation and connection guidance. Assume an existing Agent unless the owner asks for Managed hosting. Resume the existing account and interview after checkout; never create a duplicate account or purchase again to resolve a pending activation.
 
-The dashboard has four steps: address, features and permissions, connect an Agent, and billing choice. A Getting Started screen follows completion. Address selection and explicit owner confirmation of permissions are required. Account settings, Docs, public Templates, and Calculator at https://claw.me/calculator remain reachable. Back and Continue revisit saved steps without changing consent. After the required choices are saved, Agent connection is optional and workspace navigation is available; completed accounts do not enter the guide by default. Legacy review and page links resume the final billing choice if it has not been confirmed, then lead to Getting Started.
+The dashboard has four steps: address, features and permissions, connect an Agent, and billing choice. Finishing the saved billing choice shows Setup complete; a completed owner returning to Getting Started is sent to Pages. Address selection and explicit owner confirmation of permissions are required. Account settings, Docs, public Templates, and Calculator at https://claw.me/calculator remain reachable. Back and Continue revisit saved steps without changing consent. After the required choices are saved, Agent connection is optional and workspace navigation is available; completed accounts do not enter the guide by default. Legacy review and page links resume the final billing choice if it has not been confirmed, then continue into the workspace.
 
 Step 2 shows key Agent-access choices and separate Public sharing and Incoming email sections. For new unconfirmed choices, Incoming email defaults to Store for me only: email_receive is on and email_process is off. Public sharing defaults off. Preserve confirmed choices and existing drafts; a displayed default is not consent or a saved permission. The owner confirms the effective account permissions before Agents act within them.
 
@@ -35,18 +35,18 @@ For Free, or after the selected access is verified by the backend, submit the sa
 
 ## Managed OpenClaw
 
-The human completes identity and the initial recurring add-on payment before the Agent exists. Provisioning is not a free trial.
+Check the live hosting availability before offering checkout or provisioning. Managed hosting remains unavailable while its launch gates are disabled; an existing Agent does not require this add-on. When available, the human completes identity and the initial recurring add-on payment before the Agent exists. Provisioning is not a free trial.
 
 After the runtime is ready:
 
-1. Resume the same onboarding session through the hosted OpenClaw gateway or the configured Telegram, WhatsApp, or email channel.
+1. Resume the same onboarding session through the hosted OpenClaw Gateway. Use another channel only after its setup and permissions are verified; released email does not automatically start an Agent session.
 2. Do not repeat answers gathered before provisioning.
 3. Explain that the Claw Me-funded inference allowance is temporary and help connect a durable provider early.
 4. Never request provider credentials in chat. Use the secure provider handoff URL returned by Claw Me.
 
 ## Interview contract
 
-- Ask only the current server-provided question.
+- Ask only the current server-provided question. If an existing-Agent session reports `completed` / `account_setup_complete` with no questions, do not restart the old interview. Completed dashboard setup can satisfy an older existing-Agent interview; this does not change the granted scopes or bypass owner consent.
 - Present at most three choices, except for the `agent_client` catalog returned by the service. That catalog may show every supported connection from claw.me/connect.
 - Offer `Other` only when `allow_other` is true and send its text separately.
 - Do not infer consent, payment approval, publication visibility, or a secret value from free-form conversation.
