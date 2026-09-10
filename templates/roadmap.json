@@ -1,0 +1,157 @@
+{
+  "status": "planned; not a live inventory",
+  "targetCategories": 10,
+  "targetPerCategory": 10,
+  "categories": [
+    {
+      "name": "Websites & portfolios",
+      "templates": [
+        "Independent portfolio",
+        "Studio website",
+        "Personal homepage",
+        "Consultant profile",
+        "Product launch page",
+        "Event landing page",
+        "Newsletter landing page",
+        "Community homepage",
+        "Service directory",
+        "Case study showcase"
+      ]
+    },
+    {
+      "name": "Business & client work",
+      "templates": [
+        "Client project proposal",
+        "Client onboarding guide",
+        "Project brief",
+        "Statement of work",
+        "Account plan",
+        "Meeting follow-up",
+        "Service comparison",
+        "Client handover guide",
+        "Quarterly client review",
+        "Partnership proposal"
+      ]
+    },
+    {
+      "name": "Dashboards & internal tools",
+      "templates": [
+        "Weekly team brief",
+        "Project status board",
+        "Team capacity snapshot",
+        "Issue triage board",
+        "Operations scorecard",
+        "Inventory snapshot",
+        "Service health report",
+        "Team directory",
+        "Launch readiness checklist",
+        "Decision log"
+      ]
+    },
+    {
+      "name": "Planning & travel",
+      "templates": [
+        "Weekend itinerary",
+        "Conference trip planner",
+        "Team offsite plan",
+        "Event run of show",
+        "Weekly planner",
+        "Moving checklist",
+        "Wedding planning brief",
+        "Travel budget worksheet",
+        "Road trip itinerary",
+        "Project kickoff agenda"
+      ]
+    },
+    {
+      "name": "Presentations & reports",
+      "templates": [
+        "Project progress report",
+        "Presentation outline",
+        "Board update",
+        "Annual review",
+        "Experiment results",
+        "Customer insight report",
+        "Postmortem report",
+        "Impact report",
+        "Executive summary",
+        "Product demo narrative"
+      ]
+    },
+    {
+      "name": "Education & personal",
+      "templates": [
+        "Personal learning guide",
+        "Course companion",
+        "Study schedule",
+        "Reading journal",
+        "Habit review",
+        "Career development plan",
+        "Workshop workbook",
+        "Language practice guide",
+        "Personal knowledge index",
+        "Goal review"
+      ]
+    },
+    {
+      "name": "Marketing & growth",
+      "templates": [
+        "Campaign brief",
+        "Content calendar",
+        "SEO content brief",
+        "Launch announcement",
+        "Audience profile",
+        "Messaging guide",
+        "Channel performance report",
+        "Referral program brief",
+        "Customer story",
+        "Brand guidelines"
+      ]
+    },
+    {
+      "name": "Finance & admin",
+      "templates": [
+        "Budget overview",
+        "Cash flow snapshot",
+        "Expense review",
+        "Pricing comparison",
+        "Purchase request",
+        "Vendor comparison",
+        "Invoice summary",
+        "Renewal tracker",
+        "Financial assumptions sheet",
+        "Administration checklist"
+      ]
+    },
+    {
+      "name": "Research & data",
+      "templates": [
+        "Research decision brief",
+        "Literature review",
+        "Competitor research",
+        "Interview synthesis",
+        "Survey results",
+        "Market landscape",
+        "Dataset guide",
+        "Evidence tracker",
+        "Technology assessment",
+        "Research plan"
+      ]
+    },
+    {
+      "name": "Product & engineering",
+      "templates": [
+        "Product interface prototype",
+        "Product requirements",
+        "Feature specification",
+        "API documentation",
+        "Release notes",
+        "Roadmap snapshot",
+        "Architecture decision",
+        "QA test plan",
+        "Accessibility review",
+        "Developer onboarding"
+      ]
+    }
+  ]
+}

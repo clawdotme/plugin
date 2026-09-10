@@ -188,3 +188,56 @@ blockquote { margin: 0; padding: 24px 30px; border-left: 4px solid var(--theme-p
 
 .supporting-image { margin: 28px 0; overflow: hidden; border-radius: 12px; }
 .supporting-image img { display: block; width: 100%; height: 140px; object-fit: cover; }
+
+/* Generated Tailwind components */
+/* Scoped Tailwind components: no preflight or effect on other templates. */
+
+.proposal-pilot .pilot-hero {
+  padding-top: 3rem;
+  padding-bottom: 3rem
+}
+
+.proposal-pilot .pilot-summary {
+  display: grid;
+  gap: 1.5rem
+}
+
+.proposal-pilot .pilot-columns {
+  display: grid;
+  gap: 2rem
+}
+
+.proposal-pilot .pilot-summary h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem
+}
+
+.proposal-pilot caption {
+  margin-bottom: 1rem;
+  text-align: left
+}
+
+.proposal-pilot tfoot {
+  font-weight: 700
+}
+
+.proposal-pilot a:focus-visible {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 4px
+}
+
+@media (min-width: 768px) {
+  .proposal-pilot .pilot-summary {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+
+  .proposal-pilot .pilot-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+}
+
+.proposal-pilot .scene {
+  margin-top: 2rem;
+  margin-bottom: 2rem
+}

@@ -1,0 +1,14 @@
+/* Scoped Tailwind components: no preflight or effect on other templates. */
+.proposal-pilot .pilot-hero { @apply py-12; }
+.proposal-pilot .pilot-summary { @apply grid gap-6; }
+.proposal-pilot .pilot-columns { @apply grid gap-8; }
+.proposal-pilot .pilot-summary h2 { @apply text-3xl; }
+.proposal-pilot caption { @apply text-left mb-4; }
+.proposal-pilot tfoot { @apply font-bold; }
+.proposal-pilot a:focus-visible { @apply outline outline-2 outline-offset-4; }
+@media (min-width: 768px) {
+  .proposal-pilot .pilot-summary { @apply grid-cols-3; }
+  .proposal-pilot .pilot-columns { @apply grid-cols-2; }
+}
+
+.proposal-pilot .scene { @apply my-8; }
