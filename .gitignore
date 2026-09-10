@@ -4,3 +4,6 @@ skills-lock.json
 tools/node_modules/
 
 __pycache__/
+
+# Generated local review exports
+output/

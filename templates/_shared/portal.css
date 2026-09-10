@@ -685,4 +685,55 @@ blockquote { margin: 0; padding: 24px 30px; border-left: 4px solid var(--theme-p
     padding-block: 8px;
     font-size: 9px;
   }
+
+  .template-client-project-proposal {
+    font-size: 10px;
+  }
+
+  .template-client-project-proposal .section {
+    margin-top: 10px;
+    padding-block: 10px;
+  }
+
+  .template-client-project-proposal .intro {
+    padding-block: 10px;
+  }
+
+  .template-client-project-proposal details {
+    padding-block: 3px;
+  }
+
+  .template-client-project-proposal .proposal-sidebar .scene img {
+    height: 110px;
+  }
+
+  .template-weekly-team-brief .supporting-image img {
+    height: 70px;
+  }
+
+  .template-weekly-team-brief .section {
+    padding-block: 10px;
+    margin-top: 10px;
+  }
+
+  .report-deck {
+    font-size: 16px;
+  }
+
+  .report-deck h1 {
+    font-size: 40px;
+  }
+
+  .report-deck .lead {
+    font-size: 18px;
+  }
+
+  .report-deck .metric {
+    font-size: 44px;
+  }
+
+  .report-deck td, .report-deck th {
+    font-size: 14px;
+    padding: 12px;
+  }
 }
