@@ -60,9 +60,9 @@
     "category": "education-personal",
     "description": "Organize a learning goal into manageable sessions and useful reference notes.",
     "highlights": [
-      "Four-week learning plan",
+      "Four-week Agent learning plan",
       "Session checklist",
-      "Notes and references"
+      "Reflection and handover"
     ]
   },
   {
@@ -90,7 +90,7 @@
   {
     "slug": "product-interface-prototype",
     "title": "Product Interface Prototype",
-    "category": "dashboards-tools",
+    "category": "product-engineering",
     "description": "A static project workspace prototype with sample tasks, interface states, and a review brief.",
     "highlights": [
       "Static workspace layout",
@@ -112,12 +112,34 @@
   {
     "slug": "research-decision-brief",
     "title": "Research Decision Brief",
-    "category": "presentations-reports",
+    "category": "research-data",
     "description": "A sourced research brief with evaluation criteria, options, and a recommendation.",
     "highlights": [
       "Research question and scope",
       "Option comparison and source notes",
       "Recommendation and tradeoffs"
+    ]
+  },
+  {
+    "slug": "campaign-brief",
+    "title": "Campaign Brief",
+    "category": "marketing-growth",
+    "description": "Define one audience, message, desired action, channels, and a review owner.",
+    "highlights": [
+      "Campaign message and audience",
+      "Channel plan and review checklist",
+      "Measurement assumptions"
+    ]
+  },
+  {
+    "slug": "budget-overview",
+    "title": "Budget Overview",
+    "category": "finance-admin",
+    "description": "Bring your period, currency, cost categories, actuals, and assumptions.",
+    "highlights": [
+      "Planned versus actual spending",
+      "Checked totals and assumptions",
+      "Review actions"
     ]
   }
 ]

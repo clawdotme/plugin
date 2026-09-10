@@ -12,3 +12,48 @@
 }
 
 .proposal-pilot .scene { @apply my-8; }
+
+/* Shared review editions use the existing brand tokens and compiled Tailwind layouts. */
+.paired-template .intro { @apply py-10; }
+.paired-template .section { @apply py-8; }
+.paired-template .card { @apply p-6 rounded-2xl; }
+.paired-template .review-grid { @apply grid gap-5; }
+.paired-template .campaign-hero, .paired-template .budget-notes { @apply grid gap-8 items-start; }
+.paired-template .campaign-message blockquote { @apply my-6; }
+.paired-template caption { @apply text-left p-3; }
+.paired-template tfoot { @apply font-bold; }
+.paired-template .supporting-image { @apply my-8; }
+.paired-template .brief-layout, .paired-template .travel-layout,
+.paired-template .learning-layout, .paired-template .report-layout,
+.paired-template .decision-hero, .paired-template .workspace-layout { @apply gap-8; }
+@media (min-width: 768px) {
+  .paired-template .review-grid { @apply grid-cols-3; }
+  .paired-template .campaign-hero, .paired-template .budget-notes { @apply grid-cols-2; }
+}
+@media (max-width: 650px) {
+  .paired-template .card { @apply p-5; }
+}
+
+/* Local review gallery: separate from the static Page documents. */
+.review-board main { @apply py-8; }
+.review-board .review-catalog { @apply grid gap-6; }
+.review-board .review-catalog iframe { @apply w-full h-64 border-0 rounded-lg mb-5; }
+.review-board .review-catalog h2 { @apply text-xl; }
+.review-board .review-detail { @apply grid gap-8; }
+.review-board .review-preview { @apply w-full mx-auto block mt-4 rounded-xl border; height: 80vh; border-color: var(--theme-border); }
+.review-board button { @apply px-4 py-3 rounded-lg border cursor-pointer; color: var(--theme-text); background: var(--theme-surface); border-color: var(--theme-border); }
+.review-board button[aria-pressed=true] { background: var(--theme-primary-soft); }
+.review-board details { @apply border-t py-5; border-color: var(--theme-border); }
+.review-board summary { @apply cursor-pointer font-bold mb-3; }
+.review-board textarea { @apply w-full min-h-64 mt-3 mb-3 p-3 rounded-lg border text-sm; color: var(--theme-text); background: var(--theme-surface); border-color: var(--theme-border); }
+.review-board dt { @apply font-bold mt-4; }
+.review-board dd { @apply m-0; }
+@media (min-width: 768px) {
+  .review-board .review-catalog { @apply grid-cols-2; }
+  .review-board .review-detail { grid-template-columns: minmax(0, 1fr) 380px; }
+}
+@media (min-width: 1100px) {
+  .review-board .review-catalog { @apply grid-cols-3; }
+}
+
+.review-board .review-catalog img { @apply w-full h-64 object-cover object-top rounded-lg mb-5; }

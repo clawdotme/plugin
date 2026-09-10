@@ -194,50 +194,242 @@ blockquote { margin: 0; padding: 24px 30px; border-left: 4px solid var(--theme-p
 
 .proposal-pilot .pilot-hero {
   padding-top: 3rem;
-  padding-bottom: 3rem
+  padding-bottom: 3rem;
 }
 
 .proposal-pilot .pilot-summary {
   display: grid;
-  gap: 1.5rem
+  gap: 1.5rem;
 }
 
 .proposal-pilot .pilot-columns {
   display: grid;
-  gap: 2rem
+  gap: 2rem;
 }
 
 .proposal-pilot .pilot-summary h2 {
   font-size: 1.875rem;
-  line-height: 2.25rem
+  line-height: 2.25rem;
 }
 
 .proposal-pilot caption {
   margin-bottom: 1rem;
-  text-align: left
+  text-align: left;
 }
 
 .proposal-pilot tfoot {
-  font-weight: 700
+  font-weight: 700;
 }
 
 .proposal-pilot a:focus-visible {
   outline-style: solid;
   outline-width: 2px;
-  outline-offset: 4px
+  outline-offset: 4px;
 }
 
 @media (min-width: 768px) {
   .proposal-pilot .pilot-summary {
-    grid-template-columns: repeat(3, minmax(0, 1fr))
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .proposal-pilot .pilot-columns {
-    grid-template-columns: repeat(2, minmax(0, 1fr))
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 .proposal-pilot .scene {
   margin-top: 2rem;
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
+}
+
+/* Shared review editions use the existing brand tokens and compiled Tailwind layouts. */
+
+.paired-template .intro {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.paired-template .section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.paired-template .card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.paired-template .review-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.paired-template .campaign-hero, .paired-template .budget-notes {
+  display: grid;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.paired-template .campaign-message blockquote {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.paired-template caption {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.paired-template tfoot {
+  font-weight: 700;
+}
+
+.paired-template .supporting-image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.paired-template .brief-layout, .paired-template .travel-layout,
+.paired-template .learning-layout, .paired-template .report-layout,
+.paired-template .decision-hero, .paired-template .workspace-layout {
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .paired-template .review-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .paired-template .campaign-hero, .paired-template .budget-notes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .paired-template .card {
+    padding: 1.25rem;
+  }
+}
+
+/* Local review gallery: separate from the static Page documents. */
+
+.review-board main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.review-board .review-catalog {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.review-board .review-catalog iframe {
+  margin-bottom: 1.25rem;
+  height: 16rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 0px;
+}
+
+.review-board .review-catalog h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.review-board .review-detail {
+  display: grid;
+  gap: 2rem;
+}
+
+.review-board .review-preview {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.75rem;
+  border-width: 1px;
+  height: 80vh;
+  border-color: var(--theme-border);
+}
+
+.review-board button {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: var(--theme-text);
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+}
+
+.review-board button[aria-pressed=true] {
+  background: var(--theme-primary-soft);
+}
+
+.review-board details {
+  border-top-width: 1px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-color: var(--theme-border);
+}
+
+.review-board summary {
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.review-board textarea {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  min-height: 16rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--theme-text);
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+}
+
+.review-board dt {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.review-board dd {
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .review-board .review-catalog {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .review-board .review-detail {
+    grid-template-columns: minmax(0, 1fr) 380px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .review-board .review-catalog {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.review-board .review-catalog img {
+  margin-bottom: 1.25rem;
+  height: 16rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }

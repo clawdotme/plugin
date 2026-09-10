@@ -1,0 +1,16 @@
+{
+  "title": "Templates & Prompts \u2014 first ten",
+  "status": "ready for user review; not a production release",
+  "slugs": [
+    "client-project-proposal",
+    "independent-portfolio",
+    "weekly-team-brief",
+    "weekend-itinerary",
+    "project-progress-report",
+    "personal-learning-guide",
+    "campaign-brief",
+    "budget-overview",
+    "research-decision-brief",
+    "product-interface-prototype"
+  ]
+}
