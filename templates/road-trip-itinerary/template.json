@@ -1,0 +1,18 @@
+{
+  "slug": "road-trip-itinerary",
+  "title": "Road Trip Itinerary",
+  "category": "planning-travel",
+  "description": "A road trip itinerary with driving windows, rest stops, overnight plans, and alternatives.",
+  "highlights": [
+    "Build around the driver",
+    "A useful stop list",
+    "If the weather changes"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

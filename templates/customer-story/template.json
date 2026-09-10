@@ -1,0 +1,18 @@
+{
+  "slug": "customer-story",
+  "title": "Customer Story",
+  "category": "marketing-growth",
+  "description": "A customer story with a concrete problem, the work performed, and evidence-ready outcomes.",
+  "highlights": [
+    "The customer’s situation",
+    "The work together",
+    "Evidence to add"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

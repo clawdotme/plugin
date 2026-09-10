@@ -1,0 +1,18 @@
+{
+  "slug": "operations-scorecard",
+  "title": "Operations Scorecard",
+  "category": "dashboards-tools",
+  "description": "Track operational measures with definitions, thresholds, and named follow-up actions.",
+  "highlights": [
+    "Where to act",
+    "Definitions matter",
+    "Review the target"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

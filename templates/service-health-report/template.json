@@ -1,0 +1,18 @@
+{
+  "slug": "service-health-report",
+  "title": "Service Health Report",
+  "category": "dashboards-tools",
+  "description": "Report service health, incidents, and follow-up work without implying live monitoring.",
+  "highlights": [
+    "Current concern",
+    "What passed means",
+    "Next communication"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

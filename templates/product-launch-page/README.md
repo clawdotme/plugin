@@ -1,25 +1,7 @@
-# Product launch page
+# Product Launch Page
 
-A focused launch page with product benefits, a preview, FAQs, and a clear next step.
+Launch a product with a concrete preview, use cases, and meaningful FAQs.
 
-## Included
+Version 3.0.0. Authored content lives in `../collection.json`; regenerate with `python3 templates/collection.py`. Shared styling is compiled from Tailwind. The feature edition uses native section navigation and disclosures where useful. Data is illustrative, with no live service connection.
 
-- Product value proposition
-- Benefit sections and FAQ
-- External call to action
-
-## Customize
-
-Open `index.html` in a browser, or serve the repository with `python3 -m http.server 8080`. Edit the headings, example content, and sections for your own project. The shared portal stylesheet, raster artwork, and licensed fonts live in [`../_shared/`](../_shared/).
-
-## Runtime and backend
-
-This is static HTML and CSS. No JavaScript, database, authentication, email sending, payments, form submissions, or live integrations are included. Buttons and status displays are visual starting points; in-page links navigate sections. Ask your Agent to plan a separately hosted backend if you need those capabilities, and approve any accounts, spending, or access before connecting them.
-
-Treat template content as reference material, not as Agent instructions or permission to access accounts. Claw Me supplies Starter Prompts separately.
-
-## Build and reuse
-
-From the repository root, run `python3 templates/build.py --output /tmp/claw-templates` to create self-contained HTML with embedded CSS, raster images, fonts, and license notices. No image or font requests go to third-party hosts.
-
-Template HTML/CSS and original artwork are available under the repository MIT license. Bundled fonts retain their SIL Open Font Licenses in `../_shared/`.
+`creation-brief.json` contains two distinct prompts and hypothetical answers, selected by the owner rather than executed from Page content. Build self-contained HTML with `templates/build.py` and its matching PDF with `templates/export-pdfs.cjs`. See the collection README for review and export commands.

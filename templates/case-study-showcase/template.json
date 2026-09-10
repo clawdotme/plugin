@@ -1,0 +1,18 @@
+{
+  "slug": "case-study-showcase",
+  "title": "Case Study Showcase",
+  "category": "websites-portfolios",
+  "description": "Tell a project story through constraints, decisions, evidence, and the finished result.",
+  "highlights": [
+    "The original difficulty",
+    "What changed",
+    "What the example can show"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

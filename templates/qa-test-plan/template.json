@@ -1,0 +1,18 @@
+{
+  "slug": "qa-test-plan",
+  "title": "QA Test Plan",
+  "category": "product-engineering",
+  "description": "A QA plan with realistic scenarios, expected results, evidence, and release criteria.",
+  "highlights": [
+    "Test setup",
+    "Failure handling",
+    "Exit criteria"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "channel-performance-report",
+  "title": "Channel Performance Report",
+  "category": "marketing-growth",
+  "description": "Review channel activity with denominators, qualified outcomes, and attribution limits.",
+  "highlights": [
+    "Read the small sample",
+    "Check the definition",
+    "Next month’s test"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

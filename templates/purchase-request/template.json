@@ -1,0 +1,18 @@
+{
+  "slug": "purchase-request",
+  "title": "Purchase Request",
+  "category": "finance-admin",
+  "description": "Prepare a purchase request with purpose, alternatives, costs, ownership, and approval status.",
+  "highlights": [
+    "Why the purchase is needed",
+    "Alternatives considered",
+    "Decision requested"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

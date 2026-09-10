@@ -1,0 +1,18 @@
+{
+  "slug": "travel-budget-worksheet",
+  "title": "Travel Budget Worksheet",
+  "category": "planning-travel",
+  "description": "A travel budget with checked totals, shared-cost assumptions, and a contingency line.",
+  "highlights": [
+    "Working total",
+    "What is missing",
+    "When the plan changes"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "study-schedule",
+  "title": "Study Schedule",
+  "category": "education-personal",
+  "description": "Plan focused study sessions, retrieval practice, and recovery time around a real deadline.",
+  "highlights": [
+    "A session structure",
+    "When a session is missed",
+    "Check understanding"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

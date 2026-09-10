@@ -1,0 +1,18 @@
+{
+  "slug": "account-plan",
+  "title": "Account Plan",
+  "category": "business-client-work",
+  "description": "An account plan with stakeholder needs, opportunities, risks, and next conversations.",
+  "highlights": [
+    "Current position",
+    "Relationship risks",
+    "Ninety-day focus"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

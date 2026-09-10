@@ -1,0 +1,18 @@
+{
+  "slug": "language-practice-guide",
+  "title": "Language Practice Guide",
+  "category": "education-personal",
+  "description": "A language practice guide with a short scenario, phrase bank, and self-check prompts.",
+  "highlights": [
+    "Try the exchange",
+    "Change one detail",
+    "Check what you can do"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

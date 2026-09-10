@@ -1,0 +1,18 @@
+{
+  "slug": "vendor-comparison",
+  "title": "Vendor Comparison",
+  "category": "finance-admin",
+  "description": "A vendor comparison with consistent criteria, evidence status, and unresolved questions.",
+  "highlights": [
+    "What matters first",
+    "A provisional shortlist",
+    "Document the decision"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

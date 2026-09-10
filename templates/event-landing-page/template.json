@@ -1,0 +1,18 @@
+{
+  "slug": "event-landing-page",
+  "title": "Event Landing Page",
+  "category": "websites-portfolios",
+  "description": "An event website with agenda, audience, access information, and session details.",
+  "highlights": [
+    "Come with a question",
+    "A comfortable afternoon",
+    "What happens next"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "partnership-proposal",
+  "title": "Partnership Proposal",
+  "category": "business-client-work",
+  "description": "Propose a partnership with mutual value, a bounded pilot, and review conditions.",
+  "highlights": [
+    "Why try it",
+    "Pilot boundaries",
+    "Continue only with evidence"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

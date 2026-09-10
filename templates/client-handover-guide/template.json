@@ -1,0 +1,18 @@
+{
+  "slug": "client-handover-guide",
+  "title": "Client Handover Guide",
+  "category": "business-client-work",
+  "description": "A handover guide with deliverable locations, maintenance responsibilities, and recovery steps.",
+  "highlights": [
+    "The first walkthrough",
+    "Monthly maintenance",
+    "When something goes wrong"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

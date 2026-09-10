@@ -1,0 +1,18 @@
+{
+  "slug": "habit-review",
+  "title": "Habit Review",
+  "category": "education-personal",
+  "description": "A reflective habit review with a modest record, context, and a next-week adjustment.",
+  "highlights": [
+    "Notice the pattern",
+    "Choose one adjustment",
+    "Review without punishment"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

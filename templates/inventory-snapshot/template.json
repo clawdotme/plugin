@@ -1,0 +1,18 @@
+{
+  "slug": "inventory-snapshot",
+  "title": "Inventory Snapshot",
+  "category": "dashboards-tools",
+  "description": "An inventory snapshot with counted stock, reorder points, and reconciliation notes.",
+  "highlights": [
+    "Order decision",
+    "Count with context",
+    "Keep the record current"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

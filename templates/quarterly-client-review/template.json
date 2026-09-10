@@ -1,0 +1,18 @@
+{
+  "slug": "quarterly-client-review",
+  "title": "Quarterly Client Review",
+  "category": "business-client-work",
+  "description": "Review delivered work, client feedback, unresolved issues, and the next quarter’s priorities.",
+  "highlights": [
+    "What the record supports",
+    "What the client needs to decide",
+    "Next-quarter agreement"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

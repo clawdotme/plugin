@@ -1,0 +1,18 @@
+{
+  "slug": "literature-review",
+  "title": "Literature Review",
+  "category": "research-data",
+  "description": "A literature review structure with source scope, claims, methods, and gaps.",
+  "highlights": [
+    "Define the review question",
+    "Synthesize the disagreement",
+    "Identify the gap"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}
