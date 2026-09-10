@@ -4,9 +4,11 @@ The official multi-client plugin for [Claw Me](https://claw.me). It gives an own
 
 The plugin bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me. This repository also contains the inspectable HTML, CSS, and assets for official Claw templates; you can review and customize them independently of installing the plugin.
 
-## Portal-free account setup
+## Account setup
 
-Signup is open and email-verified. The skill can guide an existing Agent through
+Signup is open and email-verified. Register and accept the terms before account
+setup choices. Then choose an Agent setup prompt or the guided dashboard. The
+skill can guide an existing Agent through
 explicitly delegated owner setup, scoped MCP authorization, and hosted Stripe
 Checkout through supported owner APIs. Initial permission confirmation and all
 later changes to account limits require the signed-in owner portal. See
@@ -64,11 +66,13 @@ Clients that support remote MCP authorization can use the published OAuth metada
 ### OpenClaw
 
 ```bash
-openclaw plugins install @telnyx/claw-me
+openclaw plugins install https://claw.me/downloads/claw-me-openclaw.tgz
 openclaw claw-me connect <one-time-claw-me-setup-code>
 ```
 
-The OpenClaw runtime package is maintained privately and is not included in this repository.
+The OpenClaw runtime package is maintained in the product repository. The
+download above contains the connector built with the deployed web release; the
+private runtime source is not copied into this public repository.
 
 ## Sample prompt
 
