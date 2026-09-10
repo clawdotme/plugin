@@ -1,6 +1,6 @@
 # Weekly Team Brief
 
-Review edition 2.0.0. Open index.html to preview the static page.
+Review edition 2.1.0. Open index.html to preview the static page.
 
 - Start with this template: make a private copy, then use customizationPrompt in creation-brief.json with its Page ID.
 - Build your own version: use creationPrompt and replace the example answers with your own.
@@ -8,3 +8,5 @@ Review edition 2.0.0. Open index.html to preview the static page.
 - Styling: ../_shared/tailwind/README.md. Compile scoped Tailwind CSS and bundle it with the page.
 
 Build a compact weekly brief with freshness/source notes, priority table, outcome summary, blockers with owners, upcoming dates, and a decision log. Show snapshot dates and do not imply live synchronization.
+
+HTML and PDF editions share one content source. See ../README.md for the PDF export and review workflow. Native disclosures are expanded in the file edition.

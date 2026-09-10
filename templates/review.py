@@ -28,15 +28,22 @@ def render(output):
                    if (output / screenshot).is_file() else
                    f'<iframe loading="lazy" sandbox="" title="Preview: {e(entry["title"])}" src="{slug}.html"></iframe>')
         cards.append(f'<article class="card"><p class="eyebrow">{number:02d} / {e(entry["category"].replace("-", " "))}</p>{preview}<h2><a href="{slug}-review.html">{e(entry["title"])}</a></h2><p>{e(entry["description"])}</p><a class="pill" href="{slug}-review.html">Review template &amp; prompts →</a></article>')
+        file_controls = (f'<button type="button" data-format="pdf">PDF</button><a href="{slug}.pdf" download>Download PDF</a>' if (output / f'{slug}.pdf').is_file() else '')
         prompts = []
         for key, title in [('customizationPrompt','Start with this template'),('creationPrompt','Build your own version')]:
             prompts.append(f'<details><summary>{title}</summary><label>Edit the prompt<textarea aria-label="{title} prompt">{e(brief[key])}</textarea></label><button type="button" data-copy>Copy prompt</button><span role="status"></span></details>')
         answers = ''.join(f'<dt>{e(key)}</dt><dd>{e(value)}</dd>' for key,value in brief['exampleAnswers'].items())
-        body = f'''<header><a href="index.html">← All ten templates</a><strong>{e(entry['title'])}</strong><a href="{slug}.html" target="_blank">Open full page</a></header><main class="review-detail"><section><nav aria-label="Preview width"><button type="button" data-width="100%" aria-pressed="true">Desktop</button><button type="button" data-width="390px" aria-pressed="false">Mobile</button></nav><iframe class="review-preview" sandbox="" title="{e(entry['title'])} preview" src="{slug}.html"></iframe></section><aside><p class="eyebrow">{e(entry['category'].replace('-', ' '))}</p><h1>{e(entry['title'])}</h1><p>{e(entry['description'])}</p><p class="note">Review edition. The page is static; the prompts can be edited and copied here.</p>{''.join(prompts)}<details><summary>Example brief</summary><p>{e(brief['creationPromptOrigin'])}</p><dl>{answers}</dl></details></aside></main>'''
+        body = f'''<header><a href="index.html">← All ten templates</a><strong>{e(entry['title'])}</strong><a href="{slug}.html" target="_blank">Open full page</a></header><main class="review-detail"><section class="review-stage"><nav aria-label="Preview width"><button type="button" data-format="html" aria-pressed="true">HTML</button>{file_controls}<button type="button" data-width="100%" aria-pressed="true">Desktop</button><button type="button" data-width="390px" aria-pressed="false">Mobile</button></nav><iframe class="review-preview" data-html="{slug}.html" data-pdf="{slug}.pdf" sandbox="" title="{e(entry['title'])} preview" src="{slug}.html"></iframe></section><aside><p class="eyebrow">{e(entry['category'].replace('-', ' '))}</p><h1>{e(entry['title'])}</h1><p>{e(entry['description'])}</p><p class="note">Start from this example, or adapt the brief below.</p>{''.join(prompts)}<details><summary>Example brief</summary><p>{e(brief['creationPromptOrigin'])}</p><dl>{answers}</dl></details></aside></main>'''
         body += '''<script>
 for (const button of document.querySelectorAll('[data-copy]')) button.addEventListener('click', async () => {
  const section=button.closest('details'), text=section.querySelector('textarea'), status=section.querySelector('[role=status]');
  try {await navigator.clipboard.writeText(text.value); status.textContent='Copied';} catch {text.focus();text.select();status.textContent='Select and copy the prompt manually.';}
+});
+for (const button of document.querySelectorAll('[data-format]')) button.addEventListener('click', () => {
+ const frame=document.querySelector('.review-preview');
+ if(button.dataset.format==='pdf') {frame.removeAttribute('sandbox');frame.src=frame.dataset.pdf;}
+ else {frame.setAttribute('sandbox','');frame.src=frame.dataset.html;}
+ for(const other of document.querySelectorAll('[data-format]')) other.setAttribute('aria-pressed',String(other===button));
 });
 for (const button of document.querySelectorAll('[data-width]')) button.addEventListener('click', () => {
  document.querySelector('.review-preview').style.maxWidth=button.dataset.width;

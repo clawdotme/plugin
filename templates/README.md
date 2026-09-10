@@ -37,3 +37,18 @@ The first review set now contains one complete pair in each of the ten planned c
 Build the review gallery with `python3 templates/review.py --output /tmp/claw-me-review-ten`, then serve that directory with a local HTTP server. Each review page supports desktop/mobile previews and editable prompt copying. If screenshots are present at `screenshots/<slug>-1440.png` in the output directory, the gallery uses them as thumbnails; otherwise it uses isolated previews.
 
 The four new category identifiers are `marketing-growth`, `finance-admin`, `research-data`, and `product-engineering`. The product schema and filters must ship with these identifiers before publishing this batch.
+
+## HTML and PDF editions
+
+The review editions use a full-width, opaque HTML preview with prompts below it. HTML supports native expandable details and section navigation. The proposal restores the original café project layout; the progress report is a four-section presentation with a landscape PDF edition.
+
+Export PDFs from the same built HTML with Chromium/Playwright, then rebuild the viewer to enable PDF viewing and downloads:
+
+```sh
+python3 templates/review.py --output /tmp/claw-me-review-ten
+# Point PLAYWRIGHT_MODULE at an installed @playwright/test or playwright package if it is not on Node's module path.
+node templates/export-pdfs.cjs /tmp/claw-me-review-ten
+python3 templates/review.py --output /tmp/claw-me-review-ten
+```
+
+The exporter expands disclosures for print and uses print-specific layout rules. PDF files are generated review outputs, not separately maintained content sources or automatically published Page assets. The current copyable-Page renderer still rejects JavaScript, forms, and embedded frames. PDF embedding in this local review viewer does not change that contract. Rich application interactions and production PDF hosting need a separate renderer/storage implementation.

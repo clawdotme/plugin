@@ -413,7 +413,7 @@ blockquote { margin: 0; padding: 24px 30px; border-left: 4px solid var(--theme-p
   }
 
   .review-board .review-detail {
-    grid-template-columns: minmax(0, 1fr) 380px;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
@@ -432,4 +432,257 @@ blockquote { margin: 0; padding: 24px 30px; border-left: 4px solid var(--theme-p
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+/* The review canvas is opaque and full-width; instructions sit below it. */
+
+.review-board {
+  background: #e9eae6;
+  background-image: none;
+}
+
+.review-board .review-detail {
+  max-width: 1480px;
+}
+
+.review-board .review-preview {
+  border-radius: 0px;
+  border-width: 0px;
+  background: #fff;
+  height: 85vh;
+}
+
+.review-board .review-detail > aside {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+.paired-template, .report-deck {
+  background-image: none;
+}
+
+.paired-template details {
+  border-bottom-width: 1px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-color: var(--theme-border);
+}
+
+.paired-template summary {
+  cursor: pointer;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.paired-template details[open] summary {
+  margin-bottom: 0.75rem;
+}
+
+.paired-template caption {
+  padding: 1rem;
+  text-align: left;
+  caption-side: bottom;
+}
+
+.paired-template tbody th {
+  background: transparent;
+  color: var(--theme-text);
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: inherit;
+}
+
+.report-deck .report-slide {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  min-height: 75vh;
+  border-bottom: 1px solid var(--theme-border);
+  scroll-margin-top: 24px;
+}
+
+.report-deck .report-slide h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.report-deck .review-grid {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.report-deck .chart {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.report-deck .supporting-image img {
+  height: 180px;
+}
+
+@media print {
+  body {
+    background: white;
+    background-image: none;
+  }
+
+  header, main, footer {
+    max-width: none;
+    padding-inline: 0;
+  }
+
+  header nav, .report-slide > a {
+    display: none;
+  }
+
+  .card, details, tr {
+    -moz-column-break-inside: avoid;
+         break-inside: avoid;
+  }
+
+  .table-wrap {
+    overflow: visible;
+  }
+
+  .report-deck .report-slide {
+    min-height: 0;
+    -moz-column-break-after: page;
+         break-after: page;
+    border: 0;
+    padding: 16px 0;
+  }
+
+  .report-deck .report-slide:last-child {
+    -moz-column-break-after: auto;
+         break-after: auto;
+  }
+
+  .report-deck footer {
+    display: none;
+  }
+
+  body {
+    font-size: 11px;
+    line-height: 1.45;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  h2, .card h2 {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .lead {
+    font-size: 12px;
+  }
+
+  header {
+    min-height: 42px;
+    padding-block: 8px;
+  }
+
+  .paired-template .intro {
+    padding-block: 16px;
+  }
+
+  .paired-template .section {
+    padding-block: 16px;
+    margin-top: 16px;
+  }
+
+  .paired-template .card {
+    padding: 14px;
+  }
+
+  .paired-template details {
+    padding-block: 6px;
+  }
+
+  .paired-template details summary {
+    margin-bottom: 4px;
+  }
+
+  td, th {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .scene img, .supporting-image img, .hero-photo img {
+    height: 140px;
+  }
+
+  .metric {
+    font-size: 27px;
+  }
+
+  .report-deck .report-slide {
+    padding: 20px 0;
+  }
+
+  .report-deck .report-slide h2 {
+    font-size: 30px;
+  }
+
+  .report-deck .review-grid, .report-deck .chart {
+    margin-block: 24px;
+  }
+
+  .report-deck header {
+    display: none;
+  }
+
+  .report-deck .report-slide {
+    min-height: 0;
+  }
+
+  .paired-template .review-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .proposal-layout {
+    grid-template-columns: minmax(0, 1fr) 210px;
+    gap: 20px;
+  }
+
+  .portfolio-grid, .learning-layout, .travel-layout, .brief-layout, .report-layout, .decision-hero {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .paired-template .campaign-hero, .paired-template .budget-notes {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .workspace-layout {
+    display: block;
+  }
+
+  .workspace-menu {
+    display: none;
+  }
+
+  .kanban {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .paired-template .supporting-image {
+    margin-block: 16px;
+  }
+
+  footer {
+    margin-top: 8px;
+    padding-block: 8px;
+    font-size: 9px;
+  }
 }
