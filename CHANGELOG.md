@@ -1,3 +1,10 @@
+## 0.5.5 — 2026-09-10
+
+- Sync skill 1.1.6 with signup and terms before setup, Agent prompt/dashboard choice, and saved final billing choice.
+- Document completed legacy setup, Always release and Block sender behavior, owner-only outbound email, and provider-drafts availability checks. Email release never starts an Agent turn or approves external actions.
+- Clarify Managed hosting availability, the bounded $5/30-day bootstrap allowance, durable provider setup, and separately configured channels.
+- Point OpenClaw installation at the connector archive shipped by Claw Me. Keep plugin permissions and immutable templates-v3.0.0 assets unchanged.
+
 ## 0.5.4 — 2026-09-10
 
 - Sync skill 1.1.4 for explicit Free, PAYG, Basic, or Plus selection as the last onboarding step. Free completes without a card.

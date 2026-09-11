@@ -1,0 +1,18 @@
+{
+  "slug": "executive-summary",
+  "title": "Executive Summary",
+  "category": "presentations-reports",
+  "description": "Summarize a longer review with the recommendation, supporting evidence, risks, and action.",
+  "highlights": [
+    "Recommendation",
+    "Reasons and tradeoffs",
+    "Action requested"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}

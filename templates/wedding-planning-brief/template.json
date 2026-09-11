@@ -1,0 +1,18 @@
+{
+  "slug": "wedding-planning-brief",
+  "title": "Wedding Planning Brief",
+  "category": "planning-travel",
+  "description": "A wedding planning brief with priorities, responsibilities, guest assumptions, and open decisions.",
+  "highlights": [
+    "Three priorities",
+    "Guest experience",
+    "Open decisions"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

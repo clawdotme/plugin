@@ -1,0 +1,18 @@
+{
+  "slug": "launch-announcement",
+  "title": "Launch Announcement",
+  "category": "marketing-growth",
+  "description": "Draft a launch announcement with a concrete change, audience benefit, and verified next step.",
+  "highlights": [
+    "The announcement draft",
+    "Make the benefit concrete",
+    "Before release"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

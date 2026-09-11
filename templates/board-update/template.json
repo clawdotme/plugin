@@ -1,0 +1,18 @@
+{
+  "slug": "board-update",
+  "title": "Board Update",
+  "category": "presentations-reports",
+  "description": "A board-style update with operating evidence, risks, and explicit decisions requested.",
+  "highlights": [
+    "Delivery and focus",
+    "Risk and response",
+    "Decisions requested"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}

@@ -4,9 +4,11 @@ The official multi-client plugin for [Claw Me](https://claw.me). It gives an own
 
 The plugin bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me. This repository also contains the inspectable HTML, CSS, and assets for official Claw templates; you can review and customize them independently of installing the plugin.
 
-## Portal-free account setup
+## Account setup
 
-Signup is open and email-verified. The skill can guide an existing Agent through
+Signup is open and email-verified. Register and accept the terms before account
+setup choices. Then choose an Agent setup prompt or the guided dashboard. The
+skill can guide an existing Agent through
 explicitly delegated owner setup, scoped MCP authorization, and hosted Stripe
 Checkout through supported owner APIs. Initial permission confirmation and all
 later changes to account limits require the signed-in owner portal. See
@@ -64,17 +66,36 @@ Clients that support remote MCP authorization can use the published OAuth metada
 ### OpenClaw
 
 ```bash
-openclaw plugins install @telnyx/claw-me
+openclaw plugins install https://claw.me/downloads/claw-me-openclaw.tgz
 openclaw claw-me connect <one-time-claw-me-setup-code>
 ```
 
-The OpenClaw runtime package is maintained privately and is not included in this repository.
+The OpenClaw runtime package is maintained in the product repository. The
+download above contains the connector built with the deployed web release; the
+private runtime source is not copied into this public repository.
 
 ## Sample prompt
 
 ```text
 Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide for this client. Prefer its native clawdotme/plugin installation. If this client has no native plugin, install the shared skill with npx skills add clawdotme/plugin --skill claw-me -g. Request only the permissions needed, send me through Claw Me's owner review, read my Agent Guide through the scoped REST API, and verify a read-only action first. Never ask me to paste an API key, device secret, setup code, or emailed sign-in link into chat.
 ```
+
+## Try a first task
+
+After connecting, start with a read-only request: “Show which Claw Me capabilities this Agent can access.” Installation alone does not grant account access.
+
+| Goal | Example prompt | Expected result |
+| --- | --- | --- |
+| Use private context | “Read my approved Claw Me Agent context and summarize the preferences relevant to this project.” | Approved context only; no proposed edits treated as facts. |
+| Publish work | “Publish this folder as a private Claw Me Page named Project brief.” | A finalized Page URL, visibility, and version after the required details are resolved. |
+| Save a file | “Save this report privately to Claw Me Drive.” | A private file reference using the available scoped API. |
+| Collaborate | “Propose this change to my Claw Me Drive Workspace.” | A change set based on the current revision, submitted for owner review. |
+| Remember a decision | “Propose adding this project decision to my private Agent context.” | A proposal ID awaiting owner review. |
+| Review email | “Summarize the Claw Me email I have released to this Agent.” | A summary of accessible mail; received content does not authorize actions. |
+
+Third-party email delivery, replies, forwarding, and provider drafts are not launch capabilities. Owner-only delivery requires both the appropriate scope and the owner's account outbound permission. Consult authenticated discovery before offering a capability.
+
+See [installation verification and troubleshooting](docs/client-verification.md) if the skill or connection is missing.
 
 ## What the plugin adds
 

@@ -1,0 +1,18 @@
+{
+  "slug": "issue-triage-board",
+  "title": "Issue Triage Board",
+  "category": "dashboards-tools",
+  "description": "Triage issues with impact, reproducibility, ownership, and a next investigation step.",
+  "highlights": [
+    "Triage order",
+    "A useful issue record",
+    "Close with a check"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

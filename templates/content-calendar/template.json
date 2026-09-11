@@ -1,0 +1,18 @@
+{
+  "slug": "content-calendar",
+  "title": "Content Calendar",
+  "category": "marketing-growth",
+  "description": "A content calendar with audience questions, formats, owners, and review status.",
+  "highlights": [
+    "The editorial thread",
+    "Review before publication",
+    "Learn from the response"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "decision-log",
+  "title": "Decision Log",
+  "category": "dashboards-tools",
+  "description": "A searchable-by-page decision register with alternatives, owners, and review triggers.",
+  "highlights": [
+    "D-01: a smaller first release",
+    "D-02: content people can read",
+    "D-03: coherent feedback"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

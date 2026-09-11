@@ -1,0 +1,18 @@
+{
+  "slug": "annual-review",
+  "title": "Annual Review",
+  "category": "presentations-reports",
+  "description": "An annual review organized around outcomes, evidence, lessons, and next-year priorities.",
+  "highlights": [
+    "What the year produced",
+    "What we learned",
+    "Next year’s focus"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}

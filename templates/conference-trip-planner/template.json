@@ -1,0 +1,18 @@
+{
+  "slug": "conference-trip-planner",
+  "title": "Conference Trip Planner",
+  "category": "planning-travel",
+  "description": "Plan a conference trip around confirmed logistics, selected sessions, and follow-up time.",
+  "highlights": [
+    "Choose fewer sessions",
+    "Keep logistics together",
+    "After the trip"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "status": "100 complete HTML, prompt, and PDF-source editions",
+  "targetCategories": 10,
+  "targetPerCategory": 10,
+  "categories": [
+    {
+      "name": "Websites & portfolios",
+      "templates": [
+        "Independent Portfolio",
+        "Case Study Showcase",
+        "Community Homepage",
+        "Consultant Profile",
+        "Event Landing Page",
+        "Newsletter Landing Page",
+        "Personal Homepage",
+        "Product Launch Page",
+        "Service Directory",
+        "Studio Website"
+      ]
+    },
+    {
+      "name": "Business & client work",
+      "templates": [
+        "Client Project Proposal",
+        "Account Plan",
+        "Client Handover Guide",
+        "Client Onboarding Guide",
+        "Meeting Follow-up",
+        "Partnership Proposal",
+        "Project Brief",
+        "Quarterly Client Review",
+        "Service Comparison",
+        "Statement of Work"
+      ]
+    },
+    {
+      "name": "Dashboards & internal tools",
+      "templates": [
+        "Weekly Team Brief",
+        "Decision Log",
+        "Inventory Snapshot",
+        "Issue Triage Board",
+        "Launch Readiness Checklist",
+        "Operations Scorecard",
+        "Project Status Board",
+        "Service Health Report",
+        "Team Capacity Snapshot",
+        "Team Directory"
+      ]
+    },
+    {
+      "name": "Planning & travel",
+      "templates": [
+        "A Long Weekend Away",
+        "Conference Trip Planner",
+        "Event Run of Show",
+        "Moving Checklist",
+        "Project Kickoff Agenda",
+        "Road Trip Itinerary",
+        "Team Offsite Plan",
+        "Travel Budget Worksheet",
+        "Wedding Planning Brief",
+        "Weekly Planner"
+      ]
+    },
+    {
+      "name": "Presentations & reports",
+      "templates": [
+        "Project Progress Report",
+        "Annual Review",
+        "Board Update",
+        "Customer Insight Report",
+        "Executive Summary",
+        "Experiment Results",
+        "Impact Report",
+        "Postmortem Report",
+        "Presentation Outline",
+        "Product Demo Narrative"
+      ]
+    },
+    {
+      "name": "Education & personal",
+      "templates": [
+        "Personal Learning Guide",
+        "Career Development Plan",
+        "Course Companion",
+        "Goal Review",
+        "Habit Review",
+        "Language Practice Guide",
+        "Personal Knowledge Index",
+        "Reading Journal",
+        "Study Schedule",
+        "Workshop Workbook"
+      ]
+    },
+    {
+      "name": "Marketing & growth",
+      "templates": [
+        "Campaign Brief",
+        "Audience Profile",
+        "Brand Guidelines",
+        "Channel Performance Report",
+        "Content Calendar",
+        "Customer Story",
+        "Launch Announcement",
+        "Messaging Guide",
+        "Referral Program Brief",
+        "SEO Content Brief"
+      ]
+    },
+    {
+      "name": "Finance & admin",
+      "templates": [
+        "Budget Overview",
+        "Administration Checklist",
+        "Cash Flow Snapshot",
+        "Expense Review",
+        "Financial Assumptions Sheet",
+        "Invoice Summary",
+        "Pricing Comparison",
+        "Purchase Request",
+        "Renewal Tracker",
+        "Vendor Comparison"
+      ]
+    },
+    {
+      "name": "Research & data",
+      "templates": [
+        "Research Decision Brief",
+        "Competitor Research",
+        "Dataset Guide",
+        "Evidence Tracker",
+        "Interview Synthesis",
+        "Literature Review",
+        "Market Landscape",
+        "Research Plan",
+        "Survey Results",
+        "Technology Assessment"
+      ]
+    },
+    {
+      "name": "Product & engineering",
+      "templates": [
+        "Product Interface Prototype",
+        "API Documentation",
+        "Accessibility Review",
+        "Architecture Decision",
+        "Developer Onboarding",
+        "Feature Specification",
+        "Product Requirements",
+        "QA Test Plan",
+        "Release Notes",
+        "Roadmap Snapshot"
+      ]
+    }
+  ]
+}

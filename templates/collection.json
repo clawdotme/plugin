@@ -1,0 +1,4795 @@
+[
+  {
+    "slug": "studio-website",
+    "title": "Studio Website",
+    "category": "websites-portfolios",
+    "layout": "feature",
+    "headline": "Small studio. Close collaboration.",
+    "description": "A studio website with selected work, service scope, and a practical inquiry guide.",
+    "context": "Fictional Common Room Studio designs clear websites for independent businesses. Two designers work directly with the owner from the first conversation to handover. This edition shows a café, an archive, and a maker’s shop.",
+    "columns": [
+      "Project",
+      "Our part",
+      "Delivery"
+    ],
+    "rows": [
+      [
+        "Greenhouse Coffee",
+        "Menu and location website",
+        "Four weeks"
+      ],
+      [
+        "Paper Archive",
+        "Searchable collection concept",
+        "Six weeks"
+      ],
+      [
+        "Elm Objects",
+        "Product storytelling",
+        "Three weeks"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Work that earns its place",
+        "body": "Greenhouse needed opening hours, a readable menu, and directions that guests could find on a phone. We reduced the launch scope to five pages and agreed who would maintain each one."
+      },
+      {
+        "title": "How we work",
+        "body": "A short discovery session sets the audience and the boundaries. We share one direction with reasons, review real content together, and leave the owner with a documented update routine."
+      },
+      {
+        "title": "Start a conversation",
+        "body": "Bring the business name, the pages you need, a target date, and what you can supply. For this fictional studio, a suitable first project has one decision maker and time for two review rounds."
+      }
+    ],
+    "questions": "studio name, audience, selected projects and permissions, actual services, availability, contact destination",
+    "image": "studio.png"
+  },
+  {
+    "slug": "personal-homepage",
+    "title": "Personal Homepage",
+    "category": "websites-portfolios",
+    "layout": "profile",
+    "headline": "A place for the things I’m making.",
+    "description": "Introduce your work, current interests, and ways to connect in a personal homepage.",
+    "context": "Alex is a fictional independent builder exploring calmer tools for small teams. This homepage brings together selected experiments, a short biography, and an up-to-date now section.",
+    "columns": [
+      "Now",
+      "Focus",
+      "Next step"
+    ],
+    "rows": [
+      [
+        "Building",
+        "A shared project notebook",
+        "Test with three teams"
+      ],
+      [
+        "Learning",
+        "Accessible document design",
+        "Review a printed brief"
+      ],
+      [
+        "Writing",
+        "Notes on working with Agents",
+        "Publish one practical example"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "A little background",
+        "body": "I work where product decisions meet useful documents. Recent projects have included a client handover, a community directory, and a set of private project pages. I prefer a small working example to a long speculative roadmap."
+      },
+      {
+        "title": "Selected experiment",
+        "body": "The project notebook started as a single weekly page. A short decision log turned out to be more useful than another stream of status messages. The next experiment is a clearer handover between the owner and their Agent."
+      },
+      {
+        "title": "Open to",
+        "body": "Thoughtful collaborations on documentation, small web tools, and independent products. Introduce the problem, the people it affects, and the kind of help you need. Replace this sample invitation with your real contact details."
+      }
+    ],
+    "questions": "name, biography, current work, interests, work links, contact details and visibility",
+    "image": "workspace.png"
+  },
+  {
+    "slug": "consultant-profile",
+    "title": "Consultant Profile",
+    "category": "websites-portfolios",
+    "layout": "profile",
+    "headline": "Make the next product decision clearer.",
+    "description": "Present a consultant’s expertise, engagement formats, and qualification questions.",
+    "context": "Fictional consultant Robin helps small product teams turn an ambiguous brief into a decision they can test. Engagements have a defined question, a named reviewer, and a written handover.",
+    "columns": [
+      "Engagement",
+      "Best for",
+      "You receive"
+    ],
+    "rows": [
+      [
+        "Decision workshop",
+        "One disputed direction",
+        "Options and decision record"
+      ],
+      [
+        "Discovery sprint",
+        "An unclear problem",
+        "Interview synthesis and scope"
+      ],
+      [
+        "Review session",
+        "A design already in progress",
+        "Prioritized observations"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Experience with context",
+        "body": "Robin’s sample work covers onboarding, customer communication, and internal knowledge tools. This profile deliberately describes the work performed rather than inventing client logos, credentials, or performance claims."
+      },
+      {
+        "title": "A useful first week",
+        "body": "Agree the question and the available evidence. Speak with the people closest to the work, review one real workflow, and separate immediate changes from assumptions that need a test."
+      },
+      {
+        "title": "Check the fit",
+        "body": "This service suits a team that can name a decision owner and share relevant material. A request to replace an entire product strategy without access to customers needs a narrower first step."
+      }
+    ],
+    "questions": "consultant credentials, verified experience, services, engagement duration, availability, qualification criteria",
+    "image": "meeting-follow-up.png"
+  },
+  {
+    "slug": "product-launch-page",
+    "title": "Product Launch Page",
+    "category": "websites-portfolios",
+    "layout": "feature",
+    "headline": "One notebook for the next project.",
+    "description": "Launch a product with a concrete preview, use cases, and meaningful FAQs.",
+    "context": "Fieldnote is a fictional project notebook for small teams. This example demonstrates the product story and a preview of its core workflow; product capabilities and availability are illustrative.",
+    "columns": [
+      "Moment",
+      "What you do",
+      "What stays visible"
+    ],
+    "rows": [
+      [
+        "Start",
+        "Write a one-page brief",
+        "Goal and constraints"
+      ],
+      [
+        "Work",
+        "Add a weekly note",
+        "Progress and blockers"
+      ],
+      [
+        "Decide",
+        "Record the choice",
+        "Reason and owner"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "See the first project",
+        "body": "A café website starts with the five pages it needs. The weekly note identifies the missing menu copy. The decision log records why online ordering is outside the first release. Each piece links back to the same brief."
+      },
+      {
+        "title": "Who it helps",
+        "body": "Teams with a few concurrent projects and a named owner for each one. A readable project record can help collaborators join the conversation without searching through a long message history."
+      },
+      {
+        "title": "Before you join",
+        "body": "In a real launch, replace this section with verified availability, plan details, data handling, and a working sign-up destination. This sample has no sign-up form and makes no promise about a live service."
+      }
+    ],
+    "questions": "product name, verified capabilities, audience, sample workflow, availability, pricing and sign-up destination",
+    "image": "workspace.png"
+  },
+  {
+    "slug": "event-landing-page",
+    "title": "Event Landing Page",
+    "category": "websites-portfolios",
+    "layout": "feature",
+    "headline": "An afternoon for useful ideas.",
+    "description": "An event website with agenda, audience, access information, and session details.",
+    "context": "The fictional Common Room gathering brings independent builders together for short demonstrations and practical conversations. The sample event runs from 13:00 to 17:00; venue and attendance arrangements must be confirmed before use.",
+    "columns": [
+      "Time",
+      "Session",
+      "Format"
+    ],
+    "rows": [
+      [
+        "13:00",
+        "Arrivals and introductions",
+        "Hosted welcome"
+      ],
+      [
+        "13:30",
+        "Show something small",
+        "Three ten-minute demos"
+      ],
+      [
+        "14:30",
+        "Working tables",
+        "Choose one problem"
+      ],
+      [
+        "16:00",
+        "What we learned",
+        "Shared discussion"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Come with a question",
+        "body": "Bring a project you can describe in two minutes, or a question you are actively working on. Finished work is welcome, but an honest account of an unfinished experiment is equally useful."
+      },
+      {
+        "title": "A comfortable afternoon",
+        "body": "Allow space between sessions and provide seating throughout. Publish verified step-free access, restroom details, transport options, and a contact for access requests when the venue is confirmed."
+      },
+      {
+        "title": "What happens next",
+        "body": "The host collects only the information needed to organize attendance. Replace this sample with a real booking link and clear cancellation terms before inviting people. No registration is collected by this page."
+      }
+    ],
+    "questions": "event title, confirmed date and venue, agenda, speakers and permission, accessibility, booking link",
+    "image": "presentation-outline.png"
+  },
+  {
+    "slug": "newsletter-landing-page",
+    "title": "Newsletter Landing Page",
+    "category": "websites-portfolios",
+    "layout": "feature",
+    "headline": "A useful note, every other Friday.",
+    "description": "Explain a newsletter’s editorial promise with a sample issue and clear subscription expectations.",
+    "context": "Working Notes is a fictional newsletter about small products and practical documentation. Each issue follows one real question from a rough idea to something a reader can try.",
+    "columns": [
+      "Inside an issue",
+      "Example",
+      "Reading time"
+    ],
+    "rows": [
+      [
+        "One observation",
+        "Why handovers go stale",
+        "Two minutes"
+      ],
+      [
+        "One worked example",
+        "A clearer project brief",
+        "Four minutes"
+      ],
+      [
+        "One thing to try",
+        "Name the next decision",
+        "One minute"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "From the sample issue",
+        "body": "A handover is useful when the next person can act without asking what every file means. Try putting the owner, the last review date, and the next action above the document list."
+      },
+      {
+        "title": "The editorial promise",
+        "body": "Expect one subject at a time, enough context to judge it, and examples that can be adapted. This sample does not claim a subscriber count, testimonials, or a publishing history."
+      },
+      {
+        "title": "Subscription details",
+        "body": "Add a verified subscription destination, delivery cadence, sender name, and privacy information before launch. Explain how to unsubscribe. This static sample stores no email addresses."
+      }
+    ],
+    "questions": "newsletter name, audience, editorial focus, cadence, sample issue, subscription and privacy destinations",
+    "image": "workspace.png"
+  },
+  {
+    "slug": "community-homepage",
+    "title": "Community Homepage",
+    "category": "websites-portfolios",
+    "layout": "directory",
+    "headline": "Build together, at a human pace.",
+    "description": "A community home with a welcoming path, recurring activities, and participation guidelines.",
+    "context": "The fictional Side Project Circle is a small peer group for people building useful things outside their day jobs. Members choose a manageable next step and return to share what happened.",
+    "columns": [
+      "Gathering",
+      "Cadence",
+      "Bring"
+    ],
+    "rows": [
+      [
+        "Monday check-in",
+        "Weekly",
+        "One achievable intention"
+      ],
+      [
+        "Open work session",
+        "Every other week",
+        "A task you can do together"
+      ],
+      [
+        "Demo afternoon",
+        "Monthly",
+        "An example and a lesson"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Your first visit",
+        "body": "Read the participation guide, introduce the project in a few sentences, and choose a gathering that fits. Listening is participation; nobody needs a polished presentation to attend."
+      },
+      {
+        "title": "How we look after the space",
+        "body": "Give feedback on the work, ask before sharing someone else’s material, and keep private conversations private. The organizer should publish a clear reporting route and explain how concerns are handled."
+      },
+      {
+        "title": "Make room for newcomers",
+        "body": "A rotating host welcomes first-time participants and explains the format. Keep event information current and offer a written recap for people who cannot attend live."
+      }
+    ],
+    "questions": "community purpose, membership expectations, organizers, event cadence, conduct policy, joining route",
+    "image": "meeting-follow-up.png"
+  },
+  {
+    "slug": "service-directory",
+    "title": "Service Directory",
+    "category": "websites-portfolios",
+    "layout": "directory",
+    "headline": "Find the right kind of help.",
+    "description": "A readable directory with service categories, selection criteria, and provider details.",
+    "context": "This fictional directory helps independent businesses identify the kind of support they need before contacting a provider. The sample listings are invented and are not endorsements.",
+    "columns": [
+      "Provider",
+      "Focus",
+      "Suitable first request"
+    ],
+    "rows": [
+      [
+        "Common Room",
+        "Website design",
+        "A five-page business site"
+      ],
+      [
+        "Clear Ledger",
+        "Bookkeeping operations",
+        "Organize monthly records"
+      ],
+      [
+        "Plain Words",
+        "Content editing",
+        "Review an existing service page"
+      ],
+      [
+        "Open Door",
+        "Workshop facilitation",
+        "Plan a team decision session"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Choose by the work",
+        "body": "Start with the outcome you need, your deadline, and the material already available. A provider’s specific scope is more useful than a broad label such as full service."
+      },
+      {
+        "title": "Before an introduction",
+        "body": "Ask about availability, relevant examples, who will do the work, and how costs are agreed. Confirm the provider’s current details independently before making a purchase."
+      },
+      {
+        "title": "Keeping the directory useful",
+        "body": "Assign an owner to each listing and record its last verification date. Remove unavailable providers and identify paid placements clearly if the real directory includes them."
+      }
+    ],
+    "questions": "directory audience, real providers and consent, categories, inclusion criteria, verification dates, contact routes",
+    "image": "studio.png"
+  },
+  {
+    "slug": "case-study-showcase",
+    "title": "Case Study Showcase",
+    "category": "websites-portfolios",
+    "layout": "casebook",
+    "headline": "From scattered notes to a usable handover.",
+    "description": "Tell a project story through constraints, decisions, evidence, and the finished result.",
+    "context": "This fictional case study follows a small studio preparing a client handover. The work focused on making the next owner’s responsibilities visible, rather than redesigning every document.",
+    "columns": [
+      "Stage",
+      "Decision",
+      "Evidence to collect"
+    ],
+    "rows": [
+      [
+        "Before",
+        "Map the handover gaps",
+        "Questions from the receiving team"
+      ],
+      [
+        "During",
+        "Use one document index",
+        "Observed lookup tasks"
+      ],
+      [
+        "After",
+        "Name a review owner",
+        "A completed maintenance check"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The original difficulty",
+        "body": "The client received useful files but could not tell which ones were current. Several links referred to earlier drafts, and no single page explained who would update the website after launch."
+      },
+      {
+        "title": "What changed",
+        "body": "The studio created an index with a purpose, owner, and status for each deliverable. A short maintenance routine sat beside the index. Old drafts stayed in an archive rather than appearing as equal alternatives."
+      },
+      {
+        "title": "What the example can show",
+        "body": "The sample result is an organized handover with explicit responsibilities. A real case study should add verified before-and-after evidence, permission to name the client, and any limitations in the evaluation."
+      }
+    ],
+    "questions": "project background, client permissions, role, constraints, key decisions, verified evidence and outcome",
+    "image": "client-project-proposal.png"
+  },
+  {
+    "slug": "client-onboarding-guide",
+    "title": "Client Onboarding Guide",
+    "category": "business-client-work",
+    "layout": "dossier",
+    "headline": "A clear first week together.",
+    "description": "Welcome a client with owners, access requests, milestones, and a first-week checklist.",
+    "context": "Common Room’s fictional café project begins with one decision maker and a shared brief. This guide explains what the client supplies, what the studio prepares, and when the first review happens.",
+    "columns": [
+      "When",
+      "Client prepares",
+      "Studio prepares"
+    ],
+    "rows": [
+      [
+        "Before kickoff",
+        "Brand files and menu copy",
+        "Shared document index"
+      ],
+      [
+        "Day one",
+        "Business goals and constraints",
+        "Kickoff notes"
+      ],
+      [
+        "Day three",
+        "Feedback on content outline",
+        "First page structure"
+      ],
+      [
+        "Day five",
+        "One consolidated response",
+        "Confirmed project plan"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Working agreement",
+        "body": "Use one review thread for each deliverable and identify the person who consolidates feedback. Urgent issues go to the project lead; a new idea goes into the scope discussion before work begins."
+      },
+      {
+        "title": "Access without confusion",
+        "body": "List the systems required and the minimum role needed in each. The client grants access through the system’s own invitation process. Keep passwords and recovery codes out of this guide."
+      },
+      {
+        "title": "Ready for the first review",
+        "body": "The kickoff is complete when the goal, the five-page scope, the content owner, and the first review date are understood by both sides. Missing inputs become named actions rather than hidden assumptions."
+      }
+    ],
+    "questions": "client and project, stakeholders, working channels, access needs, milestones, required inputs",
+    "image": null
+  },
+  {
+    "slug": "project-brief",
+    "title": "Project Brief",
+    "category": "business-client-work",
+    "layout": "dossier",
+    "headline": "Agree what this project needs to do.",
+    "description": "A project brief that connects the audience, problem, scope, and acceptance conditions.",
+    "context": "The fictional Greenhouse café needs a website that answers common visitor questions on mobile. The first release covers location, opening hours, the menu, the story, and contact information.",
+    "columns": [
+      "Question",
+      "Working answer",
+      "How to check"
+    ],
+    "rows": [
+      [
+        "Who is it for?",
+        "A first-time visitor on a phone",
+        "Review three visitor tasks"
+      ],
+      [
+        "What matters most?",
+        "Hours, location, and menu",
+        "Find each in one clear path"
+      ],
+      [
+        "What is excluded?",
+        "Ordering and reservations",
+        "Keep outside launch scope"
+      ],
+      [
+        "Who decides?",
+        "The café owner",
+        "One consolidated review"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The problem to solve",
+        "body": "Customers currently ask for information that exists in several places. The site should make the essentials easy to find and simple for the owner to keep current."
+      },
+      {
+        "title": "Acceptance conditions",
+        "body": "Use approved content, readable type, working links, and layouts that fit mobile screens. The owner should be able to explain the update process at handover. Record any unresolved item before launch."
+      },
+      {
+        "title": "Open questions",
+        "body": "Confirm seasonal hours, the menu source of truth, and the person responsible for updates. Do not fill missing business details with plausible-looking information; mark them for the owner to supply."
+      }
+    ],
+    "questions": "problem, audience, desired outcome, scope exclusions, content sources, decision owner and acceptance criteria",
+    "image": null
+  },
+  {
+    "slug": "statement-of-work",
+    "title": "Statement of Work",
+    "category": "business-client-work",
+    "layout": "dossier",
+    "headline": "Scope that both sides can review.",
+    "description": "A discussion draft with deliverables, responsibilities, assumptions, and change handling.",
+    "context": "This fictional statement of work covers the design and handover of a five-page café website. It is a planning example for review, with commercial and legal terms to be supplied by the contracting parties.",
+    "columns": [
+      "Deliverable",
+      "Included",
+      "Acceptance evidence"
+    ],
+    "rows": [
+      [
+        "Content outline",
+        "Five named pages",
+        "Owner-approved outline"
+      ],
+      [
+        "Page design",
+        "Desktop and mobile layouts",
+        "Reviewed representative screens"
+      ],
+      [
+        "Build",
+        "Approved content and links",
+        "Completed review checklist"
+      ],
+      [
+        "Handover",
+        "File index and update guide",
+        "Owner walkthrough"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Responsibilities",
+        "body": "The studio prepares the design and build. The client provides approved text, licensed images, and one consolidated response per review round. Delays to those inputs require the schedule to be revisited together."
+      },
+      {
+        "title": "Change handling",
+        "body": "Write down the requested change, its reason, and its effect on time and cost. Work outside the agreed scope starts only after both parties accept the revised plan."
+      },
+      {
+        "title": "Before agreement",
+        "body": "Replace all sample details, attach the agreed pricing and payment schedule, and have the parties review the terms appropriate to their jurisdiction. This example is not an executed contract."
+      }
+    ],
+    "questions": "parties, deliverables, exclusions, responsibilities, acceptance process, commercial terms and review requirements",
+    "image": null
+  },
+  {
+    "slug": "account-plan",
+    "title": "Account Plan",
+    "category": "business-client-work",
+    "layout": "dossier",
+    "headline": "Build the relationship around useful outcomes.",
+    "description": "An account plan with stakeholder needs, opportunities, risks, and next conversations.",
+    "context": "The fictional Greenhouse account is entering its first quarter after a website handover. The studio wants to support maintenance without assuming the client needs a larger project.",
+    "columns": [
+      "Stakeholder",
+      "Priority",
+      "Next conversation"
+    ],
+    "rows": [
+      [
+        "Owner",
+        "Keep information current",
+        "Agree monthly content check"
+      ],
+      [
+        "Shift lead",
+        "Reduce repeated questions",
+        "Review the top visitor questions"
+      ],
+      [
+        "Studio lead",
+        "Make support predictable",
+        "Confirm support boundaries"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Current position",
+        "body": "The first website is complete in this example. The immediate opportunity is a clear maintenance routine, not a speculative rebuild. Record the client’s stated priorities separately from the studio’s ideas."
+      },
+      {
+        "title": "Relationship risks",
+        "body": "Updates may stop if responsibility is unclear. A seasonal menu change could expose an outdated page. Keep the next review date and the owner of each content area visible."
+      },
+      {
+        "title": "Ninety-day focus",
+        "body": "Check the information once a month, review actual visitor questions, and discuss improvements only when there is evidence of a need. A real plan should include verified commercial history in the private version."
+      }
+    ],
+    "questions": "account history, stakeholder roles, verified goals, current commitments, risks and next review",
+    "image": null
+  },
+  {
+    "slug": "meeting-follow-up",
+    "title": "Meeting Follow-up",
+    "category": "business-client-work",
+    "layout": "minutes",
+    "headline": "The meeting ends. The next steps don’t.",
+    "description": "Turn a discussion into decisions, owned actions, and a reviewed follow-up draft.",
+    "context": "In this fictional café kickoff, the client and studio agreed the first-release scope and identified two missing inputs. These notes are a draft for participants to check before they are shared.",
+    "columns": [
+      "Action",
+      "Owner",
+      "Due"
+    ],
+    "rows": [
+      [
+        "Send approved menu text",
+        "Café owner",
+        "Tuesday"
+      ],
+      [
+        "Draft five-page outline",
+        "Studio lead",
+        "Wednesday"
+      ],
+      [
+        "Confirm seasonal hours",
+        "Shift lead",
+        "Thursday"
+      ],
+      [
+        "Review outline together",
+        "Owner and studio",
+        "Friday"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Decisions made",
+        "body": "The first release has five pages. Online ordering remains outside scope. The café owner consolidates feedback, and the studio records any proposed scope change before starting it."
+      },
+      {
+        "title": "Still open",
+        "body": "The final menu text and seasonal opening hours are not yet confirmed. Those inputs affect content review but do not change the agreed page structure at this point."
+      },
+      {
+        "title": "Follow-up draft",
+        "body": "Thanks for the discussion. We agreed the five-page scope and a Friday outline review. Please check the action list and flag any owner or date that is incorrect. The menu text and seasonal hours remain the two inputs we need next."
+      }
+    ],
+    "questions": "meeting date, participants, verified decisions, open questions, owners, dates and intended recipients",
+    "image": null
+  },
+  {
+    "slug": "service-comparison",
+    "title": "Service Comparison",
+    "category": "business-client-work",
+    "layout": "comparison",
+    "headline": "Choose the support the project actually needs.",
+    "description": "Compare service packages by scope, responsibility, and fit rather than vague feature counts.",
+    "context": "This fictional studio offers three engagement shapes. The comparison helps a client choose between a focused review, a guided sprint, and a complete website project. Prices are intentionally omitted until scope is known.",
+    "columns": [
+      "Option",
+      "Includes",
+      "Best fit"
+    ],
+    "rows": [
+      [
+        "Review",
+        "One existing flow and written findings",
+        "A team ready to make its own changes"
+      ],
+      [
+        "Sprint",
+        "Discovery and one tested direction",
+        "An unclear problem with a deadline"
+      ],
+      [
+        "Website",
+        "Five-page design, build, and handover",
+        "A business launching its first site"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Compare the responsibility",
+        "body": "In a review, the client implements the changes. A sprint produces a direction and supporting evidence. The website engagement includes implementation within a defined page scope."
+      },
+      {
+        "title": "Questions before choosing",
+        "body": "Who can supply content? Who will approve the work? Is the deadline fixed? The answers can change the suitable engagement more than the number of features listed."
+      },
+      {
+        "title": "A sensible recommendation",
+        "body": "For the café example, the website engagement fits because the owner needs a complete handover and has no internal build team. Revisit the recommendation if the client already has a reliable implementation partner."
+      }
+    ],
+    "questions": "service options, exact inclusions, exclusions, client capabilities, timeline and pricing assumptions",
+    "image": null
+  },
+  {
+    "slug": "client-handover-guide",
+    "title": "Client Handover Guide",
+    "category": "business-client-work",
+    "layout": "manual",
+    "headline": "Everything the next owner needs.",
+    "description": "A handover guide with deliverable locations, maintenance responsibilities, and recovery steps.",
+    "context": "This fictional handover covers Greenhouse’s five-page website. The owner receives approved files and a short routine for keeping business information current. The index below uses descriptive locations rather than live private links.",
+    "columns": [
+      "Item",
+      "Purpose",
+      "Owner"
+    ],
+    "rows": [
+      [
+        "Approved page set",
+        "Published content reference",
+        "Café owner"
+      ],
+      [
+        "Brand folder",
+        "Licensed logo and images",
+        "Studio lead"
+      ],
+      [
+        "Update guide",
+        "Routine content changes",
+        "Café owner"
+      ],
+      [
+        "Review checklist",
+        "Monthly quality check",
+        "Shift lead"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The first walkthrough",
+        "body": "Open the home page on a phone and follow the paths to hours, the menu, and directions. Then use the update guide to identify where each item is maintained. Record anything the new owner cannot find."
+      },
+      {
+        "title": "Monthly maintenance",
+        "body": "Check hours and menu information, test contact links, and review whether any images or copy have expired. Record the review date and the person who completed it."
+      },
+      {
+        "title": "When something goes wrong",
+        "body": "Capture the affected page, the time, and what was expected. Contact the named support owner through the agreed channel. Keep a verified recovery procedure in the private handover; do not publish credentials."
+      }
+    ],
+    "questions": "deliverables and locations, owners, maintenance tasks, support channel, recovery procedure and access transfer",
+    "image": null
+  },
+  {
+    "slug": "quarterly-client-review",
+    "title": "Quarterly Client Review",
+    "category": "business-client-work",
+    "layout": "scorecard",
+    "headline": "What changed this quarter?",
+    "description": "Review delivered work, client feedback, unresolved issues, and the next quarter’s priorities.",
+    "context": "The fictional café account has completed its first quarter of routine website maintenance. This review separates delivered work from proposed improvements and keeps the client’s decisions visible.",
+    "columns": [
+      "Area",
+      "This quarter",
+      "Next action"
+    ],
+    "rows": [
+      [
+        "Content",
+        "Three menu updates completed",
+        "Confirm winter menu owner"
+      ],
+      [
+        "Maintenance",
+        "Two of three monthly checks recorded",
+        "Complete the missing check"
+      ],
+      [
+        "Feedback",
+        "Directions questioned twice",
+        "Review the location page"
+      ],
+      [
+        "Scope",
+        "No new pages commissioned",
+        "Keep proposed events page in backlog"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "What the record supports",
+        "body": "The team delivered the recorded menu updates. One maintenance check lacks evidence, so it should not be counted as complete. The two directions questions suggest an issue worth investigating, not a proven site-wide problem."
+      },
+      {
+        "title": "What the client needs to decide",
+        "body": "Confirm the winter content owner and whether the location page deserves a small improvement task. The events page is a separate proposal and should not be implied as already approved."
+      },
+      {
+        "title": "Next-quarter agreement",
+        "body": "Continue the monthly check, keep updates within the agreed support scope, and review recurring visitor questions. Add verified commercial figures only in the private client version."
+      }
+    ],
+    "questions": "quarter, delivered work, verified metrics, client feedback, unresolved issues and decisions requested",
+    "image": null
+  },
+  {
+    "slug": "partnership-proposal",
+    "title": "Partnership Proposal",
+    "category": "business-client-work",
+    "layout": "dossier",
+    "headline": "A small collaboration worth testing.",
+    "description": "Propose a partnership with mutual value, a bounded pilot, and review conditions.",
+    "context": "Common Room Studio and the fictional Side Project Circle are considering a joint workshop. The proposal starts with one session and a shared review rather than a long-term commitment.",
+    "columns": [
+      "Contribution",
+      "Studio",
+      "Community"
+    ],
+    "rows": [
+      [
+        "Preparation",
+        "Create the workshop material",
+        "Gather participant questions"
+      ],
+      [
+        "Delivery",
+        "Facilitate one practical exercise",
+        "Host and welcome participants"
+      ],
+      [
+        "Follow-up",
+        "Write a short recap",
+        "Collect voluntary feedback"
+      ],
+      [
+        "Review",
+        "Assess effort and learning",
+        "Assess member usefulness"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Why try it",
+        "body": "The studio can learn where independent builders get stuck, while the community receives a practical session on clearer project briefs. Neither side needs to promise leads, revenue, or a permanent relationship."
+      },
+      {
+        "title": "Pilot boundaries",
+        "body": "Run one ninety-minute workshop for a small group. Agree how names, recordings, and participant material may be used before the event. Each partner retains ownership of its existing material."
+      },
+      {
+        "title": "Continue only with evidence",
+        "body": "After the session, compare preparation time, participation, and feedback. Decide together whether to repeat, change, or stop. Any sponsorship or payment arrangement belongs in a separately reviewed agreement."
+      }
+    ],
+    "questions": "partners, shared audience, mutual value, contributions, pilot scope, ownership and success criteria",
+    "image": null
+  },
+  {
+    "slug": "project-status-board",
+    "title": "Project Status Board",
+    "category": "dashboards-tools",
+    "layout": "board",
+    "headline": "Know which work needs attention.",
+    "description": "A project board with owned work, clear status definitions, and actionable blockers.",
+    "context": "This fictional studio snapshot covers four client workstreams at the Monday review. Status is manually maintained; the page represents one review point rather than a live project system.",
+    "columns": [
+      "Workstream",
+      "Status",
+      "Owner",
+      "Next move"
+    ],
+    "rows": [
+      [
+        "Café website",
+        "In progress",
+        "Maya",
+        "Review the menu page"
+      ],
+      [
+        "Archive index",
+        "Needs input",
+        "Leo",
+        "Request collection labels"
+      ],
+      [
+        "Workshop pack",
+        "Ready for review",
+        "Sam",
+        "Run a participant walkthrough"
+      ],
+      [
+        "Support guide",
+        "Complete",
+        "Robin",
+        "Confirm handover receipt"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Needs attention",
+        "body": "The archive index is blocked by missing labels. Leo should identify the content owner and agree a date for a usable sample. The workshop pack needs a reviewer, not more unrequested production work."
+      },
+      {
+        "title": "Status definitions",
+        "body": "In progress means an owner is actively working on the next deliverable. Needs input means a named dependency prevents progress. Ready for review means the acceptance material is available. Complete means the agreed check has passed."
+      },
+      {
+        "title": "The next review",
+        "body": "Update each row from its source record before the weekly meeting. Archive completed work after handover, and keep blocked items visible until the dependency is resolved."
+      }
+    ],
+    "questions": "workstreams, snapshot date, owners, status definitions, blockers, source records and next review",
+    "image": null
+  },
+  {
+    "slug": "team-capacity-snapshot",
+    "title": "Team Capacity Snapshot",
+    "category": "dashboards-tools",
+    "layout": "capacity",
+    "headline": "Plan the week with room to finish.",
+    "description": "Compare available hours and committed work, with explicit assumptions about capacity.",
+    "context": "This fictional three-person team plans one week at a time. Available hours already exclude leave and recurring meetings. Committed hours are estimates for the named work, not a measure of individual performance.",
+    "columns": [
+      "Person",
+      "Available hours",
+      "Committed hours",
+      "Unallocated hours"
+    ],
+    "rows": [
+      [
+        "Maya",
+        "30",
+        "26",
+        "4"
+      ],
+      [
+        "Leo",
+        "24",
+        "22",
+        "2"
+      ],
+      [
+        "Sam",
+        "28",
+        "20",
+        "8"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Read the spare capacity",
+        "body": "The team has 14 unallocated hours across 82 available hours. Sam has the largest buffer, but work should move only when the skills and handover cost make sense."
+      },
+      {
+        "title": "Protect the assumptions",
+        "body": "Do not add a full working week on top of the available-hours figure. Leave and meetings have already been removed. Revisit commitments when a task grows or an unexpected support request arrives."
+      },
+      {
+        "title": "A practical adjustment",
+        "body": "Keep Leo’s remaining two hours for review and interruptions. Ask Sam to prepare the workshop checklist if the handover is small. Confirm the change with both people before treating it as the new plan."
+      }
+    ],
+    "questions": "planning period, people and consent, available hours, commitments, estimation method and reassignment constraints",
+    "image": null
+  },
+  {
+    "slug": "issue-triage-board",
+    "title": "Issue Triage Board",
+    "category": "dashboards-tools",
+    "layout": "board",
+    "headline": "Separate urgency from noise.",
+    "description": "Triage issues with impact, reproducibility, ownership, and a next investigation step.",
+    "context": "This fictional product review contains four reported issues. Severity reflects the effect on a user task; priority also considers how many people are affected and whether a workaround exists.",
+    "columns": [
+      "Issue",
+      "Impact",
+      "Owner",
+      "Next step"
+    ],
+    "rows": [
+      [
+        "Menu link fails",
+        "Visitor cannot open menu",
+        "Leo",
+        "Reproduce on mobile"
+      ],
+      [
+        "Long title wraps poorly",
+        "Heading remains readable",
+        "Maya",
+        "Check narrow layout"
+      ],
+      [
+        "Old support address",
+        "Contact reaches wrong inbox",
+        "Sam",
+        "Verify current address"
+      ],
+      [
+        "Missing image description",
+        "Context unavailable to some readers",
+        "Robin",
+        "Write meaningful alt text"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Triage order",
+        "body": "Verify the broken menu link and incorrect contact address first because they prevent intended actions. The heading wrap and image description still need owners and acceptance checks."
+      },
+      {
+        "title": "A useful issue record",
+        "body": "Record the page, device, expected result, actual result, and a minimal reproduction. Avoid including private account data in screenshots. Link the verified evidence in the private issue system."
+      },
+      {
+        "title": "Close with a check",
+        "body": "An issue is resolved when the original task works in the affected context and a reviewer confirms the result. A code change alone is not evidence that the user’s problem has gone away."
+      }
+    ],
+    "questions": "issue list, severity definitions, reproduction evidence, affected tasks, owners and review process",
+    "image": null
+  },
+  {
+    "slug": "operations-scorecard",
+    "title": "Operations Scorecard",
+    "category": "dashboards-tools",
+    "layout": "scorecard",
+    "headline": "A short view of the work that keeps things running.",
+    "description": "Track operational measures with definitions, thresholds, and named follow-up actions.",
+    "context": "This fictional monthly scorecard uses manually recorded service operations. Each measure has a definition and an owner so the team can investigate a change without guessing what the number means.",
+    "columns": [
+      "Measure",
+      "Observed",
+      "Working target",
+      "Owner"
+    ],
+    "rows": [
+      [
+        "Requests answered within two days",
+        "18 of 20",
+        "At least 18 of 20",
+        "Sam"
+      ],
+      [
+        "Maintenance checks recorded",
+        "11 of 12",
+        "12 of 12",
+        "Leo"
+      ],
+      [
+        "Handover records complete",
+        "4 of 5",
+        "5 of 5",
+        "Maya"
+      ],
+      [
+        "Unassigned open requests",
+        "1",
+        "0",
+        "Robin"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Where to act",
+        "body": "Assign the open request today and recover the missing maintenance record. Review the incomplete handover with its owner before adding a new process to the whole team."
+      },
+      {
+        "title": "Definitions matter",
+        "body": "The response measure counts a substantive first response, not an automatic acknowledgement. A maintenance check counts only when its result and date are recorded."
+      },
+      {
+        "title": "Review the target",
+        "body": "Targets in this example are planning choices, not industry benchmarks. Compare several periods before interpreting a small change as a trend, especially when the sample is small."
+      }
+    ],
+    "questions": "reporting period, measures and denominators, targets, data sources, owners and follow-up actions",
+    "image": null
+  },
+  {
+    "slug": "inventory-snapshot",
+    "title": "Inventory Snapshot",
+    "category": "dashboards-tools",
+    "layout": "ledger",
+    "headline": "Know what is on hand before ordering.",
+    "description": "An inventory snapshot with counted stock, reorder points, and reconciliation notes.",
+    "context": "The fictional workshop store counts consumables before each monthly event. Quantities below are sample units from a manual stocktake, with no live warehouse connection.",
+    "columns": [
+      "Item",
+      "On hand",
+      "Reorder point",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "A5 notebooks",
+        "18",
+        "20",
+        "Each"
+      ],
+      [
+        "Black pens",
+        "42",
+        "30",
+        "Each"
+      ],
+      [
+        "Name badges",
+        "26",
+        "25",
+        "Each"
+      ],
+      [
+        "Paper rolls",
+        "4",
+        "3",
+        "Roll"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Order decision",
+        "body": "Notebooks are below the chosen reorder point. Confirm next month’s attendance and the supplier’s pack size before placing an order. Pens, badges, and paper remain above their sample thresholds."
+      },
+      {
+        "title": "Count with context",
+        "body": "Record damaged or reserved stock separately from usable stock. If two counts disagree, reconcile the shelf location and unit before adjusting the total."
+      },
+      {
+        "title": "Keep the record current",
+        "body": "Name the person who completed the count and the time of the snapshot. A purchase or event after that time changes available stock and should trigger an update."
+      }
+    ],
+    "questions": "items, stocktake date, units, usable quantities, reserved stock, reorder rules and suppliers",
+    "image": null
+  },
+  {
+    "slug": "service-health-report",
+    "title": "Service Health Report",
+    "category": "dashboards-tools",
+    "layout": "scorecard",
+    "headline": "A status report with evidence behind it.",
+    "description": "Report service health, incidents, and follow-up work without implying live monitoring.",
+    "context": "This fictional service report summarizes a single review window. The status labels come from recorded checks; they are not live availability indicators or promises about the Claw Me service.",
+    "columns": [
+      "Component",
+      "Snapshot status",
+      "Evidence",
+      "Owner"
+    ],
+    "rows": [
+      [
+        "Public pages",
+        "Checks passed",
+        "Five sample routes opened",
+        "Maya"
+      ],
+      [
+        "File delivery",
+        "Under review",
+        "One delayed sample download",
+        "Leo"
+      ],
+      [
+        "Notification queue",
+        "Checks passed",
+        "Three test deliveries recorded",
+        "Sam"
+      ],
+      [
+        "Documentation",
+        "Needs update",
+        "One outdated guide identified",
+        "Robin"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Current concern",
+        "body": "Investigate the delayed download with the request time, file size, and a repeatable test. One observation does not establish a general outage, but it deserves a named follow-up."
+      },
+      {
+        "title": "What passed means",
+        "body": "A passed check applies only to the task and time recorded. It does not prove continuous uptime, complete coverage, or the absence of problems in untested paths."
+      },
+      {
+        "title": "Next communication",
+        "body": "Publish a new snapshot when the investigation produces a meaningful result. Record any incident separately with its timeline, impact, mitigation, and remaining work."
+      }
+    ],
+    "questions": "service scope, review window, checks and evidence, incidents, status definitions, owners and communication cadence",
+    "image": null
+  },
+  {
+    "slug": "team-directory",
+    "title": "Team Directory",
+    "category": "dashboards-tools",
+    "layout": "directory",
+    "headline": "Find the person closest to the work.",
+    "description": "A team directory organized by responsibility, working preferences, and escalation routes.",
+    "context": "This fictional team directory helps a collaborator find the right owner without exposing private contact details. Names, roles, and availability are illustrative.",
+    "columns": [
+      "Person",
+      "Responsibility",
+      "Best question",
+      "Working window"
+    ],
+    "rows": [
+      [
+        "Maya",
+        "Design and content",
+        "What should this page communicate?",
+        "Morning"
+      ],
+      [
+        "Leo",
+        "Build and quality",
+        "Why does this flow fail?",
+        "Afternoon"
+      ],
+      [
+        "Sam",
+        "Client coordination",
+        "Who needs to review this?",
+        "Morning"
+      ],
+      [
+        "Robin",
+        "Delivery oversight",
+        "Which commitment takes priority?",
+        "Afternoon"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Start with responsibility",
+        "body": "Ask the named owner about the work, and include enough context to avoid a guessing game. A page link, a concrete question, and a deadline usually make a request easier to answer."
+      },
+      {
+        "title": "Availability is a guide",
+        "body": "The working windows are preferences rather than guarantees. In the real directory, let people review how they are described and decide which contact details are appropriate to share."
+      },
+      {
+        "title": "When the owner is away",
+        "body": "Use the agreed backup route for urgent delivery questions. Routine requests can wait for the next working window. Keep an explicit backup for any responsibility that cannot pause."
+      }
+    ],
+    "questions": "team members and consent, responsibilities, contact routes, working preferences, backup owners and visibility",
+    "image": null
+  },
+  {
+    "slug": "launch-readiness-checklist",
+    "title": "Launch Readiness Checklist",
+    "category": "dashboards-tools",
+    "layout": "board",
+    "headline": "Release when the evidence is ready.",
+    "description": "A launch checklist with gates, owners, evidence, and a visible hold decision.",
+    "context": "The fictional café website is approaching a review date. This checklist records readiness to ask for launch approval; it does not authorize publication.",
+    "columns": [
+      "Gate",
+      "State",
+      "Evidence needed",
+      "Owner"
+    ],
+    "rows": [
+      [
+        "Content",
+        "Ready",
+        "Owner-approved menu and hours",
+        "Sam"
+      ],
+      [
+        "Mobile layout",
+        "Ready",
+        "Reviewed phone screenshots",
+        "Maya"
+      ],
+      [
+        "Links",
+        "Open",
+        "Menu link rechecked",
+        "Leo"
+      ],
+      [
+        "Handover",
+        "Open",
+        "Owner walkthrough recorded",
+        "Robin"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Current decision: hold",
+        "body": "Two gates remain open. Complete the menu-link check and the handover walkthrough before asking the owner to approve launch. A target date does not replace those checks."
+      },
+      {
+        "title": "What ready means",
+        "body": "The named owner has attached the evidence required for the gate. If content changes after review, reopen the affected checks instead of keeping an outdated ready label."
+      },
+      {
+        "title": "The launch conversation",
+        "body": "Summarize completed checks, known limitations, the rollback owner, and the proposed timing. The user or authorized project owner makes the publication decision separately."
+      }
+    ],
+    "questions": "release scope, required gates, evidence, owners, unresolved risks, rollback plan and launch authority",
+    "image": null
+  },
+  {
+    "slug": "decision-log",
+    "title": "Decision Log",
+    "category": "dashboards-tools",
+    "layout": "register",
+    "headline": "Keep the reason beside the choice.",
+    "description": "A searchable-by-page decision register with alternatives, owners, and review triggers.",
+    "context": "This fictional project log records three choices for a café website. It preserves the reasoning available at the time, including conditions that would justify reopening a decision.",
+    "columns": [
+      "ID",
+      "Decision",
+      "Owner",
+      "Revisit when"
+    ],
+    "rows": [
+      [
+        "D-01",
+        "Launch without online ordering",
+        "Café owner",
+        "Ordering becomes a funded priority"
+      ],
+      [
+        "D-02",
+        "Keep menu as readable page text",
+        "Studio lead",
+        "Menu maintenance becomes impractical"
+      ],
+      [
+        "D-03",
+        "Use one feedback owner",
+        "Project lead",
+        "Review ownership changes"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "D-01: a smaller first release",
+        "body": "The team chose a five-page site to answer visitor questions first. An ordering integration would add operational work that the café is not prepared to own in this example."
+      },
+      {
+        "title": "D-02: content people can read",
+        "body": "Readable page text keeps menu information available without requiring a download. The owner must still maintain the source whenever dishes or prices change."
+      },
+      {
+        "title": "D-03: coherent feedback",
+        "body": "One person consolidates comments so the studio receives a clear response. This does not prevent others from contributing; it identifies who resolves conflicting requests."
+      }
+    ],
+    "questions": "decision records, dates, owners, alternatives considered, reasons, evidence and review triggers",
+    "image": null
+  },
+  {
+    "slug": "conference-trip-planner",
+    "title": "Conference Trip Planner",
+    "category": "planning-travel",
+    "layout": "schedule",
+    "headline": "Get there prepared. Come back with useful notes.",
+    "description": "Plan a conference trip around confirmed logistics, selected sessions, and follow-up time.",
+    "context": "This fictional two-day conference trip is a planning example, not a current travel recommendation. Replace transport, venue, and accommodation details with verified bookings before relying on the plan.",
+    "columns": [
+      "When",
+      "Plan",
+      "Preparation"
+    ],
+    "rows": [
+      [
+        "Day one · morning",
+        "Travel and venue arrival",
+        "Confirm route and ticket"
+      ],
+      [
+        "Day one · afternoon",
+        "Two selected sessions",
+        "Write one question per session"
+      ],
+      [
+        "Day two · morning",
+        "Peer conversations",
+        "Keep space between meetings"
+      ],
+      [
+        "Day two · afternoon",
+        "Return and notes",
+        "Record three follow-up actions"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Choose fewer sessions",
+        "body": "Select the sessions that support a real learning question. Leave time to compare notes and meet people instead of treating every timetable gap as an obligation."
+      },
+      {
+        "title": "Keep logistics together",
+        "body": "Record booking references only in the private version. Include venue access information, local time, transport alternatives, and a contact for travel changes after verifying each detail."
+      },
+      {
+        "title": "After the trip",
+        "body": "Write the useful findings while they are fresh. Separate ideas worth testing from contacts to follow up with, and review any message before sending it."
+      }
+    ],
+    "questions": "confirmed dates and bookings, venue, learning goals, session choices, access needs and follow-up plan",
+    "image": "lisbon.png"
+  },
+  {
+    "slug": "team-offsite-plan",
+    "title": "Team Offsite Plan",
+    "category": "planning-travel",
+    "layout": "schedule",
+    "headline": "Leave with decisions, not just notes.",
+    "description": "An offsite agenda with outcomes, preparation, facilitation, and space for recovery.",
+    "context": "This fictional one-day offsite gives a small team time to review its working habits and choose two improvements. The venue, catering, and access arrangements remain items for the organizer to confirm.",
+    "columns": [
+      "Time",
+      "Session",
+      "Output"
+    ],
+    "rows": [
+      [
+        "09:30",
+        "Arrive and settle",
+        "Shared purpose"
+      ],
+      [
+        "10:00",
+        "What is slowing us down?",
+        "Three concrete observations"
+      ],
+      [
+        "11:30",
+        "Work on one problem",
+        "Options and tradeoffs"
+      ],
+      [
+        "14:00",
+        "Choose two experiments",
+        "Owners and review date"
+      ],
+      [
+        "15:30",
+        "Close and travel buffer",
+        "Written recap"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Prepare lightly",
+        "body": "Ask each person for one example of work that flowed well and one that became difficult. Share the agenda early and allow written contributions for people who think better before a discussion."
+      },
+      {
+        "title": "Facilitate the decision",
+        "body": "Describe the problem before proposing solutions. Give quieter participants time to contribute, record disagreement accurately, and make the decision rule clear."
+      },
+      {
+        "title": "Follow through",
+        "body": "The offsite is complete when the experiments have owners, a small first step, and a review date. Keep the recap short enough that the team can return to it during ordinary work."
+      }
+    ],
+    "questions": "team size, purpose, location, access and dietary needs, agenda, decision rules and follow-up owners",
+    "image": "meeting-follow-up.png"
+  },
+  {
+    "slug": "event-run-of-show",
+    "title": "Event Run of Show",
+    "category": "planning-travel",
+    "layout": "schedule",
+    "headline": "Everyone knows the next cue.",
+    "description": "A production schedule with cues, owners, dependencies, and contingency notes.",
+    "context": "This fictional ninety-minute community workshop has one host, one facilitator, and one venue contact. The schedule is a working production document for the people delivering the session.",
+    "columns": [
+      "Time",
+      "Cue",
+      "Owner",
+      "Check"
+    ],
+    "rows": [
+      [
+        "12:30",
+        "Room ready",
+        "Venue contact",
+        "Seating and display checked"
+      ],
+      [
+        "12:45",
+        "Doors open",
+        "Host",
+        "Welcome point staffed"
+      ],
+      [
+        "13:00",
+        "Opening remarks",
+        "Host",
+        "Facilitator ready"
+      ],
+      [
+        "13:10",
+        "First exercise",
+        "Facilitator",
+        "Materials on tables"
+      ],
+      [
+        "14:15",
+        "Closing discussion",
+        "Host",
+        "Next steps visible"
+      ],
+      [
+        "14:30",
+        "Room reset",
+        "Venue contact",
+        "Equipment returned"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Before doors open",
+        "body": "Walk the room, check the display from the back row, and confirm who can make a timing decision. Keep the contact sheet private and available to the delivery team."
+      },
+      {
+        "title": "If a session runs late",
+        "body": "Protect the closing time and shorten discussion before removing the break or access buffer. The host communicates the change clearly rather than silently pushing every later cue."
+      },
+      {
+        "title": "If equipment fails",
+        "body": "Continue with the printed exercise and verbal instructions. A useful workshop should still work when the display is unavailable. Record any incident that affects the next event."
+      }
+    ],
+    "questions": "event timing, venue, cues, owners, equipment, contact sheet and contingency rules",
+    "image": null
+  },
+  {
+    "slug": "weekly-planner",
+    "title": "Weekly Planner",
+    "category": "planning-travel",
+    "layout": "planner",
+    "headline": "A week with a few clear commitments.",
+    "description": "A weekly planner that balances focused work, appointments, and a realistic review.",
+    "context": "This fictional independent builder plans around three priorities and leaves space for routine work. The planner is a snapshot to discuss and update, not an automatic calendar integration.",
+    "columns": [
+      "Day",
+      "Main focus",
+      "Fixed commitment",
+      "Buffer"
+    ],
+    "rows": [
+      [
+        "Monday",
+        "Write project brief",
+        "Team check-in",
+        "One hour"
+      ],
+      [
+        "Tuesday",
+        "Build first example",
+        "None",
+        "Two hours"
+      ],
+      [
+        "Wednesday",
+        "Review with client",
+        "14:00 review",
+        "One hour"
+      ],
+      [
+        "Thursday",
+        "Apply agreed changes",
+        "None",
+        "Two hours"
+      ],
+      [
+        "Friday",
+        "Handover and reflection",
+        "Weekly close",
+        "One hour"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Three priorities",
+        "body": "Finish the brief, review a working example, and hand over the agreed result. New work should be compared with those commitments before it is added to the week."
+      },
+      {
+        "title": "A daily reset",
+        "body": "At the end of each day, record what actually moved and the next useful step. Carry unfinished work forward deliberately rather than copying an entire unchecked list."
+      },
+      {
+        "title": "Friday review",
+        "body": "What was completed, what changed, and what should stop? Use the answers to plan the next week. The aim is a credible schedule, not a perfect record of busyness."
+      }
+    ],
+    "questions": "week, priorities, fixed appointments, energy preferences, available time and review routine",
+    "image": null
+  },
+  {
+    "slug": "moving-checklist",
+    "title": "Moving Checklist",
+    "category": "planning-travel",
+    "layout": "planner",
+    "headline": "Make the handover day less surprising.",
+    "description": "Organize a move by dependencies, owners, and checks before and after handover.",
+    "context": "This fictional household move uses relative dates so the plan can be adapted to a confirmed handover day. Local requirements, service availability, and contract notice periods must be checked separately.",
+    "columns": [
+      "When",
+      "Task",
+      "Dependency"
+    ],
+    "rows": [
+      [
+        "Four weeks before",
+        "Confirm moving arrangements",
+        "Handover date agreed"
+      ],
+      [
+        "Two weeks before",
+        "Label boxes by destination room",
+        "Room plan ready"
+      ],
+      [
+        "One week before",
+        "Prepare essentials bag",
+        "First-night needs known"
+      ],
+      [
+        "Handover day",
+        "Record condition and meter readings",
+        "Access available"
+      ],
+      [
+        "First week after",
+        "Check deliveries and utilities",
+        "Services confirmed"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Pack for the first evening",
+        "body": "Keep essential clothing, chargers, basic kitchen items, and important documents accessible. Decide who carries the essentials bag so it is not accidentally loaded with the last boxes."
+      },
+      {
+        "title": "Coordinate the dependencies",
+        "body": "A confirmed key handover comes before booking a tightly timed delivery. Record the owner and contact route for each arrangement in the private plan."
+      },
+      {
+        "title": "Close the old place",
+        "body": "Use the agreed handover checklist and retain the records appropriate to your arrangement. Replace this example with the requirements of the actual tenancy, purchase, and service contracts."
+      }
+    ],
+    "questions": "move date, locations, household needs, contracts, access arrangements, movers and service changes",
+    "image": null
+  },
+  {
+    "slug": "wedding-planning-brief",
+    "title": "Wedding Planning Brief",
+    "category": "planning-travel",
+    "layout": "planner",
+    "headline": "Plan the celebration around what matters to you.",
+    "description": "A wedding planning brief with priorities, responsibilities, guest assumptions, and open decisions.",
+    "context": "This fictional small celebration has a working guest count of forty and a preference for a relaxed meal with close friends and family. All dates, costs, and supplier arrangements are illustrative.",
+    "columns": [
+      "Decision",
+      "Working preference",
+      "Owner",
+      "Status"
+    ],
+    "rows": [
+      [
+        "Guest count",
+        "Forty people",
+        "Couple",
+        "Draft"
+      ],
+      [
+        "Venue",
+        "One accessible location",
+        "Couple",
+        "To confirm"
+      ],
+      [
+        "Meal",
+        "Shared seated dinner",
+        "Catering lead",
+        "To discuss"
+      ],
+      [
+        "Music",
+        "Short live set and playlist",
+        "Friend host",
+        "Draft"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Three priorities",
+        "body": "Time with guests, comfortable access, and a meal that can be enjoyed without rushing. Use these priorities to judge optional additions rather than expanding the plan by default."
+      },
+      {
+        "title": "Guest experience",
+        "body": "Confirm dietary and access needs through an appropriate private channel. Provide verified travel information and a clear schedule once the venue is booked."
+      },
+      {
+        "title": "Open decisions",
+        "body": "Agree the budget range, booking deadlines, and who can approve a supplier. Keep personal guest information out of any public version of this page."
+      }
+    ],
+    "questions": "couple preferences, guest count, confirmed date, budget, venue, access needs, responsibilities and supplier status",
+    "image": null
+  },
+  {
+    "slug": "travel-budget-worksheet",
+    "title": "Travel Budget Worksheet",
+    "category": "planning-travel",
+    "layout": "budget",
+    "headline": "Know the assumptions behind the trip cost.",
+    "description": "A travel budget with checked totals, shared-cost assumptions, and a contingency line.",
+    "context": "This fictional two-person, three-night trip uses illustrative EUR estimates. The figures are planning inputs, not current prices or booking recommendations.",
+    "columns": [
+      "Item",
+      "Planned EUR",
+      "Basis"
+    ],
+    "rows": [
+      [
+        "Transport",
+        "240",
+        "Two return journeys"
+      ],
+      [
+        "Accommodation",
+        "360",
+        "Three nights shared"
+      ],
+      [
+        "Meals",
+        "180",
+        "Two people over three days"
+      ],
+      [
+        "Local travel",
+        "40",
+        "Shared allowance"
+      ],
+      [
+        "Contingency",
+        "80",
+        "Unallocated buffer"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Working total",
+        "body": "The plan totals €900 for two people, or €450 each if all costs are split equally. A different sharing arrangement should be recorded explicitly rather than assumed."
+      },
+      {
+        "title": "What is missing",
+        "body": "Check baggage, booking fees, insurance needs, and any activities before treating the estimate as complete. Record the source and date for each real price."
+      },
+      {
+        "title": "When the plan changes",
+        "body": "Replace an estimate with the booked amount and keep the difference visible. Recalculate the total after every material change; do not hide overruns inside the contingency line."
+      }
+    ],
+    "questions": "travelers, dates, currency, cost items, price sources, sharing arrangement and contingency",
+    "image": null
+  },
+  {
+    "slug": "road-trip-itinerary",
+    "title": "Road Trip Itinerary",
+    "category": "planning-travel",
+    "layout": "schedule",
+    "headline": "Leave room between the destinations.",
+    "description": "A road trip itinerary with driving windows, rest stops, overnight plans, and alternatives.",
+    "context": "This fictional three-day route is organized by relative travel windows rather than claiming current road times. Verify the actual route, local conditions, accommodation, and driver needs before departure.",
+    "columns": [
+      "Day",
+      "Main plan",
+      "Driving window",
+      "Overnight"
+    ],
+    "rows": [
+      [
+        "One",
+        "Travel to the first base",
+        "Morning, with a rest stop",
+        "Confirmed stay A"
+      ],
+      [
+        "Two",
+        "Local exploration",
+        "Short optional journey",
+        "Confirmed stay A"
+      ],
+      [
+        "Three",
+        "Return journey",
+        "Daylight window with breaks",
+        "Home"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Build around the driver",
+        "body": "Set a driving plan that suits the actual drivers and conditions. Do not treat an estimated arrival time as a reason to skip breaks. Share responsibility for navigation and practical arrangements."
+      },
+      {
+        "title": "A useful stop list",
+        "body": "Choose a primary rest stop and an alternative for each longer leg after checking that they are open and suitable. Keep booking and contact details in the private itinerary."
+      },
+      {
+        "title": "If the weather changes",
+        "body": "Move the optional activity or shorten the day. The plan should make it easy to stop early and communicate a change, with accommodation and route alternatives verified in advance."
+      }
+    ],
+    "questions": "route, dates, drivers, vehicle needs, verified journey times, accommodation, stops and alternatives",
+    "image": "lisbon.png"
+  },
+  {
+    "slug": "project-kickoff-agenda",
+    "title": "Project Kickoff Agenda",
+    "category": "planning-travel",
+    "layout": "schedule",
+    "headline": "Start with the decisions that unlock the work.",
+    "description": "A kickoff agenda with preparation, timed discussions, outputs, and a closing check.",
+    "context": "This fictional sixty-minute kickoff starts a five-page café website. The purpose is to confirm the goal, scope, responsibilities, and first review rather than solve every design question in one meeting.",
+    "columns": [
+      "Minute",
+      "Discussion",
+      "Output"
+    ],
+    "rows": [
+      [
+        "00–10",
+        "Business goal and visitor needs",
+        "Shared problem statement"
+      ],
+      [
+        "10–25",
+        "Pages and exclusions",
+        "Agreed first-release scope"
+      ],
+      [
+        "25–40",
+        "Content and responsibilities",
+        "Named input owners"
+      ],
+      [
+        "40–50",
+        "Schedule and review process",
+        "First review date"
+      ],
+      [
+        "50–60",
+        "Read back decisions",
+        "Checked action list"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Before the meeting",
+        "body": "Share the draft brief and ask participants to bring current content and known constraints. Invite the decision maker, content owner, and delivery lead; a large audience is not required."
+      },
+      {
+        "title": "During the discussion",
+        "body": "Keep unresolved questions visible. If a topic cannot be decided with the available evidence, give it an owner and a next step instead of forcing agreement."
+      },
+      {
+        "title": "Close with a read-back",
+        "body": "Read the scope, exclusions, owners, and first review date aloud. Ask participants to correct the record, then prepare a follow-up draft for review before sending."
+      }
+    ],
+    "questions": "project purpose, participants, decision authority, agenda duration, pre-reading and required outputs",
+    "image": null
+  },
+  {
+    "slug": "presentation-outline",
+    "title": "Presentation Outline",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "A proposal people can follow.",
+    "description": "A four-part presentation connecting the problem, evidence, recommendation, and decision.",
+    "context": "This fictional presentation proposes a clearer handover process for a small studio. Each slide has one job, with discussion notes available in the HTML and expanded in the PDF.",
+    "columns": [
+      "Narrative step",
+      "Evidence",
+      "Audience question"
+    ],
+    "rows": [
+      [
+        "Problem",
+        "Handover questions repeat",
+        "What is difficult today?"
+      ],
+      [
+        "Evidence",
+        "Three example lookup tasks",
+        "What did we observe?"
+      ],
+      [
+        "Proposal",
+        "One owned document index",
+        "What would change?"
+      ],
+      [
+        "Decision",
+        "A two-project pilot",
+        "What are we agreeing to?"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The problem",
+        "body": "New project owners receive files without a clear map. The team spends time answering where things are and which version is current. Start the presentation with one concrete example of that difficulty."
+      },
+      {
+        "title": "The proposed change",
+        "body": "Create a short index with the purpose, owner, status, and next review date for each deliverable. Keep the existing files; improve the route into them."
+      },
+      {
+        "title": "The decision requested",
+        "body": "Try the index on two handovers and review the receiving team’s questions. Agree an owner and a review date. Do not imply that the pilot has already been approved."
+      }
+    ],
+    "questions": "audience, presentation purpose, evidence, recommendation, decision requested and speaker notes",
+    "image": null
+  },
+  {
+    "slug": "board-update",
+    "title": "Board Update",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "The quarter’s choices, clearly presented.",
+    "description": "A board-style update with operating evidence, risks, and explicit decisions requested.",
+    "context": "This fictional small product team is reviewing a quarter of delivery work. Figures below are sample operating counts, not Claw Me company results or financial disclosures.",
+    "columns": [
+      "Area",
+      "This quarter",
+      "Interpretation"
+    ],
+    "rows": [
+      [
+        "Planned milestones",
+        "10 of 12 completed",
+        "Two carry into next quarter"
+      ],
+      [
+        "Customer conversations",
+        "8 recorded",
+        "Qualitative input only"
+      ],
+      [
+        "Open high-priority issues",
+        "3",
+        "Each has a named owner"
+      ],
+      [
+        "Proposed new initiatives",
+        "2",
+        "Both require a decision"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Delivery and focus",
+        "body": "Ten milestones are recorded as complete. The two remaining items share a content dependency, so the team proposes resolving that dependency before expanding the scope."
+      },
+      {
+        "title": "Risk and response",
+        "body": "A small team can become overcommitted when support work is invisible. Reserve capacity for known support needs and review any new initiative against existing obligations."
+      },
+      {
+        "title": "Decisions requested",
+        "body": "Confirm the order of the two carry-over milestones and whether either new initiative should begin discovery. The board should receive verified financials separately where required."
+      }
+    ],
+    "questions": "reporting period, governance audience, verified operating and financial evidence, risks and decisions",
+    "image": null
+  },
+  {
+    "slug": "annual-review",
+    "title": "Annual Review",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "A year of work, with the lessons attached.",
+    "description": "An annual review organized around outcomes, evidence, lessons, and next-year priorities.",
+    "context": "This fictional studio review summarizes a year of small client projects. It uses example counts to demonstrate a clear narrative without inventing revenue growth or customer endorsements.",
+    "columns": [
+      "Work",
+      "Completed",
+      "What to examine"
+    ],
+    "rows": [
+      [
+        "Website handovers",
+        "6",
+        "How well owners maintained content"
+      ],
+      [
+        "Decision workshops",
+        "4",
+        "Whether decisions stayed useful"
+      ],
+      [
+        "Documentation projects",
+        "3",
+        "How easily people found answers"
+      ],
+      [
+        "Internal experiments",
+        "2",
+        "Which practice was retained"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "What the year produced",
+        "body": "The studio completed thirteen client engagements across three formats. Completion is a delivery count; it does not establish customer impact without follow-up evidence."
+      },
+      {
+        "title": "What we learned",
+        "body": "Handovers benefited from a named maintenance owner and a short index. Projects with unclear content responsibility took longer to review. These observations should be checked against the actual project records."
+      },
+      {
+        "title": "Next year’s focus",
+        "body": "Keep the useful handover practice, improve content preparation, and choose fewer internal experiments. Set a review method for those priorities before turning them into public claims."
+      }
+    ],
+    "questions": "year, verified work inventory, outcomes, evidence, lessons, audience and next-year priorities",
+    "image": null
+  },
+  {
+    "slug": "experiment-results",
+    "title": "Experiment Results",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "Show what the test can—and cannot—tell you.",
+    "description": "Report an experiment with its hypothesis, sample, observations, and next decision.",
+    "context": "In this fictional usability exercise, twelve participants tried two versions of a document index. The numbers illustrate reporting structure and are not a statistically validated product claim.",
+    "columns": [
+      "Version",
+      "Task completed",
+      "Participants",
+      "Observed completion"
+    ],
+    "rows": [
+      [
+        "A · file list",
+        "4",
+        "6",
+        "67% rounded"
+      ],
+      [
+        "B · owned index",
+        "5",
+        "6",
+        "83% rounded"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Hypothesis and method",
+        "body": "An index with purpose and owner labels may help a new collaborator find the correct handover document. Each participant attempted the same lookup task using one assigned version."
+      },
+      {
+        "title": "What we observed",
+        "body": "Five of six participants completed the task with the owned index, compared with four of six using the file list. The small sample and one-task design limit the conclusions."
+      },
+      {
+        "title": "Next decision",
+        "body": "Keep the clearer labels for a broader trial and test with more varied tasks. Do not describe the difference as statistically significant or as proof of a general productivity gain."
+      }
+    ],
+    "questions": "hypothesis, assignment method, sample, measures, observed results, limitations and next test",
+    "image": null
+  },
+  {
+    "slug": "customer-insight-report",
+    "title": "Customer Insight Report",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "Keep the customer’s problem in view.",
+    "description": "Present customer themes with traceable observations, exceptions, and product implications.",
+    "context": "This fictional synthesis uses five example interviews about project handovers. The themes demonstrate a reporting format; they are not real customer statements or representative market research.",
+    "columns": [
+      "Theme",
+      "Example mentions",
+      "Possible implication"
+    ],
+    "rows": [
+      [
+        "Which version is current?",
+        "4 of 5",
+        "Make status explicit"
+      ],
+      [
+        "Who owns the update?",
+        "3 of 5",
+        "Name a maintenance owner"
+      ],
+      [
+        "Where should I start?",
+        "3 of 5",
+        "Provide an entry-point index"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The central difficulty",
+        "body": "Participants in the example could open the files but lacked context about their purpose and status. The difficulty was orientation, not file access alone."
+      },
+      {
+        "title": "Preserve the exceptions",
+        "body": "One participant preferred a familiar folder structure and did not want another page to maintain. That view matters when considering whether the proposed index adds useful clarity or duplicate work."
+      },
+      {
+        "title": "From insight to test",
+        "body": "Prototype a small index and observe a realistic handover task. Keep the original source references in the private research record and avoid turning paraphrases into attributed quotations."
+      }
+    ],
+    "questions": "research sources, participant consent, sample, themes, exceptions, evidence references and implications",
+    "image": null
+  },
+  {
+    "slug": "postmortem-report",
+    "title": "Postmortem Report",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "Understand the failure. Improve the system.",
+    "description": "A blameless incident report with impact, timeline, contributing factors, and tracked follow-ups.",
+    "context": "This fictional incident concerns an outdated menu link during a café website update. Times and impact are sample values used to demonstrate a review structure.",
+    "columns": [
+      "Time",
+      "Event",
+      "Evidence"
+    ],
+    "rows": [
+      [
+        "09:10",
+        "Content update applied",
+        "Sample change record"
+      ],
+      [
+        "09:25",
+        "Broken link reported",
+        "Sample support note"
+      ],
+      [
+        "09:40",
+        "Previous link restored",
+        "Sample verification record"
+      ],
+      [
+        "10:00",
+        "Follow-up owner assigned",
+        "Sample incident log"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Impact and recovery",
+        "body": "The menu link was unavailable for a thirty-minute example window. The team restored the previous destination and verified it on mobile. The number of affected visitors is unknown and should remain unknown until evidence exists."
+      },
+      {
+        "title": "Contributing factors",
+        "body": "The content checklist checked the visible menu label but did not test the destination after publication. The review process also lacked a named verifier for link changes."
+      },
+      {
+        "title": "Follow-up work",
+        "body": "Add a destination check to the content routine and assign a verifier for the next update. Review the revised process after two changes; avoid a long action list without owners or due dates."
+      }
+    ],
+    "questions": "incident scope, verified timeline, impact, recovery, contributing factors, owners and follow-up checks",
+    "image": null
+  },
+  {
+    "slug": "impact-report",
+    "title": "Impact Report",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "Connect the activity to the change you hoped for.",
+    "description": "An impact report that separates participation, outcomes, evidence, and remaining uncertainty.",
+    "context": "This fictional community program held three project-brief workshops. The report distinguishes attendance from learning and avoids claiming social or economic impact without supporting evidence.",
+    "columns": [
+      "Measure",
+      "Sample result",
+      "What it means"
+    ],
+    "rows": [
+      [
+        "Workshops delivered",
+        "3",
+        "Activity completed"
+      ],
+      [
+        "Attendances",
+        "36",
+        "Visits, not unique people"
+      ],
+      [
+        "Feedback responses",
+        "18",
+        "Partial participant feedback"
+      ],
+      [
+        "Reported next steps",
+        "12",
+        "Self-reported intentions"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "What was delivered",
+        "body": "Three workshops provided a practical exercise and a short written recap. Thirty-six attendances describe participation volume and may include repeat visitors."
+      },
+      {
+        "title": "What the evidence suggests",
+        "body": "Twelve feedback respondents named a next step they intended to take. That is encouraging feedback, but it does not show whether the action happened or caused a lasting improvement."
+      },
+      {
+        "title": "Improve the next report",
+        "body": "Ask for optional follow-up after a suitable interval and define what meaningful change would look like. Explain the response rate and preserve privacy when presenting examples."
+      }
+    ],
+    "questions": "program purpose, activities, outcome definitions, data sources, response rates, limitations and follow-up",
+    "image": null
+  },
+  {
+    "slug": "executive-summary",
+    "title": "Executive Summary",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "The essential decision in four pages.",
+    "description": "Summarize a longer review with the recommendation, supporting evidence, risks, and action.",
+    "context": "This fictional executive summary recommends a small handover pilot. It is designed to be read without the full working document, while keeping the important assumptions visible.",
+    "columns": [
+      "Question",
+      "Summary answer"
+    ],
+    "rows": [
+      [
+        "What is proposed?",
+        "An owned document index on two projects"
+      ],
+      [
+        "Why now?",
+        "Repeated orientation questions at handover"
+      ],
+      [
+        "What is required?",
+        "One owner and a short review routine"
+      ],
+      [
+        "How will it be judged?",
+        "Observed lookup tasks and receiver feedback"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Recommendation",
+        "body": "Run the bounded pilot before investing in a larger document-management change. The current evidence identifies a practical problem but does not justify a broad platform replacement."
+      },
+      {
+        "title": "Reasons and tradeoffs",
+        "body": "The index can be created with existing material and reviewed quickly. It also creates a maintenance obligation, so its owner and update trigger must be part of the experiment."
+      },
+      {
+        "title": "Action requested",
+        "body": "Approve the pilot scope, identify the two projects, and choose the review date. If the team cannot name a maintenance owner, resolve that gap before starting."
+      }
+    ],
+    "questions": "source report, audience, recommendation, supporting evidence, risks, resource needs and decision",
+    "image": null
+  },
+  {
+    "slug": "product-demo-narrative",
+    "title": "Product Demo Narrative",
+    "category": "presentations-reports",
+    "layout": "deck",
+    "headline": "Show the task, then the product.",
+    "description": "A product demonstration narrative with realistic steps, success checks, and fallback notes.",
+    "context": "This fictional demonstration follows an owner preparing a project handover with an Agent. The narrative is illustrative and should be aligned with the actual product’s verified capabilities before presentation.",
+    "columns": [
+      "Step",
+      "What the audience sees",
+      "Point to explain"
+    ],
+    "rows": [
+      [
+        "1",
+        "A short project brief",
+        "The owner supplies the goal"
+      ],
+      [
+        "2",
+        "A draft document index",
+        "The Agent prepares a reviewable result"
+      ],
+      [
+        "3",
+        "The owner reviews a detail",
+        "Decisions stay visible"
+      ],
+      [
+        "4",
+        "A finished handover",
+        "The next person has a clear starting point"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Begin with a real task",
+        "body": "Introduce the person, the project, and the difficulty in one minute. Avoid opening with a tour of every navigation item. The audience needs a reason to care about the next action."
+      },
+      {
+        "title": "Demonstrate the boundary",
+        "body": "Show the draft and the owner’s review as separate moments. Use only capabilities that exist in the version being demonstrated, and identify sample data clearly."
+      },
+      {
+        "title": "Keep a fallback",
+        "body": "Prepare screenshots of the same example in case the live environment is unavailable. Explain that the fallback is a recorded illustration rather than pretending the product is responding live."
+      }
+    ],
+    "questions": "audience, verified product version, user task, demo steps, sample data, timing and fallback",
+    "image": null
+  },
+  {
+    "slug": "course-companion",
+    "title": "Course Companion",
+    "category": "education-personal",
+    "layout": "workbook",
+    "headline": "A place to connect the lesson to your work.",
+    "description": "A course companion with learning outcomes, practice tasks, and reflection prompts.",
+    "context": "This fictional short course teaches clearer project documentation. Each lesson ends with a small artifact the learner can compare with a worked example.",
+    "columns": [
+      "Lesson",
+      "Practice",
+      "Evidence of learning"
+    ],
+    "rows": [
+      [
+        "Purpose",
+        "Write a one-sentence brief",
+        "A reader can name the goal"
+      ],
+      [
+        "Structure",
+        "Organize a document index",
+        "A reader finds the right file"
+      ],
+      [
+        "Ownership",
+        "Add update responsibilities",
+        "Each item has an owner"
+      ],
+      [
+        "Review",
+        "Test a handover task",
+        "Record one improvement"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Practice: make the goal specific",
+        "body": "Rewrite “improve our documentation” as a concrete user task. For example: a new project owner can find the approved menu and identify who updates it."
+      },
+      {
+        "title": "Worked example",
+        "body": "A useful index entry says “Approved menu — current café dishes and prices — maintained by the owner.” A filename alone rarely carries that much context."
+      },
+      {
+        "title": "Reflection",
+        "body": "Which part of your own work is difficult for a newcomer to interpret? Write one change you can test this week and how you will know whether it helped."
+      }
+    ],
+    "questions": "course subject, learner background, learning outcomes, lesson sequence, practice tasks and assessment",
+    "image": null
+  },
+  {
+    "slug": "study-schedule",
+    "title": "Study Schedule",
+    "category": "education-personal",
+    "layout": "planner",
+    "headline": "A study plan you can actually keep.",
+    "description": "Plan focused study sessions, retrieval practice, and recovery time around a real deadline.",
+    "context": "This fictional learner has four weeks to understand a new documentation workflow. The plan assumes three forty-five-minute sessions each week and one short review.",
+    "columns": [
+      "Week",
+      "Main focus",
+      "Practice",
+      "Review"
+    ],
+    "rows": [
+      [
+        "One",
+        "Learn the basic terms",
+        "Explain a brief aloud",
+        "List unclear concepts"
+      ],
+      [
+        "Two",
+        "Study worked examples",
+        "Compare two indexes",
+        "Recall the differences"
+      ],
+      [
+        "Three",
+        "Create an example",
+        "Write a handover guide",
+        "Test with a reader"
+      ],
+      [
+        "Four",
+        "Consolidate",
+        "Revise from feedback",
+        "Summarize the method"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "A session structure",
+        "body": "Spend ten minutes recalling what you already know, twenty-five minutes on one task, and ten minutes checking the result. Adjust the timing to your own attention and access needs."
+      },
+      {
+        "title": "When a session is missed",
+        "body": "Move the most useful task into the next available slot. Avoid doubling every later session; a smaller completed plan is more informative than an unrealistic recovery schedule."
+      },
+      {
+        "title": "Check understanding",
+        "body": "Try explaining the concept without looking at the notes. If you can repeat the wording but cannot apply it to a different example, return to practice rather than collecting more material."
+      }
+    ],
+    "questions": "subject, deadline, available time, current knowledge, session preferences and assessment goals",
+    "image": null
+  },
+  {
+    "slug": "reading-journal",
+    "title": "Reading Journal",
+    "category": "education-personal",
+    "layout": "journal",
+    "headline": "Keep the idea you might use later.",
+    "description": "A reading journal for arguments, questions, connections, and a practical next experiment.",
+    "context": "This fictional journal demonstrates how to record an idea without copying a source at length. The sample reading is an invented essay called “The Useful Handover,” not a published reference.",
+    "columns": [
+      "Entry",
+      "Note",
+      "Next use"
+    ],
+    "rows": [
+      [
+        "Main claim",
+        "Context makes files easier to use",
+        "Review the project index"
+      ],
+      [
+        "Supporting idea",
+        "Ownership prevents silent decay",
+        "Name an update owner"
+      ],
+      [
+        "Question",
+        "When does an index duplicate work?",
+        "Test a small example"
+      ],
+      [
+        "Connection",
+        "Onboarding has the same orientation problem",
+        "Compare the two workflows"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Summarize in your own words",
+        "body": "Write the argument as you understand it and distinguish the author’s position from your response. Keep any quotation short, accurately attributed, and linked to its real source in the actual journal."
+      },
+      {
+        "title": "Test the connection",
+        "body": "The useful connection is not simply that two subjects sound alike. Describe what would change in your work if the idea were true, and what observation might challenge it."
+      },
+      {
+        "title": "Return to the entry",
+        "body": "At the next review, record whether you used the idea, changed your mind, or need better evidence. A journal becomes useful through retrieval, not through the number of entries."
+      }
+    ],
+    "questions": "reading source, author, date, main argument, permitted quotations, questions and intended application",
+    "image": null
+  },
+  {
+    "slug": "habit-review",
+    "title": "Habit Review",
+    "category": "education-personal",
+    "layout": "journal",
+    "headline": "Look for the conditions that help.",
+    "description": "A reflective habit review with a modest record, context, and a next-week adjustment.",
+    "context": "This fictional review tracks a short end-of-day planning habit. It is a personal reflection example, not medical or behavioral treatment advice.",
+    "columns": [
+      "Day",
+      "Five-minute review",
+      "Context"
+    ],
+    "rows": [
+      [
+        "Monday",
+        "Completed",
+        "Started before closing laptop"
+      ],
+      [
+        "Tuesday",
+        "Missed",
+        "Late meeting"
+      ],
+      [
+        "Wednesday",
+        "Completed",
+        "Reminder beside notebook"
+      ],
+      [
+        "Thursday",
+        "Completed",
+        "Shorter version used"
+      ],
+      [
+        "Friday",
+        "Completed",
+        "Combined with weekly review"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Notice the pattern",
+        "body": "The review happened on four of five days. The missed day followed a late meeting, while the shorter version helped on Thursday. Context is more useful here than judging the week as perfect or failed."
+      },
+      {
+        "title": "Choose one adjustment",
+        "body": "Try a two-minute version on meeting-heavy days: record what moved and the next useful step. Keep the ordinary version for days with enough time."
+      },
+      {
+        "title": "Review without punishment",
+        "body": "Ask whether the habit supports the work you care about. If it creates more pressure than value, change its scope or stop the experiment. The record is information, not a score of personal worth."
+      }
+    ],
+    "questions": "habit, purpose, review period, observations, helpful conditions, obstacles and next adjustment",
+    "image": null
+  },
+  {
+    "slug": "career-development-plan",
+    "title": "Career Development Plan",
+    "category": "education-personal",
+    "layout": "planner",
+    "headline": "Build evidence for the work you want to do.",
+    "description": "A development plan linking a career direction to practice, feedback, and demonstrable work.",
+    "context": "This fictional product designer wants to become stronger at research synthesis and facilitation. The plan focuses on work they can practice and review rather than promising a title or promotion.",
+    "columns": [
+      "Focus",
+      "Practice",
+      "Evidence",
+      "Support"
+    ],
+    "rows": [
+      [
+        "Synthesis",
+        "Summarize one interview set",
+        "Traceable themes",
+        "Research peer"
+      ],
+      [
+        "Facilitation",
+        "Run a small decision session",
+        "Participant feedback",
+        "Team lead"
+      ],
+      [
+        "Communication",
+        "Present one recommendation",
+        "Clear decision brief",
+        "Design peer"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Choose a direction",
+        "body": "Describe the kind of responsibility you want, the work it involves, and why it matters to you. Separate your interests from assumptions about what your employer will reward."
+      },
+      {
+        "title": "Make practice visible",
+        "body": "Create a small portfolio of working evidence: a synthesis, an agenda, and a decision brief. Remove private material and obtain permission before sharing work beyond its original audience."
+      },
+      {
+        "title": "Review with someone",
+        "body": "Ask for specific feedback on the skill being practiced. A useful review identifies what improved, what remains difficult, and the next opportunity to practice in real work."
+      }
+    ],
+    "questions": "career direction, current strengths, skills to develop, opportunities, support, constraints and review dates",
+    "image": null
+  },
+  {
+    "slug": "workshop-workbook",
+    "title": "Workshop Workbook",
+    "category": "education-personal",
+    "layout": "workbook",
+    "headline": "Turn a vague project into a clear brief.",
+    "description": "A printable workshop workbook with exercises, worked answers, and a closing action.",
+    "context": "This fictional sixty-minute workshop helps a small team describe one project clearly. The HTML reveals worked answers after each exercise; the PDF includes them for facilitator review.",
+    "columns": [
+      "Exercise",
+      "Time",
+      "Output"
+    ],
+    "rows": [
+      [
+        "Name the user",
+        "10 minutes",
+        "One concrete audience"
+      ],
+      [
+        "Describe the task",
+        "15 minutes",
+        "One observable action"
+      ],
+      [
+        "Set the boundary",
+        "15 minutes",
+        "Included and excluded work"
+      ],
+      [
+        "Choose the check",
+        "10 minutes",
+        "Acceptance evidence"
+      ],
+      [
+        "Close",
+        "10 minutes",
+        "Owner and next step"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Exercise: name the task",
+        "body": "Start with “A visitor needs to…” and finish with something observable. Worked answer: “A visitor needs to find today’s opening hours on a phone.” This is easier to test than “make the site engaging.”"
+      },
+      {
+        "title": "Exercise: set a boundary",
+        "body": "List the smallest useful result and one tempting addition to exclude. Worked answer: publish the menu and location; keep online ordering outside the first release."
+      },
+      {
+        "title": "Exercise: choose the check",
+        "body": "Describe how another person will verify the result. Worked answer: ask a reader to find the hours and menu, record where they hesitate, and revise the unclear path."
+      }
+    ],
+    "questions": "workshop topic, participants, duration, learning goals, exercises, worked examples and facilitation needs",
+    "image": null
+  },
+  {
+    "slug": "language-practice-guide",
+    "title": "Language Practice Guide",
+    "category": "education-personal",
+    "layout": "workbook",
+    "headline": "Practice the conversation you are likely to have.",
+    "description": "A language practice guide with a short scenario, phrase bank, and self-check prompts.",
+    "context": "This fictional beginner Dutch practice focuses on ordering a drink in a café. It is a compact learning example with ordinary phrases and a suggested role-play.",
+    "columns": [
+      "Dutch",
+      "English",
+      "Use"
+    ],
+    "rows": [
+      [
+        "Goedemorgen",
+        "Good morning",
+        "Greeting"
+      ],
+      [
+        "Een koffie, alstublieft",
+        "A coffee, please",
+        "Ordering"
+      ],
+      [
+        "Dank u wel",
+        "Thank you",
+        "Polite closing"
+      ],
+      [
+        "Mag ik betalen?",
+        "May I pay?",
+        "Asking to pay"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Try the exchange",
+        "body": "One person greets the customer and asks for the order. The learner orders a coffee, says thank you, and asks to pay. Repeat slowly before trying a natural pace."
+      },
+      {
+        "title": "Change one detail",
+        "body": "Replace coffee with tea: “Een thee, alstublieft.” Keep the rest of the exchange familiar so you can focus on the changed phrase."
+      },
+      {
+        "title": "Check what you can do",
+        "body": "Can you produce the phrase without reading it? Can you recognize it when someone else says it? Record the difficult part and ask a qualified speaker or teacher for pronunciation feedback."
+      }
+    ],
+    "questions": "language, learner level, real scenario, phrases to practice, accessibility needs and feedback method",
+    "image": null
+  },
+  {
+    "slug": "personal-knowledge-index",
+    "title": "Personal Knowledge Index",
+    "category": "education-personal",
+    "layout": "directory",
+    "headline": "Find the note by what it helps you do.",
+    "description": "Organize personal knowledge by purpose, status, and useful connections.",
+    "context": "This fictional knowledge index belongs to an independent builder. It points to a small set of maintained notes rather than trying to categorize every saved link.",
+    "columns": [
+      "Topic",
+      "Use it when",
+      "Status"
+    ],
+    "rows": [
+      [
+        "Project briefs",
+        "Starting an ambiguous piece of work",
+        "Maintained"
+      ],
+      [
+        "Handover routine",
+        "Passing work to another owner",
+        "Maintained"
+      ],
+      [
+        "Research questions",
+        "Planning a small study",
+        "Working notes"
+      ],
+      [
+        "Reading ideas",
+        "Looking for a new experiment",
+        "Unreviewed"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Start with use",
+        "body": "Give each note a title that hints at the task it supports. Add a short explanation of when to open it and a link to the real private note in your own version."
+      },
+      {
+        "title": "Keep uncertainty visible",
+        "body": "Working notes can contain incomplete ideas. Mark them as such rather than presenting every saved statement as settled knowledge. Preserve source links and dates where they matter."
+      },
+      {
+        "title": "A small maintenance routine",
+        "body": "At a monthly review, update the notes you actually used, archive obsolete ones, and connect any useful new material. An index should reduce retrieval effort rather than become another collection to manage."
+      }
+    ],
+    "questions": "knowledge areas, existing notes, intended uses, status labels, source locations and maintenance routine",
+    "image": null
+  },
+  {
+    "slug": "goal-review",
+    "title": "Goal Review",
+    "category": "education-personal",
+    "layout": "journal",
+    "headline": "Decide what deserves another month.",
+    "description": "Review goals through evidence, obstacles, tradeoffs, and a deliberate continue/change/stop decision.",
+    "context": "This fictional monthly review covers three goals for an independent builder. The record separates effort from outcome and makes room to stop work that no longer fits.",
+    "columns": [
+      "Goal",
+      "Evidence this month",
+      "Decision"
+    ],
+    "rows": [
+      [
+        "Finish handover example",
+        "Reviewed with two readers",
+        "Continue"
+      ],
+      [
+        "Write four articles",
+        "One draft completed",
+        "Reduce to one useful article"
+      ],
+      [
+        "Try a new planning app",
+        "No clear problem identified",
+        "Stop"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "What moved",
+        "body": "The handover example produced direct reader feedback, which is useful evidence of progress. The article goal exceeded the available writing time. The app experiment lacked a concrete need."
+      },
+      {
+        "title": "What to change",
+        "body": "Choose one article based on the questions readers actually asked. Keep a small weekly writing slot and define a finished draft before adding a publication target."
+      },
+      {
+        "title": "What to release",
+        "body": "Stopping the app experiment frees attention for work with a clearer purpose. Record why it stopped so the same idea does not return as an unexplained obligation next month."
+      }
+    ],
+    "questions": "goals, review period, evidence, constraints, changed priorities and continue/change/stop decisions",
+    "image": null
+  },
+  {
+    "slug": "content-calendar",
+    "title": "Content Calendar",
+    "category": "marketing-growth",
+    "layout": "planner",
+    "headline": "Give every piece a reason to exist.",
+    "description": "A content calendar with audience questions, formats, owners, and review status.",
+    "context": "This fictional studio plans four weeks of content around questions from small-business clients. The calendar is an editorial plan; it does not schedule or publish posts.",
+    "columns": [
+      "Week",
+      "Audience question",
+      "Format",
+      "Owner"
+    ],
+    "rows": [
+      [
+        "One",
+        "What belongs in a project brief?",
+        "Worked example",
+        "Robin"
+      ],
+      [
+        "Two",
+        "How do I prepare website content?",
+        "Checklist",
+        "Sam"
+      ],
+      [
+        "Three",
+        "What happens at handover?",
+        "Short walkthrough",
+        "Maya"
+      ],
+      [
+        "Four",
+        "When should I update a website?",
+        "Question-and-answer note",
+        "Leo"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The editorial thread",
+        "body": "Each piece should help a prospective client prepare for useful work. Reuse the café example to connect the series, but give each article a distinct question and takeaway."
+      },
+      {
+        "title": "Review before publication",
+        "body": "The owner checks accuracy, permissions, links, and the desired next action. A draft is not approved simply because its calendar date has arrived."
+      },
+      {
+        "title": "Learn from the response",
+        "body": "Record meaningful questions and qualified inquiries rather than treating every impression as success. At the end of the month, decide which subject deserves a follow-up."
+      }
+    ],
+    "questions": "audience, content goals, channels, dates, topics, owners, review workflow and measurement",
+    "image": null
+  },
+  {
+    "slug": "seo-content-brief",
+    "title": "SEO Content Brief",
+    "category": "marketing-growth",
+    "layout": "manual",
+    "headline": "Answer the reader’s question completely.",
+    "description": "A search-focused content brief with intent, outline, evidence needs, and editorial checks.",
+    "context": "This fictional brief plans an article about preparing content for a small-business website. It does not claim current search volumes, rankings, or competitor positions.",
+    "columns": [
+      "Section",
+      "Reader question",
+      "Evidence needed"
+    ],
+    "rows": [
+      [
+        "Opening",
+        "What should I prepare first?",
+        "A concrete project example"
+      ],
+      [
+        "Page checklist",
+        "What belongs on each page?",
+        "Verified business information"
+      ],
+      [
+        "Ownership",
+        "Who approves and updates it?",
+        "A simple responsibility model"
+      ],
+      [
+        "Before handover",
+        "How do I check completeness?",
+        "A usable review checklist"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Search intent",
+        "body": "The reader is likely preparing for a website project and needs practical inputs. The article should help them collect approved text, contact information, opening hours, and licensed images."
+      },
+      {
+        "title": "Outline with substance",
+        "body": "Use a five-page café example to demonstrate the checklist. Explain how to mark missing information and why the content owner matters. Avoid repeating the target phrase where it adds no meaning."
+      },
+      {
+        "title": "Editorial acceptance",
+        "body": "Check that the article answers the main question, cites real sources where claims need support, and uses descriptive headings. Add current keyword research only after it has been collected and verified."
+      }
+    ],
+    "questions": "target reader, search question, current keyword research if available, outline, sources, internal links and acceptance checks",
+    "image": null
+  },
+  {
+    "slug": "launch-announcement",
+    "title": "Launch Announcement",
+    "category": "marketing-growth",
+    "layout": "campaign",
+    "headline": "A clearer way to hand over a project.",
+    "description": "Draft a launch announcement with a concrete change, audience benefit, and verified next step.",
+    "context": "This fictional announcement introduces a studio’s new handover guide. It is a message draft for review, not a sent email or published product claim.",
+    "columns": [
+      "Channel",
+      "Opening angle",
+      "Next action"
+    ],
+    "rows": [
+      [
+        "Email",
+        "Your next handover has a clearer starting point",
+        "Read the sample guide"
+      ],
+      [
+        "Website",
+        "Find the current files and their owners",
+        "Explore the example"
+      ],
+      [
+        "Community post",
+        "A small handover improvement we tested",
+        "Share a question"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The announcement draft",
+        "body": "We have put the project files, their purpose, and their update owners into one handover guide. Start with the index, open the item you need, and see who maintains it."
+      },
+      {
+        "title": "Make the benefit concrete",
+        "body": "The change helps a receiving team orient itself. Describe that task directly instead of promising effortless collaboration or dramatic productivity gains without evidence."
+      },
+      {
+        "title": "Before release",
+        "body": "Replace the sample destination with the approved page, confirm the availability statement, and have the owner review the message. Adapt the length to the channel without changing the underlying claim."
+      }
+    ],
+    "questions": "what is launching, verified availability, audience, concrete benefit, channels, approved links and review owner",
+    "image": null
+  },
+  {
+    "slug": "audience-profile",
+    "title": "Audience Profile",
+    "category": "marketing-growth",
+    "layout": "dossier",
+    "headline": "Understand the person making the decision.",
+    "description": "An audience profile grounded in tasks, constraints, questions, and evidence gaps.",
+    "context": "This fictional profile describes an independent café owner preparing a first website. It is a working hypothesis for research, not a demographic fact about all business owners.",
+    "columns": [
+      "Dimension",
+      "Working hypothesis",
+      "What to verify"
+    ],
+    "rows": [
+      [
+        "Task",
+        "Make hours and menu easy to find",
+        "Recent visitor questions"
+      ],
+      [
+        "Constraint",
+        "Little time for content preparation",
+        "Actual weekly availability"
+      ],
+      [
+        "Concern",
+        "Who maintains the site after launch?",
+        "Past supplier experiences"
+      ],
+      [
+        "Decision",
+        "Choose a small, clear scope",
+        "Approval and budget process"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The situation",
+        "body": "The owner is balancing the website project with daily operations. A useful service explains the required inputs and review moments in practical terms rather than expecting the owner to learn design terminology."
+      },
+      {
+        "title": "Likely questions",
+        "body": "What do I need to supply? How many reviews are included? What happens when the menu changes? Treat these as questions to test in conversations, not quotations from a real customer."
+      },
+      {
+        "title": "Evidence to collect",
+        "body": "Speak with relevant owners about a recent project decision. Record differences and exceptions, then update the profile. Avoid adding age, income, or personality traits that do not explain the task."
+      }
+    ],
+    "questions": "audience task, context, constraints, decision process, source evidence, uncertainties and research plan",
+    "image": null
+  },
+  {
+    "slug": "messaging-guide",
+    "title": "Messaging Guide",
+    "category": "marketing-growth",
+    "layout": "campaign",
+    "headline": "Say the same useful thing, clearly.",
+    "description": "A messaging guide with a core promise, supporting points, proof requirements, and examples.",
+    "context": "This fictional studio’s message is about clear scope and useful handover. The guide helps collaborators describe the service consistently without claiming outcomes that have not been measured.",
+    "columns": [
+      "Message layer",
+      "Working wording",
+      "Support needed"
+    ],
+    "rows": [
+      [
+        "Core promise",
+        "A website your next owner can maintain",
+        "Handover example"
+      ],
+      [
+        "Scope",
+        "Five agreed pages, clearly reviewed",
+        "Defined deliverables"
+      ],
+      [
+        "Process",
+        "One feedback owner and two review rounds",
+        "Working agreement"
+      ],
+      [
+        "Proof",
+        "See the café handover sample",
+        "Approved example"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Lead with the task",
+        "body": "For an owner preparing a first website, explain what they receive and how the project proceeds. “A five-page website with an update guide” says more than “a transformative digital experience.”"
+      },
+      {
+        "title": "Adapt without drifting",
+        "body": "A short headline can emphasize the handover; a proposal can explain responsibilities and acceptance. Both should describe the same actual service."
+      },
+      {
+        "title": "Claims to avoid",
+        "body": "Do not invent customer counts, awards, conversion improvements, or guaranteed results. When real evidence becomes available, attach its source and the conditions under which it was observed."
+      }
+    ],
+    "questions": "brand, audience, actual offer, core message, supporting evidence, tone and prohibited claims",
+    "image": null
+  },
+  {
+    "slug": "channel-performance-report",
+    "title": "Channel Performance Report",
+    "category": "marketing-growth",
+    "layout": "scorecard",
+    "headline": "Compare the response, not just the reach.",
+    "description": "Review channel activity with denominators, qualified outcomes, and attribution limits.",
+    "context": "This fictional monthly campaign report uses sample channel counts. A qualified inquiry means a person described a relevant project and asked for a conversation. Attribution is last reported source in this example.",
+    "columns": [
+      "Channel",
+      "Visits",
+      "Inquiries",
+      "Qualified inquiries"
+    ],
+    "rows": [
+      [
+        "Email",
+        "120",
+        "8",
+        "5"
+      ],
+      [
+        "Community",
+        "80",
+        "6",
+        "4"
+      ],
+      [
+        "Website search",
+        "200",
+        "5",
+        "3"
+      ],
+      [
+        "Partner mention",
+        "40",
+        "4",
+        "3"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Read the small sample",
+        "body": "The partner mention produced three qualified inquiries from forty visits, while search produced three from two hundred. The counts are small and the audiences differ, so this is a prompt for investigation rather than a stable ranking."
+      },
+      {
+        "title": "Check the definition",
+        "body": "Use the same qualification rule across channels. Record how a source was assigned and how unknown sources are handled. A person may encounter several channels before inquiring."
+      },
+      {
+        "title": "Next month’s test",
+        "body": "Repeat a useful partner example and improve the search landing page’s next step. Keep the measurement method unchanged long enough to compare the results meaningfully."
+      }
+    ],
+    "questions": "period, channels, visits, outcome definitions, attribution method, costs if known and next tests",
+    "image": null
+  },
+  {
+    "slug": "referral-program-brief",
+    "title": "Referral Program Brief",
+    "category": "marketing-growth",
+    "layout": "dossier",
+    "headline": "Make introductions easy to understand.",
+    "description": "A referral program planning brief with eligibility, process, rewards, and review questions.",
+    "context": "This fictional studio is considering a simple referral pilot. The program is not active; reward terms and local requirements need review before any offer is made.",
+    "columns": [
+      "Step",
+      "Participant action",
+      "Studio responsibility"
+    ],
+    "rows": [
+      [
+        "Introduce",
+        "Ask the prospect before sharing details",
+        "Provide a clear introduction route"
+      ],
+      [
+        "Qualify",
+        "Describe the relevant project",
+        "Check fit and record consent"
+      ],
+      [
+        "Confirm",
+        "Wait for the agreed milestone",
+        "Explain eligibility clearly"
+      ],
+      [
+        "Review",
+        "Share feedback on the process",
+        "Resolve questions consistently"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The pilot purpose",
+        "body": "Encourage relevant introductions from people who understand the studio’s work. A useful referral is a good fit for both sides, not simply a name added to a list."
+      },
+      {
+        "title": "Terms to decide",
+        "body": "Define who can participate, which projects qualify, when a reward is earned, and what happens if work is cancelled. Keep the wording plain and have the actual terms reviewed before launch."
+      },
+      {
+        "title": "Measure the quality",
+        "body": "Track relevant introductions, qualified conversations, and participant questions. Review whether the process creates confusion or pressure before expanding it."
+      }
+    ],
+    "questions": "program purpose, participants, eligibility, proposed reward, milestone, consent process and reviewed terms",
+    "image": null
+  },
+  {
+    "slug": "customer-story",
+    "title": "Customer Story",
+    "category": "marketing-growth",
+    "layout": "casebook",
+    "headline": "The owner knew what to do next.",
+    "description": "A customer story with a concrete problem, the work performed, and evidence-ready outcomes.",
+    "context": "This fictional café story demonstrates a customer narrative without invented testimonials. Replace the example with approved customer material and verified results before publishing it as a real story.",
+    "columns": [
+      "Moment",
+      "Before",
+      "After in this example"
+    ],
+    "rows": [
+      [
+        "Find the menu source",
+        "Several draft files",
+        "One approved source named"
+      ],
+      [
+        "Update opening hours",
+        "Responsibility unclear",
+        "Owner identified in the guide"
+      ],
+      [
+        "Ask for support",
+        "No shared route",
+        "Support instructions beside the index"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The customer’s situation",
+        "body": "The café owner had useful website files but was unsure which ones were current. The handover needed to support ordinary updates during a busy working week."
+      },
+      {
+        "title": "The work together",
+        "body": "The studio and owner agreed the source of truth for each page, organized the deliverable index, and walked through a menu update. The owner reviewed the guide before handover."
+      },
+      {
+        "title": "Evidence to add",
+        "body": "A real story should show what the customer actually experienced, with permission to use their name and words. Record the source of any outcome claim and describe the scope of the work honestly."
+      }
+    ],
+    "questions": "customer permission, original problem, your role, work performed, verified outcomes, approved quotes and assets",
+    "image": "client-project-proposal.png"
+  },
+  {
+    "slug": "brand-guidelines",
+    "title": "Brand Guidelines",
+    "category": "marketing-growth",
+    "layout": "specimen",
+    "headline": "A recognizable voice across useful pages.",
+    "description": "A compact brand guide with typography, color roles, writing examples, and usage checks.",
+    "context": "This Claw Me example uses the shared Archivo and Bitter fonts, quiet surfaces, green actions, and coral brand accents. The guide is a practical companion to the bundled Tailwind source.",
+    "columns": [
+      "Role",
+      "Token or family",
+      "Use"
+    ],
+    "rows": [
+      [
+        "Body and controls",
+        "Archivo",
+        "Readable text, labels, and data"
+      ],
+      [
+        "Document headings",
+        "Bitter",
+        "Clear content hierarchy"
+      ],
+      [
+        "Primary action",
+        "Green ink on light surface",
+        "Links and active choices"
+      ],
+      [
+        "Accent",
+        "Coral",
+        "Small brand marker"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Typography in use",
+        "body": "Use Archivo for operational labels and dense information. Use Bitter for document headings. Keep headings descriptive and avoid squeezing text with excessive letter spacing."
+      },
+      {
+        "title": "Color with a purpose",
+        "body": "The green accent identifies a useful next action or active state. Status labels need words as well as color. White and quiet neutral surfaces keep long documents readable."
+      },
+      {
+        "title": "Write like a colleague",
+        "body": "Prefer “Review the project brief” to “Unlock your project potential.” State what a control does and describe an outcome that the artifact can actually support. Keep implementation notes in source documentation."
+      }
+    ],
+    "questions": "brand identity, existing tokens, fonts and licenses, voice, component roles, accessibility and examples",
+    "image": null
+  },
+  {
+    "slug": "cash-flow-snapshot",
+    "title": "Cash Flow Snapshot",
+    "category": "finance-admin",
+    "layout": "cashflow",
+    "headline": "See the timing behind the balance.",
+    "description": "A cash-flow planning snapshot with opening balance, expected movements, and checked closing amounts.",
+    "context": "This fictional four-month EUR scenario demonstrates cash timing for a small studio. Expected receipts and payments are assumptions, not accounting records or financial advice.",
+    "columns": [
+      "Month",
+      "Opening EUR",
+      "Receipts EUR",
+      "Payments EUR",
+      "Closing EUR"
+    ],
+    "rows": [
+      [
+        "September",
+        "5000",
+        "4000",
+        "3500",
+        "5500"
+      ],
+      [
+        "October",
+        "5500",
+        "3000",
+        "4200",
+        "4300"
+      ],
+      [
+        "November",
+        "4300",
+        "4500",
+        "3800",
+        "5000"
+      ],
+      [
+        "December",
+        "5000",
+        "3500",
+        "4000",
+        "4500"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "How to read it",
+        "body": "Each closing amount equals opening cash plus receipts minus payments. The next month starts with the previous closing amount. This example ends December at €4,500."
+      },
+      {
+        "title": "The timing question",
+        "body": "October has the largest net outflow in the sample. Check when receipts are expected and which payments are committed before using the scenario to make a decision."
+      },
+      {
+        "title": "Keep assumptions separate",
+        "body": "Replace expected amounts with verified records as they become available. A cash-flow view is not the same as profit, and it should not silently mix tax, credit, or personal funds."
+      }
+    ],
+    "questions": "period, currency, opening cash, expected receipts, payment timing, assumptions and source records",
+    "image": null
+  },
+  {
+    "slug": "expense-review",
+    "title": "Expense Review",
+    "category": "finance-admin",
+    "layout": "budget",
+    "headline": "Review the spending with its purpose attached.",
+    "description": "An expense review with categories, amounts, evidence, and questions for the owner.",
+    "context": "This fictional monthly studio review contains four EUR expense categories. It is an organizational example; treatment for bookkeeping or tax should follow the actual records and applicable professional guidance.",
+    "columns": [
+      "Category",
+      "Actual EUR",
+      "Evidence"
+    ],
+    "rows": [
+      [
+        "Software",
+        "180",
+        "Supplier receipts"
+      ],
+      [
+        "Workspace",
+        "420",
+        "Monthly invoice"
+      ],
+      [
+        "Travel",
+        "95",
+        "Trip records"
+      ],
+      [
+        "Materials",
+        "65",
+        "Purchase receipts"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The monthly total",
+        "body": "The four categories total €760. Check that each transaction appears once and that refunds or credits are handled consistently before comparing the total with another month."
+      },
+      {
+        "title": "Questions to resolve",
+        "body": "Confirm which software subscriptions are still used and whether the travel record has its supporting receipt. Missing evidence should remain visible rather than being replaced with an invented explanation."
+      },
+      {
+        "title": "The next review",
+        "body": "Record the owner’s decision on recurring costs and any action to obtain missing documents. Keep personal or sensitive transaction details in the private version."
+      }
+    ],
+    "questions": "period, currency, transactions, categories, supporting evidence, recurring costs and review owner",
+    "image": null
+  },
+  {
+    "slug": "pricing-comparison",
+    "title": "Pricing Comparison",
+    "category": "finance-admin",
+    "layout": "comparison",
+    "headline": "Compare the whole cost of the option.",
+    "description": "A pricing worksheet that normalizes plan assumptions and makes missing costs visible.",
+    "context": "This fictional comparison uses three invented software plans for a five-person team. The amounts are illustrative EUR monthly prices, not current vendor offers.",
+    "columns": [
+      "Plan",
+      "Base EUR/month",
+      "Included seats",
+      "Extra seat EUR",
+      "Five-seat total EUR"
+    ],
+    "rows": [
+      [
+        "Basic",
+        "20",
+        "2",
+        "8",
+        "44"
+      ],
+      [
+        "Team",
+        "45",
+        "5",
+        "6",
+        "45"
+      ],
+      [
+        "Studio",
+        "70",
+        "10",
+        "5",
+        "70"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Normalize the basis",
+        "body": "The Basic example costs €44 for five people: €20 plus three extra seats at €8. Team costs €45 and Studio costs €70 at the same team size."
+      },
+      {
+        "title": "Beyond the headline",
+        "body": "Compare required features, storage limits, billing commitments, support, export options, and any usage charges. A one-euro difference is not meaningful if an option cannot meet the actual requirement."
+      },
+      {
+        "title": "Before a purchase",
+        "body": "Replace the sample plans with verified current quotes and record their dates, currency, and tax basis. Recalculate if the team size or billing term changes."
+      }
+    ],
+    "questions": "real plans, verified prices and dates, seats, billing terms, usage assumptions, tax basis and required features",
+    "image": null
+  },
+  {
+    "slug": "purchase-request",
+    "title": "Purchase Request",
+    "category": "finance-admin",
+    "layout": "dossier",
+    "headline": "A purchase decision with enough context.",
+    "description": "Prepare a purchase request with purpose, alternatives, costs, ownership, and approval status.",
+    "context": "This fictional request proposes workshop materials for an upcoming event. The page prepares a decision; it does not place an order or authorize spending.",
+    "columns": [
+      "Item",
+      "Quantity",
+      "Unit EUR",
+      "Total EUR"
+    ],
+    "rows": [
+      [
+        "Notebooks",
+        "20",
+        "4",
+        "80"
+      ],
+      [
+        "Pens",
+        "20",
+        "1",
+        "20"
+      ],
+      [
+        "Name badges",
+        "20",
+        "0.5",
+        "10"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Why the purchase is needed",
+        "body": "The event needs enough materials for twenty participants. Existing stock is reserved for another session in this example, so the requester proposes a separate order."
+      },
+      {
+        "title": "Alternatives considered",
+        "body": "Use remaining stock and replenish later, ask participants to bring materials, or reduce the printed exercise. Compare the practical effect of each option before choosing the order."
+      },
+      {
+        "title": "Decision requested",
+        "body": "The sample item total is €110 before any delivery or tax. Confirm the supplier quote, complete cost, budget owner, and required approval before purchasing."
+      }
+    ],
+    "questions": "business purpose, items and quantities, verified quotes, alternatives, budget owner, complete cost and approval process",
+    "image": null
+  },
+  {
+    "slug": "vendor-comparison",
+    "title": "Vendor Comparison",
+    "category": "finance-admin",
+    "layout": "comparison",
+    "headline": "Choose a supplier with the requirements in view.",
+    "description": "A vendor comparison with consistent criteria, evidence status, and unresolved questions.",
+    "context": "This fictional assessment compares three invented workshop venues. It demonstrates how to record fit without presenting unsupported ratings as objective facts.",
+    "columns": [
+      "Criterion",
+      "Venue A",
+      "Venue B",
+      "Venue C"
+    ],
+    "rows": [
+      [
+        "Capacity for twenty",
+        "Confirmed in sample",
+        "Confirmed in sample",
+        "To verify"
+      ],
+      [
+        "Step-free access",
+        "To verify",
+        "Confirmed in sample",
+        "To verify"
+      ],
+      [
+        "Display equipment",
+        "Included in sample",
+        "Additional quote needed",
+        "Included in sample"
+      ],
+      [
+        "Cancellation terms",
+        "To review",
+        "To review",
+        "To review"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "What matters first",
+        "body": "Capacity and access are requirements, not optional scoring bonuses. Resolve those facts before comparing extras such as equipment or refreshments."
+      },
+      {
+        "title": "A provisional shortlist",
+        "body": "Venue B has the clearest sample access information, but its equipment cost is missing. Venue A remains possible once access is verified. Venue C cannot be judged until capacity is confirmed."
+      },
+      {
+        "title": "Document the decision",
+        "body": "Keep the actual quotes, verification dates, and agreed terms with the private decision record. Do not turn “to verify” into an assumed yes to make a comparison look complete."
+      }
+    ],
+    "questions": "vendors, mandatory requirements, comparable quotes, evidence dates, unresolved questions and decision owner",
+    "image": null
+  },
+  {
+    "slug": "invoice-summary",
+    "title": "Invoice Summary",
+    "category": "finance-admin",
+    "layout": "ledger",
+    "headline": "Know which invoices need a next step.",
+    "description": "An invoice tracking summary with amounts, due dates, status, and reconciliation notes.",
+    "context": "This fictional EUR invoice summary is a tracking aid, not an issued invoice or an accounting ledger. Invoice identifiers and client names are invented.",
+    "columns": [
+      "Invoice",
+      "Amount EUR",
+      "Due",
+      "Status"
+    ],
+    "rows": [
+      [
+        "INV-101",
+        "1200",
+        "15 September",
+        "Paid"
+      ],
+      [
+        "INV-102",
+        "1800",
+        "22 September",
+        "Awaiting payment"
+      ],
+      [
+        "INV-103",
+        "600",
+        "10 September",
+        "Needs follow-up"
+      ],
+      [
+        "INV-104",
+        "900",
+        "30 September",
+        "Draft"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Read the totals",
+        "body": "Issued invoices total €3,600 in this sample. Of that, €1,200 is marked paid and €2,400 remains outstanding. The €900 draft is excluded from issued and outstanding totals."
+      },
+      {
+        "title": "Reconcile the status",
+        "body": "Confirm payment against the actual bank or accounting record before marking an invoice paid. A client’s message that payment was sent is useful context but may not be the final record."
+      },
+      {
+        "title": "Follow-up draft",
+        "body": "For INV-103, verify the terms and contact before preparing a polite reminder. Review the message and recipient separately; this page sends nothing."
+      }
+    ],
+    "questions": "invoice records, amounts and currency, issue and due dates, payment evidence, status rules and follow-up owner",
+    "image": null
+  },
+  {
+    "slug": "renewal-tracker",
+    "title": "Renewal Tracker",
+    "category": "finance-admin",
+    "layout": "register",
+    "headline": "Review the renewal before the deadline.",
+    "description": "Track recurring agreements with notice dates, owners, usage evidence, and decisions.",
+    "context": "This fictional studio tracker shows four recurring services. Dates and amounts are illustrative; the real contract determines notice requirements and renewal behavior.",
+    "columns": [
+      "Service",
+      "Review by",
+      "Renewal",
+      "Owner"
+    ],
+    "rows": [
+      [
+        "Design software",
+        "1 October",
+        "1 November",
+        "Maya"
+      ],
+      [
+        "Workspace agreement",
+        "15 October",
+        "15 December",
+        "Robin"
+      ],
+      [
+        "Email service",
+        "1 November",
+        "1 December",
+        "Sam"
+      ],
+      [
+        "Domain registration",
+        "1 December",
+        "1 January",
+        "Leo"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Start with the agreement",
+        "body": "Record the actual notice period, renewal term, and cancellation route from the current contract. A reminder date should leave time to decide and complete the required process."
+      },
+      {
+        "title": "Review the usefulness",
+        "body": "Ask whether the service is used, whether the plan fits, and whether any data needs to be exported before a change. Keep the current price and renewal quote separate."
+      },
+      {
+        "title": "Record the decision",
+        "body": "Each owner marks renew, change, or end with a reason and evidence of the completed action. A planned cancellation is not a completed cancellation."
+      }
+    ],
+    "questions": "services, current contracts, notice periods, renewal dates, owners, usage evidence and decisions",
+    "image": null
+  },
+  {
+    "slug": "financial-assumptions-sheet",
+    "title": "Financial Assumptions Sheet",
+    "category": "finance-admin",
+    "layout": "ledger",
+    "headline": "Make the model’s inputs easy to challenge.",
+    "description": "Document scenario inputs, units, rationale, and the effect of changing assumptions.",
+    "context": "This fictional studio planning model uses a simple monthly revenue scenario. It is a demonstration of assumption management, not a forecast of Claw Me or a recommendation about business finances.",
+    "columns": [
+      "Input",
+      "Base value",
+      "Unit",
+      "Reason to revisit"
+    ],
+    "rows": [
+      [
+        "Projects completed",
+        "2",
+        "Per month",
+        "Capacity changes"
+      ],
+      [
+        "Average project fee",
+        "2400",
+        "EUR per project",
+        "Scope mix changes"
+      ],
+      [
+        "Direct project cost",
+        "600",
+        "EUR per project",
+        "Supplier costs change"
+      ],
+      [
+        "Fixed operating cost",
+        "1800",
+        "EUR per month",
+        "Recurring commitments change"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Base scenario",
+        "body": "Two projects at €2,400 produce €4,800 in modeled revenue. Subtracting €1,200 in direct project costs and €1,800 in fixed costs leaves €1,800 before items not included in this simplified model."
+      },
+      {
+        "title": "One-project scenario",
+        "body": "At one project, modeled revenue is €2,400 and the same calculation leaves €0. This illustrates sensitivity to project volume; it is not a complete profit or cash-flow calculation."
+      },
+      {
+        "title": "What remains outside",
+        "body": "Tax, timing, owner compensation, financing, and other relevant items are not modeled here. Add the actual inputs and have the model reviewed before relying on it for a material decision."
+      }
+    ],
+    "questions": "model purpose, inputs, units, evidence, scenario ranges, exclusions and review requirements",
+    "image": null
+  },
+  {
+    "slug": "administration-checklist",
+    "title": "Administration Checklist",
+    "category": "finance-admin",
+    "layout": "planner",
+    "headline": "Close the month without losing the loose ends.",
+    "description": "A monthly administration checklist with evidence, ownership, and unresolved items.",
+    "context": "This fictional studio routine organizes records and recurring administrative work. It is a workflow example, not a statement of legal filing or tax obligations.",
+    "columns": [
+      "Task",
+      "Owner",
+      "Evidence",
+      "State"
+    ],
+    "rows": [
+      [
+        "Collect supplier records",
+        "Sam",
+        "Receipts folder checked",
+        "In progress"
+      ],
+      [
+        "Reconcile invoice tracker",
+        "Robin",
+        "Status reviewed against records",
+        "Open"
+      ],
+      [
+        "Review renewals",
+        "Leo",
+        "Next notice dates checked",
+        "Complete"
+      ],
+      [
+        "Archive project handovers",
+        "Maya",
+        "Index updated",
+        "Complete"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Work from the source",
+        "body": "Use the actual invoice, agreement, or system record for each check. Keep an unresolved item open when evidence is missing rather than marking the task complete because time was spent on it."
+      },
+      {
+        "title": "Handle private information carefully",
+        "body": "Store sensitive records in the appropriate private location and give access only to the people who need it. A public checklist can describe the process without exposing the underlying documents."
+      },
+      {
+        "title": "End with a short exception list",
+        "body": "Record what remains, who owns it, and the next date to check. Confirm any formal obligations with the responsible professional or authority for the actual organization."
+      }
+    ],
+    "questions": "organization, monthly tasks, source records, owners, deadlines, access needs and exception handling",
+    "image": null
+  },
+  {
+    "slug": "literature-review",
+    "title": "Literature Review",
+    "category": "research-data",
+    "layout": "evidence",
+    "headline": "Compare the arguments before drawing a conclusion.",
+    "description": "A literature review structure with source scope, claims, methods, and gaps.",
+    "context": "This fictional review explores how document context affects handovers. The source records below are invented teaching examples, not real publications or citations. Replace them with verified literature in an actual review.",
+    "columns": [
+      "Example record",
+      "Approach",
+      "Claim to examine",
+      "Limitation"
+    ],
+    "rows": [
+      [
+        "Study A",
+        "Observed lookup tasks",
+        "Labels may aid orientation",
+        "Small workplace sample"
+      ],
+      [
+        "Study B",
+        "Interview study",
+        "Ownership matters after handover",
+        "Self-reported experience"
+      ],
+      [
+        "Study C",
+        "Case analysis",
+        "Indexes can duplicate maintenance",
+        "Single organization"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Define the review question",
+        "body": "Ask which document features help a new owner find and maintain the right material. Set the context and inclusion criteria before collecting sources so the review does not become an unbounded reading list."
+      },
+      {
+        "title": "Synthesize the disagreement",
+        "body": "The examples suggest that context can help retrieval while adding maintenance work. Compare the methods and settings behind those positions rather than counting how many sources appear to agree."
+      },
+      {
+        "title": "Identify the gap",
+        "body": "A useful next study would observe both initial lookup and later maintenance. In the real review, preserve full citations, source links, search dates, and reasons for excluding material."
+      }
+    ],
+    "questions": "research question, search scope, real source citations, inclusion criteria, methods, findings and gaps",
+    "image": null
+  },
+  {
+    "slug": "competitor-research",
+    "title": "Competitor Research",
+    "category": "research-data",
+    "layout": "comparison",
+    "headline": "Compare the alternatives a user would really consider.",
+    "description": "A competitor research brief with verified observations, evaluation criteria, and unknowns.",
+    "context": "This fictional comparison uses three invented approaches to project handover: a shared folder, a document index, and a project portal. It makes no claims about named commercial products.",
+    "columns": [
+      "Criterion",
+      "Shared folder",
+      "Document index",
+      "Project portal"
+    ],
+    "rows": [
+      [
+        "Initial setup",
+        "Low in this example",
+        "Moderate in this example",
+        "Higher in this example"
+      ],
+      [
+        "Purpose labels",
+        "Added to filenames",
+        "Explicit per item",
+        "Depends on configuration"
+      ],
+      [
+        "Ownership",
+        "Separate record needed",
+        "Shown beside item",
+        "Depends on configuration"
+      ],
+      [
+        "Maintenance",
+        "Folder hygiene",
+        "Index and files",
+        "System and content"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Start with the user’s choice",
+        "body": "A competitor is not always another branded tool. A familiar folder or a manual routine may be the real alternative, with lower setup effort and known limitations."
+      },
+      {
+        "title": "Record observations precisely",
+        "body": "For a real product comparison, note the version, plan, date, and tested workflow. Keep marketing claims separate from behavior you actually observed."
+      },
+      {
+        "title": "Draw a bounded conclusion",
+        "body": "The index offers explicit context with a modest setup in this example, but it creates a maintenance task. Test whether that tradeoff helps the actual receiving team before recommending a switch."
+      }
+    ],
+    "questions": "user task, actual alternatives, evaluation criteria, verified sources and dates, observations and unknowns",
+    "image": null
+  },
+  {
+    "slug": "interview-synthesis",
+    "title": "Interview Synthesis",
+    "category": "research-data",
+    "layout": "evidence",
+    "headline": "Keep every theme connected to an observation.",
+    "description": "Synthesize interviews into themes, counterexamples, and questions for the next round.",
+    "context": "This fictional synthesis uses four invented participant records about receiving project files. No text is an attributed quotation from a real person.",
+    "columns": [
+      "Record",
+      "Observed difficulty",
+      "Theme"
+    ],
+    "rows": [
+      [
+        "P01",
+        "Opened an old menu draft",
+        "Version clarity"
+      ],
+      [
+        "P02",
+        "Could not identify the update owner",
+        "Responsibility"
+      ],
+      [
+        "P03",
+        "Found the folder but not the first step",
+        "Orientation"
+      ],
+      [
+        "P04",
+        "Preferred a familiar folder routine",
+        "Avoid duplicate maintenance"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Theme: context at the point of use",
+        "body": "Three example records concern information surrounding the file rather than the file itself. That suggests a prototype should test labels, ownership, and a clear entry point."
+      },
+      {
+        "title": "Counterexample: another thing to maintain",
+        "body": "P04’s example raises a cost that the synthesis must preserve. A new index may be unwelcome if it duplicates an existing routine without making retrieval easier."
+      },
+      {
+        "title": "Next research question",
+        "body": "Observe a handover task with a small index and ask the receiving person to maintain one item later. Keep participant consent, transcripts, and identifying information in the appropriate private research record."
+      }
+    ],
+    "questions": "research question, participant consent, interview records, observations, themes, counterexamples and next questions",
+    "image": null
+  },
+  {
+    "slug": "survey-results",
+    "title": "Survey Results",
+    "category": "research-data",
+    "layout": "scorecard",
+    "headline": "Show the response behind the percentage.",
+    "description": "A survey report with counts, denominators, question wording, and response limitations.",
+    "context": "This fictional twenty-response survey asks which handover detail is most often missing. Respondents chose one answer, and the sample is illustrative rather than representative.",
+    "columns": [
+      "Answer",
+      "Responses",
+      "Share"
+    ],
+    "rows": [
+      [
+        "Current version",
+        "8",
+        "40%"
+      ],
+      [
+        "Update owner",
+        "6",
+        "30%"
+      ],
+      [
+        "Starting point",
+        "4",
+        "20%"
+      ],
+      [
+        "Other",
+        "2",
+        "10%"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The question asked",
+        "body": "“Which one detail is most often missing when you receive project files?” The single-choice format forces a priority and should not be interpreted as showing that other problems were absent."
+      },
+      {
+        "title": "What the result says",
+        "body": "Fourteen of twenty example responses selected version or owner information. The report should show the counts beside percentages because each response changes the result by five percentage points."
+      },
+      {
+        "title": "Limits and next step",
+        "body": "The recruitment method and population are not defined in this teaching example. In a real report, describe both and use follow-up conversations to understand what respondents meant by their choices."
+      }
+    ],
+    "questions": "survey question wording, recruitment, sample size, raw counts, missing responses, limitations and next steps",
+    "image": null
+  },
+  {
+    "slug": "market-landscape",
+    "title": "Market Landscape",
+    "category": "research-data",
+    "layout": "comparison",
+    "headline": "Map the approaches before picking a position.",
+    "description": "A market landscape organized by user needs, solution approaches, and evidence gaps.",
+    "context": "This fictional landscape examines ways small teams organize project knowledge. It is a conceptual map, not a current estimate of market size, share, or vendor performance.",
+    "columns": [
+      "Approach",
+      "Primary job",
+      "Typical tradeoff to investigate"
+    ],
+    "rows": [
+      [
+        "Shared storage",
+        "Keep files accessible",
+        "Context lives elsewhere"
+      ],
+      [
+        "Knowledge base",
+        "Explain recurring work",
+        "Needs editorial maintenance"
+      ],
+      [
+        "Project workspace",
+        "Coordinate current delivery",
+        "History can become scattered"
+      ],
+      [
+        "Personal notes",
+        "Support individual thinking",
+        "Sharing may be inconsistent"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Define the boundary",
+        "body": "The landscape concerns project knowledge for small teams, not every collaboration product. State what is inside and outside the analysis before comparing approaches."
+      },
+      {
+        "title": "Look for unmet work",
+        "body": "A team may already store files successfully but struggle to transfer responsibility. Investigate that specific task rather than assuming the market needs another all-purpose workspace."
+      },
+      {
+        "title": "Evidence needed",
+        "body": "For a real assessment, collect current product observations, customer behavior, and credible market sources. Separate known facts, estimates, and hypotheses in the final map."
+      }
+    ],
+    "questions": "market boundary, user jobs, real alternatives, current sources, evidence gaps and positioning question",
+    "image": null
+  },
+  {
+    "slug": "dataset-guide",
+    "title": "Dataset Guide",
+    "category": "research-data",
+    "layout": "manual",
+    "headline": "Make the data understandable before analysis.",
+    "description": "A dataset guide with field definitions, units, provenance, and quality checks.",
+    "context": "This fictional dataset records handover tasks in a small usability exercise. The field examples describe a schema; they do not contain real participant information.",
+    "columns": [
+      "Field",
+      "Type",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      [
+        "record_id",
+        "Text",
+        "Unique observation identifier",
+        "R-001"
+      ],
+      [
+        "variant",
+        "Text",
+        "Assigned document layout",
+        "Index"
+      ],
+      [
+        "completed",
+        "Boolean",
+        "Task met the defined check",
+        "true"
+      ],
+      [
+        "duration_seconds",
+        "Integer",
+        "Elapsed task time",
+        "95"
+      ],
+      [
+        "issue_note",
+        "Text",
+        "Non-identifying observation",
+        "Opened old draft first"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Unit of observation",
+        "body": "One row represents one task attempt. A participant who performs several tasks may have several rows, so row count is not automatically participant count."
+      },
+      {
+        "title": "Quality checks",
+        "body": "Require unique record identifiers, known variant values, nonnegative durations, and a consistent completion definition. Record missing values explicitly instead of substituting zero."
+      },
+      {
+        "title": "Responsible reuse",
+        "body": "Keep identifying data out of the analysis extract. Document collection dates, consent, transformations, and permitted uses in the actual dataset record before sharing it."
+      }
+    ],
+    "questions": "dataset purpose, source, unit of observation, schema, units, missing values, transformations and permitted use",
+    "image": null
+  },
+  {
+    "slug": "evidence-tracker",
+    "title": "Evidence Tracker",
+    "category": "research-data",
+    "layout": "register",
+    "headline": "See which claim still needs support.",
+    "description": "Track claims against source quality, verification state, and next research actions.",
+    "context": "This fictional evidence register supports a handover improvement proposal. The entries are sample research tasks, not proof that the claims are true.",
+    "columns": [
+      "Claim",
+      "Evidence needed",
+      "State",
+      "Owner"
+    ],
+    "rows": [
+      [
+        "Owners struggle to identify current files",
+        "Observed lookup tasks",
+        "In progress",
+        "Maya"
+      ],
+      [
+        "An index improves orientation",
+        "Comparison exercise",
+        "Not yet tested",
+        "Leo"
+      ],
+      [
+        "The index stays current",
+        "Follow-up maintenance check",
+        "Not yet tested",
+        "Sam"
+      ],
+      [
+        "Setup effort is manageable",
+        "Timed preparation record",
+        "Draft record",
+        "Robin"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Keep the claim narrow",
+        "body": "“An index helps this team find approved files” is easier to evaluate than “indexes improve productivity.” Match the evidence to the actual scope of the claim."
+      },
+      {
+        "title": "Assess the source",
+        "body": "Record where the evidence came from, when it was collected, and what could make it misleading. A persuasive quotation does not replace a relevant method or representative sample."
+      },
+      {
+        "title": "Use the gaps",
+        "body": "The untested maintenance claim is important because the proposed change creates ongoing work. Prioritize that check before presenting the index as a durable solution."
+      }
+    ],
+    "questions": "claims, evidence standards, real source records, verification status, limitations, owners and next actions",
+    "image": null
+  },
+  {
+    "slug": "technology-assessment",
+    "title": "Technology Assessment",
+    "category": "research-data",
+    "layout": "comparison",
+    "headline": "Evaluate the fit against the actual workload.",
+    "description": "A technology assessment with requirements, observed behavior, risks, and a bounded trial.",
+    "context": "This fictional assessment compares a static document site, a wiki, and a custom application for a team handover library. It describes approaches without claiming current library or vendor capabilities.",
+    "columns": [
+      "Requirement",
+      "Static site",
+      "Wiki",
+      "Custom application"
+    ],
+    "rows": [
+      [
+        "Readable reference pages",
+        "Fits the example",
+        "Fits the example",
+        "Requires implementation"
+      ],
+      [
+        "Frequent multi-author edits",
+        "Build workflow needed",
+        "Primary workflow to test",
+        "Requires implementation"
+      ],
+      [
+        "Custom operational actions",
+        "Separate service needed",
+        "Extension to investigate",
+        "Possible with added scope"
+      ],
+      [
+        "Maintenance owner",
+        "Publisher",
+        "Content administrator",
+        "Engineering team"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Start with requirements",
+        "body": "The team needs readable reference pages and occasional updates. It has not established a need for custom operational actions, so those should not dominate the first decision."
+      },
+      {
+        "title": "Risk to examine",
+        "body": "A custom application can create a larger maintenance obligation than the content problem warrants. A wiki may fit editing needs but still requires ownership and review conventions."
+      },
+      {
+        "title": "Trial recommendation",
+        "body": "Test the smallest approach against two real handovers. Verify current capabilities and security requirements from primary documentation before selecting an actual product or technical stack."
+      }
+    ],
+    "questions": "workload, requirements, actual candidates and versions, verified documentation, operational ownership and trial criteria",
+    "image": null
+  },
+  {
+    "slug": "research-plan",
+    "title": "Research Plan",
+    "category": "research-data",
+    "layout": "dossier",
+    "headline": "A study small enough to answer one question.",
+    "description": "Plan research with a clear question, participant criteria, method, and decision use.",
+    "context": "This fictional study asks whether a document index helps a new project owner find the approved material. It is a planning example with a small exploratory sample.",
+    "columns": [
+      "Stage",
+      "Activity",
+      "Output"
+    ],
+    "rows": [
+      [
+        "Prepare",
+        "Define one lookup task",
+        "Task and completion rule"
+      ],
+      [
+        "Recruit",
+        "Invite relevant collaborators",
+        "Consent and schedule"
+      ],
+      [
+        "Observe",
+        "Run six individual sessions",
+        "Non-identifying task notes"
+      ],
+      [
+        "Synthesize",
+        "Compare difficulties and exceptions",
+        "Findings with limitations"
+      ],
+      [
+        "Decide",
+        "Review the prototype",
+        "Next test or revision"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "The research question",
+        "body": "Can a person unfamiliar with the project find the approved menu and identify its update owner? Keep the task stable enough that observations can be compared."
+      },
+      {
+        "title": "Method and care",
+        "body": "Explain the purpose, obtain consent, and let participants stop. Observe behavior without coaching toward the answer. Store any recordings or identifying notes only where the participant agreement permits."
+      },
+      {
+        "title": "Decision use",
+        "body": "The study can identify usability problems and suggest revisions. Six exploratory sessions do not establish a population-wide effect. Decide in advance what evidence would justify another iteration."
+      }
+    ],
+    "questions": "research question, decision to inform, participant criteria, consent, method, task, analysis and limits",
+    "image": null
+  },
+  {
+    "slug": "product-requirements",
+    "title": "Product Requirements",
+    "category": "product-engineering",
+    "layout": "spec",
+    "headline": "Describe the user outcome before the feature list.",
+    "description": "A product requirements document with scope, user tasks, acceptance criteria, and open decisions.",
+    "context": "This fictional feature gives a project owner a maintained handover index. The specification describes desired behavior for review and does not claim that the feature is already implemented.",
+    "columns": [
+      "Requirement",
+      "Expected behavior",
+      "Acceptance check"
+    ],
+    "rows": [
+      [
+        "Create an entry",
+        "Owner adds purpose and location",
+        "Entry appears with required fields"
+      ],
+      [
+        "Assign responsibility",
+        "Entry names an update owner",
+        "Owner is visible beside the item"
+      ],
+      [
+        "Mark status",
+        "Entry shows draft or approved",
+        "Status remains readable without color"
+      ],
+      [
+        "Review history",
+        "A review date is recorded",
+        "Date is visible in the index"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "User problem",
+        "body": "A receiving collaborator can open the project folder but cannot tell which item is current or who maintains it. The feature should help them complete that orientation task."
+      },
+      {
+        "title": "Scope boundaries",
+        "body": "The first version organizes references and responsibility. It does not add a new file editor, automatic synchronization, or a permission system of its own."
+      },
+      {
+        "title": "Open decisions",
+        "body": "Confirm who may approve an entry, how archived items appear, and what happens when a referenced file is removed. Resolve these behaviors before implementation begins."
+      }
+    ],
+    "questions": "user problem, audience, desired behavior, scope, acceptance criteria, dependencies and open decisions",
+    "image": null
+  },
+  {
+    "slug": "feature-specification",
+    "title": "Feature Specification",
+    "category": "product-engineering",
+    "layout": "spec",
+    "headline": "Make the edge cases part of the design.",
+    "description": "Specify a feature through states, transitions, validation, and recovery behavior.",
+    "context": "This fictional specification covers approving a handover entry. Approval means the owner has reviewed the reference and its context; it does not automatically change file sharing.",
+    "columns": [
+      "State",
+      "Meaning",
+      "Allowed next step"
+    ],
+    "rows": [
+      [
+        "Draft",
+        "Entry is being prepared",
+        "Submit for review"
+      ],
+      [
+        "In review",
+        "Owner is checking the entry",
+        "Approve or return to draft"
+      ],
+      [
+        "Approved",
+        "Reference and context were checked",
+        "Reopen when content changes"
+      ],
+      [
+        "Archived",
+        "Entry is retained for history",
+        "Restore to draft"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Main flow",
+        "body": "The author supplies a title, purpose, reference, and update owner. The reviewer checks the content and either approves it or returns it with a concrete reason."
+      },
+      {
+        "title": "Validation and recovery",
+        "body": "A missing reference prevents submission and should be explained beside the field. If the reference becomes unavailable after approval, show that condition and preserve the entry for repair."
+      },
+      {
+        "title": "Permission boundary",
+        "body": "Approval is a content state, not authorization to publish or grant access. The implementation must use the actual platform’s permission model and make any separate sharing action explicit."
+      }
+    ],
+    "questions": "feature behavior, user roles, states, transitions, validation rules, permissions and recovery cases",
+    "image": null
+  },
+  {
+    "slug": "api-documentation",
+    "title": "API Documentation",
+    "category": "product-engineering",
+    "layout": "manual",
+    "headline": "A small API example with a complete contract.",
+    "description": "Document an illustrative API through resources, fields, responses, and error handling.",
+    "context": "This fictional API describes a handover-entry resource for a proposed application. The route and payload are examples only; they are not a live Claw Me endpoint.",
+    "columns": [
+      "Field",
+      "Type",
+      "Rule",
+      "Example"
+    ],
+    "rows": [
+      [
+        "id",
+        "String",
+        "Server-assigned stable identifier",
+        "entry_001"
+      ],
+      [
+        "title",
+        "String",
+        "Required, human-readable",
+        "Approved menu"
+      ],
+      [
+        "status",
+        "String",
+        "draft, approved, or archived",
+        "draft"
+      ],
+      [
+        "owner_label",
+        "String",
+        "Display label, not a credential",
+        "Café owner"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Example request",
+        "body": "GET /example/v1/entries/entry_001 returns an entry when the caller has access. Example response: {\"id\":\"entry_001\",\"title\":\"Approved menu\",\"status\":\"draft\",\"owner_label\":\"Café owner\"}."
+      },
+      {
+        "title": "Errors and consistency",
+        "body": "Document 401 for missing authentication, 403 for insufficient access, and 404 for an unavailable resource according to the actual service’s disclosure policy. Describe retry behavior and concurrency rules rather than leaving clients to guess."
+      },
+      {
+        "title": "Before implementation",
+        "body": "Replace this proposed contract with the reviewed schema, real authentication flow, and tested examples. Keep tokens out of documentation and verify each example against the actual API version."
+      }
+    ],
+    "questions": "actual API version, resources, schema, authentication, permissions, errors, pagination and verified examples",
+    "image": null
+  },
+  {
+    "slug": "release-notes",
+    "title": "Release Notes",
+    "category": "product-engineering",
+    "layout": "changelog",
+    "headline": "What changed, and what you need to do.",
+    "description": "Release notes organized by user-visible changes, fixes, known issues, and upgrade actions.",
+    "context": "This fictional release describes a handover library update. Version 0.4 is an example release identifier and does not represent a Claw Me production release.",
+    "columns": [
+      "Type",
+      "Change",
+      "User effect"
+    ],
+    "rows": [
+      [
+        "Added",
+        "Update owner beside each entry",
+        "Responsibility is easier to find"
+      ],
+      [
+        "Improved",
+        "Clearer draft and approved labels",
+        "Status is explicit in the list"
+      ],
+      [
+        "Fixed",
+        "Long titles on narrow screens",
+        "Titles wrap without hiding the action"
+      ],
+      [
+        "Known issue",
+        "Older entries lack review dates",
+        "Owner review is still needed"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "What to try",
+        "body": "Open a handover index, check the owner label, and review an entry with a long title on mobile. The release should make those everyday tasks clearer."
+      },
+      {
+        "title": "Action for existing entries",
+        "body": "Review older entries and add a date when their content has actually been checked. Do not populate a fictional review date merely to make the list look complete."
+      },
+      {
+        "title": "Release evidence",
+        "body": "In a real release note, link the verified version, migration instructions, and support route. Describe only changes that shipped, keeping planned work in the roadmap."
+      }
+    ],
+    "questions": "verified release version and date, shipped changes, fixes, known issues, migration actions and support links",
+    "image": null
+  },
+  {
+    "slug": "roadmap-snapshot",
+    "title": "Roadmap Snapshot",
+    "category": "product-engineering",
+    "layout": "board",
+    "headline": "Show the sequence without pretending every date is fixed.",
+    "description": "A roadmap snapshot with now/next/later work, outcomes, dependencies, and confidence.",
+    "context": "This fictional handover product roadmap is a planning snapshot. The horizons express order and uncertainty; they are not public delivery commitments.",
+    "columns": [
+      "Horizon",
+      "Work",
+      "Outcome",
+      "Dependency"
+    ],
+    "rows": [
+      [
+        "Now",
+        "Clarify entry ownership",
+        "Receiving teams know who updates an item",
+        "Role agreement"
+      ],
+      [
+        "Next",
+        "Improve review reminders",
+        "Owners notice stale content",
+        "Review-date model"
+      ],
+      [
+        "Later",
+        "Explore bulk import",
+        "Reduce setup effort",
+        "Evidence from larger libraries"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Why this order",
+        "body": "Ownership addresses the immediate handover problem. Reminder behavior depends on a meaningful review date. Bulk import is useful only if larger libraries are a verified need."
+      },
+      {
+        "title": "What can change",
+        "body": "Research, delivery effort, and operational constraints may change the sequence. Record the reason for a change rather than silently moving an item between horizons."
+      },
+      {
+        "title": "Review the roadmap",
+        "body": "At the next planning review, compare each item with evidence and capacity. Keep committed work distinct from exploratory ideas so the audience understands the confidence behind the plan."
+      }
+    ],
+    "questions": "planning horizon, outcomes, initiatives, dependencies, confidence, commitments and review cadence",
+    "image": null
+  },
+  {
+    "slug": "architecture-decision",
+    "title": "Architecture Decision",
+    "category": "product-engineering",
+    "layout": "decision",
+    "headline": "Record the choice future maintainers will question.",
+    "description": "An architecture decision record with context, alternatives, consequences, and revisit conditions.",
+    "context": "This fictional decision considers how to render a small handover library. It proposes static HTML for a read-mostly reference surface, subject to the actual application’s requirements.",
+    "columns": [
+      "Option",
+      "Advantage",
+      "Cost"
+    ],
+    "rows": [
+      [
+        "Static HTML",
+        "Simple portable reference output",
+        "Editing requires a publishing step"
+      ],
+      [
+        "Wiki",
+        "Direct collaborative editing",
+        "Adds content administration"
+      ],
+      [
+        "Custom application",
+        "Supports tailored workflows",
+        "Adds runtime and maintenance scope"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Context and decision",
+        "body": "The first use case is reading a small number of approved handover pages. The team chooses static HTML for the initial reference surface because custom operational actions are outside the first scope."
+      },
+      {
+        "title": "Consequences",
+        "body": "The publishing process must bundle assets and preserve accessibility. Content updates need an owner and a repeatable build. The decision does not remove the need for the actual platform’s access controls."
+      },
+      {
+        "title": "Revisit when",
+        "body": "Reconsider if frequent multi-author editing becomes a verified requirement or if the reference surface must perform stateful operations. Link the evidence and the superseding decision rather than rewriting history."
+      }
+    ],
+    "questions": "technical context, requirements, alternatives, verified constraints, decision, consequences and revisit triggers",
+    "image": null
+  },
+  {
+    "slug": "qa-test-plan",
+    "title": "QA Test Plan",
+    "category": "product-engineering",
+    "layout": "manual",
+    "headline": "Test the task that matters to the user.",
+    "description": "A QA plan with realistic scenarios, expected results, evidence, and release criteria.",
+    "context": "This fictional test plan covers a handover index on desktop and mobile. It prioritizes finding the correct item, understanding its status, and using its links.",
+    "columns": [
+      "Scenario",
+      "Expected result",
+      "Evidence"
+    ],
+    "rows": [
+      [
+        "Find approved menu",
+        "Correct entry is identifiable",
+        "Task observation"
+      ],
+      [
+        "Open reference",
+        "Destination matches the entry",
+        "Link check"
+      ],
+      [
+        "Use keyboard",
+        "Every link and disclosure is reachable",
+        "Keyboard walkthrough"
+      ],
+      [
+        "Read on mobile",
+        "No page-wide horizontal overflow",
+        "390px screenshot"
+      ],
+      [
+        "Print the guide",
+        "Content and notes remain legible",
+        "Rendered PDF"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Test setup",
+        "body": "Use a controlled example with draft, approved, and archived entries. Include a long title and a missing reference case. Record the browser, viewport, version, and source data."
+      },
+      {
+        "title": "Failure handling",
+        "body": "Describe the expected and actual result with a minimal reproduction. Keep the severity tied to the user’s task and record a named owner for the next action."
+      },
+      {
+        "title": "Exit criteria",
+        "body": "The critical lookup and reference-opening tasks pass, keyboard operation works, and known limitations are reviewed by the release owner. Do not equate a screenshot with complete functional coverage."
+      }
+    ],
+    "questions": "release scope, critical user tasks, environments, fixtures, expected results, evidence and exit criteria",
+    "image": null
+  },
+  {
+    "slug": "accessibility-review",
+    "title": "Accessibility Review",
+    "category": "product-engineering",
+    "layout": "register",
+    "headline": "Make the finding specific enough to fix.",
+    "description": "An accessibility review worksheet with observed barriers, affected tasks, and verification steps.",
+    "context": "This fictional review illustrates findings on a document index. It is a sample review record, not a certification of conformance or a claim about a live site.",
+    "columns": [
+      "Finding",
+      "Affected task",
+      "Proposed change",
+      "Verification"
+    ],
+    "rows": [
+      [
+        "Unclear link text",
+        "Choose the correct reference",
+        "Use the document title",
+        "Read links out of context"
+      ],
+      [
+        "Status uses color only",
+        "Identify approved entries",
+        "Add visible status text",
+        "Review without color cues"
+      ],
+      [
+        "Focus hard to see",
+        "Navigate by keyboard",
+        "Use a clear focus outline",
+        "Complete keyboard walkthrough"
+      ],
+      [
+        "Dense mobile table",
+        "Read ownership details",
+        "Allow local table scrolling",
+        "Check at narrow width"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Describe the barrier",
+        "body": "A useful finding explains what the person is trying to do and how the interface prevents or complicates it. Attach a concrete example rather than a vague instruction to improve accessibility."
+      },
+      {
+        "title": "Check the repair",
+        "body": "Repeat the affected task after the change. Combine automated checks with keyboard review and appropriate assistive-technology testing; no single tool establishes complete accessibility."
+      },
+      {
+        "title": "Keep the scope visible",
+        "body": "Record the pages, components, environments, and methods actually reviewed. In a formal assessment, map findings to the current applicable standard using verified references."
+      }
+    ],
+    "questions": "review scope, users and tasks, observed findings, test methods, applicable standard, owners and verification",
+    "image": null
+  },
+  {
+    "slug": "developer-onboarding",
+    "title": "Developer Onboarding",
+    "category": "product-engineering",
+    "layout": "manual",
+    "headline": "Reach a working example before changing the system.",
+    "description": "A developer onboarding guide with repository orientation, setup checks, and a first contribution.",
+    "context": "This fictional guide introduces a static handover-template repository. Commands describe the example workflow and should be replaced with the actual project’s verified setup instructions.",
+    "columns": [
+      "Step",
+      "Purpose",
+      "Completion check"
+    ],
+    "rows": [
+      [
+        "Read the working agreement",
+        "Understand scope and workflow",
+        "Branch and review rules are clear"
+      ],
+      [
+        "Inspect a template",
+        "Learn the source structure",
+        "HTML, metadata, and brief located"
+      ],
+      [
+        "Build locally",
+        "Produce a portable artifact",
+        "Example page opens correctly"
+      ],
+      [
+        "Make a small change",
+        "Practice the contribution path",
+        "Diff is focused and checked"
+      ],
+      [
+        "Request review",
+        "Share evidence and limits",
+        "Reviewer can reproduce the result"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "A useful repository map",
+        "body": "Start with the README, contributor agreement, template catalog, shared styles, and build script. Identify which files are canonical and which are generated before editing either."
+      },
+      {
+        "title": "First contribution",
+        "body": "Improve one unclear label or a small content example. Build the artifact, check desktop and mobile output, and explain the user-visible change in the review description."
+      },
+      {
+        "title": "When setup fails",
+        "body": "Record the command, expected result, actual error, and relevant runtime version. Keep secrets out of logs and ask the responsible maintainer about missing access rather than inventing configuration values."
+      }
+    ],
+    "questions": "repository, supported runtimes, verified setup commands, architecture map, access needs, tests and contribution workflow",
+    "image": null
+  }
+]

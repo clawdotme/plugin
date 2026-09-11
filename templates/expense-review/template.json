@@ -1,0 +1,18 @@
+{
+  "slug": "expense-review",
+  "title": "Expense Review",
+  "category": "finance-admin",
+  "description": "An expense review with categories, amounts, evidence, and questions for the owner.",
+  "highlights": [
+    "The monthly total",
+    "Questions to resolve",
+    "The next review"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

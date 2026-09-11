@@ -1,0 +1,18 @@
+{
+  "slug": "launch-readiness-checklist",
+  "title": "Launch Readiness Checklist",
+  "category": "dashboards-tools",
+  "description": "A launch checklist with gates, owners, evidence, and a visible hold decision.",
+  "highlights": [
+    "Current decision: hold",
+    "What ready means",
+    "The launch conversation"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

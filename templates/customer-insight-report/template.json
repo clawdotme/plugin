@@ -1,0 +1,18 @@
+{
+  "slug": "customer-insight-report",
+  "title": "Customer Insight Report",
+  "category": "presentations-reports",
+  "description": "Present customer themes with traceable observations, exceptions, and product implications.",
+  "highlights": [
+    "The central difficulty",
+    "Preserve the exceptions",
+    "From insight to test"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}

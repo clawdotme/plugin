@@ -1,0 +1,18 @@
+{
+  "slug": "release-notes",
+  "title": "Release Notes",
+  "category": "product-engineering",
+  "description": "Release notes organized by user-visible changes, fixes, known issues, and upgrade actions.",
+  "highlights": [
+    "What to try",
+    "Action for existing entries",
+    "Release evidence"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

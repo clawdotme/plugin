@@ -6,10 +6,18 @@ Use this file as the operating guide for agents working in the public `clawdotme
 
 - `claw-me/` is the canonical public skill bundle for `npx skills add clawdotme/plugin --skill claw-me`.
 - `skills/claw-me/` is the root Skills CLI compatibility mirror.
-- The repository root is the installable multi-client plugin package, matching the AgentMail distribution layout.
+- The repository root is the installable multi-client plugin package.
 - `.agents/plugins/marketplace.json` and `.claude-plugin/marketplace.json` are the repository marketplaces.
 - `assets/` contains public brand assets.
 - `templates/` is the canonical source of official static Claw templates; follow its README and run its builder before submitting changes.
+
+## Public repository scope
+
+Only publish material needed to install, use, understand, or maintain the Claw Me skill/plugin: skill instructions and references, client manifests, public API contracts, sanitized usage examples, public Page templates and their assets, licenses, and validation tooling.
+
+Competitive research, distribution strategy, internal audits, incident reports, deployment runbooks, customer information, and product planning belong in the internal product repository. Do not put them in public files, issues, PR descriptions, comments, or release notes. Public templates must use synthetic examples, not internal working documents.
+
+`docs/` contains only explicitly approved user guides listed by `validate_public_scope` in `scripts/validate.py`. Adding a guide requires reviewing its purpose and updating that allowlist in the same change. Passing the path check does not replace reviewing the contents for public suitability.
 
 ## Source of truth
 

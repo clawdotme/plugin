@@ -1,0 +1,18 @@
+{
+  "slug": "service-directory",
+  "title": "Service Directory",
+  "category": "websites-portfolios",
+  "description": "A readable directory with service categories, selection criteria, and provider details.",
+  "highlights": [
+    "Choose by the work",
+    "Before an introduction",
+    "Keeping the directory useful"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

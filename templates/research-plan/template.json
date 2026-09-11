@@ -1,0 +1,18 @@
+{
+  "slug": "research-plan",
+  "title": "Research Plan",
+  "category": "research-data",
+  "description": "Plan research with a clear question, participant criteria, method, and decision use.",
+  "highlights": [
+    "The research question",
+    "Method and care",
+    "Decision use"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "audience-profile",
+  "title": "Audience Profile",
+  "category": "marketing-growth",
+  "description": "An audience profile grounded in tasks, constraints, questions, and evidence gaps.",
+  "highlights": [
+    "The situation",
+    "Likely questions",
+    "Evidence to collect"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

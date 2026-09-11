@@ -1,0 +1,18 @@
+{
+  "slug": "course-companion",
+  "title": "Course Companion",
+  "category": "education-personal",
+  "description": "A course companion with learning outcomes, practice tasks, and reflection prompts.",
+  "highlights": [
+    "Practice: make the goal specific",
+    "Worked example",
+    "Reflection"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

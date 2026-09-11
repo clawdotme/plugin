@@ -1,0 +1,18 @@
+{
+  "slug": "referral-program-brief",
+  "title": "Referral Program Brief",
+  "category": "marketing-growth",
+  "description": "A referral program planning brief with eligibility, process, rewards, and review questions.",
+  "highlights": [
+    "The pilot purpose",
+    "Terms to decide",
+    "Measure the quality"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

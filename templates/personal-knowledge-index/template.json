@@ -1,0 +1,18 @@
+{
+  "slug": "personal-knowledge-index",
+  "title": "Personal Knowledge Index",
+  "category": "education-personal",
+  "description": "Organize personal knowledge by purpose, status, and useful connections.",
+  "highlights": [
+    "Start with use",
+    "Keep uncertainty visible",
+    "A small maintenance routine"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

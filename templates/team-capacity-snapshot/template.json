@@ -1,0 +1,18 @@
+{
+  "slug": "team-capacity-snapshot",
+  "title": "Team Capacity Snapshot",
+  "category": "dashboards-tools",
+  "description": "Compare available hours and committed work, with explicit assumptions about capacity.",
+  "highlights": [
+    "Read the spare capacity",
+    "Protect the assumptions",
+    "A practical adjustment"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "cash-flow-snapshot",
+  "title": "Cash Flow Snapshot",
+  "category": "finance-admin",
+  "description": "A cash-flow planning snapshot with opening balance, expected movements, and checked closing amounts.",
+  "highlights": [
+    "How to read it",
+    "The timing question",
+    "Keep assumptions separate"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

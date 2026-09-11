@@ -1,0 +1,18 @@
+{
+  "slug": "personal-homepage",
+  "title": "Personal Homepage",
+  "category": "websites-portfolios",
+  "description": "Introduce your work, current interests, and ways to connect in a personal homepage.",
+  "highlights": [
+    "A little background",
+    "Selected experiment",
+    "Open to"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

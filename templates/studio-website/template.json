@@ -1,0 +1,18 @@
+{
+  "slug": "studio-website",
+  "title": "Studio Website",
+  "category": "websites-portfolios",
+  "description": "A studio website with selected work, service scope, and a practical inquiry guide.",
+  "highlights": [
+    "Work that earns its place",
+    "How we work",
+    "Start a conversation"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}
