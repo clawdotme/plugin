@@ -4,6 +4,12 @@ The official multi-client plugin for [Claw Me](https://claw.me). It gives an own
 
 The plugin bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me. This repository also contains the inspectable HTML, CSS, and assets for official Claw templates; you can review and customize them independently of installing the plugin.
 
+## Create a shareable website
+
+Ask: “Create a website for an upcoming golf tournament that I can share with friends using the claw.me plugin.” The Agent should build the files, authorize Pages if needed, publish on claw.me, and return an unlisted sharing link with its expiry. It should use the supported OpenStreetMap embed and a directions link for venue maps.
+
+For future events, the Page must remain available through the event. Free Pages and anonymous previews expire after 24 hours; a durable plan is required beyond that, and the Agent must ask before any purchase. An existing Free Page keeps its original expiry after version updates.
+
 ## Account setup
 
 Signup is open and email-verified. Register and accept the terms before account
@@ -66,9 +72,15 @@ Clients that support remote MCP authorization can use the published OAuth metada
 ### OpenClaw
 
 ```bash
-openclaw plugins install https://claw.me/downloads/claw-me-openclaw.tgz
-openclaw claw-me connect <one-time-claw-me-setup-code>
+curl -fsSLo /tmp/claw-me-openclaw.tgz https://claw.me/downloads/claw-me-openclaw.tgz
+openclaw plugins install --force --accept-capabilities /tmp/claw-me-openclaw.tgz
 ```
+
+Review the official package before accepting its declared capabilities, then restart the Gateway. The package includes the `claw_me_publish_website` tool and Claw Me skill. For Pages, follow the skill's device-authorization flow with `pages:write`; installation alone does not grant access. Never paste a key or setup code into chat.
+
+**Website hosting is independent of Gateway networking.** Local mode, a missing `publicOrigin`, and the absence of a relay setup code do not prevent an Agent from publishing through the Claw Me API. The separate `openclaw claw-me connect` command pairs the optional Gateway relay; it is not the Pages publishing step.
+
+If the native tool is unavailable, install the shared skill and use the documented REST/MCP flow. Keep claw.me as the requested host and explain missing authorization or unsupported features instead of silently choosing a tunnel or another provider.
 
 The OpenClaw runtime package is maintained in the product repository. The
 download above contains the connector built with the deployed web release; the
@@ -77,7 +89,7 @@ private runtime source is not copied into this public repository.
 ## Sample prompt
 
 ```text
-Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide for this client. Prefer its native clawdotme/plugin installation. If this client has no native plugin, install the shared skill with npx skills add clawdotme/plugin --skill claw-me -g. Request only the permissions needed, send me through Claw Me's owner review, read my Agent Guide through the scoped REST API, and verify a read-only action first. Never ask me to paste an API key, device secret, setup code, or emailed sign-in link into chat.
+Connect this Agent to Claw Me. Open https://claw.me/plugins and follow the guide for this client. Prefer its native clawdotme/plugin installation. If this client has no native plugin, install the shared skill with npx skills add clawdotme/plugin --skill claw-me -g. Request only the permissions needed, send me through Claw Me's owner review, read my Agent Guide through the scoped REST API, and verify a read-only action first. Never ask me to paste an API key, device secret, setup code, or emailed sign-in link into chat.
 ```
 
 ## Try a first task

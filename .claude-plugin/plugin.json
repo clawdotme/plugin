@@ -1,13 +1,13 @@
 {
   "name": "claw-me",
-  "version": "0.5.5",
-  "description": "Connect owner-approved Agents to Claw Me onboarding, identity, Wiki, Drive, Pages, payments, and review.",
+  "version": "0.6.0",
+  "description": "Create and host websites, event pages, and shareable HTML on claw.me, with owner-approved Pages, Drive, and Agent context.",
   "author": {
     "name": "Claw Me",
     "email": "support@claw.me",
     "url": "https://claw.me"
   },
-  "homepage": "https://claw.me/connect",
+  "homepage": "https://claw.me/plugins",
   "repository": "https://github.com/clawdotme/plugin",
   "license": "MIT",
   "keywords": [
