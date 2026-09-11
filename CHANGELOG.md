@@ -1,3 +1,10 @@
+## 0.6.0 — 2026-09-11
+
+- Make website and event-page publishing discoverable in plugin descriptions and the shared skill.
+- Separate Pages device authorization from optional Gateway relay setup, and point installation guidance to `/plugins`.
+- Document version-bound sharing links, supported map embeds, and event-lifetime checks.
+- Update OpenClaw install guidance to review and accept declared capabilities before restarting.
+
 ## 0.5.5 — 2026-09-10
 
 - Sync skill 1.1.6 with signup and terms before setup, Agent prompt/dashboard choice, and saved final billing choice.

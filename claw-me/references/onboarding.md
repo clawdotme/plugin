@@ -47,7 +47,7 @@ After the runtime is ready:
 ## Interview contract
 
 - Ask only the current server-provided question. If an existing-Agent session reports `completed` / `account_setup_complete` with no questions, do not restart the old interview. Completed dashboard setup can satisfy an older existing-Agent interview; this does not change the granted scopes or bypass owner consent.
-- Present at most three choices, except for the `agent_client` catalog returned by the service. That catalog may show every supported connection from claw.me/connect.
+- Present at most three choices, except for the `agent_client` catalog returned by the service. That catalog may show every supported connection from claw.me/plugins.
 - Offer `Other` only when `allow_other` is true and send its text separately.
 - Do not infer consent, payment approval, publication visibility, or a secret value from free-form conversation.
 - Resume after interruptions instead of starting a duplicate session.
