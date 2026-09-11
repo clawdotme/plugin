@@ -1,5 +1,5 @@
 {
-  "pluginVersion": "0.7.0",
+  "pluginVersion": "0.7.1",
   "verifiedAt": "2026-09-11",
   "contracts": {
     "onboarding": "1.0.0",
@@ -23,7 +23,7 @@
     "openClaw": "external-private-runtime"
   },
   "source": {
-    "productCommit": "7137d1cd6db97f2765141de5082b26cc897a3098",
-    "pluginBaseCommit": "271663f2f7293dff748abe29431c15f1945f0d69"
+    "productCommit": "2190cce32b50ca549e02a5ac374333ef658c624b",
+    "pluginBaseCommit": "e432a50b007ea3fbe9625a5a863a5faa9156bb22"
   }
 }

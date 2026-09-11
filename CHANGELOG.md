@@ -1,3 +1,9 @@
+## 0.7.1 — 2026-09-11
+
+- Explain Free with optional usage billing; signup still needs no credit card.
+- Preserve the Free allowance when billing is enabled and distinguish card setup from wallet spending authorization.
+- Update guidance for quota notices and the Rules and Approvals tabs. Existing billing MCP names remain compatible.
+
 ## 0.7.0 — 2026-09-11
 
 - Sync skill 1.3.0 with permanent account-owned Pages, including Free, within existing quotas; anonymous previews retain their 24-hour expiry.
