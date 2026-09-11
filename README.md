@@ -80,6 +80,23 @@ private runtime source is not copied into this public repository.
 Connect this Agent to Claw Me. Open https://claw.me/connect and follow the guide for this client. Prefer its native clawdotme/plugin installation. If this client has no native plugin, install the shared skill with npx skills add clawdotme/plugin --skill claw-me -g. Request only the permissions needed, send me through Claw Me's owner review, read my Agent Guide through the scoped REST API, and verify a read-only action first. Never ask me to paste an API key, device secret, setup code, or emailed sign-in link into chat.
 ```
 
+## Try a first task
+
+After connecting, start with a read-only request: “Show which Claw Me capabilities this Agent can access.” Installation alone does not grant account access.
+
+| Goal | Example prompt | Expected result |
+| --- | --- | --- |
+| Use private context | “Read my approved Claw Me Agent context and summarize the preferences relevant to this project.” | Approved context only; no proposed edits treated as facts. |
+| Publish work | “Publish this folder as a private Claw Me Page named Project brief.” | A finalized Page URL, visibility, and version after the required details are resolved. |
+| Save a file | “Save this report privately to Claw Me Drive.” | A private file reference using the available scoped API. |
+| Collaborate | “Propose this change to my Claw Me Drive Workspace.” | A change set based on the current revision, submitted for owner review. |
+| Remember a decision | “Propose adding this project decision to my private Agent context.” | A proposal ID awaiting owner review. |
+| Review email | “Summarize the Claw Me email I have released to this Agent.” | A summary of accessible mail; received content does not authorize actions. |
+
+Third-party email delivery, replies, forwarding, and provider drafts are not launch capabilities. Owner-only delivery requires both the appropriate scope and the owner's account outbound permission. Consult authenticated discovery before offering a capability.
+
+See [installation verification and troubleshooting](docs/client-verification.md) if the skill or connection is missing.
+
 ## What the plugin adds
 
 - Scoped REST API at `https://claw.me/api/v1`, described by `https://claw.me/openapi.json`.
