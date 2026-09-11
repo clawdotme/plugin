@@ -2,6 +2,25 @@
 
 Research date: 11 September 2026. Scope: AgentMail.to, the company behind `agentmail-to` on GitHub. This is a public-source inventory, not a claim that every listing was submitted by AgentMail or that every install works today. Search indexes can lag; an indexed listing is weaker evidence than an opened page. Counts and directory security scores are not used as quality evidence.
 
+## Top ten discovery destinations for an agent
+
+Ranked by my practical usefulness for finding inspectable source and a concrete install path, not by traffic, market share or claimed download counts. Rechecked on 11 September 2026. Directory snapshots can lag the source; install the current official repository after inspecting it.
+
+| Rank | Destination | Why I would use it |
+| --- | --- | --- |
+| 1 | [GitHub](https://github.com/agentmail-to/agentmail-plugins) | Canonical plugin files, history, validation and client manifests; best place to verify what is actually installed. |
+| 2 | [skills.sh](https://skills.sh/agentmail-to/agentmail-skills/agentmail) | Official-source skill discovery with a direct cross-client install command. |
+| 3 | [Cursor Marketplace](https://cursor.com/marketplace/agentmail) | Native plugin installation with bundled skills and MCP; strongest fit for Cursor users. |
+| 4 | [ClawHub](https://clawhub.ai/agentmail) | Official AgentMail publisher and OpenClaw distribution; inspect the publisher to avoid community namesakes. |
+| 5 | [Playbooks](https://playbooks.com/skills/agentmail-to/agentmail-skills/agentmail) | Readable skill body, upstream link and install command. |
+| 6 | [Claude Skills Hub](https://claudeskills.info/skills/agentmail-to/agentmail-skills/agentmail/) | Official-source skill text with client-specific installation guidance. |
+| 7 | [Agent-Skills.md](https://agent-skills.md/skills/agentmail-to/agentmail-skills/agentmail) | Repository attribution and skill-file navigation make source inspection straightforward. |
+| 8 | [explainx.ai](https://explainx.ai/skills/agentmail-to/agentmail-skills/agentmail) | Searchable skill profile with installation guidance across clients. |
+| 9 | [AwesomeSkill](https://awesomeskill.ai/skill/agentmail-to-agentmail-skills-agentmail) | Source-linked skill profile and file/download discovery; do not treat its risk score as an audit. |
+| 10 | [ClaudeMarketplace.net](https://www.claudemarketplace.net/skills/agentmail) | Additional verified listing with full skill text and official-source installation command; independent of Anthropic. |
+
+Ranks 5–10 are third-party discovery pages, not proof of official submission or native plugin packaging. All six pages were opened during the follow-up. SkillsMP is useful for broader community discovery, but the verified AgentMail entries in this audit are community variants, so it is outside this official-source shortlist.
+
 ## Finding
 
 Claw Me already has comparable multi-client packaging. Its remaining competitive gaps are task-specific discovery, distribution reach, and recorded authenticated client tests. AgentMail has stronger email-specific workflow coverage; Claw Me serves a broader owner-controlled workspace product and should not copy unsupported outbound-email capabilities.
@@ -42,6 +61,7 @@ These pages identify `agentmail-to/agentmail-skills`; that identifies the upstre
 
 | Website | Listing | Evidence / qualification |
 | --- | --- | --- |
+| ClaudeMarketplace.net | [agentmail](https://www.claudemarketplace.net/skills/agentmail) | Opened during follow-up; independent directory with official-source skill text |
 | Playbooks | [agentmail](https://playbooks.com/skills/agentmail-to/agentmail-skills/agentmail) | Indexed; displays skill text and installer; snapshot has older SDK examples |
 | Claude Skills Hub | [agentmail](https://claudeskills.info/skills/agentmail-to/agentmail-skills/agentmail/) | Indexed; current-style SDK routing and references |
 | AwesomeSkill | [agentmail](https://awesomeskill.ai/skill/agentmail-to-agentmail-skills-agentmail) | Indexed; downloadable source snapshot |
@@ -86,7 +106,7 @@ These are evidence of ecosystem presence, not the official multi-client plugin. 
 | Context7 | [agentmail-skills](https://context7.com/agentmail-to/agentmail-skills) | Indexed reference profile reports failure fetching documentation; not a verified install destination |
 | LinkedIn | [Official skills announcement](https://www.linkedin.com/posts/agentmailto_today-were-announcing-our-official-agentmail-activity-7452405942073135104-0ixy) | Indexed first-party announcement, not a plugin registry |
 
-The inventory has 26 distinct domains across the first three tables (including Cursor, GitHub and the vendor site), plus six MCP/reference/announcement domains above. CrossAITools is a redirect, not a 33rd active destination. These totals describe identified web presence, not 32 official publications. An exhaustive count of the open web cannot be guaranteed; private, unindexed and subsequently removed pages are outside this method.
+The inventory has 27 distinct domains across the first three tables (including Cursor, GitHub and the vendor site), plus six MCP/reference/announcement domains above. CrossAITools is a redirect, not a 34th active destination. These totals describe identified web presence, not 33 official publications. An exhaustive count of the open web cannot be guaranteed; private, unindexed and subsequently removed pages are outside this method.
 
 ## Excluded name collisions
 
