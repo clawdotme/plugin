@@ -26,7 +26,7 @@ Use this reference to decide where Claw work belongs and to explain workspace co
 - Accepted changes and restores create immutable revisions. Same-file stale changes require a fresh change set from the latest revision; never hide or overwrite a conflict.
 - A Page begins private. The owner may deliberately make it public, grant access to exact Claw Me accounts, grant an email domain with `@domain`, add password access, or issue an expiring private review link.
 - Public Pages appear on the public profile only when the owner chooses to list them.
-- Guest and Free previews expire after 24 hours unless claimed onto an eligible plan. Publishing another version does not extend the expiry.
+- Anonymous previews expire after 24 hours. Register and claim before expiry to keep a Page permanently, including on Free, within existing storage limits. Updating an existing temporary Page does not extend its expiry.
 - Use `artifact_list` and `artifact_publish` for Pages. The `pages:read` and `pages:write` scope names map to artifact read/write access.
 - Use `drive:read` for Workspace inspection and `drive:propose` only when staged edits are required.
 

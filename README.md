@@ -8,7 +8,9 @@ The plugin bundles portable operating guidance and client-native manifests while
 
 Ask: “Create a website for an upcoming golf tournament that I can share with friends using the claw.me plugin.” The Agent should build the files, authorize Pages if needed, publish on claw.me, and return an unlisted sharing link with its expiry. It should use the supported OpenStreetMap embed and a directions link for venue maps.
 
-For future events, the Page must remain available through the event. Free Pages and anonymous previews expire after 24 hours; a durable plan is required beyond that, and the Agent must ask before any purchase. An existing Free Page keeps its original expiry after version updates.
+Anonymous previews expire after 24 hours. New account-owned Pages and previews claimed before expiry are permanent, including on Free, within existing storage and Page limits. Existing temporary Pages retain their recorded expiry. For future events, authorize account publishing before publication and verify that the Page remains available through the event.
+
+The skill includes a Python standard-library folder publisher with local preflight, exact file hashes, private recovery state, and a required-until guard. See [the publishing guide](claw-me/references/publishing.md) for the command, supported files, and authorization steps.
 
 ## Account setup
 

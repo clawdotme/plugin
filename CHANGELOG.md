@@ -1,3 +1,9 @@
+## 0.7.0 — 2026-09-11
+
+- Sync skill 1.3.0 with permanent account-owned Pages, including Free, within existing quotas; anonymous previews retain their 24-hour expiry.
+- Add a portable folder publisher with preflight, exact hashes, private recovery state, explicit sharing, and event-lifetime guards.
+- Require account authorization before publishing future-event deliverables that outlive an anonymous preview.
+
 ## 0.6.0 — 2026-09-11
 
 - Make website and event-page publishing discoverable in plugin descriptions and the shared skill.
