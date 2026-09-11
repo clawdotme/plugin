@@ -61,6 +61,34 @@ def validate_required_files() -> None:
     require(not missing, f"missing required files: {', '.join(missing)}")
 
 
+def validate_public_scope() -> None:
+    """Require an explicit public-purpose review for new documentation files."""
+    allowed_root_docs = {
+        "AGENTS.md", "CHANGELOG.md", "CONTRIBUTING.md", "LICENSE",
+        "README.md", "SECURITY.md", "THIRD_PARTY_NOTICES.md",
+    }
+    unexpected_root = sorted(
+        path.name for path in ROOT.glob("*.md")
+        if path.is_file() and path.name not in allowed_root_docs
+    )
+    require(
+        not unexpected_root,
+        "unreviewed root documentation: " + ", ".join(unexpected_root),
+    )
+    allowed_docs = {"client-verification.md"}
+    docs = ROOT / "docs"
+    unexpected = sorted(
+        str(path.relative_to(docs))
+        for path in docs.rglob("*")
+        if path.is_file() and path.relative_to(docs).as_posix() not in allowed_docs
+    )
+    require(
+        not unexpected,
+        "docs/ is limited to reviewed public usage guides; unexpected files: "
+        + ", ".join(unexpected),
+    )
+
+
 def validate_license() -> None:
     license_text = (ROOT / "LICENSE").read_text(encoding="utf-8")
     require(license_text.startswith("MIT License\n"), "LICENSE must contain the MIT license text")
@@ -191,6 +219,7 @@ def validate_ci_pinning() -> None:
 
 def main() -> None:
     validate_required_files()
+    validate_public_scope()
     validate_license()
     validate_secret_hygiene()
     compatibility = load(ROOT / "compatibility.json")
