@@ -8,6 +8,20 @@ It also exposes a deliberately narrow anonymous REST flow for disposable static 
 
 Request `pages:write` for publishing and link sharing, and `pages:read` only when listing Pages is needed. The MCP tools accept these canonical scopes; `artifacts:write` and `artifacts:read` are legacy aliases, not additional grants. Do not request umbrella scopes.
 
+## Publish a local folder
+
+Prefer the bundled standard-library Python helper when the client can run commands and the completed website is already in a folder. It hashes exact bytes, uploads assets, confirms finalization, and emits JSON. It never installs a hosting service or starts a local server.
+
+```sh
+python scripts/publish.py ./site --slug emba-golf --title "EMBA golf tournament" --state-file ~/.claw-me/emba-golf-attempt.json
+```
+
+This first call is a local preflight. Add `--publish --share` when the user requested publication and a link for friends. It reads the mode-0600 Pages key from `~/.openclaw/claw-me/pages-key`, or an explicitly supplied `--key-file`. Missing authorization returns `authorization_required`: follow the device flow in SKILL.md, not Gateway relay setup.
+
+Use `--anonymous --publish` only when a public-by-link preview expiring after 24 hours meets the user's request. For every upcoming event, pass `--required-until` with an ISO date through the end of the event. This blocks an anonymous preview whose lifetime is inadequate. Use account-owned publishing for future events beyond 24 hours; Free does not require a purchase. Do not publish a temporary preview first and call that complete. Keep the state file outside the site folder. It contains private recovery/claim data and must never be pasted into chat, committed, or uploaded. Use a fresh state filename for each intentional new attempt. An existing file stops execution before another create: inspect the prior attempt securely instead of deleting the file and retrying blindly. `--update` explicitly updates an account-owned slug.
+
+The helper accepts up to 50 files and 50 MB of static HTML/CSS, bundled images, and fonts; server-side content checks and existing account quotas still apply. It refuses symlinks, JavaScript, and unsupported file types, and skips hidden files. A `published_sharing_required` result means the site exists but sharing needs recovery; retry only the share endpoint for the recorded version.
+
 ## Publish contract
 
 Call `artifact_publish` with:
@@ -74,12 +88,12 @@ Content-Type: application/json
 
 The manifest checksum input is the newline-joined, lexicographically sorted list of `path:file_sha256` values encoded as UTF-8. Return the `preview_url` and `expires_at` from the response. Never return the claim token, object keys, or presigned URLs to the user.
 
-Anonymous previews support static files only, are unindexed, and accept at most 50 files, 50 MB total, and 25 MB per file. Creation is limited to three previews per source per hour. Uploaded HTML receives a service-controlled primary-green banner with a live expiry countdown and a link to configure a paid plan and add-ons. The URL returns 404 at the original 24-hour expiry even if it was finalized later. If the agent cannot perform presigned uploads, direct the user to `https://claw.me/preview` for the equivalent browser flow.
+Anonymous previews support static files only, are unindexed, and accept at most 50 files, 50 MB total, and 25 MB per file. Creation is limited to three previews per source per hour. Uploaded HTML receives a service-controlled primary-green banner with a live expiry countdown and a link to register and claim the preview within account limits. The URL returns 404 at the original 24-hour expiry even if it was finalized later. If the agent cannot perform presigned uploads, direct the user to `https://claw.me/preview` for the equivalent browser flow.
 
 ## Complete a website with REST
 
 1. POST `/api/v1/publish` with `slug`, `display_name`, and `files` (`path`, `content_type`, `size_bytes`, `sha256`). To update an existing slug, PUT `/api/v1/publish/{slug}` instead.
-2. Inspect `site.expires_at` before uploading. If the Page expires before the requested event, resolve the owner's durable plan choice first.
+2. Inspect `site.expires_at` before uploading. If the Page expires before the requested event, create a new account-owned Page within account limits first.
 3. PUT each file's exact bytes to `upload.uploads[].upload_url` with its returned headers. Never attach the API bearer to storage uploads or follow redirects with it.
 4. POST `/api/v1/publish/{slug}/finalize` with `version_id` and `checksum_sha256`. Compute the manifest checksum as SHA-256 of UTF-8 newline-joined, sorted `path:file-sha256` lines, with no trailing newline. Finalization validates every uploaded asset; creation alone is not publication.
 5. When the user requested a shareable link, POST `/api/v1/publish/{slug}/share` with that finalized `version_id` and optional ISO `expires_at`. This uses `pages:write` and creates an unlisted, version-bound anyone-with-link URL without making the Page publicly indexed. A stale version returns 409: inspect the new version before sharing it. A new link replaces the previous link. Return `url`, `grant_type`, and `expires_at`; do not send the link to friends unless separately asked.
