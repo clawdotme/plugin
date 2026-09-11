@@ -1,0 +1,18 @@
+{
+  "slug": "impact-report",
+  "title": "Impact Report",
+  "category": "presentations-reports",
+  "description": "An impact report that separates participation, outcomes, evidence, and remaining uncertainty.",
+  "highlights": [
+    "What was delivered",
+    "What the evidence suggests",
+    "Improve the next report"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}

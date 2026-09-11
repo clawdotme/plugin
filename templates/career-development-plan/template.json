@@ -1,0 +1,18 @@
+{
+  "slug": "career-development-plan",
+  "title": "Career Development Plan",
+  "category": "education-personal",
+  "description": "A development plan linking a career direction to practice, feedback, and demonstrable work.",
+  "highlights": [
+    "Choose a direction",
+    "Make practice visible",
+    "Review with someone"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

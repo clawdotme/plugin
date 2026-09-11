@@ -1,0 +1,18 @@
+{
+  "slug": "project-status-board",
+  "title": "Project Status Board",
+  "category": "dashboards-tools",
+  "description": "A project board with owned work, clear status definitions, and actionable blockers.",
+  "highlights": [
+    "Needs attention",
+    "Status definitions",
+    "The next review"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

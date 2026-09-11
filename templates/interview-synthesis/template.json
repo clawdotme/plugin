@@ -1,0 +1,18 @@
+{
+  "slug": "interview-synthesis",
+  "title": "Interview Synthesis",
+  "category": "research-data",
+  "description": "Synthesize interviews into themes, counterexamples, and questions for the next round.",
+  "highlights": [
+    "Theme: context at the point of use",
+    "Counterexample: another thing to maintain",
+    "Next research question"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "evidence-tracker",
+  "title": "Evidence Tracker",
+  "category": "research-data",
+  "description": "Track claims against source quality, verification state, and next research actions.",
+  "highlights": [
+    "Keep the claim narrow",
+    "Assess the source",
+    "Use the gaps"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

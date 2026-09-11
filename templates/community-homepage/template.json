@@ -1,0 +1,18 @@
+{
+  "slug": "community-homepage",
+  "title": "Community Homepage",
+  "category": "websites-portfolios",
+  "description": "A community home with a welcoming path, recurring activities, and participation guidelines.",
+  "highlights": [
+    "Your first visit",
+    "How we look after the space",
+    "Make room for newcomers"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

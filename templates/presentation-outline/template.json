@@ -2,13 +2,17 @@
   "slug": "presentation-outline",
   "title": "Presentation Outline",
   "category": "presentations-reports",
-  "description": "A presentation Page with a narrative, evidence, speaker notes, and a decision slide.",
+  "description": "A four-part presentation connecting the problem, evidence, recommendation, and decision.",
   "highlights": [
-    "Five-part presentation structure",
-    "Evidence and speaker notes",
-    "Decision and next steps"
+    "The problem",
+    "The proposed change",
+    "The decision requested"
   ],
   "entrypoint": "index.html",
   "license": "MIT",
-  "runtime": "static-html-css"
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
 }

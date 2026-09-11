@@ -1,0 +1,18 @@
+{
+  "slug": "event-run-of-show",
+  "title": "Event Run of Show",
+  "category": "planning-travel",
+  "description": "A production schedule with cues, owners, dependencies, and contingency notes.",
+  "highlights": [
+    "Before doors open",
+    "If a session runs late",
+    "If equipment fails"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

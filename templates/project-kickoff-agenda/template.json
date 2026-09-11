@@ -1,0 +1,18 @@
+{
+  "slug": "project-kickoff-agenda",
+  "title": "Project Kickoff Agenda",
+  "category": "planning-travel",
+  "description": "A kickoff agenda with preparation, timed discussions, outputs, and a closing check.",
+  "highlights": [
+    "Before the meeting",
+    "During the discussion",
+    "Close with a read-back"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

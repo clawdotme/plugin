@@ -1,0 +1,18 @@
+{
+  "slug": "statement-of-work",
+  "title": "Statement of Work",
+  "category": "business-client-work",
+  "description": "A discussion draft with deliverables, responsibilities, assumptions, and change handling.",
+  "highlights": [
+    "Responsibilities",
+    "Change handling",
+    "Before agreement"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

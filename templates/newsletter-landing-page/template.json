@@ -1,0 +1,18 @@
+{
+  "slug": "newsletter-landing-page",
+  "title": "Newsletter Landing Page",
+  "category": "websites-portfolios",
+  "description": "Explain a newsletter’s editorial promise with a sample issue and clear subscription expectations.",
+  "highlights": [
+    "From the sample issue",
+    "The editorial promise",
+    "Subscription details"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

@@ -49,7 +49,9 @@ def build(slug):
     license_text = (ROOT / 'LICENSE').read_text(encoding='utf-8')
     html = html.replace('<link rel="stylesheet" href="../_shared/portal.css">', f'<style>{css}</style>\n<!-- {license_text}\n{licenses} -->')
     for photo in sorted(shared.glob('*.png')):
-        html = html.replace(f'../_shared/{photo.name}', 'data:image/png;base64,' + base64.b64encode(photo.read_bytes()).decode('ascii'))
+        reference = f'../_shared/{photo.name}'
+        if reference in html:
+            html = html.replace(reference, 'data:image/png;base64,' + base64.b64encode(photo.read_bytes()).decode('ascii'))
     assert '../_shared/' not in html, 'Unbundled resource'
     return html.encode('utf-8')
 

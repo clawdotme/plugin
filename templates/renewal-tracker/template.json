@@ -1,0 +1,18 @@
+{
+  "slug": "renewal-tracker",
+  "title": "Renewal Tracker",
+  "category": "finance-admin",
+  "description": "Track recurring agreements with notice dates, owners, usage evidence, and decisions.",
+  "highlights": [
+    "Start with the agreement",
+    "Review the usefulness",
+    "Record the decision"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

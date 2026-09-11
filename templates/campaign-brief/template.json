@@ -1,0 +1,14 @@
+{
+  "slug": "campaign-brief",
+  "title": "Campaign Brief",
+  "category": "marketing-growth",
+  "description": "Define one audience, message, desired action, channels, and a review owner.",
+  "highlights": [
+    "Campaign message and audience",
+    "Channel plan and review checklist",
+    "Measurement assumptions"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

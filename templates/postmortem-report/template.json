@@ -1,0 +1,18 @@
+{
+  "slug": "postmortem-report",
+  "title": "Postmortem Report",
+  "category": "presentations-reports",
+  "description": "A blameless incident report with impact, timeline, contributing factors, and tracked follow-ups.",
+  "highlights": [
+    "Impact and recovery",
+    "Contributing factors",
+    "Follow-up work"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}

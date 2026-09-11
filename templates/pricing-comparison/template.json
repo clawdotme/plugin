@@ -1,0 +1,18 @@
+{
+  "slug": "pricing-comparison",
+  "title": "Pricing Comparison",
+  "category": "finance-admin",
+  "description": "A pricing worksheet that normalizes plan assumptions and makes missing costs visible.",
+  "highlights": [
+    "Normalize the basis",
+    "Beyond the headline",
+    "Before a purchase"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

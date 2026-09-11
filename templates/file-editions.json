@@ -1,0 +1,1206 @@
+{
+  "schemaVersion": 1,
+  "releaseTag": "templates-v3.0.0",
+  "files": {
+    "independent-portfolio": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/independent-portfolio.html",
+        "sha256": "97316a609ceb69ee7cb67e16829487283ff3081ad5121641a095addb1004cde6",
+        "bytes": 3298689
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/independent-portfolio.pdf",
+        "sha256": "22e70b0d6f05a186a89d712861048b4a4c8fdc0254fb46975537e3c5376538d1",
+        "bytes": 2025007
+      }
+    },
+    "case-study-showcase": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/case-study-showcase.html",
+        "sha256": "ff03babe991b131e1a34bbf1f10bdca7b032b72eb9f4da1e0316ef47de6923f1",
+        "bytes": 4256333
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/case-study-showcase.pdf",
+        "sha256": "aa3b5a51aac9e6222b6dc4c92f9394dd8d59ead857d08190112a66f8fea01468",
+        "bytes": 3574356
+      }
+    },
+    "community-homepage": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/community-homepage.html",
+        "sha256": "40c98307ec0e53a232b7b8828c809d9eacc2c888fdab03b5c3d36872d88fcb99",
+        "bytes": 3307752
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/community-homepage.pdf",
+        "sha256": "779cdf1540d0668d5f1682b486aea5a91a2d3751a29f0433784f70cd28c953b2",
+        "bytes": 3486506
+      }
+    },
+    "consultant-profile": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/consultant-profile.html",
+        "sha256": "2f337cb31edd5730f994fedceb1fff225c7f534228c98d3be0ed0d1b2ef0bc1a",
+        "bytes": 3307937
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/consultant-profile.pdf",
+        "sha256": "50a63da8de54dd8d357b4dec79533d9e664368a6782a0c875f9d3598dfdc740c",
+        "bytes": 3486512
+      }
+    },
+    "event-landing-page": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/event-landing-page.html",
+        "sha256": "b18aaae24e7bab30f2504358511e736bf7a059e0fccc1d4483f39cf360e8023c",
+        "bytes": 3168936
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/event-landing-page.pdf",
+        "sha256": "32f97515e07fd11a55809a916a49750d36fd2fbd6d8a9de6d6b4adcbef4e1306",
+        "bytes": 3167489
+      }
+    },
+    "newsletter-landing-page": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/newsletter-landing-page.html",
+        "sha256": "4d76e17fa9a2fdc22b16b77d1433e381a69b9f957cd74612f4c24cf254a90301",
+        "bytes": 3294189
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/newsletter-landing-page.pdf",
+        "sha256": "e3fd0719e9ce4de4c2d6ca671c0f3401484ddc924d8f7f05fd29dc4e8001d5e7",
+        "bytes": 3578226
+      }
+    },
+    "personal-homepage": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/personal-homepage.html",
+        "sha256": "37aff05c09c9160dcdca9f524db4a03a65fbbd479a6f67ba6f02b0bfd62b1e4f",
+        "bytes": 3294275
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/personal-homepage.pdf",
+        "sha256": "f214d187ef1d0aff62606bead67514cec4aab97b26566116d82c9e3aa9633c0c",
+        "bytes": 3578059
+      }
+    },
+    "product-launch-page": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-launch-page.html",
+        "sha256": "e472239537a2d65f1eec0ceb9ebee2336d82ae5f20a881fe23c14a421f013e95",
+        "bytes": 3294202
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-launch-page.pdf",
+        "sha256": "935cb12683ddff0706efc1c75a45003d3c35b98052de60a3abd774669cca0979",
+        "bytes": 3578131
+      }
+    },
+    "service-directory": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/service-directory.html",
+        "sha256": "68de05a49b0e93ffe330189a57c4bad88e4c87dc48b6fd9cae5a630d196d89e5",
+        "bytes": 3298933
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/service-directory.pdf",
+        "sha256": "ed352537e93ef1698070adddbe9450329bc68b57b951bfba1bd1cefb7d6e27c8",
+        "bytes": 3164110
+      }
+    },
+    "studio-website": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/studio-website.html",
+        "sha256": "40fb994e737a61b3a37a6a1ba7627b6ca92616d390898b8c01c5244122d07b81",
+        "bytes": 3298954
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/studio-website.pdf",
+        "sha256": "1315ead59506ee0f7c2fc6ebd307fbb5a4acccab91eec042c53b78340e95515c",
+        "bytes": 3164016
+      }
+    },
+    "client-project-proposal": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/client-project-proposal.html",
+        "sha256": "ccfe521ca2a78849933d4e34b275b8f24dc824e846ecf2c0de272b9e0f943735",
+        "bytes": 4256390
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/client-project-proposal.pdf",
+        "sha256": "dcd37fc91eaa6a5a00b896c504a0e84fe54a484fe955f70d66baae228cf27824",
+        "bytes": 3597303
+      }
+    },
+    "account-plan": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/account-plan.html",
+        "sha256": "a8f9152d2ea2f066902eefe796ba8d39820accf3401c38108876102965a6feb4",
+        "bytes": 549084
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/account-plan.pdf",
+        "sha256": "db0ee76a376aabfb6f7af5e7fe6fdb0ea7f220f301a7df449be37f0b63b22093",
+        "bytes": 29433
+      }
+    },
+    "client-handover-guide": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/client-handover-guide.html",
+        "sha256": "0542498c557658d9cb35a4a86efd2e8980462bbacdaa4f7988db13b585d51577",
+        "bytes": 549359
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/client-handover-guide.pdf",
+        "sha256": "db2394f31356aa6b8fe30ee82edebbea84e1a3ef30838c51ee3eeccdef91d8c9",
+        "bytes": 30546
+      }
+    },
+    "client-onboarding-guide": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/client-onboarding-guide.html",
+        "sha256": "c102d3d06048cc7778e9d77b10a9d1bcf49833a391e8ee6fd6b5c5c678b25742",
+        "bytes": 549231
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/client-onboarding-guide.pdf",
+        "sha256": "29498408809fba47cfca11d2455a98bb729540cf87200ae026c7cbc08b91e4c9",
+        "bytes": 30645
+      }
+    },
+    "meeting-follow-up": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/meeting-follow-up.html",
+        "sha256": "bbb81af930f25bc0c08cd240c12456563a9db12308cdff97c2557c0731a079df",
+        "bytes": 549026
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/meeting-follow-up.pdf",
+        "sha256": "da18362e4999d6eb759911cd6a77ac742f85981920f73f240d62f15a764e1576",
+        "bytes": 29426
+      }
+    },
+    "partnership-proposal": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/partnership-proposal.html",
+        "sha256": "eb01589fdf37e55e09b3f82616e2cbe0ea74aa4d35ee408b28c22ce42ef1ec85",
+        "bytes": 549234
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/partnership-proposal.pdf",
+        "sha256": "323befbe39e947db9cc96249424aefe5d1d07bdf7c64d5e7e8ee2e7246a37598",
+        "bytes": 30814
+      }
+    },
+    "project-brief": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-brief.html",
+        "sha256": "c0b4dadfb3e86da1ca8db17a96d42cebe9c12afd77339e888e054e777e44b2a7",
+        "bytes": 549182
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-brief.pdf",
+        "sha256": "61ca92f6b624ee0404b0019f9f6b0b8e3e2cd0a5107ae0e41274b8e034e21a45",
+        "bytes": 31171
+      }
+    },
+    "quarterly-client-review": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/quarterly-client-review.html",
+        "sha256": "da919d81f6e451ade9f3262447c340e485c826e0ce2574862b23b897651c8e07",
+        "bytes": 549218
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/quarterly-client-review.pdf",
+        "sha256": "5295924d7bf5eee0d7adc27f44a32f4fa83c94ce7a85960468d10e158f8c7760",
+        "bytes": 26196
+      }
+    },
+    "service-comparison": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/service-comparison.html",
+        "sha256": "f33f8076104a1ff192161c2c5df4321bc6a080b10ca57d684882d14396408b03",
+        "bytes": 549148
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/service-comparison.pdf",
+        "sha256": "7013bc972d6738d2fdb47501f4c048c5370b5d916394953dbccbe1b543258e74",
+        "bytes": 28948
+      }
+    },
+    "statement-of-work": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/statement-of-work.html",
+        "sha256": "2d97834836b064da9427b1afff34a958058312a4f23876111ca0c775212aab71",
+        "bytes": 549192
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/statement-of-work.pdf",
+        "sha256": "81cd623c083c1fa28eae8eeb4d0ce197748396d667edf5595c434e7808a08559",
+        "bytes": 30724
+      }
+    },
+    "weekly-team-brief": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/weekly-team-brief.html",
+        "sha256": "6b8f2ba7fdb259ef0f64af6c636cf36d6d1f114f9c417348813c475655687af8",
+        "bytes": 3908476
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/weekly-team-brief.pdf",
+        "sha256": "c89d9fba14ccdfd3036ffa90f2bc8804bcf59420760edd6daca5d9baef9a8391",
+        "bytes": 560925
+      }
+    },
+    "decision-log": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/decision-log.html",
+        "sha256": "fe49604fea6d81fe739fcca6a26818505d759241c1fe71717d0157730074a233",
+        "bytes": 549057
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/decision-log.pdf",
+        "sha256": "909eed6d5feca3b7627216783a60681f8be07cba5c526b5c4ae6a9babcc40547",
+        "bytes": 26213
+      }
+    },
+    "inventory-snapshot": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/inventory-snapshot.html",
+        "sha256": "f0f0300451076ad2c0f06b8428b73cad99e8f304e5bc3c078a2a4ffc0f1f956f",
+        "bytes": 548936
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/inventory-snapshot.pdf",
+        "sha256": "4acf1e06db3f5dde7a0d21aa948d48283baf274b893c9e5899c7ee42336ad5cf",
+        "bytes": 31669
+      }
+    },
+    "issue-triage-board": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/issue-triage-board.html",
+        "sha256": "450384f32469c265e13e633fd4b0353b8eb076d4626516e532a1ca45482ffece",
+        "bytes": 549306
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/issue-triage-board.pdf",
+        "sha256": "6f24aa33c04b5d4d3df84abda1104f877a3d83d4453fad0f97502ac2b0e8543b",
+        "bytes": 27296
+      }
+    },
+    "launch-readiness-checklist": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/launch-readiness-checklist.html",
+        "sha256": "dd0d0db753a99fe2465eff0beb4012882145b406f7cff1e441d4c134a1520aab",
+        "bytes": 549149
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/launch-readiness-checklist.pdf",
+        "sha256": "49738a88864a01facd5d7d4625d242ed159ebbf4560ef749b223e00dcf94f520",
+        "bytes": 26422
+      }
+    },
+    "operations-scorecard": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/operations-scorecard.html",
+        "sha256": "4855d3517583fccd329e7ed0da3de0ebd3e603c126619c7085478b900463d892",
+        "bytes": 549093
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/operations-scorecard.pdf",
+        "sha256": "bb34a37a8ab8e56e2e66dcc52f2493b925b2dba6af19a51052b2ea76b1c0f3a3",
+        "bytes": 28169
+      }
+    },
+    "project-status-board": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-status-board.html",
+        "sha256": "c5ef1cb90d4aa2bf70520797f004bbec130c3252a19e1e74bcd83c16d3d56606",
+        "bytes": 549264
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-status-board.pdf",
+        "sha256": "b0105002b8d0c392c59c75d712dad7eaeb12651bb61212ba3dc48b27d6abfcc6",
+        "bytes": 27225
+      }
+    },
+    "service-health-report": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/service-health-report.html",
+        "sha256": "84ed7a46901ef517888136590058329ba97dd767b1f1066d5e55a514c1f447e9",
+        "bytes": 549138
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/service-health-report.pdf",
+        "sha256": "c38948e6dcb5617ba75b17697d8253da49dd2be343afc2e936f40fe0112668e1",
+        "bytes": 27937
+      }
+    },
+    "team-capacity-snapshot": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/team-capacity-snapshot.html",
+        "sha256": "7d6ee5fb8c069b7d5c0b9beb172d6c475c3496628a21848b140716343d34c059",
+        "bytes": 549473
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/team-capacity-snapshot.pdf",
+        "sha256": "5a8c94ed3eeb745fd79e6b066dfa8ecceb54ab90a3e0e707e7c45845205806a5",
+        "bytes": 28806
+      }
+    },
+    "team-directory": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/team-directory.html",
+        "sha256": "c81e977e63bd275c37dc6ad035d3895c613b44ee7673177552c015ca5c94e6ec",
+        "bytes": 549168
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/team-directory.pdf",
+        "sha256": "2474d37f6ca9b9c5bae9a802aaa5d7399b20d18017ddd5f66b4301b0d4108369",
+        "bytes": 31258
+      }
+    },
+    "weekend-itinerary": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/weekend-itinerary.html",
+        "sha256": "333fa3ad5d8119436515a2c0ef10ad17d13fb6c24e724b0904bee372464d8aa3",
+        "bytes": 4235955
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/weekend-itinerary.pdf",
+        "sha256": "c16e69ed4bbd4ba60138970bf1baff8d6293cd3c3235ec41b963a3db60066e64",
+        "bytes": 3900467
+      }
+    },
+    "conference-trip-planner": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/conference-trip-planner.html",
+        "sha256": "db1fb294b8421ce730db8f9850603b94767daf797f7a7e3f45ae1c5f5aab3a47",
+        "bytes": 4235778
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/conference-trip-planner.pdf",
+        "sha256": "8008fa20b3880aea8447a4dde53672860791a5f500ae6500c32e308662dcbdaa",
+        "bytes": 3877907
+      }
+    },
+    "event-run-of-show": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/event-run-of-show.html",
+        "sha256": "be35d614ac9428eb9b39e9bcf13db3015cd1039533ee808e63bdb4e7e47687a6",
+        "bytes": 549532
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/event-run-of-show.pdf",
+        "sha256": "5bae6fb75e5384cc6ee01bbb5ebbe7ea4399aa5f09c3553a6e5fcc66a7e40ec3",
+        "bytes": 32202
+      }
+    },
+    "moving-checklist": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/moving-checklist.html",
+        "sha256": "4af9379f07ff3d721a11c682c6227020ca215bccece5f9692969e3588260894b",
+        "bytes": 549238
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/moving-checklist.pdf",
+        "sha256": "ba6d4a5ba5bd69edf9ecbce75d71a979959f38c3b8f58d76b902c63ad16aac47",
+        "bytes": 31223
+      }
+    },
+    "project-kickoff-agenda": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-kickoff-agenda.html",
+        "sha256": "4e4253dab620956673bfd478a1ac3a0be075bd81db9b4e40ed85ddf332b0d7d8",
+        "bytes": 549282
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-kickoff-agenda.pdf",
+        "sha256": "baac577fb90aabfba4219427f3ed1da12284868b1a42873d0b37f78d892672a7",
+        "bytes": 28978
+      }
+    },
+    "road-trip-itinerary": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/road-trip-itinerary.html",
+        "sha256": "bb6fb6865e5b91b088aa62eb35004a8c91d7386a826f2b5f1443d37f13360a57",
+        "bytes": 4235718
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/road-trip-itinerary.pdf",
+        "sha256": "d1a9dc547bd98d8e5e766eab6127098b26e75610f09dc5a861842ff401e3f3ca",
+        "bytes": 3878016
+      }
+    },
+    "team-offsite-plan": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/team-offsite-plan.html",
+        "sha256": "58a8085c2fc0102944e7de86af7a174ca59ca8f866d3979e16db3856a50691ef",
+        "bytes": 3307989
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/team-offsite-plan.pdf",
+        "sha256": "1795807e320979646cb8884f0befb4a79398811745794a0e3b3f0e5351d6d09e",
+        "bytes": 3486095
+      }
+    },
+    "travel-budget-worksheet": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/travel-budget-worksheet.html",
+        "sha256": "8c0e060cde077af2cfb8f9c66acdfdbd0bdcc78fe5652c4c2a6c2b3e630b9ac4",
+        "bytes": 549000
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/travel-budget-worksheet.pdf",
+        "sha256": "57f9cdec044d0bfd78742b87b00d1213b97046a0a13b5d64f68e106769f6a1ed",
+        "bytes": 31649
+      }
+    },
+    "wedding-planning-brief": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/wedding-planning-brief.html",
+        "sha256": "4eecf49af84575cc7b40cd32aa11fa6cca0ca30a9995cb2b5e0ec9ca971cd528",
+        "bytes": 549112
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/wedding-planning-brief.pdf",
+        "sha256": "c993ecbcadba0fb6fc24adb41eed26b45667ebac075d25ab7f347da1fc8e1014",
+        "bytes": 31270
+      }
+    },
+    "weekly-planner": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/weekly-planner.html",
+        "sha256": "42b14c45a14bd68d642bfcb9d610fc1fad24c9ad7e4370f9ae43d734bfc8ec33",
+        "bytes": 549141
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/weekly-planner.pdf",
+        "sha256": "9b2b01f7c9aa3e38f66b2080c1351c77c4605ced90d60ec6ccd1687b3d21b16a",
+        "bytes": 32854
+      }
+    },
+    "project-progress-report": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-progress-report.html",
+        "sha256": "499bb9512894c6d5977a55dd60f2809867eecae2b0287b1562907e7cfbb06704",
+        "bytes": 3540621
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/project-progress-report.pdf",
+        "sha256": "edd925789fcb827cfe6519f833449a151ef53033301cc7371e6fbcada2689648",
+        "bytes": 987421
+      }
+    },
+    "annual-review": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/annual-review.html",
+        "sha256": "db7573f5ab9e2343452120cb2f0979d485cdb78cdbd81d9c30e6b14ed0906a15",
+        "bytes": 549867
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/annual-review.pdf",
+        "sha256": "8837043d2a5c60ea5fdeb1cf18691d01aefd075b622ba330d9c3d4e26990c166",
+        "bytes": 35843
+      }
+    },
+    "board-update": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/board-update.html",
+        "sha256": "49b56d35737dcee9a24445caa516ce8d2715e31e1bd550b6975e321ad193da23",
+        "bytes": 549807
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/board-update.pdf",
+        "sha256": "cd381619fb0079b9d5f223cc436435801248e2533685ea9fab1097a35409a685",
+        "bytes": 35981
+      }
+    },
+    "customer-insight-report": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/customer-insight-report.html",
+        "sha256": "3bd653a3cc33114e0b7abac0dda099d956df2f035ce0da10fcc2328dc51bd417",
+        "bytes": 549855
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/customer-insight-report.pdf",
+        "sha256": "6955bb7b9d5c440657ef5ce361349724479a1707e39573110af8a2277f779763",
+        "bytes": 35438
+      }
+    },
+    "executive-summary": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/executive-summary.html",
+        "sha256": "3d2e3d9ce05cbc45baad931499670bd40f636660d8282781bc04990b7027e9b1",
+        "bytes": 549791
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/executive-summary.pdf",
+        "sha256": "6a5d7e928d6d13274bbef8e096dd6f5b86774cef41a5d91487543f96600f4c76",
+        "bytes": 33808
+      }
+    },
+    "experiment-results": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/experiment-results.html",
+        "sha256": "468bd362a5ea116e192e6cc4c0c7d8c33635583dd3fde6b679fae362e37a535a",
+        "bytes": 549694
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/experiment-results.pdf",
+        "sha256": "6b022fca649b51360928040dcd1d4d8ac093db321fc6b8e3be9f81cc04e0ba1c",
+        "bytes": 34290
+      }
+    },
+    "impact-report": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/impact-report.html",
+        "sha256": "027bc25ed840702fbc0f41a9b9bcc9c65db82a1ce39ad086a8b15655a79d165e",
+        "bytes": 549819
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/impact-report.pdf",
+        "sha256": "89d3c994ad0c63a358af96319ffbc63941a62078d675e0f19959a6a28e4137ea",
+        "bytes": 35756
+      }
+    },
+    "postmortem-report": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/postmortem-report.html",
+        "sha256": "78498a481ea0866b20fc307d058092e7d2f568e6ed539f6fd8c2d36d3a440f7a",
+        "bytes": 549880
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/postmortem-report.pdf",
+        "sha256": "fc363798c96870e3cff019c40e331b5a6574c04415aef2b6e7ac630adcbb60ae",
+        "bytes": 34983
+      }
+    },
+    "presentation-outline": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/presentation-outline.html",
+        "sha256": "f6df8122fc24692354913a52ece83b998be0a2a60d968a9b08758032183006b4",
+        "bytes": 549866
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/presentation-outline.pdf",
+        "sha256": "b3907d9830c13e3f82da0ed4fbdce54d6d6153eec7b143f5058d29d692f3da6f",
+        "bytes": 35472
+      }
+    },
+    "product-demo-narrative": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-demo-narrative.html",
+        "sha256": "d29ea0ddcae3e326d30e3b39be93aa0739df310eccfcac3d9e6e9a61d022d1f9",
+        "bytes": 549965
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-demo-narrative.pdf",
+        "sha256": "0b626c2c60a04f26038a1c1ecc03adeef9b4e170f5ebce3cc1673e19d7c34446",
+        "bytes": 35395
+      }
+    },
+    "personal-learning-guide": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/personal-learning-guide.html",
+        "sha256": "04e0b6f102eab73b8a2ba007421b0f958ac9fd84fffe468774742f6bd60d9bfa",
+        "bytes": 3294617
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/personal-learning-guide.pdf",
+        "sha256": "d808506ec1de2fdd577c200446ceacf9648c30545fe672f707f48e8fc69153b4",
+        "bytes": 3588059
+      }
+    },
+    "career-development-plan": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/career-development-plan.html",
+        "sha256": "500080cf4b9f46cf8c72826ccbced0da3d906a324d6eddfe6f48f8b9139d0ffc",
+        "bytes": 549137
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/career-development-plan.pdf",
+        "sha256": "b444c8ab2c978c55e4492ac29592dd24a9ee1b37e0f60f06cff33ef0c71e24bf",
+        "bytes": 29827
+      }
+    },
+    "course-companion": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/course-companion.html",
+        "sha256": "18c90f5724fdb7dc92e49cbd1e4f7b2d4a5a154be2fe4c054097cf2853cf292d",
+        "bytes": 549506
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/course-companion.pdf",
+        "sha256": "7f9843b9fcfdfb7ed19c88529d6baa5b4c81566b4fe0ac98ec90891ea72eb7e2",
+        "bytes": 35118
+      }
+    },
+    "goal-review": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/goal-review.html",
+        "sha256": "328940066a5c2ff5bb3264396c988f281451014fb9ad2514734bdb231d76db1a",
+        "bytes": 548958
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/goal-review.pdf",
+        "sha256": "1a7410f323af818ad26097e834ce25b71a986d34b41dd78c7eb09f9c848115cc",
+        "bytes": 28218
+      }
+    },
+    "habit-review": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/habit-review.html",
+        "sha256": "28c003d9be687e6873b972d5da88372ced5187b4eae0a8c57cacc749ca7d4f93",
+        "bytes": 549072
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/habit-review.pdf",
+        "sha256": "549b96e21759a71dca1d2a5becc8aaf6ee3b6d1adb4cb1a86e5f561df97aedfc",
+        "bytes": 30299
+      }
+    },
+    "language-practice-guide": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/language-practice-guide.html",
+        "sha256": "821e36ee209ad01a04857e6d8d50f4f5b0bddb23ab73df81cb0b36f0520b51f6",
+        "bytes": 549473
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/language-practice-guide.pdf",
+        "sha256": "8488a7294126336a7067e36c92a62077bba4a9ad33272c0a2056e6e33ab48270",
+        "bytes": 35434
+      }
+    },
+    "personal-knowledge-index": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/personal-knowledge-index.html",
+        "sha256": "8aa7e07b1c30e571c042a6144c12fd4c78ab5c1a8dbf54053ed72e184a89b46a",
+        "bytes": 549094
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/personal-knowledge-index.pdf",
+        "sha256": "ec5752934187fb5babba9c3f1afdcca63b0e1e6bcd5d135a107c6bbc62ace1ef",
+        "bytes": 29893
+      }
+    },
+    "reading-journal": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/reading-journal.html",
+        "sha256": "eee278865b7cfbc5b290a89c55072439fc1b5ed6d34c0dfa41b1cf99a878fdec",
+        "bytes": 549177
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/reading-journal.pdf",
+        "sha256": "7e6d96c407f4a293e934a078d2edcc4563fa54a4857c18b3f3a136e5247cbb45",
+        "bytes": 30405
+      }
+    },
+    "study-schedule": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/study-schedule.html",
+        "sha256": "4b09a88f51253860e18d7bfef288606edc53a3e6effda24857a2610e1be4ad32",
+        "bytes": 549165
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/study-schedule.pdf",
+        "sha256": "47d63893f214769d60fad435d603e5ab68f70c09f6e6a6f947fdd3eac7662dcd",
+        "bytes": 31255
+      }
+    },
+    "workshop-workbook": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/workshop-workbook.html",
+        "sha256": "10a46756e60cdb0eb0cd848f9a4663d182fe9b51f9d8271afa70d9d230186cf0",
+        "bytes": 549663
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/workshop-workbook.pdf",
+        "sha256": "04bb9ef8349544d87c4a1b22ceefdbfc559fda5618a9e02748626cc67d6b9ba8",
+        "bytes": 36986
+      }
+    },
+    "campaign-brief": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/campaign-brief.html",
+        "sha256": "ff32805e93c113bada97e4f2408410af9050f5e4abdce1ce1ab55f291e9fc699",
+        "bytes": 550946
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/campaign-brief.pdf",
+        "sha256": "176d5bc9aefee1f3dccdb06090ad49d3715459b7e7fc87603ff15172c06e9aea",
+        "bytes": 77987
+      }
+    },
+    "audience-profile": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/audience-profile.html",
+        "sha256": "1f69bd9beba3c0cddbe1d70b864fe40e8b2ced49ca6c9006d38bd33b28fbad77",
+        "bytes": 549214
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/audience-profile.pdf",
+        "sha256": "3b9e0fdf4e19825bedb7a471c52f31d82664fc9eecb196e18006016f70b39e29",
+        "bytes": 30987
+      }
+    },
+    "brand-guidelines": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/brand-guidelines.html",
+        "sha256": "aabf342fdbb25167140c251064321206e9b4936c9707d988126ebc5237f77bd9",
+        "bytes": 549298
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/brand-guidelines.pdf",
+        "sha256": "8c0c50c2e3e68681f78be72b54adfd8724b2789b579b5bd4113636857b64802c",
+        "bytes": 32096
+      }
+    },
+    "channel-performance-report": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/channel-performance-report.html",
+        "sha256": "c4ee1619fb4fc0a46dcc3dd7736140228bad323cd74c233dd11f9ce354e9a581",
+        "bytes": 549098
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/channel-performance-report.pdf",
+        "sha256": "a01f75eabc51182cdf4bc6eddb06311c41b9864630b6f4d21e23ba59abf9f557",
+        "bytes": 28053
+      }
+    },
+    "content-calendar": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/content-calendar.html",
+        "sha256": "e4863598dbf9d9edff34f85136da4da65f40a983d4fce86b33a6efb356095461",
+        "bytes": 549090
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/content-calendar.pdf",
+        "sha256": "37f7c60f4197a14bd9e2cc19a83d6fd076541954ca69b5a92d9ff5aae51bfabb",
+        "bytes": 31420
+      }
+    },
+    "customer-story": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/customer-story.html",
+        "sha256": "f64b1db2c325dca53519bc044eaec3a24589040c289d7722e3529ee1cecc3c2d",
+        "bytes": 4256264
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/customer-story.pdf",
+        "sha256": "03b8a949ace27b67a47086b6a59d34feaa49c9a962dc66219d0d36f874e7954e",
+        "bytes": 3574234
+      }
+    },
+    "launch-announcement": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/launch-announcement.html",
+        "sha256": "38d523540d28e821c20fb17277704ff4739be510d27510764cb5506d75a7fcbe",
+        "bytes": 549034
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/launch-announcement.pdf",
+        "sha256": "a1336357c677eef061f5adcade11b0b086932be8bb0d06712a5687aaad6a9289",
+        "bytes": 28353
+      }
+    },
+    "messaging-guide": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/messaging-guide.html",
+        "sha256": "6d842cc3e25cd19e4664c3159666e19088da4514857dbd02dbc474c3d491e7ea",
+        "bytes": 549140
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/messaging-guide.pdf",
+        "sha256": "98ebbb6c46dca83445a1fbeed3dc61efa96712d03bcfa75d520778f45ea30e7f",
+        "bytes": 30315
+      }
+    },
+    "referral-program-brief": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/referral-program-brief.html",
+        "sha256": "eccd93718751aabfaa9efabd0b938855ccaf40a23d335a73873990367d15f459",
+        "bytes": 549176
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/referral-program-brief.pdf",
+        "sha256": "01f18060fea9c3cd7dcdec8dcbf77bf0a7dd1e7535b19d3ee62331e41011b519",
+        "bytes": 31112
+      }
+    },
+    "seo-content-brief": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/seo-content-brief.html",
+        "sha256": "c43646165d1a085bfc377d973fc70eb15406301e0efb823d71c64edd482be135",
+        "bytes": 549363
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/seo-content-brief.pdf",
+        "sha256": "15247f6a53ff05116307357c48c23509e48320fd1e804f1f643e8ad101df11b8",
+        "bytes": 30580
+      }
+    },
+    "budget-overview": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/budget-overview.html",
+        "sha256": "b78aa9b1bc0dd067327ec0ea0acf946023dc22ac0879b3f765f3e672740b8b78",
+        "bytes": 550636
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/budget-overview.pdf",
+        "sha256": "d2d6e3f51b12cc15604e23ea80847f8c548a8c75857fc9f0fda5aec6086cec66",
+        "bytes": 79296
+      }
+    },
+    "administration-checklist": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/administration-checklist.html",
+        "sha256": "d4065c88006a7e0d116502671b6317fe315899f8aa7b8a152731bc38844ae552",
+        "bytes": 549219
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/administration-checklist.pdf",
+        "sha256": "4c022f514bd2850c1eb7708e4100df4d125e25397b6166090b91f1fcf234f75f",
+        "bytes": 31843
+      }
+    },
+    "cash-flow-snapshot": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/cash-flow-snapshot.html",
+        "sha256": "27e2464eeb21a45216e857a36179395818cf69d5826259fc1543d1b8125968c7",
+        "bytes": 549686
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/cash-flow-snapshot.pdf",
+        "sha256": "f543edb76165e5b767fd57438b405d8e13d557f2b2644cec0b0e360370d31209",
+        "bytes": 35607
+      }
+    },
+    "expense-review": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/expense-review.html",
+        "sha256": "2f4d66f61e6c1b1b12d19b9663fd576e2cecc3292314c9f2c2b61e00576178ac",
+        "bytes": 548956
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/expense-review.pdf",
+        "sha256": "facf00a6419e8a2d8fa7cb7ca9c7a1e91c8554eb44fe20375d9a1753dc8f21a4",
+        "bytes": 30455
+      }
+    },
+    "financial-assumptions-sheet": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/financial-assumptions-sheet.html",
+        "sha256": "cb0c3b17186d550078a84e14f29541e9efb5cda50a0a524b9b78c4707b8a0c0c",
+        "bytes": 549220
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/financial-assumptions-sheet.pdf",
+        "sha256": "164976408d9018c333edf252b6066c2946ac4e1290f57061d9e221fb970aed3c",
+        "bytes": 32250
+      }
+    },
+    "invoice-summary": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/invoice-summary.html",
+        "sha256": "0299b3419f97730eeca90fce451508307a7d2dc4ea53b0d9bdb8e54cc4bf1d78",
+        "bytes": 548947
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/invoice-summary.pdf",
+        "sha256": "e6d8898bbc4d3d40d3ff0497d4d1330abeb71afd8682a84c6c33b4efb3386832",
+        "bytes": 31904
+      }
+    },
+    "pricing-comparison": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/pricing-comparison.html",
+        "sha256": "a3c551ebbe3e7953d716ced3b29debbc012503382c65e5019e5ecfaae1c3d96b",
+        "bytes": 548934
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/pricing-comparison.pdf",
+        "sha256": "f3c1d0b4af387fe3b94537df7d30a2c4a9501be5d8d748c9d5abd5721debe92f",
+        "bytes": 31276
+      }
+    },
+    "purchase-request": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/purchase-request.html",
+        "sha256": "4678f2c83f57342103d3560e9b611025219167f96fedc6c4943b243ec169d39e",
+        "bytes": 548899
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/purchase-request.pdf",
+        "sha256": "775e5806e25922d32a03da2945f7d4a3655174d3d94136cf5b37670a2a78cf2c",
+        "bytes": 30536
+      }
+    },
+    "renewal-tracker": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/renewal-tracker.html",
+        "sha256": "548d5a9837b279ace6bd482863f01f3a5aa994a004ffc9cca7bfa314ea03ce57",
+        "bytes": 549015
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/renewal-tracker.pdf",
+        "sha256": "9f87d80c98a068902c26a91a2c015407bdd0cd26ee6e3ce205b9d407505c9e8d",
+        "bytes": 27314
+      }
+    },
+    "vendor-comparison": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/vendor-comparison.html",
+        "sha256": "57d8c2053abb36b74b53cab11fafa43dd1f17587228258ad9782752d75efabea",
+        "bytes": 549140
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/vendor-comparison.pdf",
+        "sha256": "628812107cf45599a1ccc62f454fc890aa629922a551ceafc2a1159600e626b4",
+        "bytes": 30754
+      }
+    },
+    "research-decision-brief": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/research-decision-brief.html",
+        "sha256": "1f663cbbf686c2dd60413b05cafdda8a91fa6219954bf58dce90d3a92dc73a76",
+        "bytes": 3929784
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/research-decision-brief.pdf",
+        "sha256": "272c77570aabd2e8b4a00225c13790e4807630440df0f114bc9f15e137fefa78",
+        "bytes": 1242003
+      }
+    },
+    "competitor-research": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/competitor-research.html",
+        "sha256": "d7c4bb56191e977102d058cf42b4e1aee5fcf007a202e36adeb5b385ef021b74",
+        "bytes": 549259
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/competitor-research.pdf",
+        "sha256": "fd43870fc58fded829d3b4ec7a9565d3fc5a563d4b236ec940a353db74842085",
+        "bytes": 31461
+      }
+    },
+    "dataset-guide": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/dataset-guide.html",
+        "sha256": "2130c265242f1327a437f4058fe631d0fbb123093a33477fd5e5f8b106bbccb4",
+        "bytes": 549311
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/dataset-guide.pdf",
+        "sha256": "89dd5377ac93ae343e93405aac1ef479f457a3e8add81983189e3487f2221287",
+        "bytes": 33305
+      }
+    },
+    "evidence-tracker": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/evidence-tracker.html",
+        "sha256": "6ae8b87b812eb6189375ef53c3bb012cb5c31132333a9db0df03a5f3fa1874f6",
+        "bytes": 549126
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/evidence-tracker.pdf",
+        "sha256": "0c8010a535766359ddaa5b8fdc7b4c952632bace546696176c5b371c2dc475e4",
+        "bytes": 27834
+      }
+    },
+    "interview-synthesis": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/interview-synthesis.html",
+        "sha256": "6bd8739a66a116af9b94d519352dce052c73c09dd2ee8c197ae64cd147474431",
+        "bytes": 549155
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/interview-synthesis.pdf",
+        "sha256": "823559698a900291a4601ce3e6ef6add76dba5bd971563a9834b4e0e78e9b8c4",
+        "bytes": 30226
+      }
+    },
+    "literature-review": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/literature-review.html",
+        "sha256": "758c73e329446b096b41ebe04724fd56e3c96573d278895eebc40aec418aa428",
+        "bytes": 549255
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/literature-review.pdf",
+        "sha256": "325527036e1600b327ba45832493b3c3517b0ee9340d13198ea383ae1d9a9825",
+        "bytes": 29755
+      }
+    },
+    "market-landscape": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/market-landscape.html",
+        "sha256": "40223a3c0be08e12aa63f6141c2a64874f47e5c998104177ddc75879c610e224",
+        "bytes": 549123
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/market-landscape.pdf",
+        "sha256": "485d0e41f8f8aa39c84adbd1d51e0885db80b85916e96c658acb78e59a3a4cdf",
+        "bytes": 30274
+      }
+    },
+    "research-plan": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/research-plan.html",
+        "sha256": "636c647465464c6e5ed490493059ccaa4ef44e6f736668ee6995c0c959f18e56",
+        "bytes": 549208
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/research-plan.pdf",
+        "sha256": "e4d98d19a0f59511bffea2fd641d24171476c0ea02fb20076a5fdf0c4d286084",
+        "bytes": 31482
+      }
+    },
+    "survey-results": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/survey-results.html",
+        "sha256": "81b6e212afca6c00c95a3a6b78d83218105b66332ecff65ced8e6dd189571d39",
+        "bytes": 549559
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/survey-results.pdf",
+        "sha256": "2a9141a711e113cbaad21d850b2397dd5d498ab5cbe456a2fb26d06d29f36941",
+        "bytes": 28996
+      }
+    },
+    "technology-assessment": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/technology-assessment.html",
+        "sha256": "58b1765236fd82e0a095b4534f11d0ba290526a9ee3f42aad44a1c6a0caf378c",
+        "bytes": 549335
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/technology-assessment.pdf",
+        "sha256": "9889854a7e7ca2e7dbe528ad8015d0d2d0c77247089516d58d3b83152137ac8b",
+        "bytes": 31978
+      }
+    },
+    "product-interface-prototype": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-interface-prototype.html",
+        "sha256": "94bdbf278d922c735ae3f5b7be0445bf8dd4c558b3ea778d92ed46dcafc9ecca",
+        "bytes": 4133140
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-interface-prototype.pdf",
+        "sha256": "4b73ee3ce97c5826f22ac4f81a991427572203df60db2c13ca0c87af7ecb387a",
+        "bytes": 1129465
+      }
+    },
+    "api-documentation": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/api-documentation.html",
+        "sha256": "5b78774d6bdc1015b6cb09396a3e4b982bb54f6a4604e317888c0c66e50869dd",
+        "bytes": 549458
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/api-documentation.pdf",
+        "sha256": "3997148a932a24c23a674d64fc9205111743babe80e330a5480a6b786aafc5b4",
+        "bytes": 32455
+      }
+    },
+    "accessibility-review": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/accessibility-review.html",
+        "sha256": "0c5f4d0e6dae6d042d8d3391cd313e7143ef326ae2670e83616d3de4fef1e98f",
+        "bytes": 549333
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/accessibility-review.pdf",
+        "sha256": "ceced29c4f6add8633eee4d20ee6bce97f56a8d5c146566502712b45698a6560",
+        "bytes": 27656
+      }
+    },
+    "architecture-decision": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/architecture-decision.html",
+        "sha256": "078fa608ce27f9935665ffb7776d356256f5f1846ae400429c20fc77eb1ccd80",
+        "bytes": 549186
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/architecture-decision.pdf",
+        "sha256": "3659636befb5f8ace63fc5560817bf33981051a78e4e3c55ec58128a8802dacd",
+        "bytes": 29606
+      }
+    },
+    "developer-onboarding": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/developer-onboarding.html",
+        "sha256": "cbe98a16a5577b6008bc3c800430e1fc91602225cf72cc57ff5c1692ae7dd273",
+        "bytes": 549544
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/developer-onboarding.pdf",
+        "sha256": "8228917d4578c6905948ab26e3e49e8faf8a5aa52153605a6e32810abb2a5d97",
+        "bytes": 32301
+      }
+    },
+    "feature-specification": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/feature-specification.html",
+        "sha256": "a195bbbe74e8337fe6be2d3e65a2d4cf26a13e6a8459a6de8cb59ba032fb3fd3",
+        "bytes": 549285
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/feature-specification.pdf",
+        "sha256": "9523c002c7b34036c0b1f6aae57e2fc37facc7837111c353f60adab531d7b80f",
+        "bytes": 29318
+      }
+    },
+    "product-requirements": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-requirements.html",
+        "sha256": "575cb4e3d30417ca72f00fb98f22381610ed33fabd4d3c46f052b4031e1792d3",
+        "bytes": 549343
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/product-requirements.pdf",
+        "sha256": "56a15767ceed40916735b253e18bf20e76bb8e436ef8e62f827c7b1cd1e3362b",
+        "bytes": 29868
+      }
+    },
+    "qa-test-plan": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/qa-test-plan.html",
+        "sha256": "4c910e562a75ece94f1e721daa350af37dd93f50c08072437004475cbaeca0cc",
+        "bytes": 549323
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/qa-test-plan.pdf",
+        "sha256": "fc9b85ec0a2bdf158c2f5adc6c1daaf617c484ad88ba242bf08e8fd825dbc2fe",
+        "bytes": 31330
+      }
+    },
+    "release-notes": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/release-notes.html",
+        "sha256": "3a6fc434f763a2047d92e74e580e7dfa6b9592539c4dbc8c0628bf26b3528952",
+        "bytes": 549011
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/release-notes.pdf",
+        "sha256": "542b85d1eab0409f4007a578d1e167fd4d2b2e5c6e5ea6a0bcd217fc5e148537",
+        "bytes": 29578
+      }
+    },
+    "roadmap-snapshot": {
+      "html": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/roadmap-snapshot.html",
+        "sha256": "7dfe686a062c2ae5769bae497767b343406543c61583d68e5b1b6b743a3e5247",
+        "bytes": 549038
+      },
+      "pdf": {
+        "url": "https://github.com/clawdotme/plugin/releases/download/templates-v3.0.0/roadmap-snapshot.pdf",
+        "sha256": "470f929248761620fb372c435766aa4ba0ca15d5f67d8698aee42d04d75574e2",
+        "bytes": 24888
+      }
+    }
+  }
+}

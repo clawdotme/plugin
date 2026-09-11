@@ -1,0 +1,18 @@
+{
+  "slug": "developer-onboarding",
+  "title": "Developer Onboarding",
+  "category": "product-engineering",
+  "description": "A developer onboarding guide with repository orientation, setup checks, and a first contribution.",
+  "highlights": [
+    "A useful repository map",
+    "First contribution",
+    "When setup fails"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

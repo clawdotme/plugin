@@ -1,0 +1,18 @@
+{
+  "slug": "experiment-results",
+  "title": "Experiment Results",
+  "category": "presentations-reports",
+  "description": "Report an experiment with its hypothesis, sample, observations, and next decision.",
+  "highlights": [
+    "Hypothesis and method",
+    "What we observed",
+    "Next decision"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "landscape"
+  }
+}

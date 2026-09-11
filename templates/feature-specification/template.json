@@ -1,0 +1,18 @@
+{
+  "slug": "feature-specification",
+  "title": "Feature Specification",
+  "category": "product-engineering",
+  "description": "Specify a feature through states, transitions, validation, and recovery behavior.",
+  "highlights": [
+    "Main flow",
+    "Validation and recovery",
+    "Permission boundary"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

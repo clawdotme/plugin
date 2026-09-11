@@ -1,0 +1,14 @@
+{
+  "slug": "budget-overview",
+  "title": "Budget Overview",
+  "category": "finance-admin",
+  "description": "Bring your period, currency, cost categories, actuals, and assumptions.",
+  "highlights": [
+    "Planned versus actual spending",
+    "Checked totals and assumptions",
+    "Review actions"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css"
+}

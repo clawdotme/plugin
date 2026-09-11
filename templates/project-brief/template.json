@@ -1,0 +1,18 @@
+{
+  "slug": "project-brief",
+  "title": "Project Brief",
+  "category": "business-client-work",
+  "description": "A project brief that connects the audience, problem, scope, and acceptance conditions.",
+  "highlights": [
+    "The problem to solve",
+    "Acceptance conditions",
+    "Open questions"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

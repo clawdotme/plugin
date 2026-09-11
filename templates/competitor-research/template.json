@@ -1,0 +1,18 @@
+{
+  "slug": "competitor-research",
+  "title": "Competitor Research",
+  "category": "research-data",
+  "description": "A competitor research brief with verified observations, evaluation criteria, and unknowns.",
+  "highlights": [
+    "Start with the user’s choice",
+    "Record observations precisely",
+    "Draw a bounded conclusion"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

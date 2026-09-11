@@ -1,0 +1,18 @@
+{
+  "slug": "reading-journal",
+  "title": "Reading Journal",
+  "category": "education-personal",
+  "description": "A reading journal for arguments, questions, connections, and a practical next experiment.",
+  "highlights": [
+    "Summarize in your own words",
+    "Test the connection",
+    "Return to the entry"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

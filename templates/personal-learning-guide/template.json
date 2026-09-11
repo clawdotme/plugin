@@ -4,9 +4,9 @@
   "category": "education-personal",
   "description": "Organize a learning goal into manageable sessions and useful reference notes.",
   "highlights": [
-    "Four-week learning plan",
+    "Four-week Agent learning plan",
     "Session checklist",
-    "Notes and references"
+    "Reflection and handover"
   ],
   "entrypoint": "index.html",
   "license": "MIT",

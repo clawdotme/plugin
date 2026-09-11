@@ -1,0 +1,18 @@
+{
+  "slug": "architecture-decision",
+  "title": "Architecture Decision",
+  "category": "product-engineering",
+  "description": "An architecture decision record with context, alternatives, consequences, and revisit conditions.",
+  "highlights": [
+    "Context and decision",
+    "Consequences",
+    "Revisit when"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

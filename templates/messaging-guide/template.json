@@ -1,0 +1,18 @@
+{
+  "slug": "messaging-guide",
+  "title": "Messaging Guide",
+  "category": "marketing-growth",
+  "description": "A messaging guide with a core promise, supporting points, proof requirements, and examples.",
+  "highlights": [
+    "Lead with the task",
+    "Adapt without drifting",
+    "Claims to avoid"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}

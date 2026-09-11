@@ -1,0 +1,18 @@
+{
+  "slug": "weekly-planner",
+  "title": "Weekly Planner",
+  "category": "planning-travel",
+  "description": "A weekly planner that balances focused work, appointments, and a realistic review.",
+  "highlights": [
+    "Three priorities",
+    "A daily reset",
+    "Friday review"
+  ],
+  "entrypoint": "index.html",
+  "license": "MIT",
+  "runtime": "static-html-css",
+  "fileEdition": {
+    "format": "pdf",
+    "orientation": "portrait"
+  }
+}
