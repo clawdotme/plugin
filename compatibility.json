@@ -25,5 +25,55 @@
   "source": {
     "productCommit": "2190cce32b50ca549e02a5ac374333ef658c624b",
     "pluginBaseCommit": "e432a50b007ea3fbe9625a5a863a5faa9156bb22"
+  },
+  "clientGuides": {
+    "hermes": {
+      "status": "documented-unverified",
+      "group": "Agents",
+      "guide": "https://claw.me/plugins/hermes",
+      "reference": "docs/client-verification.md"
+    },
+    "zeroclaw": {
+      "status": "conditional-unverified",
+      "group": "Claws",
+      "guide": "https://claw.me/plugins/zeroclaw",
+      "reference": "docs/client-verification.md"
+    },
+    "nanoclaw": {
+      "status": "conditional-unverified",
+      "group": "Claws",
+      "guide": "https://claw.me/plugins/nanoclaw",
+      "reference": "docs/client-verification.md"
+    },
+    "picoclaw": {
+      "status": "conditional-unverified",
+      "group": "Claws",
+      "guide": "https://claw.me/plugins/picoclaw",
+      "reference": "docs/client-verification.md"
+    },
+    "kimi-claw": {
+      "status": "conditional-unverified",
+      "group": "Claws",
+      "guide": "https://claw.me/plugins/kimi-claw",
+      "reference": "docs/client-verification.md"
+    },
+    "trustclaw": {
+      "status": "conditional-unverified",
+      "group": "Claws",
+      "guide": "https://claw.me/plugins/trustclaw",
+      "reference": "docs/client-verification.md"
+    },
+    "muse": {
+      "status": "conditional-unverified",
+      "group": "Agents",
+      "guide": "https://claw.me/plugins/muse",
+      "reference": "docs/client-verification.md"
+    },
+    "muse-code": {
+      "status": "conditional-unverified",
+      "group": "Agents",
+      "guide": "https://claw.me/plugins/muse-code",
+      "reference": "docs/client-verification.md"
+    }
   }
 }
