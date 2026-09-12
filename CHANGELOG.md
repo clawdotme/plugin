@@ -1,3 +1,9 @@
+## 0.7.2 — 2026-09-12
+
+- Sync skill 1.3.2 so an explicit anonymous preview request takes precedence over existing account credentials.
+- Document anonymous mode in the OpenClaw publishing tool and the Python helper fallback for older installations.
+- Preserve the 24-hour expiry and existing storage limits; clarify disposable-preview date handling.
+
 ## 0.7.1 — 2026-09-11
 
 - Explain Free with optional usage billing; signup still needs no credit card.

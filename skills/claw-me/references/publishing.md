@@ -2,7 +2,7 @@
 
 Claw Me exposes publishing through the authenticated Streamable HTTP MCP endpoint at `https://claw.me/api/v1/mcp`.
 
-It also exposes a deliberately narrow anonymous REST flow for disposable static previews. That flow is the exception to account authorization: use it only when the user explicitly asks to publish or says “claw me that,” has no Claw Me credential, and accepts a public-by-link preview that expires within 24 hours.
+It also exposes a deliberately narrow anonymous REST flow for disposable static previews. That flow bypasses account authorization and existing credentials: use it only when the user explicitly asks to publish or says “claw me that,” accepts a public-by-link preview that expires within 24 hours.
 
 ## Required scope
 
@@ -18,7 +18,7 @@ python scripts/publish.py ./site --slug emba-golf --title "EMBA golf tournament"
 
 This first call is a local preflight. Add `--publish --share` when the user requested publication and a link for friends. It reads the mode-0600 Pages key from `~/.openclaw/claw-me/pages-key`, or an explicitly supplied `--key-file`. Missing authorization returns `authorization_required`: follow the device flow in SKILL.md, not Gateway relay setup.
 
-Use `--anonymous --publish` only when a public-by-link preview expiring after 24 hours meets the user's request. For every upcoming event, pass `--required-until` with an ISO date through the end of the event. This blocks an anonymous preview whose lifetime is inadequate. Use account-owned publishing for future events beyond 24 hours; Free does not require a purchase. Do not publish a temporary preview first and call that complete. Keep the state file outside the site folder. It contains private recovery/claim data and must never be pasted into chat, committed, or uploaded. Use a fresh state filename for each intentional new attempt. An existing file stops execution before another create: inspect the prior attempt securely instead of deleting the file and retrying blindly. `--update` explicitly updates an account-owned slug.
+Use `--anonymous --publish` only when a public-by-link preview expiring after 24 hours meets the user's request. For an upcoming event, unless the user explicitly requests a disposable preview irrespective of its date, pass `--required-until` with an ISO date through the end of the event. This blocks an anonymous preview whose lifetime is inadequate. Use account-owned publishing for future events beyond 24 hours; Free does not require a purchase. Do not publish a temporary preview first and call that complete. Keep the state file outside the site folder. It contains private recovery/claim data and must never be pasted into chat, committed, or uploaded. Use a fresh state filename for each intentional new attempt. An existing file stops execution before another create: inspect the prior attempt securely instead of deleting the file and retrying blindly. `--update` explicitly updates an account-owned slug.
 
 The helper accepts up to 50 files and 50 MB of static HTML/CSS, bundled images, and fonts; server-side content checks and existing account quotas still apply. It refuses symlinks, JavaScript, and unsupported file types, and skips hidden files. A `published_sharing_required` result means the site exists but sharing needs recovery; retry only the share endpoint for the recorded version.
 
@@ -112,3 +112,5 @@ Pages accept only OpenStreetMap's HTTPS export embed, with a bounding box, a mar
 ```
 
 Do not use Google Maps iframes, `srcdoc`, event handlers, extra sandbox permissions, or API keys. The embedded map loads from OpenStreetMap in the visitor's browser; other images, fonts, and styles must be bundled locally. Use a styled anchor rather than a form or `<button>` for directions. If finalization rejects the supported frame on an older deployment, retain the site and explain the limitation; offer a bundled static map image and directions link instead of switching hosts.
+
+In OpenClaw, use `claw_me_publish_website` with `anonymous: true` for an explicitly requested anonymous preview. This bypasses the stored Pages key even when one exists. Omit `update`, use `access: "link"` or omit access, and do not request private access. If an older installed tool has no `anonymous` parameter, use the bundled Python helper with `--anonymous`; do not call the authenticated native tool.
