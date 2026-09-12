@@ -56,6 +56,12 @@ npx skills add clawdotme/plugin --skill claw-me -g
 
 The repository also includes Cursor and vendor-neutral plugin manifests plus a hosted MCP configuration. Until a marketplace listing is available, use the Skills install above and connect the MCP endpoint shown below.
 
+### Hermes Agent, Meta Agents, and the Claws
+
+See the [client guides and starter prompts](docs/client-verification.md#hermes-agent) for Hermes Agent from Nous Research, Meta’s Muse personal agent, and the grouped **Claws**: OpenClaw, AutoClaw, NemoClaw, ZeroClaw, NanoClaw, PicoClaw, Kimi Claw, and TrustClaw. These guides distinguish documented setup from conditional, unverified connections. The OpenClaw runtime package cannot be installed into every Claw.
+
+Muse is Meta’s personal agent. Its connection guide is conditional and does not claim a verified native Claw Me plugin.
+
 ### Generic MCP
 
 ```json
