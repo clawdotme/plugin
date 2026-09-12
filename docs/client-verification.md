@@ -54,32 +54,16 @@ I use Hermes Agent. Follow the verified claw-me skill and https://claw.me/plugin
 
 Muse is Meta’s personal agent, running in a dedicated virtual environment. Prepare useful project summaries and use Claw Me as a private destination when Muse exposes an approved connection.
 
-[Official documentation](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) · [Claw Me guide](https://claw.me/plugins/muse)
+[Official documentation](https://www.meta.com/en-gb/help/artificial-intelligence/1385290430137537/) · [Claw Me guide](https://claw.me/plugins/muse)
 
 Check your Muse account’s supported integrations and tools. Review https://github.com/clawdotme/plugin/tree/main/claw-me before connecting.
 
-Muse is separate from the Muse Code terminal agent. No native Claw Me plugin or live connection is verified. Do not assume shell access or install terminal software into the personal agent. If custom connections are unavailable, prepare the output for another supported client.
+No native Claw Me plugin or live connection is verified. Do not assume shell access or install terminal software into the personal agent. If custom connections are unavailable, prepare the output for another supported client.
 
 Starter prompt:
 
 ```text
 I use Muse. Follow the verified claw-me skill and https://claw.me/plugins/muse. Check available tools before configuring a connection. Reuse authorized access or complete owner authorization for only the required permissions. Never request secrets in chat. Turn our project conversation into a private brief with decisions, open questions, and next steps. Save privately only through an available authorized tool; otherwise prepare the files and explain the missing capability.
-```
-
-### Muse Code
-
-Muse Code is Meta’s terminal coding agent. Use Claw Me to keep project briefs, release summaries, and finished static pages alongside the repository work.
-
-[Official documentation](https://dev.meta.ai/docs/muse-code) · [Claw Me guide](https://claw.me/plugins/muse-code)
-
-Review the shared skill at https://github.com/clawdotme/plugin/tree/main/claw-me. Follow https://dev.meta.ai/docs/muse-code for the installed client’s supported skill and connection configuration.
-
-Meta confirms Muse Code as a terminal coding agent. Its developer documentation requires login, so no native Claw Me installation command or live connection is verified. Use the shared skill only through supported file access and HTTPS or MCP tools.
-
-Starter prompt:
-
-```text
-I use Muse Code. Follow the verified claw-me skill and https://claw.me/plugins/muse-code. Check available tools before configuring a connection. Reuse authorized access or complete owner authorization for only the required permissions. Never request secrets in chat. Create a private release handoff from the current repository changes, including validation results and remaining limitations. Save privately only through an available authorized tool; otherwise prepare the files and explain the missing capability.
 ```
 
 ## Claws

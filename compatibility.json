@@ -68,12 +68,6 @@
       "group": "Agents",
       "guide": "https://claw.me/plugins/muse",
       "reference": "docs/client-verification.md"
-    },
-    "muse-code": {
-      "status": "conditional-unverified",
-      "group": "Agents",
-      "guide": "https://claw.me/plugins/muse-code",
-      "reference": "docs/client-verification.md"
     }
   }
 }

@@ -58,9 +58,9 @@ The repository also includes Cursor and vendor-neutral plugin manifests plus a h
 
 ### Hermes Agent, Meta Agents, and the Claws
 
-See the [client guides and starter prompts](docs/client-verification.md#hermes-agent) for Hermes Agent from Nous Research, Meta’s Muse and Muse Code, and the grouped **Claws**: OpenClaw, AutoClaw, NemoClaw, ZeroClaw, NanoClaw, PicoClaw, Kimi Claw, and TrustClaw. These guides distinguish documented setup from conditional, unverified connections. The OpenClaw runtime package cannot be installed into every Claw.
+See the [client guides and starter prompts](docs/client-verification.md#hermes-agent) for Hermes Agent from Nous Research, Meta’s Muse personal agent, and the grouped **Claws**: OpenClaw, AutoClaw, NemoClaw, ZeroClaw, NanoClaw, PicoClaw, Kimi Claw, and TrustClaw. These guides distinguish documented setup from conditional, unverified connections. The OpenClaw runtime package cannot be installed into every Claw.
 
-Muse is Meta’s personal agent; Muse Code is its terminal coding agent. Their connection guides are conditional and do not claim a verified native Claw Me plugin.
+Muse is Meta’s personal agent. Its connection guide is conditional and does not claim a verified native Claw Me plugin.
 
 ### Generic MCP
 
