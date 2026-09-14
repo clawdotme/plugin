@@ -1,4 +1,10 @@
-## 0.7.3 — Unreleased
+## 0.7.4 — Unreleased
+
+- Sync skill 1.3.4 with account approval guidance and delegated account setup instructions.
+- Explain remote MCP OAuth setup alongside plugin installation and portal setup.
+- Clarify that approving Agent access and signing in to the dashboard are separate actions.
+
+## 0.7.3 — 2026-09-14
 
 - Provide executable Claude Code plugin installation commands alongside interactive slash commands.
 - Make the connection prompt a read-only setup check with a concrete scope and verification tool.
