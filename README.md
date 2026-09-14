@@ -41,10 +41,14 @@ Start a new Codex task after installation. Complete the Claw Me authorization fl
 
 ### Claude Code
 
-```text
-/plugin marketplace add clawdotme/plugin
-/plugin install claw-me@claw-me
+Run in a terminal:
+
+```bash
+claude plugin marketplace add clawdotme/plugin
+claude plugin install claw-me@claw-me
 ```
+
+Inside an interactive Claude Code chat, the equivalent commands are `/plugin marketplace add clawdotme/plugin` and `/plugin install claw-me@claw-me`.
 
 Start a new session after installation and approve only the products and permissions the Agent needs.
 
@@ -97,7 +101,11 @@ private runtime source is not copied into this public repository.
 ## Sample prompt
 
 ```text
-Connect this Agent to Claw Me. Open https://claw.me/plugins and follow the guide for this client. Prefer its native clawdotme/plugin installation. If this client has no native plugin, install the shared skill with npx skills add clawdotme/plugin --skill claw-me -g. Request only the permissions needed, send me through Claw Me's owner review, read my Agent Guide through the scoped REST API, and verify a read-only action first. Never ask me to paste an API key, device secret, setup code, or emailed sign-in link into chat.
+Connect this Agent to my Claw Me account. Use the official guide for this client at https://claw.me/plugins, and install its recommended plugin if it is missing.
+
+Reuse an existing connection if it has the access needed. Otherwise follow https://claw.me/auth.md, ask which Claw Me email I use, and give me the account approval link. Keep credentials out of chat.
+
+Verify the connection with a read-only check and tell me what access is available. Then ask what I would like to do next.
 ```
 
 ## Try a first task
