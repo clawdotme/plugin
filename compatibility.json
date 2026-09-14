@@ -1,6 +1,6 @@
 {
   "pluginVersion": "0.7.3",
-  "verifiedAt": "2026-09-12",
+  "verifiedAt": "2026-09-14",
   "contracts": {
     "onboarding": "1.0.0",
     "prompts": "1.0.0",
@@ -23,8 +23,8 @@
     "openClaw": "external-private-runtime"
   },
   "source": {
-    "productCommit": "475b579a4b0216a6ab9a439dcdd93c21c293ee60",
-    "pluginBaseCommit": "47d138b529492a7c2c0a3202b54c9b162ee276a3"
+    "productCommit": "cdbd30c2cddac2f631518be6952a9fb86c5fea87",
+    "pluginBaseCommit": "5df0ef9"
   },
   "clientGuides": {
     "hermes": {
