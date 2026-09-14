@@ -6,8 +6,8 @@ The live service owns the interview state. Do not recreate the question order fr
 
 ## Existing Agent
 
-1. Start or resume the onboarding session.
-2. If the owner has not authorized this client, begin device authorization with `openid`, `profile`, `onboarding:read`, and only the write/proposal scopes needed.
+1. Check the existing connection before starting or resuming the onboarding session.
+2. For the full onboarding workflow, authorize `onboarding:read`, `onboarding:write`, `setup:read`, `setup:propose`, `billing:read`, and `billing:propose` through [authorization.md](authorization.md). Connection-only verification needs just `onboarding:read`. Select the scope set from the whole requested task before opening one approval request. Do not add Wiki, Drive, Pages, or email scopes unless the owner separately chooses that work.
 3. The owner reviews the named client and requested scopes in Claw Me. The owner may deselect optional products and approve a smaller scope set.
 4. Call `onboarding_resume`, ask exactly the returned question, and submit one answer at a time.
 5. Use `onboarding_preview` before submitting a setup proposal.

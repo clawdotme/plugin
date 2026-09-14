@@ -1,3 +1,9 @@
+## 0.7.3 — Unreleased
+
+- Provide executable Claude Code plugin installation commands alongside interactive slash commands.
+- Make the connection prompt a read-only setup check with a concrete scope and verification tool.
+- Shorten the sample setup request and keep account authorization separate from optional data access.
+
 ## 0.7.2 — 2026-09-12
 
 - Sync skill 1.3.2 so an explicit anonymous preview request takes precedence over existing account credentials.
