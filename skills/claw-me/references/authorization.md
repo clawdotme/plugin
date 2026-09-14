@@ -4,6 +4,10 @@
 
 This approves scoped access to the owner's Claw Me account, not to their computer. Installation, account approval, and account feature permissions are separate. Reuse credentials only when they cover the requested work; preserve other task credentials.
 
+## Choose a connection path first
+
+Reuse an existing scoped connection. An explicitly requested disposable static Page can instead use anonymous publishing for 24 hours without an account or plugin, subject to the limits in [publishing.md](publishing.md). For account access, choose the plugin at https://claw.me/plugins or direct MCP at https://claw.me/api/v1/mcp. If this Agent cannot install or configure either, give the owner https://claw.me/getting-started and resume after they connect. Verify a permitted read before claiming success. A website `CLAUDE.md` is not automatically loaded by the client.
+
 ## Choose scopes before creating one request
 
 - Connect and verify only: `onboarding:read`, then `account_get_permissions`.
@@ -40,4 +44,14 @@ If the helper cannot run, use this exact non-OAuth pair, keeping responses in se
 2. Save `request_id` and `device_secret` before displaying `verification_uri`.
 3. After owner approval, `POST /api/v1/agent-auth/requests/{request_id}/token` with JSON containing `device_secret`. A pending response has `status: authorization_pending`; an approved response has `status: authorized`, `api_key`, and granted `scopes`. Save the key before any further work: exchange is single-use.
 
-Never send that request ID to `/oauth/token`. Client-managed OAuth instead starts at `/oauth/device_authorization` with `client_id` and exchanges `device_code` at `/oauth/token` using that same `client_id` and the device-code grant type. OAuth returns `access_token`; the non-OAuth pair returns `api_key`. Keep one protocol for the entire request.
+Never send that request ID to `/oauth/token`. Client-managed OAuth uses either the authorization-code flow below or `/api/v1/agent-auth/oauth/device_authorization` with `client_id`, exchanging `device_code` at `/api/v1/agent-auth/oauth/token` with that same `client_id` and the device-code grant type. Always send explicit `scope=onboarding:read` for a connection check. OAuth returns `access_token`; the non-OAuth pair returns `api_key`. Keep one protocol for the entire request.
+
+## Client-managed native MCP OAuth
+
+Discover https://claw.me/.well-known/oauth-authorization-server and https://claw.me/.well-known/oauth-protected-resource. Use authorization code only when current discovery advertises `authorization_code` and `S256`; otherwise use the documented device flow. Do not infer that a newer bundle has already been deployed.
+
+The canonical MCP resource is `https://claw.me/api/v1/mcp`. The client registers at `/api/v1/agent-auth/oauth/register` with `client_name`, `redirect_uris`, `grant_types: ["authorization_code"]`, and `token_endpoint_auth_method: "none"`. Redirect URIs must be HTTPS or loopback HTTP. The client, not this skill's helper, manages callbacks and securely keeps its PKCE verifier.
+
+The client opens `/api/v1/agent-auth/oauth/authorize` with its returned `client_id`, exact registered `redirect_uri`, `response_type=code`, `code_challenge_method=S256`, `code_challenge`, `state`, `resource=https://claw.me/api/v1/mcp`, and explicit minimal scopes. The owner signs in and reviews access. The client validates callback state and exchanges form data at `/api/v1/agent-auth/oauth/token`: `grant_type=authorization_code`, `code`, `client_id`, `redirect_uri`, `code_verifier`, and the same `resource`. Store the returned `access_token` privately; never put callback URLs, codes, or verifiers in chat. No client secret or refresh-token grant is supported.
+
+Native MCP authorization-code grants accept API scopes, not `openid` or `profile`. Device authorization supports these identity scopes when the client needs OIDC; they are not prerequisites for MCP. Keep one flow's fields together. After configuration, initialize MCP, send `notifications/initialized`, inspect `tools/list`, and run `account_get_permissions` with `onboarding:read`. Approval alone does not prove connection success.

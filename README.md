@@ -79,7 +79,7 @@ Muse is Meta’s personal agent. Its connection guide is conditional and does no
 }
 ```
 
-Clients that support remote MCP authorization can use the published OAuth metadata. Other clients follow the owner-approved device flow documented at [claw.me/agents.md](https://claw.me/agents.md). Never paste a credential or emailed sign-in link into chat.
+Clients that support remote MCP authorization can use the published OAuth metadata. For the account approval flow and supported setup alternatives, read [claw.me/auth.md](https://claw.me/auth.md). Other clients can use the shared skill’s authorization helper. For explicitly delegated account setup, the [portal-free setup guide](claw-me/references/portal-free-setup.md) describes the additional owner authorization required. Never paste a credential or emailed sign-in link into chat.
 
 ### OpenClaw
 
