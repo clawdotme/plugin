@@ -248,7 +248,7 @@ def publish(args, files, contents):
                 "status": "published",
                 "url": final["preview_url"],
                 "expires_at": final["expires_at"],
-                "next_step": "Register and claim before expiry to keep the Page within account limits. Claim data is in the private state file.",
+                "next_step": "Return this URL and expiry now, with any verification limitations. Optional browser setup must not block delivery. Register and claim before expiry to keep the Page within account limits. Never print the private state file; it contains claim credentials.",
             },
         )
     final = api(

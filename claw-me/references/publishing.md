@@ -114,3 +114,11 @@ Pages accept only OpenStreetMap's HTTPS export embed, with a bounding box, a mar
 Do not use Google Maps iframes, `srcdoc`, event handlers, extra sandbox permissions, or API keys. The embedded map loads from OpenStreetMap in the visitor's browser; other images, fonts, and styles must be bundled locally. Use a styled anchor rather than a form or `<button>` for directions. If finalization rejects the supported frame on an older deployment, retain the site and explain the limitation; offer a bundled static map image and directions link instead of switching hosts.
 
 In OpenClaw, use `claw_me_publish_website` with `anonymous: true` for an explicitly requested anonymous preview. This bypasses the stored Pages key even when one exists. Omit `update`, use `access: "link"` or omit access, and do not request private access. If an older installed tool has no `anonymous` parameter, use the bundled Python helper with `--anonymous`; do not call the authenticated native tool.
+
+## Complete and report safely
+
+For an explicitly requested anonymous 24-hour preview, use the anonymous endpoint even when account credentials already exist. Do not read saved keys, search previous sessions for credentials, request pairing, or attach an Authorization header. Use the current documented contract rather than guessing an endpoint.
+
+Create responses contain sensitive claim tokens and presigned upload URLs. Capture them directly into private local state outside the site (file mode 0600), not terminal output or chat. Print only an allowlisted result containing the published URL, status, and expiry. Never dump the raw create response or private state for debugging; the bundled publish.py helper already separates private state from its JSON output.
+
+After finalization succeeds, return the published URL and expiry. Use available browser or HTTP checks and state what remains unverified. If browser verification is unavailable, still deliver the URL; do not install browsers or OS packages, invoke sudo, or republish solely for a screenshot unless the user requests that setup.

@@ -1,4 +1,10 @@
-## 0.7.4 — Unreleased
+## 0.7.5 — 2026-09-15
+
+- Sync skill 1.3.5 from product main.
+- Honor explicit anonymous publishing even when an account key exists.
+- Keep claim responses private and return completed URLs without blocking on browser setup.
+
+## 0.7.4 — 2026-09-14
 
 - Sync skill 1.3.4 with account approval guidance and delegated account setup instructions.
 - Explain remote MCP OAuth setup alongside plugin installation and portal setup.
