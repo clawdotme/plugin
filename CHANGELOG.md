@@ -1,3 +1,8 @@
+## 0.7.6 — 2026-09-16
+
+- Replace the retired Clawhouse plugin logo with the orange Claw Me mark.
+- Align the Codex brand color with the Claw Me icon.
+
 ## 0.7.5 — 2026-09-15
 
 - Sync skill 1.3.5 from product main.

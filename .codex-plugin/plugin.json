@@ -1,6 +1,6 @@
 {
   "name": "claw-me",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "Create and host websites, event pages, and shareable HTML on claw.me, with owner-approved Pages, Drive, and Agent context.",
   "author": {
     "name": "Claw Me",
@@ -41,7 +41,7 @@
       "Publish this privately with Claw Me.",
       "Use my approved Claw Me Wiki context."
     ],
-    "brandColor": "#0F2F57",
+    "brandColor": "#f5654a",
     "composerIcon": "./assets/logo.svg",
     "logo": "./assets/logo.svg"
   }
