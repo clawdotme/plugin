@@ -1,4 +1,4 @@
-## 0.7.6 — Unreleased
+## 0.7.6 — 2026-09-16
 
 - Replace the retired Clawhouse plugin logo with the orange Claw Me mark.
 - Align the Codex brand color with the Claw Me icon.
