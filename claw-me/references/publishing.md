@@ -4,6 +4,14 @@ Claw Me exposes publishing through the authenticated Streamable HTTP MCP endpoin
 
 It also exposes a deliberately narrow anonymous REST flow for disposable static previews. That flow bypasses account authorization and existing credentials: use it only when the user explicitly asks to publish or says “claw me that,” accepts a public-by-link preview that expires within 24 hours.
 
+## Use your own account
+
+“Account owner” means you, the user of a Claw Me account, not the owner of the claw.me domain. You do not need DNS access or permission from the service operator to host a Page.
+
+For a durable Page, reuse your existing account. If you have not signed up, create an account at https://claw.me/register, accept the terms, and verify your email before starting a short-lived Agent approval request. Existing users can sign in at https://claw.me/login. Account feature setup can then continue with the Agent where supported. Do not ask users to forward approval codes to whoever owns claw.me. If account status is unknown, explain signup or sign-in first; do not infer it from an email address.
+
+Anonymous 24-hour previews require no account, sign-in, or pairing. An authorization code is not an account or a sign-in link. If a request was already created, complete signup and return to its approval link; create a new request only after expiry when still needed. Preserve private request state.
+
 ## Required scope
 
 Request `pages:write` for publishing and link sharing, and `pages:read` only when listing Pages is needed. The MCP tools accept these canonical scopes; `artifacts:write` and `artifacts:read` are legacy aliases, not additional grants. Do not request umbrella scopes.

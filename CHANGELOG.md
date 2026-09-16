@@ -1,3 +1,11 @@
+## 0.7.7 — 2026-09-16
+
+- Clarify signup and email verification before account authorization.
+- Explain that users publish through their own account without domain ownership.
+- Keep anonymous 24-hour previews independent of signup and pairing.
+- Check email delivery status before telling users to wait for an approval email.
+- Sync skill 1.3.7; no additional permissions are requested.
+
 ## 0.7.6 — 2026-09-16
 
 - Replace the retired Clawhouse plugin logo with the orange Claw Me mark.

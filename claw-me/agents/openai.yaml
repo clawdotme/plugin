@@ -1,4 +1,4 @@
 interface:
   display_name: "Claw Me"
   short_description: "Publish websites and use approved Claw Me capabilities."
-  default_prompt: "Use $claw-me to open https://claw.me/plugins, follow this client's official plugin or MCP guide, request only the capabilities needed, accept any owner-approved subset, and verify one harmless read before managing approved resources."
+  default_prompt: "Use $claw-me to open https://claw.me/plugins, follow this client's official plugin or MCP guide, help me sign up and verify my own account first if needed (anonymous previews need no account), request only the capabilities needed, accept any owner-approved subset, and verify one harmless read before managing approved resources."

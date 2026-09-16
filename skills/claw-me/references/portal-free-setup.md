@@ -79,3 +79,27 @@ Keep the conversation in the user's Agent. A missing external prerequisite shoul
 - **Meetings and integrations:** establish the exact meeting or provider account, participant consent, destination, and permissions. Use an existing authorized connector or the provider's returned authorization URL. Do not claim that a Claw Me subscription grants access to a private meeting, calendar, or external account. Verify the connection or resulting capture before marking the feature ready.
 
 For each feature report one of: ready (with evidence), awaiting a named provider action, requires a stated plan/add-on, or unavailable in the deployed contract. Resume at that step once the prerequisite is satisfied; do not restart signup or create another subscription.
+
+
+### Set up WhatsApp with Meta's MCP
+
+For an assigned number, open `/address`, choose **Set up with your agent**,
+and copy the personalised prompt. Connect the separate official Meta server at
+`https://mcp.facebook.com/whatsapp_business_tools` using Streamable HTTP and Meta
+OAuth. Follow [Meta's setup documentation](https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp)
+and discover the tools available to that connection; Claw Me's feature guide does
+not itself execute Meta operations.
+
+Check business and WhatsApp-enabled app admin access, terms, payment and business
+verification requirements. Reuse existing assets and the assigned number. Let the
+owner complete approvals. Before requesting Meta's SMS, enable capture with
+**Start number verification** in Claw Me. The owner enters the code directly in
+Meta, never in chat, then marks verification complete in Claw Me. Never include
+codes or credentials in the copyable prompt, logs, files or agent memory.
+
+Use Meta's MCP for configuration and testing. Configure credentials and the
+webhook directly in the running Agent for ongoing Cloud API messaging. Ask for
+approval of the test recipient and content, then verify an incoming message and
+an outgoing reply. Registration alone does not establish channel health: retain
+setup-pending until the Agent reports a healthy connection. If the MCP cannot
+connect, continue with the manual setup controls on `/address`.

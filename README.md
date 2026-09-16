@@ -1,5 +1,7 @@
 # Claw Me Plugin and Templates
 
+Claw Me hosts Pages in your own account; you do not need to own the claw.me domain or manage its DNS. New users should [create an account](https://claw.me/register), accept the terms, and verify their email before starting a short-lived Agent approval request. A temporary 24-hour preview needs neither signup nor pairing.
+
 The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to selected Claw Me capabilities through the scoped REST API, agent-first onboarding, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Sandbox approvals. MCP is available as an optional adapter.
 
 The plugin bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me. This repository also contains the inspectable HTML, CSS, and assets for official Claw templates; you can review and customize them independently of installing the plugin.
@@ -103,7 +105,7 @@ private runtime source is not copied into this public repository.
 ```text
 Connect this Agent to my Claw Me account. Use the official guide for this client at https://claw.me/plugins, and install its recommended plugin if it is missing.
 
-Reuse an existing connection if it has the access needed. Otherwise follow https://claw.me/auth.md, ask which Claw Me email I use, and give me the account approval link. Keep credentials out of chat.
+Reuse an existing connection if it has the access needed. If I have no account, direct me to https://claw.me/register first. After signup and email verification, follow https://claw.me/auth.md and give me the approval link for my own account. Do not ask me to contact the owner of the claw.me domain. Only say an approval email was sent when email_sent is true. Keep credentials out of chat.
 
 Verify the connection with a read-only check and tell me what access is available. Then ask what I would like to do next.
 ```
