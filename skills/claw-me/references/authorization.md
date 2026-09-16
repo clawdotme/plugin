@@ -4,6 +4,14 @@
 
 This approves scoped access to the owner's Claw Me account, not to their computer. Installation, account approval, and account feature permissions are separate. Reuse credentials only when they cover the requested work; preserve other task credentials.
 
+## Use your own account
+
+“Account owner” means you, the user of a Claw Me account, not the owner of the claw.me domain. You do not need DNS access or permission from the service operator to host a Page.
+
+For a durable Page, reuse your existing account. If you have not signed up, create an account at https://claw.me/register, accept the terms, and verify your email before starting a short-lived Agent approval request. Existing users can sign in at https://claw.me/login. Account feature setup can then continue with the Agent where supported. Do not ask users to forward approval codes to whoever owns claw.me. If account status is unknown, explain signup or sign-in first; do not infer it from an email address.
+
+Anonymous 24-hour previews require no account, sign-in, or pairing. An authorization code is not an account or a sign-in link. If a request was already created, complete signup and return to its approval link; create a new request only after expiry when still needed. Preserve private request state.
+
 ## Choose a connection path first
 
 Reuse an existing scoped connection. An explicitly requested disposable static Page can instead use anonymous publishing for 24 hours without an account or plugin, subject to the limits in [publishing.md](publishing.md). For account access, choose the plugin at https://claw.me/plugins or direct MCP at https://claw.me/api/v1/mcp. If this Agent cannot install or configure either, give the owner https://claw.me/getting-started and resume after they connect. Verify a permitted read before claiming success. A website `CLAUDE.md` is not automatically loaded by the client.
@@ -24,7 +32,7 @@ python3 scripts/authorize.py start --email OWNER_EMAIL --client-name "My Agent" 
 
 Replace `OWNER_EMAIL` with the supplied address. For full onboarding, add the other five setup scopes with repeated `--scope` flags before creating the request. Keep state outside the repository and uploaded content. The helper uses private local JSON storage (mode 0600); never print or attach that file. No scopes are added by default.
 
-Show the returned `verification_uri` exactly as one complete clickable link with the client name, scopes, and expiry. This is an approval link, not a sign-in secret. The owner signs in and approves there; never ask for an API key, device secret, setup code, or emailed sign-in token in chat. Do not claim that an email was delivered without evidence.
+Show the returned `verification_uri` exactly as one complete clickable link with the client name, scopes, and expiry. This is an approval link, not a sign-in secret. The owner signs in and approves there; never ask for an API key, device secret, setup code, or emailed sign-in token in chat. Check `email_sent`: true means the service sent an approval email, not that it reached the inbox. When false, show the approval link and do not tell the user to wait for email.
 
 After the owner approves:
 
@@ -40,7 +48,7 @@ Re-running `start` with the same state and arguments reuses the request. An unce
 
 If the helper cannot run, use this exact non-OAuth pair, keeping responses in secure local storage:
 
-1. `POST https://claw.me/api/v1/agent-auth/requests` with `owner_email`, `client_name`, `client_type`, and explicit `scopes`.
+1. `POST https://claw.me/api/v1/agent-auth/requests` with required `client_name` and explicit `scopes`; `client_type` defaults to `generic`, and `owner_email` is optional. Use only the user-supplied account email.
 2. Save `request_id` and `device_secret` before displaying `verification_uri`.
 3. After owner approval, `POST /api/v1/agent-auth/requests/{request_id}/token` with JSON containing `device_secret`. A pending response has `status: authorization_pending`; an approved response has `status: authorized`, `api_key`, and granted `scopes`. Save the key before any further work: exchange is single-use.
 

@@ -4,6 +4,14 @@
 
 The live service owns the interview state. Do not recreate the question order from memory.
 
+## Use your own account
+
+“Account owner” means you, the user of a Claw Me account, not the owner of the claw.me domain. You do not need DNS access or permission from the service operator to host a Page.
+
+For a durable Page, reuse your existing account. If you have not signed up, create an account at https://claw.me/register, accept the terms, and verify your email before starting a short-lived Agent approval request. Existing users can sign in at https://claw.me/login. Account feature setup can then continue with the Agent where supported. Do not ask users to forward approval codes to whoever owns claw.me. If account status is unknown, explain signup or sign-in first; do not infer it from an email address.
+
+Anonymous 24-hour previews require no account, sign-in, or pairing. An authorization code is not an account or a sign-in link. If a request was already created, complete signup and return to its approval link; create a new request only after expiry when still needed. Preserve private request state.
+
 ## Existing Agent
 
 1. Check the existing connection before starting or resuming the onboarding session.
