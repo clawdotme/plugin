@@ -1,3 +1,8 @@
+## 0.7.8 — 2026-09-19
+
+- Remove the paused hosted-Agent offer and onboarding example from current setup guidance.
+- Sync skill 1.4.0, including explicit owner approval for public/private account changes; no additional plugin permissions are requested.
+
 ## 0.7.7 — 2026-09-16
 
 - Clarify signup and email verification before account authorization.
