@@ -63,7 +63,7 @@
 
 - Sync skill 1.1.6 with signup and terms before setup, Agent prompt/dashboard choice, and saved final billing choice.
 - Document completed legacy setup, Always release and Block sender behavior, owner-only outbound email, and provider-drafts availability checks. Email release never starts an Agent turn or approves external actions.
-- Clarify Managed hosting availability, the bounded $5/30-day bootstrap allowance, durable provider setup, and separately configured channels.
+- Clarify durable provider setup and separately configured channels.
 - Point OpenClaw installation at the connector archive shipped by Claw Me. Keep plugin permissions and immutable templates-v3.0.0 assets unchanged.
 
 ## 0.5.4 — 2026-09-10
@@ -71,7 +71,6 @@
 - Sync skill 1.1.4 for explicit Free, PAYG, Basic, or Plus selection as the last onboarding step. Free completes without a card.
 - Document hosted card setup, separate wallet funding, the 72-hour warning, persisted purchase keys, and verified PAYG completion.
 - Add billing choice, PAYG setup, and access-status tools to the discovery contracts without expanding plugin permissions.
-- Clarify that managed hosting requires a Basic or Plus subscription and has a separate monthly charge.
 
 # 0.5.2
 
@@ -131,7 +130,7 @@
 ## 0.3.0 — 2026-08-27
 
 - Publish the agent-first onboarding, contextual prompt, MCP tool, and OpenAPI contracts.
-- Add existing-Agent and paid Managed OpenClaw onboarding guidance and examples.
+- Add existing-Agent onboarding guidance and examples.
 - Document owner-only approvals, payment boundaries, bootstrap inference limits, and recovery.
 - Add security, contribution, and third-party notice documents while retaining MIT licensing.
 
