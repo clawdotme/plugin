@@ -6,14 +6,14 @@ Never retries mutations, follows redirects, or prints credentials/upload URLs.
 """
 
 import argparse
-from datetime import datetime, timedelta, timezone
 import hashlib
 import json
 import os
-from pathlib import Path
 import re
 import stat
 import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
@@ -73,6 +73,8 @@ def inspect_folder(folder):
             )
         if item.is_dir():
             continue
+        if item.suffix.lower() == ".svg":
+            raise PublishError("svg_not_supported: convert SVG to PNG or WebP, bundle it locally, and update image references")
         if item.suffix.lower() not in MIME:
             raise PublishError(
                 "unsupported_file: publish only HTML, CSS, images and fonts; bundle assets locally"
@@ -80,6 +82,8 @@ def inspect_folder(folder):
         if item.stat().st_size > 25 * 1024 * 1024:
             raise PublishError("file_too_large: maximum 25 MB per file in this helper")
         data = item.read_bytes()
+        if item.suffix.lower() == ".html" and re.search(rb"<\s*svg\b|data:image/svg\+xml", data, re.I):
+            raise PublishError("svg_not_supported: convert inline SVG to a bundled PNG or WebP before publishing")
         name = relative.as_posix()
         contents[name] = data
         files.append(

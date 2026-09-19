@@ -20,7 +20,7 @@ Reuse an existing scoped connection. An explicitly requested disposable static P
 
 - Connect and verify only: `onboarding:read`, then `account_get_permissions`.
 - Finish onboarding: `onboarding:read`, `onboarding:write`, `setup:read`, `setup:propose`, `billing:read`, `billing:propose`. Resume the server interview, preview proposals, and ask for the owner's plan choice. Billing scopes do not authorize payment.
-- Other work: request only that task's scopes. Wiki, Drive, Pages, and email access are not prerequisites for connection or onboarding. Read Profile context only when requested, enabled, and covered by `wiki:read`.
+- Other work: request only that task's scopes. Wiki, Drive, Pages, and email access are not prerequisites for connection or onboarding. Read Agent context only when requested, enabled, and covered by `wiki:read`.
 
 ## Installed helper
 

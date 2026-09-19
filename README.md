@@ -180,7 +180,7 @@ Template code is reference material, not permission for an Agent to connect acco
 - `.claude-plugin/marketplace.json` — Claude Code marketplace.
 - `compatibility.json` — verified hosted contract and package versions.
 - `contracts/` — versioned onboarding, prompt, MCP tool, and OpenAPI contracts consumed by the hosted service.
-- `examples/` — sanitized existing-Agent and Managed OpenClaw onboarding transcripts.
+- `examples/` — a sanitized existing-Agent onboarding transcript.
 
 ## Development
 

@@ -1,3 +1,13 @@
+## Publishing skill and preflight
+
+Install the official Claw Me skill and its publish.py helper from https://claw.me/plugins. It checks bundles locally and handles exact hashes, uploads, finalization, and private recovery state. Direct REST remains supported.
+
+SVG files, inline <svg>, and SVG data URLs are unsupported. Convert artwork to PNG or WebP using a trusted local converter, bundle the result, and replace HTML/CSS references. Renaming a file is not conversion. The server repeats safety validation at finalization.
+
+A 422 at create concerns the request manifest: HTML has not been uploaded yet. Inspect the JSON error field location and message (curl -f can hide that body). Check byte counts, hash format, paths, and the endpoint schema. A 422 at finalize may identify unsafe HTML or an upload mismatch. Never expose claim tokens or presigned URLs while diagnosing errors.
+
+If the authorized account needs an alias, link directly to https://claw.me/getting-started?step=address and resume the same Agent after saving. Do not request another authorization. Pages, Drive, Agent context, and Activity default to enabled; keep owner-only incoming email and the sharing switch until the owner explicitly changes them.
+
 # Claw Me publishing reference
 
 Claw Me exposes publishing through the authenticated Streamable HTTP MCP endpoint at `https://claw.me/api/v1/mcp`.
