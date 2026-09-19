@@ -1,6 +1,6 @@
 ---
 name: claw-me
-description: Create and host websites, event pages, landing pages, and shareable HTML on claw.me. Use when the user requests the claw.me plugin, “claw me that,” or Claw Me Pages, Drive, Profile context, email, Meetings, or Agent authorization.
+description: Create and host websites, event pages, landing pages, and shareable HTML on claw.me. Use when the user requests the claw.me plugin, “claw me that,” or Claw Me Pages, Drive, Agent context, Style Guides, email, Meetings, or Agent authorization.
 ---
 
 # Claw Me
@@ -66,7 +66,6 @@ Signup does not require an invitation; email verification and configured domain 
 
 ## Choose the workflow
 
-- For Managed OpenClaw, open `https://claw.me/agents`. It is one managed runtime size, requires Basic or Plus plus the Managed Claw add-on, and uses centrally managed hosting placement. A newly paid Managed subscription includes up to $5 of bootstrap inference for 30 days. Configure a durable model provider securely inside OpenClaw; ongoing usage belongs to that provider account. Never request provider credentials in chat.
 - For another AI client, use owner-approved device authorization and the MCP/REST contracts directly. Claw Me deliberately does not request write access to a local Gateway.
 - For Pages, follow the publishing workflow below. Pages are private by default.
 - For Wiki work, read only approved claims and submit proposed changes for review. Never silently rewrite canonical memory.
@@ -74,7 +73,7 @@ Signup does not require an invitation; email verification and configured domain 
 - For meetings, confirm the meeting URL, recording consent, destination Agent, and recording-retention choice before scheduling. Results are private in Drive by default.
 
 Do not assume every account has every product configured or every Agent has every permission. Read [capabilities.md](references/capabilities.md) before describing what this Agent can do or asking the owner to expand access.
-Read [onboarding.md](references/onboarding.md) when starting or resuming setup for an existing Agent or Managed OpenClaw. Finish with the owner’s explicit billing choice: Free, Basic, or Plus. Free needs no card; optional usage billing can be enabled later with owner approval. Verify activation before confirming completion; never infer purchase approval.
+Read [onboarding.md](references/onboarding.md) when starting or resuming setup for an existing Agent. Finish with the owner’s explicit billing choice: Free, Basic, or Plus. Free needs no card; optional usage billing can be enabled later with owner approval. Verify activation before confirming completion; never infer purchase approval.
 
 ## Understand natural phrases
 
@@ -122,11 +121,11 @@ Read [workspace.md](references/workspace.md) when deciding where work belongs, a
 
 ## Use Profile and private Agent context
 
-Profile at https://claw.me/my-profile combines the owner’s public profile and private agent context. Private Agent context is a living source of truth about their preferences, people, projects, and decisions, and grows through proposed edits. Reviewing context never publishes it. Public profile visibility and public Page listings are separate owner choices; account public sharing must also be enabled. Existing agent access controls and A2A discovery are under Agents at https://claw.me/agents?view=authorizations, not Profile. Agents reference approved knowledge and propose additions or corrections; the owner reviews and approves each change. Keep using the stable `wiki_*` MCP tools and `/claw-me/wiki` API paths.
+Public profile controls live at https://claw.me/pages?view=profile beside the owner’s Pages. Private Agent context, managed Memory, Style Guides, Agent access controls, and A2A discovery live under Agents at https://claw.me/agents. Private Agent context is a living source of truth about preferences, people, projects, and decisions and grows through owner-reviewed proposals. Reviewing context never publishes it. Public profile visibility, public Page listings, Memory access, and Agent authorization remain separate owner choices. Keep using the stable `wiki_*` MCP tools and `/claw-me/wiki` API paths. Legacy `/profile`, `/my-profile`, `/wiki`, and `/wikipage` URLs redirect to their new Pages or Agents tabs.
 
 Use https://claw.me/address for Agent Address, Alias & Numbers. In Sandbox, use Email for incoming mail, Rules for rules, and Setup for Agent connection and onboarding. Custom outbound providers, third-party sends, and replies are disabled at launch; do not offer that setup or request provider credentials. The separately authorized owner-only endpoint remains restricted to the verified account email.
 
-- Start with `wiki_get_agent_guide`; hosted Agents receive the same approved guide in `AGENTS.md` and external Agents read it over MCP.
+- Start with `wiki_get_agent_guide`; authorized Agents read the same approved guide over MCP.
 - Search with `wiki_search`, `wiki_get_profile`, and `wiki_get_project` before work that could benefit from approved preferences, people, projects, constraints, or decisions. Pending proposals are not facts.
 - Cite the approved claims that materially shaped the result. Surface conflicts, stale facts, and evidence gaps rather than guessing.
 - Propose only durable knowledge likely to help in future conversations. Do not turn transcripts, temporary tasks, conversational filler, inferred traits, credentials, message bodies, or sensitive personal data into memory by default.
@@ -146,7 +145,8 @@ Read [wiki-sync.md](references/wiki-sync.md) before offering an optional recurri
 - Discovery: A2A `https://claw.me/.well-known/agent-card.json`, OpenAPI `https://claw.me/openapi.json`, MCP `https://claw.me/mcp.json`, and webhook schema `https://claw.me/webhooks.json`.
 - MCP authorization is available on every plan. Creating an A2A authorization requires Basic or Plus.
 - Profiles and Pages remain private unless the owner deliberately shares or publishes them.
-- Do not publish publicly, purchase a number, enable Managed OpenClaw, or increase a wallet limit without explicit user approval.
+- Every actual Page public/private or public-profile listing change requires a fresh, exact, server-enforced owner approval. Call `artifact_set_visibility` once to create the review and only repeat the identical request with its approved `approval_id`; never treat `pages:publish`, setup completion, delegated access, a general instruction, or an earlier approval as sufficient. Read [approvals.md](references/approvals.md).
+- Do not publish publicly, purchase a number, or increase a wallet limit without explicit user approval.
 - Never expose API keys, Gateway tokens, device tokens, setup codes, presigned uploads, channel credentials, or message contents outside the approved task.
 - If authorization is missing, stop at the approval step and tell the user exactly what permission is required.
 

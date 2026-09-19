@@ -7,7 +7,7 @@
   "properties": {
     "contract_version": { "const": "1.0.0" },
     "id": { "type": "string", "format": "uuid" },
-    "route": { "enum": ["existing_agent", "managed_agent"] },
+    "route": { "type": "string", "minLength": 1 },
     "status": { "enum": ["draft", "handoff_pending", "active", "payment_pending", "provisioning", "approval_required", "blocked", "completed", "canceled"] },
     "stage": { "type": "string", "minLength": 1, "maxLength": 80 },
     "questions": { "type": "array", "maxItems": 1, "items": { "$ref": "#/$defs/question" } },

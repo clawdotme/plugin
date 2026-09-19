@@ -23,15 +23,15 @@ Anonymous 24-hour previews require no account, sign-in, or pairing. An authoriza
 
 ## Dashboard setup and Profile
 
-Registration starts with email and explicit terms acceptance. Account setup choices follow registration. At https://claw.me/getting-started, choose **Get a prompt for my Agent** (`?mode=agent`) or **Use the guided dashboard instead** (`?mode=dashboard`). The Agent path then asks which client the owner uses and provides its plugin installation and connection guidance. Assume an existing Agent unless the owner asks for Managed hosting. Resume the existing account and interview after checkout; never create a duplicate account or purchase again to resolve a pending activation.
+Registration starts with email and explicit terms acceptance. Account setup choices follow registration. At https://claw.me/getting-started, choose **Get a prompt for my Agent** (`?mode=agent`) or **Use the guided dashboard instead** (`?mode=dashboard`). The Agent path then asks which client the owner uses and provides its plugin installation and connection guidance. Connect an Agent the owner already uses. Resume the existing account and interview after checkout; never create a duplicate account or purchase again to resolve a pending activation.
 
-The dashboard has four steps: address, features and permissions, connect an Agent, and billing choice. Finishing the saved billing choice shows Setup complete; a completed owner returning to Getting Started is sent to Pages. Address selection and explicit owner confirmation of permissions are required. Account settings, Docs, public Templates, and Calculator at https://claw.me/calculator remain reachable. Back and Continue revisit saved steps without changing consent. After the required choices are saved, Agent connection is optional and workspace navigation is available; completed accounts do not enter the guide by default. Legacy review and page links resume the final billing choice if it has not been confirmed, then continue into the workspace.
+The dashboard has four steps: address, features and permissions, connect an Agent, and billing choice. After Stripe returns and the backend verifies the selected paid entitlement, Claw Me finishes the saved choice automatically and opens `?mode=dashboard&step=start`; never use the redirect itself as proof. The completed screen provides a full Agent handoff prompt, a visible Connect or Manage Agent route, and direct workspace destinations. Address selection and explicit owner confirmation of permissions are required. Account settings, Docs, public Templates, and Calculator at https://claw.me/calculator remain reachable. Back and Continue revisit saved steps without changing consent. After the required choices are saved, Agent connection is optional and workspace navigation is available; completed accounts do not enter the guide by default. Legacy review and page links resume the final billing choice if it has not been confirmed, then continue into the workspace.
 
 Step 2 shows key Agent-access choices and separate Public sharing and Incoming email sections. For new unconfirmed choices, Incoming email defaults to Store for me only: email_receive is on and email_process is off. Public sharing defaults off. Preserve confirmed choices and existing drafts; a displayed default is not consent or a saved permission. The owner confirms the effective account permissions before Agents act within them.
 
-Profile at https://claw.me/my-profile contains public profile editing and private agent context. Step 2 covers key feature and sandbox choices; detailed visibility and page listings belong in Profile. Existing agent connections and A2A discovery belong under Agents at https://claw.me/agents?view=authorizations. Private context stays private when reviewed; public profile visibility, listing an already-public Page, and authorizing an Agent are separate actions. Public sharing is an account-wide upper bound, not automatic publication. A2A connections use existing scopes and plan eligibility; do not invent a separate global A2A switch or a routing service.
+Public profile editing and Page listings live at https://claw.me/pages?view=profile. Private Agent context, managed Memory, Style Guides, existing Agent connections, and A2A discovery live under Agents at https://claw.me/agents. Private context stays private when reviewed; public profile visibility, listing an already-public Page, enabling Memory, and authorizing an Agent are separate actions. Public sharing is an account-wide upper bound, not automatic publication. A2A connections use existing scopes and plan eligibility; do not invent a separate global A2A switch or a routing service.
 
-The connect step embeds the same setup prompt as the Agents page. Copying it does not install a plugin or authorize a client. Discover actual tools and scopes after installation and authorization. The UI name Profile context still uses stable wiki_* MCP tools, wiki scopes, and /claw-me/wiki REST paths. Old /wiki and /wikipage links redirect to Profile’s Agent context. /profile remains Account settings, and /pricing-calculator redirects to /calculator.
+The connect step embeds the same setup prompt as the Agents page. Copying it does not install a plugin or authorize a client. Discover actual tools and scopes after installation and authorization. The UI name Agent context still uses stable wiki_* MCP tools, wiki scopes, and /claw-me/wiki REST paths. Old /profile and /my-profile links redirect to Pages → Public profile; /wiki and /wikipage redirect to Agents → Agent context. Account settings are at /settings, and /pricing-calculator redirects to /calculator.
 
 ## Final billing choice
 
@@ -41,16 +41,7 @@ With the final-choice rollout, read `GET /api/v1/billing/onboarding` (`billing:r
 
 For Free, or after the selected access is verified by the backend, submit the same choice with `confirm: true`. The server rejects unverified paid activation. Resume pending choices after cancellation, reload, or a delayed webhook; a Stripe redirect and a completed Agent interview are not proof of completed account billing. If these tools are absent from live discovery, report that the rollout is unavailable and use the supported flow.
 
-## Managed OpenClaw
-
-Check the live hosting availability before offering checkout or provisioning. Managed hosting remains unavailable while its launch gates are disabled; an existing Agent does not require this add-on. When available, the human completes identity and the initial recurring add-on payment before the Agent exists. Provisioning is not a free trial.
-
-After the runtime is ready:
-
-1. Resume the same onboarding session through the hosted OpenClaw Gateway. Use another channel only after its setup and permissions are verified; released email does not automatically start an Agent session.
-2. Do not repeat answers gathered before provisioning.
-3. Explain that the Claw Me-funded inference allowance is temporary and help connect a durable provider early.
-4. Never request provider credentials in chat. Use the secure provider handoff URL returned by Claw Me.
+After completion, call `claw_me_feature_guide` with `feature=all` and introduce only the products available to the account and current connection. Verify the connection and account state read-only first. Offer a useful private Page as the first task, then summarize what is connected, what remains private, and which actions still require owner approval.
 
 ## Interview contract
 

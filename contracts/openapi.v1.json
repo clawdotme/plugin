@@ -1330,10 +1330,6 @@
             "type": "array"
           },
           "route": {
-            "enum": [
-              "existing_agent",
-              "managed_agent"
-            ],
             "title": "Route",
             "type": "string"
           },
@@ -1419,8 +1415,7 @@
             "anyOf": [
               {
                 "enum": [
-                  "existing_agent",
-                  "managed_agent"
+                  "existing_agent"
                 ],
                 "type": "string"
               },
@@ -1636,8 +1631,7 @@
         "properties": {
           "route": {
             "enum": [
-              "existing_agent",
-              "managed_agent"
+              "existing_agent"
             ],
             "title": "Route",
             "type": "string"
@@ -1740,10 +1734,6 @@
             "type": "string"
           },
           "route": {
-            "enum": [
-              "existing_agent",
-              "managed_agent"
-            ],
             "title": "Route",
             "type": "string"
           }
