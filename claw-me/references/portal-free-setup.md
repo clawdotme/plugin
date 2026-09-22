@@ -55,7 +55,7 @@ Discover exact schemas from `/openapi.json`; the following are route families, n
 | Drive Workspaces | `/claw-me/drive/workspaces`, `/claw-me/drive/changes/{id}/review` | Revision, staged diff, explicit acceptance, stale revision handling |
 | Domains | `/claw-me/artifacts/domains` | Owner controls DNS externally; wait for verification/certificate |
 | Variables | `/settings/variables` | Plan entitlement and secret storage; never expose values in Page assets |
-| Meetings | `/claw-me/meetings`, `/claw-me/meetings/usage` | Participant consent, destination, capture and usage; provider availability |
+| Meetings | `/claw-me/meetings`, `/claw-me/meetings/usage` | Existing capture/usage records only; new meeting sessions are unavailable |
 | Number/WhatsApp setup | `/claw-me/identities/numbers/search`, `/claw-me/identities/numbers/order` | Price, country requirements, explicit purchase; owner’s Meta account |
 | Existing OpenClaw | `/claw-me/gateway/setup-codes`, `/claw-me/connect/exchange` | Local connector installs only with permission; heartbeat and events |
 | Wallet policy | `/claw-me/billing/transaction-policy` | Balance/caps; no auto-reload changes without explicit approval |

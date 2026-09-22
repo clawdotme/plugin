@@ -1,6 +1,6 @@
 ---
 name: claw-me
-description: Create and host websites, event pages, landing pages, and shareable HTML on claw.me. Use when the user requests the claw.me plugin, “claw me that,” or Claw Me Pages, Drive, Agent context, Style Guides, email, Meetings, or Agent authorization.
+description: Create and host websites, event pages, landing pages, and shareable HTML on claw.me. Use when the user requests the claw.me plugin, “claw me that,” or Claw Me Pages, Drive, Agent context, Style Guides, email, or Agent authorization.
 ---
 
 # Claw Me
@@ -115,15 +115,15 @@ The URL is unindexed and unguessable, serves the uploaded site with a Claw Me ba
 - Treat Domains, Variables, Analytics, and Functions as owner-controlled workspace settings. Use delegated owner REST access when a control is absent from MCP; use the Page dashboard only when the owner prefers it or no API exists.
 - Never ask for a DNS credential, certificate private key, or Variable value in chat. Variables are encrypted, classified as secret/private/public, and their plaintext is not returned after creation; keep values out of Page bundles.
 - Describe Analytics as cookie-free, first-party Page traffic reporting. Do not claim Claw Me retains visitor IP addresses or exposes analytics through MCP unless the current contract says so.
-- Do not promise a general serverless runtime. Functions currently organize routes, schedules, deployments, Variables, and Secrets; use only controls documented by the live dashboard or API.
+- Do not promise a general serverless runtime. Functions and standalone application runtimes are not available. Pages host static HTML/CSS and block uploaded scripts; do not promise a functioning JavaScript application or backend on Pages.
 
 Read [workspace.md](references/workspace.md) when deciding where work belongs, applying sharing rules, or guiding an owner through Pages, Drive, Domains, Variables, Analytics, or Functions.
 
 ## Use Profile and private Agent context
 
-Public profile controls live at https://claw.me/pages?view=profile beside the owner’s Pages. Private Agent context, managed Memory, Style Guides, Agent access controls, and A2A discovery live under Agents at https://claw.me/agents. Private Agent context is a living source of truth about preferences, people, projects, and decisions and grows through owner-reviewed proposals. Reviewing context never publishes it. Public profile visibility, public Page listings, Memory access, and Agent authorization remain separate owner choices. Keep using the stable `wiki_*` MCP tools and `/claw-me/wiki` API paths. Legacy `/profile`, `/my-profile`, `/wiki`, and `/wikipage` URLs redirect to their new Pages or Agents tabs.
+Public profile controls live at https://claw.me/pages?view=profile beside the owner’s Pages. Private Context, managed Memory, Style Guides and Workspaces live under Drive at https://claw.me/drive. Agent access controls and A2A discovery are in Settings → Connected Agents at https://claw.me/settings/agents. Private Agent context is a living source of truth about preferences, people, projects, and decisions and grows through owner-reviewed proposals. Reviewing context never publishes it. Public profile visibility, public Page listings, Memory access, and Agent authorization remain separate owner choices. Keep using the stable `wiki_*` MCP tools and `/claw-me/wiki` API paths. Legacy `/profile`, `/my-profile`, `/wiki`, and `/wikipage` URLs redirect to their current Pages or Drive tabs.
 
-Use https://claw.me/address for Agent Address, Alias & Numbers. In Sandbox, use Email for incoming mail, Rules for rules, and Setup for Agent connection and onboarding. Custom outbound providers, third-party sends, and replies are disabled at launch; do not offer that setup or request provider credentials. The separately authorized owner-only endpoint remains restricted to the verified account email.
+Use https://claw.me/address for Agent Address, Alias & Numbers. In Sandbox, use Emails for incoming mail and Agents for approval requests. Sender rules are in Settings → Sandbox Rules; connections are in Settings → Connected Agents. Inbound calls and new meeting sessions are unavailable. Custom outbound providers, third-party sends, and replies are disabled at launch; do not offer that setup or request provider credentials. The separately authorized owner-only endpoint remains restricted to the verified account email.
 
 - Start with `wiki_get_agent_guide`; authorized Agents read the same approved guide over MCP.
 - Search with `wiki_search`, `wiki_get_profile`, and `wiki_get_project` before work that could benefit from approved preferences, people, projects, constraints, or decisions. Pending proposals are not facts.
