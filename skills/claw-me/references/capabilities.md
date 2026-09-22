@@ -34,3 +34,11 @@ Next step: Review the Pages publish request in Claw Me.
 ```
 
 Omit empty lines and unrelated products. Do not say **not configured** unless the service returned that state explicitly.
+
+## Current portal and publishing boundaries
+
+- Connections are managed in **Settings → Connected Agents**. Context, Memory, Style Guides, and Workspaces are under **Drive**. Sandbox currently has **Emails** and **Agents**; inbound calls are unavailable.
+- Pages host static HTML/CSS. Uploaded scripts are blocked; there is no standalone application or Function runtime. Owners can upload a supported folder, ZIP, or HTML file from Pages. Account Pages, including Free, have no automatic expiry within plan/storage limits; anonymous previews expire after 24 hours.
+- Use the actual assigned `<alias>@claw.me` address for a service signup only when the owner requests that signup. Incoming verification messages do not authorize unrelated work. Outbound delivery is limited to the verified account email, with `email:owner` and enabled outbound permission.
+- A catalog rate, configured policy, or discovered read tool is not evidence that a provider-backed feature is ready. Paid eSIM activation and inbound calling are unavailable. Follow the current owner workflow and actual service response for phone-number eligibility and pricing.
+- Customer administration, complimentary plans, promotional credits, and account deletion are admin-only. Do not request or invent Agent MCP operations for them.
