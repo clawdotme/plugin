@@ -6,20 +6,20 @@ Use this reference to decide where Claw work belongs and to explain workspace co
 
 | Need | Use | Operating rule |
 | --- | --- | --- |
-| A durable site, document, app, deck, or report | Page | Private by default; publish a new immutable version for each update. |
+| A durable static site, document, deck, or report | Page | Private by default; publish a new immutable version for each update. |
 | A private upload or Agent output | Drive Files | Available on every plan; use it without creating a collaborative Workspace. |
 | Files edited by people and multiple Agents | Drive Workspace | Basic or Plus; stage changes from an explicit revision and wait for owner acceptance. |
-| Reviewed facts shared across authorized Agents | Wiki | Read approved claims; propose changes for owner review. |
-| Forms, waitlists, comments, or small shared state | Site Data | Use same-origin `/.claw/data/{collection}` calls. |
+| Reviewed facts shared across authorized Agents | Drive → Context | Read approved claims; propose changes for owner review. |
+| Forms, waitlists, comments, or small shared state | Site Data API | A backend contract exists, but uploaded Page scripts are blocked; do not promise an interactive Page application. |
 | A custom web address | Domains | The owner connects DNS to a selected Page from the dashboard. |
 | Values needed by approved Agents or Page proxy routes | Variables | Store encrypted values in the dashboard, never in chat or Page files. |
 | Page audience and traffic reporting | Analytics | Use first-party, cookie-free reports without retained visitor IP addresses. |
-| Routes, schedules, deployment guidance, Variables, and Secrets | Functions | Use only the controls that the current dashboard or API explicitly exposes. |
+| Server code, scheduled jobs, or a standalone application runtime | Unavailable | Do not offer Functions hosting or imply that a Page can execute uploaded scripts. |
 
 ## Pages, Drive Files, Workspaces, and versions
 
 - Page files belong to an immutable Page version. Standalone Drive Files do not need a Page.
-- Drive opens on Files for every account. Collaborative Workspaces require Basic or Plus.
+- Drive opens on Saved Artifacts and Saved Emails for every account. Collaborative Workspaces require Basic or Plus.
 - Before editing a Workspace, use `drive_list_workspaces` and `drive_open_workspace`, then read the current revision, instructions, manifest, and review state.
 - Begin edits with `drive_begin_change`, write through `drive_write_file`, preview with `drive_preview_change`, and submit with `drive_submit_change`.
 - Submission never applies a change. The owner accepts or rejects it in Drive, and an Agent cannot accept its own proposal.
@@ -32,7 +32,7 @@ Use this reference to decide where Claw work belongs and to explain workspace co
 
 ## Site Data
 
-- Published Page code calls `/.claw/data/{collection}` on the same origin. Never embed Manager URLs, API keys, or database credentials in a Page bundle.
+- The Site Data API uses `/.claw/data/{collection}` on a Page origin. Uploaded scripts are currently blocked, so the API does not make a published Page an interactive application. Never embed Manager URLs, API keys, or database credentials in a Page bundle.
 - Site Data is appropriate for lightweight forms, waitlists, comments, and shared state, not arbitrary backend execution.
 - Get explicit owner confirmation before creating a collection, allowing public writes, changing a schema, or deleting records.
 
@@ -58,10 +58,9 @@ Use this reference to decide where Claw work belongs and to explain workspace co
 
 ## Functions
 
-- The workspace Functions area groups Routes, Cron jobs, Deployments, Variables, and Secrets. Some surfaces are guidance or staged controls.
-- Do not promise a general-purpose serverless runtime, arbitrary code execution, or direct MCP management.
-- For secret-backed Page operations, use documented proxy routes and dashboard-managed Variables. For simple shared state, prefer Site Data.
+- Functions and standalone application runtimes are unavailable. Do not promise serverless execution, scheduled jobs, or direct MCP management.
+- Existing Variables, proxy, or Site Data contracts do not grant uploaded scripts permission to run. Check actual supported behavior before proposing an integration.
 
 ## Capability boundary
 
-The current MCP workspace surface includes Page tools (`artifact_list`, `artifact_publish`) and Drive Workspace tools (`drive_list_workspaces`, `drive_open_workspace`, `drive_begin_change`, `drive_write_file`, `drive_preview_change`, `drive_submit_change`). If a user asks an Agent to manage Domains, Variables, Analytics, Functions, or another control not exposed by the live contract, explain the steps and direct the owner to the dashboard. Never improvise an endpoint or claim the change was made.
+The current MCP workspace surface includes Page tools (`artifact_list`, `artifact_publish`) and Drive Workspace tools (`drive_list_workspaces`, `drive_open_workspace`, `drive_begin_change`, `drive_write_file`, `drive_preview_change`, `drive_submit_change`). If a user asks an Agent to manage Domains, Variables, Analytics, or another available control not exposed by the live contract, explain the steps and direct the owner to the dashboard. Never improvise an endpoint or claim the change was made.

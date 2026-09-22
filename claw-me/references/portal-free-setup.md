@@ -47,7 +47,7 @@ Discover exact schemas from `/openapi.json`; the following are route families, n
 | --- | --- | --- |
 | Profile/address | `/users/me`, `/users/me/username/reserve`, `/claw-me/profile`, `/claw-me/identities` | Correct owner, reserved address, intended profile visibility |
 | Email | `/users/me/inbox/status`, `/claw-me/identities/{id}/email/provision` | Active inbox, not only a reserved username |
-| Mailroom and sender rules | `/claw-me/mailroom/messages`, `/claw-me/mailroom/rules` | Quarantine, explicit release, sender policy, retention |
+| Sandbox Emails and sender rules | `/claw-me/mailroom/messages`, `/claw-me/mailroom/rules` | Quarantine, explicit release, sender policy, retention |
 | Owner-directed email | `/email/owner?identity_id=...` with `email:owner` | Only the verified owner can be the recipient |
 | Wiki and Agent Guide | MCP Wiki tools; `/claw-me/wiki/proposals/{id}/resolve` | Propose first, explicit owner acceptance, approved guide reads |
 | Pages and sharing | `/claw-me/artifacts/sites` and per-site versions/shares/data/analytics | Private by default; upload/finalize; deliberate sharing |
