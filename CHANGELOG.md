@@ -1,3 +1,10 @@
+## 0.7.12 — 2026-09-29
+
+- Sync skill 1.4.5 with current Channels, Settings, Security, Support, and billing locations.
+- Clarify that account deletion is an owner-only Support workflow with no Agent MCP operation.
+- Preserve the current number purchase rule: usage billing, an active saved card, and explicit owner confirmation; no paid subscription is required.
+- No additional plugin permissions are requested.
+
 ## 0.7.11 — 2026-09-29
 
 - Use the canonical Channels page at `https://claw.me/channels` for web, email, and WhatsApp setup.
