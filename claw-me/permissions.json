@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "1.4.3",
+  "skill_version": "1.4.4",
   "network": {
     "allowed_origins": [
       "https://claw.me"

@@ -45,7 +45,7 @@ Discover exact schemas from `/openapi.json`; the following are route families, n
 
 | Feature | API entrypoint | What to verify |
 | --- | --- | --- |
-| Profile/address | `/users/me`, `/users/me/username/reserve`, `/claw-me/profile`, `/claw-me/identities` | Correct owner, reserved address, intended profile visibility |
+| Profile/channels | `/users/me`, `/users/me/username/reserve`, `/claw-me/profile`, `/claw-me/identities` | Correct owner, reserved address, intended profile visibility |
 | Email | `/users/me/inbox/status`, `/claw-me/identities/{id}/email/provision` | Active inbox, not only a reserved username |
 | Sandbox Emails and sender rules | `/claw-me/mailroom/messages`, `/claw-me/mailroom/rules` | Quarantine, explicit release, sender policy, retention |
 | Owner-directed email | `/email/owner?identity_id=...` with `email:owner` | Only the verified owner can be the recipient |
@@ -81,7 +81,7 @@ For each feature report one of: ready (with evidence), awaiting a named provider
 
 ### Set up WhatsApp with Meta's MCP
 
-For an assigned number, open `/address`, choose **Set up with your agent**,
+For an assigned number, open `/channels`, choose **Set up with your agent**,
 and copy the personalised prompt. Connect the separate official Meta server at
 `https://mcp.facebook.com/whatsapp_business_tools` using Streamable HTTP and Meta
 OAuth. Follow [Meta's setup documentation](https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp)
@@ -100,4 +100,4 @@ webhook directly in the running Agent for ongoing Cloud API messaging. Ask for
 approval of the test recipient and content, then verify an incoming message and
 an outgoing reply. Registration alone does not establish channel health: retain
 setup-pending until the Agent reports a healthy connection. If the MCP cannot
-connect, continue with the manual setup controls on `/address`.
+connect, continue with the manual setup controls on `/channels`.

@@ -1,3 +1,9 @@
+## 0.7.11 — 2026-09-29
+
+- Use the canonical Channels page at `https://claw.me/channels` for web, email, and WhatsApp setup.
+- Keep legacy `/address` links compatible through the product redirect.
+- Sync skill 1.4.4; no additional plugin permissions are requested.
+
 ## 0.7.10 — 2026-09-29
 
 - Allow every plan to browse WhatsApp number inventory and rates.
