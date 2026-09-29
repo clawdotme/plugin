@@ -1,3 +1,9 @@
+## 0.7.10 — 2026-09-29
+
+- Allow every plan to browse WhatsApp number inventory and rates.
+- Require enabled usage billing, an active saved card, and explicit owner confirmation before number purchase.
+- Sync skill 1.4.3; Basic and Plus still include the first US or Canada number once billing is ready.
+
 ## 0.7.8 — 2026-09-19
 
 - Remove the paused hosted-Agent offer and onboarding example from current setup guidance.

@@ -69,7 +69,7 @@ Signup does not require an invitation; email verification and configured domain 
 - For another AI client, use owner-approved device authorization and the MCP/REST contracts directly. Claw Me deliberately does not request write access to a local Gateway.
 - For Pages, follow the publishing workflow below. Pages are private by default.
 - For Wiki work, read only approved claims and submit proposed changes for review. Never silently rewrite canonical memory.
-- For Alias, email, or WhatsApp Business, use the owner REST routes in [portal-free-setup.md](references/portal-free-setup.md) when delegated; otherwise use `https://claw.me/address`. Free users may search number inventory and rates; purchase and activation require Basic or Plus and explicit confirmation.
+- For Alias, email, or WhatsApp Business, use the owner REST routes in [portal-free-setup.md](references/portal-free-setup.md) when delegated; otherwise use `https://claw.me/address`. Every plan may search number inventory and rates. Purchase and activation require enabled usage billing, an active saved card, and explicit confirmation. Basic and Plus include the first US or Canada number once billing is ready.
 - For meetings, confirm the meeting URL, recording consent, destination Agent, and recording-retention choice before scheduling. Results are private in Drive by default.
 
 Do not assume every account has every product configured or every Agent has every permission. Read [capabilities.md](references/capabilities.md) before describing what this Agent can do or asking the owner to expand access.
