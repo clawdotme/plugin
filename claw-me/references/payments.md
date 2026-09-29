@@ -36,7 +36,10 @@ do not invent a tool to change spending consent. Automatic reload is a separate 
 The same 100 monthly emails and 1 GB storage stay included. Eligible Free
 accounts retain 100 Pages, one durable Drive, one connected domain, Wiki and
 approved Agent access; storage capacity is 10 GiB, with overages after 1 GB.
-Numbers still require Basic or Plus. Their subscription
+Every plan may search number inventory and rates. Number purchase and activation
+require enabled usage billing, an active saved card, and explicit owner
+confirmation. Basic and Plus include the first US or Canada number once billing
+is ready; other prices and requirements come from the live catalog. Subscription
 allowances take precedence until cancellation actually takes effect.
 A missing last card or failed required reload starts the existing 72-hour
 warning. Do not promise unfunded work during grace. Replace a missing card or
