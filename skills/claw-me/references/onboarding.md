@@ -55,4 +55,4 @@ See `contracts/onboarding.v1.schema.json` for the portable state and answer cont
 
 ## Portal-free owner delegation
 
-When the owner explicitly delegates setup through their existing Agent and personal inbox, use [portal-free-setup.md](portal-free-setup.md). It replaces portal handoffs with email-verified owner REST operations while preserving scoped MCP and explicit owner decisions. Do not direct that owner back to the portal merely because a response includes a legacy `human_action.url` when an authorized API equivalent exists.
+When the owner explicitly delegates setup through their existing Agent and personal inbox, use [portal-free-setup.md](portal-free-setup.md). It uses email-verified owner REST operations where supported while preserving scoped MCP and explicit owner decisions. Initial account permissions require signed-in owner confirmation, and later permission changes remain owner portal controls. Follow the deployed service’s `human_action` requirements; temporary owner credentials cannot override this boundary.

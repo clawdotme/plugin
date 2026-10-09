@@ -1,3 +1,12 @@
+## 0.7.13 — 2026-10-09
+
+- Sync skill 1.4.7 with signed-in owner confirmation for account permissions and supported delegated setup.
+- Document Sandbox Archive for 30 days, Trash for 7 days, saved Drive exceptions, and private restoration of call files.
+- Describe conditional phone readiness and the current unavailability of new meeting sessions.
+- Clarify that A2A completion returns an operation handoff for the client to invoke separately.
+- Let Skills CLI discovery finish before checking its output, avoiding closed-pipe errors.
+- Preserve permission grants and public contract definitions.
+
 ## 0.7.12 — 2026-09-29
 
 - Sync skill 1.4.5 with current Channels, Settings, Security, Support, and billing locations.
