@@ -27,10 +27,10 @@ Reuse an existing scoped connection. An explicitly requested disposable static P
 When the client already manages OAuth, use that connection. Otherwise run the bundled helper from the installed skill directory. Ask for the owner's Claw Me email if it was not supplied; do not infer it from another service's login.
 
 ```bash
-python3 scripts/authorize.py start --email OWNER_EMAIL --client-name "My Agent" --client-type generic --scope onboarding:read --state ~/.claw-me/setup-authorization.json
+python3 scripts/authorize.py start --email OWNER_EMAIL --client-name "Codex" --client-type codex --scope onboarding:read --state ~/.claw-me/setup-authorization.json
 ```
 
-Replace `OWNER_EMAIL` with the supplied address. For full onboarding, add the other five setup scopes with repeated `--scope` flags before creating the request. Keep state outside the repository and uploaded content. The helper uses private local JSON storage (mode 0600); never print or attach that file. No scopes are added by default.
+Replace `OWNER_EMAIL` with the supplied address and use the actual Agent app name and type in place of Codex if another client is making the request. Do not use the chat or task title as the app name. The app name and type are reported by the requester, not verified identities. For full onboarding, add the other five setup scopes with repeated `--scope` flags before creating the request. Keep state outside the repository and uploaded content. The helper uses private local JSON storage (mode 0600); never print or attach that file. No scopes are added by default.
 
 Show the returned `verification_uri` exactly as one complete clickable link with the client name, scopes, and expiry. This is an approval link, not a sign-in secret. The owner signs in and approves there; never ask for an API key, device secret, setup code, or emailed sign-in token in chat. Check `email_sent`: true means the service sent an approval email, not that it reached the inbox. When false, show the approval link and do not tell the user to wait for email.
 

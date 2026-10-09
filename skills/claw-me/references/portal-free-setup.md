@@ -2,9 +2,9 @@
 
 # Set up Claw Me through an existing Agent
 
-Use this workflow when the owner explicitly delegates account setup and access to their personal email inbox. It works with Codex, self-hosted OpenClaw, or another Agent that can use HTTPS and secure local credential storage. No Claw Me customer portal is required for the steps below. Stripe handles payment confirmation separately.
+Use this workflow when the owner explicitly delegates account setup and access to their personal email inbox. It works with Codex, self-hosted OpenClaw, or another Agent that can use HTTPS and secure local credential storage. Most supported steps use delegated owner REST and scoped MCP. The signed-in owner must confirm initial account permissions in Claw Me; later account permission changes also require the owner portal. Stripe handles payment confirmation separately.
 
-This reference describes the portal-free API rollout. Discover the live OpenAPI and MCP schemas first. If billing tools still return `/billing` or `check_in_portal`, the server has not received this rollout: report that mismatch instead of claiming setup succeeded.
+Discover the live OpenAPI and MCP schemas first. Follow a returned `human_action` or `check_in_portal` requirement when that step needs signed-in owner confirmation. A portal link is not evidence of an outdated deployment. Do not claim account setup succeeded until the required owner choices and backend activation are verified.
 
 ## Two credentials, two authorities
 
@@ -30,10 +30,11 @@ Do not print access tokens, refresh tokens, device secrets, or API keys in comma
 
 1. Call `onboarding_start` with `{"route":"existing_agent"}`. Submit only the returned question through `onboarding_answer`; the address answer reserves the actual username. Handle unavailable names by asking for another choice.
 2. Preview setup, submit the proposal with `onboarding_submit`, present it for an explicit owner decision, then use the owner bearer at `POST /api/v1/onboarding/proposals/{id}/approve`. Execute using the Agent key at `POST /api/v1/onboarding/proposals/{id}/execute`. Read final status. This completes the interview, not the final account billing choice.
-3. Follow [the final billing step](onboarding.md#final-billing-choice): read the live catalog and offer Free, Basic, and Plus. Describe recurring fees, usage and add-ons before the owner decides. Free needs no card. Optional usage billing is a later setting within Free, with separate card setup, wallet funding and spending authorization.
-4. Record the selected choice before hosted setup or Checkout, and reuse the returned `checkout_key` as `idempotency_key`. For a subscription, call `billing_start_checkout` with the approved `plan` and `cloud_claw:false`. For a separately approved request to enable usage billing later, use `billing_start_payg`. Show the returned Stripe URL; never collect card data.
-5. Poll `billing_payment_status` for subscription Checkout, or `billing_access_status` for optional usage billing. Read account activation as well as payment status. Do not create another purchase to resolve a delayed webhook. Confirm the final onboarding choice only after the backend verifies the matching access.
-6. Read `GET /api/v1/users/me/inbox/status` with the delegated owner bearer to verify inbox activation. Reserving an address is not proof that the inbox is provisioned.
+3. Read `account_get_permissions` and, for initial setup only, propose the reviewed choices with `account_propose_permissions`. This proposal cannot activate access. Have the owner sign in at https://claw.me/getting-started and confirm the effective permissions. After initial confirmation, changes use https://claw.me/settings and https://claw.me/settings/sandbox-rules; neither an Agent key nor a temporary owner setup bearer can change those limits.
+4. Follow [the final billing step](onboarding.md#final-billing-choice): read the live catalog and offer Free, Basic, and Plus. Describe recurring fees, usage and add-ons before the owner decides. Free needs no card. Optional usage billing is a later setting within Free, with separate card setup, wallet funding and spending authorization.
+5. Record the selected choice before hosted setup or Checkout, and reuse the returned `checkout_key` as `idempotency_key`. For a subscription, call `billing_start_checkout` with the approved `plan` and `cloud_claw:false`. For a separately approved request to enable usage billing later, use `billing_start_payg`. Show the returned Stripe URL; never collect card data.
+6. Poll `billing_payment_status` for subscription Checkout, or `billing_access_status` for optional usage billing. Read account activation as well as payment status. Do not create another purchase to resolve a delayed webhook. Confirm the final onboarding choice only after the backend verifies the matching access.
+7. Read `GET /api/v1/users/me/inbox/status` with the delegated owner bearer to verify inbox activation. Reserving an address is not proof that the inbox is provisioned.
 
 An owner-supplied promotion goes in `promo_code` on subscription Checkout, not optional card setup. `STAYGRITTY` applies 100% off Plus for that subscription's lifetime; wallet usage and add-ons remain payable. Stripe displays the final amount before confirmation.
 
@@ -47,7 +48,7 @@ Discover exact schemas from `/openapi.json`; the following are route families, n
 | --- | --- | --- |
 | Profile/channels | `/users/me`, `/users/me/username/reserve`, `/claw-me/profile`, `/claw-me/identities` | Correct owner, reserved address, intended profile visibility |
 | Email | `/users/me/inbox/status`, `/claw-me/identities/{id}/email/provision` | Active inbox, not only a reserved username |
-| Sandbox Emails and sender rules | `/claw-me/mailroom/messages`, `/claw-me/mailroom/rules` | Quarantine, explicit release, sender policy, retention |
+| Sandbox Emails and sender rules | `/claw-me/mailroom/messages`, `/claw-me/mailroom/rules` | Needs review, Archive 30 days, Trash 7 days, explicit release and sender policy |
 | Owner-directed email | `/email/owner?identity_id=...` with `email:owner` | Only the verified owner can be the recipient |
 | Wiki and Agent Guide | MCP Wiki tools; `/claw-me/wiki/proposals/{id}/resolve` | Propose first, explicit owner acceptance, approved guide reads |
 | Pages and sharing | `/claw-me/artifacts/sites` and per-site versions/shares/data/analytics | Private by default; upload/finalize; deliberate sharing |
@@ -59,17 +60,17 @@ Discover exact schemas from `/openapi.json`; the following are route families, n
 | Number/WhatsApp setup | `/claw-me/identities/numbers/search`, `/claw-me/identities/numbers/order` | Price, country requirements, explicit purchase; owner’s Meta account |
 | Existing OpenClaw | `/claw-me/gateway/setup-codes`, `/claw-me/connect/exchange` | Local connector installs only with permission; heartbeat and events |
 | Wallet policy | `/claw-me/billing/transaction-policy` | Balance/caps; no auto-reload changes without explicit approval |
-| Sandbox tasks/reviews | `/tasks`, `/tasks/{id}/review` | Exact proposal, explicit owner decision, audit history |
+| Sandbox tasks/reviews | `/tasks`, `/tasks/{id}/review` | Exact proposal, explicit owner decision, Archive/Trash history |
 | Agent credentials | `/api-keys`, `/agent-auth/requests` | Named scopes, expiry, rotation and revocation |
 | Account deletion | `DELETE /users/me` | Explicit destructive approval and offboarding result |
 
 Email and a payment method suffice for the core account. Custom DNS needs domain control; WhatsApp needs the owner's Meta setup; provider integrations need their own authorization. Do not promise that buying Basic enables these automatically. Functions are not a general serverless runtime.
 
-If the API returns an unmet prerequisite, record the exact feature and reason. Do not silently replace it with a portal instruction or report the whole setup as complete.
+If the API returns an unmet prerequisite, record the exact feature and reason. Use a portal instruction when the deployed service requires signed-in owner confirmation; report the remaining prerequisite before marking setup complete.
 
 ## Guide the owner through external prerequisites
 
-Keep the conversation in the user's Agent. A missing external prerequisite should produce a concrete next step, not a referral back to the Claw Me portal.
+Give a concrete next step for each missing external prerequisite. Use the provider or owner confirmation destination returned by the live service.
 
 - **Custom domains:** ask which domain the owner controls. Create the domain through the Claw Me owner API and read its returned DNS requirements. If an already-authorized DNS connector is available, explain the exact record changes and apply the approved records. Otherwise give the owner those exact records for their DNS provider. Poll the domain verification and certificate endpoints with bounded retries; report pending DNS separately from failure. Never request registrar passwords in chat or replace unrelated records.
 - **WhatsApp:** first check number inventory, price, country requirements, and the owner's Meta Business setup. Obtain approval before ordering a number. Follow the requirement-group/document endpoints when the service reports them. Guide the owner through connecting the number to their own Meta Business Portfolio, application, and WABA. Retrieve a verification code only for the approved verification step, keep it transient, and confirm status afterward. Meta credentials and WhatsApp message traffic stay outside Claw Me. Business approval is a provider prerequisite, not an account-setup failure.
@@ -101,3 +102,7 @@ approval of the test recipient and content, then verify an incoming message and
 an outgoing reply. Registration alone does not establish channel health: retain
 setup-pending until the Agent reports a healthy connection. If the MCP cannot
 connect, continue with the manual setup controls on `/channels`.
+
+## Sandbox lifecycle
+
+Needs review contains pending Agent Requests, inbound emails, and call files. Approved items move to Archive for 30 days; rejected or trashed items move to Trash for 7 days. Saved emails and call files remain in Drive under its policy. Accepted Drive revisions and approved Context remain intact when their Sandbox proposal copies expire. Trashed emails and call files may be restored before cleanup; call restoration revokes Agent access. A rejected request remains rejected. Unreviewed call files retain their 14-day expiry; demo calls have no retained recording. Cleanup retries provider failures and releases call storage only after deletion succeeds.
