@@ -1,6 +1,6 @@
 {
   "name": "claw-me",
-  "version": "0.7.13",
+  "version": "0.7.14",
   "description": "Create and host websites, event pages, and shareable HTML on claw.me, with owner-approved Pages, Drive, and Agent context.",
   "author": {
     "name": "Claw Me",
@@ -24,7 +24,7 @@
   "interface": {
     "displayName": "Claw Me",
     "shortDescription": "Create and share websites on claw.me.",
-    "longDescription": "Publish websites, event pages, and HTML/CSS work on claw.me. Authorize Pages through the shared skill and hosted API; Gateway relay setup is a separate optional workflow. Also work with approved Agent context, Drive, and Sandbox review.",
+    "longDescription": "Publish websites, event pages, and HTML/CSS work on claw.me. Authorize Pages through the shared skill and hosted API; Gateway relay setup is a separate optional workflow. Also work with approved Agent context, Drive, and Inbox review.",
     "developerName": "Claw Me",
     "category": "Productivity",
     "capabilities": [

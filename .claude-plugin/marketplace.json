@@ -11,7 +11,7 @@
     {
       "name": "claw-me",
       "source": "./",
-      "description": "Connect an owner-approved Agent to Claw Me MCP tools, A2A discovery, private workspaces, and Sandbox review.",
+      "description": "Connect an owner-approved Agent to Claw Me MCP tools, A2A discovery, private workspaces, and Inbox review.",
       "category": "productivity"
     }
   ]

@@ -2,7 +2,7 @@
 
 Claw Me hosts Pages in your own account; you do not need to own the claw.me domain or manage its DNS. New users should [create an account](https://claw.me/register), accept the terms, and verify their email before starting a short-lived Agent approval request. A temporary 24-hour preview needs neither signup nor pairing.
 
-The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to selected Claw Me capabilities through the scoped REST API, agent-first onboarding, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Sandbox approvals. MCP is available as an optional adapter.
+The official multi-client plugin for [Claw Me](https://claw.me). It gives an owner-approved Agent access to selected Claw Me capabilities through the scoped REST API, agent-first onboarding, A2A discovery, private Pages, reviewed Wiki context, collaborative Drive workspaces, payment proposals, and Inbox approvals. MCP is available as an optional adapter.
 
 The plugin bundles portable operating guidance and client-native manifests while the service implementation remains hosted at Claw Me. This repository also contains the inspectable HTML, CSS, and assets for official Claw templates; you can review and customize them independently of installing the plugin.
 
@@ -100,6 +100,14 @@ The OpenClaw runtime package is maintained in the product repository. The
 download above contains the connector built with the deployed web release; the
 private runtime source is not copied into this public repository.
 
+## Phone and connected-agent Inbox
+
+When the phone pilot is available for the account and device, Claw Phone opens on Chat, with Inbox and Phone alongside it. The outbound host connection uses Claw Me sign-in and works across networks while the host is online. Native questions and approvals retain their original conversation and execution rules.
+
+Notification timing is controlled by category: immediate or off for agent questions and approvals; immediate, digest or off for email, voicemail, missed calls and chat replies. Live call ringing has its own device switch. Phone can answer incoming calls and review voicemail on a configured carrier mailbox. Installing this plugin does not activate phone service or grant voicemail access to an Agent.
+
+See [Phone and Inbox](claw-me/references/phone-inbox.md) for connection reviews, OpenClaw `ask_user`, Codex chat scope, notification timing and voicemail requirements. Existing `/sandbox` routes and MCP names remain compatible with the Inbox label.
+
 ## Sample prompt
 
 ```text
@@ -134,7 +142,7 @@ See [installation verification and troubleshooting](docs/client-verification.md)
 - A2A discovery at `https://claw.me/.well-known/agent-card.json`.
 - Owner-approved, independently selectable access to Pages, Wiki, Drive, inbound events, and owner-only delivery.
 - Capability-aware guidance that distinguishes access available now, access needing approval, unavailable account features, and dashboard-only controls.
-- Sandbox review for proposed Agent actions, Wiki changes, drafts, and private work.
+- Inbox review for proposed Agent actions, Wiki changes, drafts, and private work.
 - Private-by-default publishing and least-privilege authorization guidance.
 
 ## Claw templates
@@ -206,7 +214,9 @@ MIT
 
 ## Current Portal Navigation
 
-Use [Profile](https://claw.me/my-profile) for public profile visibility and private agent context. Profile follows Sandbox in navigation. Approved connections and existing A2A discovery are under [Agents](https://claw.me/agents?view=authorizations); the onboarding features step covers key access and public-sharing choices. Reviewing private context never publishes it. Stable `wiki_*` MCP names, Wiki scopes, and `/claw-me/wiki` API paths are unchanged. Legacy `/wikipage` and `/wiki` links redirect to Profile context. [Account settings](https://claw.me/profile) remain separate. [Calculator](https://claw.me/calculator) replaces Pricing Calculator with a redirect from the old URL.
+The web workspace opens on [Inbox](https://claw.me/sandbox), followed by [Pages](https://claw.me/pages), [Drive](https://claw.me/drive) and [Channels](https://claw.me/channels). [Settings](https://claw.me/settings) holds account controls, layout and notification timing; approved Agent connections are under [Agent settings](https://claw.me/settings/agents).
+
+Manage your public profile in [Pages → Profile](https://claw.me/pages?view=profile). Reviewing private Agent context never publishes it. Stable `wiki_*` MCP names, Wiki scopes and `/claw-me/wiki` API paths remain compatible. The phone has its own Chat, Inbox and Phone tabs, with Drive and Pages in Settings.
 
 ### Dashboard onboarding
 
