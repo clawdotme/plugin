@@ -48,7 +48,7 @@ Discover exact schemas from `/openapi.json`; the following are route families, n
 | --- | --- | --- |
 | Profile/channels | `/users/me`, `/users/me/username/reserve`, `/claw-me/profile`, `/claw-me/identities` | Correct owner, reserved address, intended profile visibility |
 | Email | `/users/me/inbox/status`, `/claw-me/identities/{id}/email/provision` | Active inbox, not only a reserved username |
-| Sandbox Emails and sender rules | `/claw-me/mailroom/messages`, `/claw-me/mailroom/rules` | Needs review, Archive 30 days, Trash 7 days, explicit release and sender policy |
+| Inbox Emails and sender rules | `/claw-me/mailroom/messages`, `/claw-me/mailroom/rules` | Needs review, Archive 30 days, Trash 7 days, explicit release and sender policy |
 | Owner-directed email | `/email/owner?identity_id=...` with `email:owner` | Only the verified owner can be the recipient |
 | Wiki and Agent Guide | MCP Wiki tools; `/claw-me/wiki/proposals/{id}/resolve` | Propose first, explicit owner acceptance, approved guide reads |
 | Pages and sharing | `/claw-me/artifacts/sites` and per-site versions/shares/data/analytics | Private by default; upload/finalize; deliberate sharing |
@@ -60,7 +60,7 @@ Discover exact schemas from `/openapi.json`; the following are route families, n
 | Number/WhatsApp setup | `/claw-me/identities/numbers/search`, `/claw-me/identities/numbers/order` | Price, country requirements, explicit purchase; owner’s Meta account |
 | Existing OpenClaw | `/claw-me/gateway/setup-codes`, `/claw-me/connect/exchange` | Local connector installs only with permission; heartbeat and events |
 | Wallet policy | `/claw-me/billing/transaction-policy` | Balance/caps; no auto-reload changes without explicit approval |
-| Sandbox tasks/reviews | `/tasks`, `/tasks/{id}/review` | Exact proposal, explicit owner decision, Archive/Trash history |
+| Inbox tasks/reviews | `/tasks`, `/tasks/{id}/review` | Exact proposal, explicit owner decision, Archive/Trash history |
 | Agent credentials | `/api-keys`, `/agent-auth/requests` | Named scopes, expiry, rotation and revocation |
 | Account deletion | `DELETE /users/me` | Explicit destructive approval and offboarding result |
 
@@ -103,6 +103,6 @@ an outgoing reply. Registration alone does not establish channel health: retain
 setup-pending until the Agent reports a healthy connection. If the MCP cannot
 connect, continue with the manual setup controls on `/channels`.
 
-## Sandbox lifecycle
+## Inbox lifecycle
 
-Needs review contains pending Agent Requests, inbound emails, and call files. Approved items move to Archive for 30 days; rejected or trashed items move to Trash for 7 days. Saved emails and call files remain in Drive under its policy. Accepted Drive revisions and approved Context remain intact when their Sandbox proposal copies expire. Trashed emails and call files may be restored before cleanup; call restoration revokes Agent access. A rejected request remains rejected. Unreviewed call files retain their 14-day expiry; demo calls have no retained recording. Cleanup retries provider failures and releases call storage only after deletion succeeds.
+Needs review contains pending Agent Requests, inbound emails, and call files. Approved items move to Archive for 30 days; rejected or trashed items move to Trash for 7 days. Saved emails and call files remain in Drive under its policy. Accepted Drive revisions and approved Context remain intact when their Inbox proposal copies expire. Trashed emails and call files may be restored before cleanup; call restoration revokes Agent access. A rejected request remains rejected. Unreviewed call files retain their 14-day expiry; demo calls have no retained recording. Cleanup retries provider failures and releases call storage only after deletion succeeds.

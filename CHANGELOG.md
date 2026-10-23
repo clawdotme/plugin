@@ -1,3 +1,10 @@
+## 0.7.14 — 2026-10-23
+
+- Sync skill 1.4.8 and rename the user-facing Sandbox queue to Inbox; stable routes and MCP names remain compatible.
+- Add phone-pilot guidance for outbound host connections, native OpenClaw questions, explicitly reviewed Codex chat access and shared approvals.
+- Explain notification timing by category, live ringing and owner-reviewed voicemail on configured SIP mailboxes.
+- Preserve Agent permissions and public contract definitions.
+
 ## 0.7.13 — 2026-10-09
 
 - Sync skill 1.4.7 with signed-in owner confirmation for account permissions and supported delegated setup.
